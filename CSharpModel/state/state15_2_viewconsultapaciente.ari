@@ -1,0 +1,23 @@
+current_obj_i(2,web,13).
+ 
+called_tree_i(13,13,1,2).
+called_tree_i(13,13,1,4).
+called_tree_i(13,13,13,1).
+called_tree_i(13,13,13,4).
+called_tree_i(13,13,13,6).
+called_tree_i(13,13,13,13).
+called_tree_i(13,13,13,14).
+called_tree_i(13,13,13,15).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(viewconsultapaciente,[],[],[],13).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_ConsultaFecha','int aP1_PacienteId','int aP2_MedicoId','short aP3_TurnoId','String aP4_TabCode' ],[ [ 'Consultafecha',in ],[ 'Pacienteid',in ],[ 'Medicoid',in ],[ 'Turnoid',in ],[ 'Tabcode',in ] ]).
+ 
+ 
+ 

@@ -1,0 +1,803 @@
+spec_i([ web,20,'Selection List Enfermero','Gx0030',0,spa,'10_1_3-34981' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 3,[ [ 3,many ] ],[],[],[ [ [ 3 ],[ 24,23,22,21,20 ] ] ],[ [ [ 3 ],[] ] ],[ 20 ],'IENFERMERO',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [ c([ t(21,2),t('.LIKE.',10),t('Cenfermeronombre',23) ],[ 21 ]),c([ t(22,2),t('.LIKE.',10),t('Cenfermeroapellido',23) ],[ 22 ]),c([ t(23,2),t('.LIKE.',10),t('Cenfermerodomicilio',23) ],[ 23 ]) ] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 3,24 ],[ 3,23 ],[ 3,22 ],[ 3,21 ],[ 3,20 ] ] ]).
+ 
+las_i(2,[ [ 'Penfermeroid','Cenfermeroid','Cenfermeronombre','Cenfermeroapellido','Cenfermerodomicilio','Cenfermeroestadocivil',24,23,22,21,20 ] ]).
+ 
+lac_i(2,[ [ 'Cenfermeroid','Cenfermeronombre','Cenfermeroapellido','Cenfermerodomicilio','Cenfermeroestadocivil' ] ]).
+ 
+ 
+lits_i('Enfermero Id',5,10).
+lits_i('Enfermero Nombre',5,10).
+lits_i('Enfermero Apellido',5,10).
+lits_i('Enfermero Domicilio',5,10).
+lits_i('Enfermero Estado Civil',5,10).
+ 
+cls_i([ 0,0 ],[ 5,95 ]).
+ 
+pos_i('Cenfermeroid',[ 0,0,0 ]).
+pos_i('Cenfermeronombre',[ 0,0,0 ]).
+pos_i('Cenfermeroapellido',[ 0,0,0 ]).
+pos_i('Cenfermerodomicilio',[ 0,0,0 ]).
+pos_i('Cenfermeroestadocivil',[ 0,0,0 ]).
+pos_i('Linkselection',[ 1,2,0 ]).
+pos_i(20,[ 1,2,5 ]).
+pos_i(21,[ 1,2,12 ]).
+pos_i(22,[ 1,2,33 ]).
+pos_i(23,[ 1,2,54 ]).
+pos_i(24,[ 1,2,95 ]).
+ 
+repeat_i(2,[ 1,2,[ 'Linkselection',20,21,22,23,24 ],[] ]).
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('TAG_LANGUAGE','HTML')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('PMPTAssocTable',o(7,'Enfermero'))).
+rule_i(0,prop('IsUserPrompt','-1')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','-1')).
+rule_i(0,prop('MasterPage',o(13,'PromptMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Selection List Enfermero')).
+rule_i(0,prop('ObjName','Gx0030')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Penfermeroid' ],[])).
+rule_i(0,parmio([ [ 'Penfermeroid',inout ] ])).
+rule_i(0,order([ 20 ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,3,[],[ [],'IENFERMERO',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,24).
+v_i(t,o,2,23).
+v_i(t,o,2,22).
+v_i(t,o,2,21).
+v_i(t,o,2,20).
+ 
+ 
+ 
+ 
+ 
+attri_i(24,[ 'EnfermeroEstadoCivil',char,1,0,'',0,'Enfermero Estado Civil','',0 ]).
+attri_i(23,[ 'EnfermeroDomicilio',char,40,0,'',0,'Enfermero Domicilio','',0 ]).
+attri_i(22,[ 'EnfermeroApellido',char,20,0,'',0,'Enfermero Apellido','',0 ]).
+attri_i(21,[ 'EnfermeroNombre',char,20,0,'',0,'Enfermero Nombre','',0 ]).
+attri_i(20,[ 'EnfermeroId',int,6,0,'ZZZZZ9',0,'Enfermero Id','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',14 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',13 ]).
+attri_i('Penfermeroid',[ pEnfermeroId,int,6,0,'ZZZZZ9',0,'Enfermero Id','',12 ]).
+attri_i('Cenfermerofechaingreso',[ cEnfermeroFechaIngreso,date,8,0,'99/99/99',0,'Enfermero Fecha Ingreso','',11 ]).
+attri_i('Cenfermeroestadocivil',[ cEnfermeroEstadoCivil,char,1,0,'',0,'Enfermero Estado Civil','',10 ]).
+attri_i('Cenfermerodomicilio',[ cEnfermeroDomicilio,char,40,0,'',0,'Enfermero Domicilio','',9 ]).
+attri_i('Cenfermeroapellido',[ cEnfermeroApellido,char,20,0,'',0,'Enfermero Apellido','',8 ]).
+attri_i('Cenfermeronombre',[ cEnfermeroNombre,char,20,0,'',0,'Enfermero Nombre','',7 ]).
+attri_i('Cenfermeroid',[ cEnfermeroId,int,6,0,'ZZZZZ9',0,'Enfermero Id','',6 ]).
+attri_i('Linkselection',[ 'LinkSelection',bits,4,0,'',0,'Link Selection','',5 ]).
+ 
+table_i(3,[ 'Enfermero',[ 20,21,22,23,24 ],'Enfermero','Enfermero' ]).
+ 
+index_i(3,[ 'IENFERMERO',u,[ 20 ],'IEnfermero' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(2,'Cenfermeroestadocivil',15).
+enumerated_i(2,24,15).
+ 
+enum_value_i(2,15,'"S"','Soltero','"Soltero"').
+enum_value_i(2,15,'"C"','Casado','"Casado"').
+enum_value_i(2,15,'"V"','Viudo','"Viudo"').
+enum_value_i(2,15,'"D"','Divorciado','"Divorciado"').
+ 
+enum_value_info_i(2,15,'EstadoCivil').
+ 
+enum_type_i(2,15,char,1,0).
+ 
+ 
+break_i(2,nvg,1,[ 20 ],[ [ 20,21,22,23,24 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,6).
+b_group_i(2,3,lit,0,7,10).
+b_group_i(2,4,lit,0,11,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(3,2,2,cmd,2,[ t('',107,2,0),t([ t('Form',3,2,0),t('Caption',3,2,0) ],29,2,0),t(=,10,2,0),t('format(',1,2,0),t('"Lista de Selección %1"',3,2,0),t(',',7,2,0),t('"Enfermero"',3,2,0),t(')',4,2,0) ]).
+b_line_i(4,2,2,cmd,2,[ t('',147,2,0) ]).
+b_line_i(6,2,2,cmd,2,[ t('',146,2,0),t('Load',3,6,7) ]).
+b_line_i(7,2,3,cmd,2,[ t('',107,2,0),t([ t('Linkselection',23,7,2),t('fromimage(',1,7,17) ],31,7,2),t(i(98,'3914535b-0c03-44c5-9538-906a99cdd2bc'),69,2,28),t(')',4,2,37) ]).
+b_line_i(8,2,3,cmd,2,[ t('',155,0,0) ]).
+b_line_i(8,2,3,cmd,2,[ t('',147,2,0) ]).
+b_line_i(10,2,3,cmd,2,[ t('',146,2,0),t('Enter',3,10,7) ]).
+b_line_i(11,2,4,cmd,2,[ t('',107,2,0),t('Penfermeroid',23,2,0),t(=,10,2,0),t(20,2,2,0) ]).
+b_line_i(12,2,4,cmd,2,[ t('',118,2,0) ]).
+b_line_i(13,2,4,cmd,2,[ t('',147,2,0) ]).
+ 
+sf_break_i(41,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,comp(errview))).
+html_sub_i(2,6,html_i(2,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,8,html_i(0,group(8))).
+html_sub_i(8,9,html_i(0,table(9))).
+html_sub_i(9,0,html_i(0,html('<TBODY>'))).
+html_sub_i(9,10,html_i(1,row(10))).
+html_sub_i(10,11,html_i(0,cell(11))).
+html_sub_i(11,12,html_i(0,t('Enfermero Id',3))).
+html_sub_i(10,13,html_i(1,cell(13))).
+html_sub_i(13,14,html_i(0,t('Cenfermeroid',23))).
+html_sub_i(9,15,html_i(2,row(15))).
+html_sub_i(15,16,html_i(0,cell(16))).
+html_sub_i(16,17,html_i(0,t('Enfermero Nombre',3))).
+html_sub_i(15,18,html_i(1,cell(18))).
+html_sub_i(18,19,html_i(0,t('Cenfermeronombre',23))).
+html_sub_i(9,20,html_i(3,row(20))).
+html_sub_i(20,21,html_i(0,cell(21))).
+html_sub_i(21,22,html_i(0,t('Enfermero Apellido',3))).
+html_sub_i(20,23,html_i(1,cell(23))).
+html_sub_i(23,24,html_i(0,t('Cenfermeroapellido',23))).
+html_sub_i(9,25,html_i(4,row(25))).
+html_sub_i(25,26,html_i(0,cell(26))).
+html_sub_i(26,27,html_i(0,t('Enfermero Domicilio',3))).
+html_sub_i(25,28,html_i(1,cell(28))).
+html_sub_i(28,29,html_i(0,t('Cenfermerodomicilio',23))).
+html_sub_i(9,30,html_i(5,row(30))).
+html_sub_i(30,31,html_i(0,cell(31))).
+html_sub_i(31,32,html_i(0,t('Enfermero Estado Civil',3))).
+html_sub_i(30,33,html_i(1,cell(33))).
+html_sub_i(33,34,html_i(0,t('Cenfermeroestadocivil',23))).
+html_sub_i(9,0,html_i(6,html('</TBODY>'))).
+html_sub_i(2,35,html_i(3,row(35))).
+html_sub_i(35,36,html_i(0,cell(36))).
+html_sub_i(36,37,html_i(0,group(37))).
+html_sub_i(37,38,html_i(0,table(38))).
+html_sub_i(38,0,html_i(0,html('<TBODY>'))).
+html_sub_i(38,39,html_i(1,row(39))).
+html_sub_i(39,40,html_i(0,cell(40))).
+html_sub_i(40,41,html_i(0,s(41))).
+html_sub_i(38,48,html_i(2,row(48))).
+html_sub_i(48,49,html_i(0,cell(49))).
+html_sub_i(49,50,html_i(0,table(50))).
+html_sub_i(50,0,html_i(0,html('<TBODY>'))).
+html_sub_i(50,51,html_i(1,row(51))).
+html_sub_i(51,52,html_i(0,cell(52))).
+html_sub_i(52,53,html_i(0,button('Cancel'))).
+html_sub_i(50,0,html_i(2,html('</TBODY>'))).
+html_sub_i(38,0,html_i(3,html('</TBODY>'))).
+html_sub_i(2,0,html_i(4,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(5,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Id','Table1',v,[ str ]).
+html_comp_i(2,'Class','Table',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Align',center,v,[ str ]).
+html_comp_i(5,'Controlname','Ctlerror',v,[ str ]).
+html_comp_i(5,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(5,'Displaymode',1,d,[ num ]).
+html_comp_i(5,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(5,'Fill',-1,d,[ bool ]).
+html_comp_i(8,'Class','FieldSet',v,[ str ]).
+html_comp_i(8,'Caption','Filters',d,[ str ]).
+html_comp_i(8,'Id','Group1',v,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Id','Table2',v,[ str ]).
+html_comp_i(9,'Class','Table',v,[ str ]).
+html_comp_i(9,'Title','',d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Border','0',d,[ str ]).
+html_comp_i(9,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Cellpadding','1',d,[ str ]).
+html_comp_i(9,'Cellspacing','2',d,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Rules',none,d,[ str ]).
+html_comp_i(12,'Caption','Enfermero Id',d,[ str ]).
+html_comp_i(12,'Id','Textblockenfermeroid',v,[ str ]).
+html_comp_i(12,'Class','TextBlock',d,[ str ]).
+html_comp_i(12,'Event','',d,[ str ]).
+html_comp_i(12,'Returnonclick',0,d,[ bool ]).
+html_comp_i(12,'Gxformat',0,d,[ num ]).
+html_comp_i(12,'Title','',d,[ str ]).
+html_comp_i(12,'Fill',-1,d,[ bool ]).
+html_comp_i(12,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(12,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(12,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(14,'Attid',-6,v,[ num ]).
+html_comp_i(14,'Class','Attribute',d,[ str ]).
+html_comp_i(14,'Controlname','&Cenfermeroid',d,[ str ]).
+html_comp_i(14,'Returnonclick',0,d,[ bool ]).
+html_comp_i(14,'Controltype',2,d,[ num ]).
+html_comp_i(14,'Inputtype',0,d,[ num ]).
+html_comp_i(14,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(14,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(14,'Readonly',0,d,[ bool ]).
+html_comp_i(14,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(14,'Ispassword',0,d,[ bool ]).
+html_comp_i(14,'Autoresize',-1,d,[ bool ]).
+html_comp_i(14,'Gxwidth',measure(6,chr),d,[ measure ]).
+html_comp_i(14,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(14,'Ismultiline',0,d,[ bool ]).
+html_comp_i(14,'Fill',-1,d,[ bool ]).
+html_comp_i(14,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(14,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(14,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(14,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(14,'Gxformat',0,d,[ num ]).
+html_comp_i(14,'Title','',d,[ str ]).
+html_comp_i(17,'Caption','Enfermero Nombre',d,[ str ]).
+html_comp_i(17,'Id','Textblockenfermeronombre',v,[ str ]).
+html_comp_i(17,'Class','TextBlock',d,[ str ]).
+html_comp_i(17,'Event','',d,[ str ]).
+html_comp_i(17,'Returnonclick',0,d,[ bool ]).
+html_comp_i(17,'Gxformat',0,d,[ num ]).
+html_comp_i(17,'Title','',d,[ str ]).
+html_comp_i(17,'Fill',-1,d,[ bool ]).
+html_comp_i(17,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(17,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(17,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(19,'Attid',-7,v,[ num ]).
+html_comp_i(19,'Class','Attribute',d,[ str ]).
+html_comp_i(19,'Controlname','&Cenfermeronombre',d,[ str ]).
+html_comp_i(19,'Returnonclick',0,d,[ bool ]).
+html_comp_i(19,'Controltype',2,d,[ num ]).
+html_comp_i(19,'Inputtype',0,d,[ num ]).
+html_comp_i(19,'Editautocomplete',0,d,[ num ]).
+html_comp_i(19,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(19,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(19,'Readonly',0,d,[ bool ]).
+html_comp_i(19,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(19,'Ispassword',0,d,[ bool ]).
+html_comp_i(19,'Autoresize',-1,d,[ bool ]).
+html_comp_i(19,'Gxwidth',measure(20,chr),d,[ measure ]).
+html_comp_i(19,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(19,'Ismultiline',0,d,[ bool ]).
+html_comp_i(19,'Fill',-1,d,[ bool ]).
+html_comp_i(19,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(19,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(19,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(19,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(19,'Gxformat',0,d,[ num ]).
+html_comp_i(19,'Title','',d,[ str ]).
+html_comp_i(22,'Caption','Enfermero Apellido',d,[ str ]).
+html_comp_i(22,'Id','Textblockenfermeroapellido',v,[ str ]).
+html_comp_i(22,'Class','TextBlock',d,[ str ]).
+html_comp_i(22,'Event','',d,[ str ]).
+html_comp_i(22,'Returnonclick',0,d,[ bool ]).
+html_comp_i(22,'Gxformat',0,d,[ num ]).
+html_comp_i(22,'Title','',d,[ str ]).
+html_comp_i(22,'Fill',-1,d,[ bool ]).
+html_comp_i(22,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(22,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(22,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(24,'Attid',-8,v,[ num ]).
+html_comp_i(24,'Class','Attribute',d,[ str ]).
+html_comp_i(24,'Controlname','&Cenfermeroapellido',d,[ str ]).
+html_comp_i(24,'Returnonclick',0,d,[ bool ]).
+html_comp_i(24,'Controltype',2,d,[ num ]).
+html_comp_i(24,'Inputtype',0,d,[ num ]).
+html_comp_i(24,'Editautocomplete',0,d,[ num ]).
+html_comp_i(24,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(24,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(24,'Readonly',0,d,[ bool ]).
+html_comp_i(24,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(24,'Ispassword',0,d,[ bool ]).
+html_comp_i(24,'Autoresize',-1,d,[ bool ]).
+html_comp_i(24,'Gxwidth',measure(20,chr),d,[ measure ]).
+html_comp_i(24,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(24,'Ismultiline',0,d,[ bool ]).
+html_comp_i(24,'Fill',-1,d,[ bool ]).
+html_comp_i(24,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(24,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(24,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(24,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(24,'Gxformat',0,d,[ num ]).
+html_comp_i(24,'Title','',d,[ str ]).
+html_comp_i(27,'Caption','Enfermero Domicilio',d,[ str ]).
+html_comp_i(27,'Id','Textblockenfermerodomicilio',v,[ str ]).
+html_comp_i(27,'Class','TextBlock',d,[ str ]).
+html_comp_i(27,'Event','',d,[ str ]).
+html_comp_i(27,'Returnonclick',0,d,[ bool ]).
+html_comp_i(27,'Gxformat',0,d,[ num ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Fill',-1,d,[ bool ]).
+html_comp_i(27,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(27,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(29,'Attid',-9,v,[ num ]).
+html_comp_i(29,'Class','Attribute',d,[ str ]).
+html_comp_i(29,'Controlname','&Cenfermerodomicilio',d,[ str ]).
+html_comp_i(29,'Returnonclick',0,d,[ bool ]).
+html_comp_i(29,'Controltype',2,d,[ num ]).
+html_comp_i(29,'Inputtype',0,d,[ num ]).
+html_comp_i(29,'Editautocomplete',0,d,[ num ]).
+html_comp_i(29,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(29,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(29,'Readonly',0,d,[ bool ]).
+html_comp_i(29,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(29,'Ispassword',0,d,[ bool ]).
+html_comp_i(29,'Autoresize',-1,d,[ bool ]).
+html_comp_i(29,'Gxwidth',measure(40,chr),d,[ measure ]).
+html_comp_i(29,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(29,'Ismultiline',0,d,[ bool ]).
+html_comp_i(29,'Fill',-1,d,[ bool ]).
+html_comp_i(29,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(29,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(29,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(29,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(29,'Gxformat',0,d,[ num ]).
+html_comp_i(29,'Title','',d,[ str ]).
+html_comp_i(32,'Caption','Enfermero Estado Civil',d,[ str ]).
+html_comp_i(32,'Id','Textblockenfermeroestadocivil',v,[ str ]).
+html_comp_i(32,'Class','TextBlock',d,[ str ]).
+html_comp_i(32,'Event','',d,[ str ]).
+html_comp_i(32,'Returnonclick',0,d,[ bool ]).
+html_comp_i(32,'Gxformat',0,d,[ num ]).
+html_comp_i(32,'Title','',d,[ str ]).
+html_comp_i(32,'Fill',-1,d,[ bool ]).
+html_comp_i(32,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(32,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(32,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(34,'Attid',-10,v,[ num ]).
+html_comp_i(34,'Class','Attribute',d,[ str ]).
+html_comp_i(34,'Controlname','&Cenfermeroestadocivil',d,[ str ]).
+html_comp_i(34,'Returnonclick',0,d,[ bool ]).
+html_comp_i(34,'Controltype',0,d,[ num ]).
+html_comp_i(34,'Controlvalues',[ [ 'Soltero','S' ],[ 'Casado','C' ],[ 'Viudo','V' ],[ 'Divorciado','D' ] ],d,[ values ]).
+html_comp_i(34,'Addemptyitem',0,d,[ bool ]).
+html_comp_i(34,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(34,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(34,'Readonly',0,d,[ bool ]).
+html_comp_i(34,'Autoresize',-1,d,[ bool ]).
+html_comp_i(34,'Gxwidth',measure(1,chr),d,[ measure ]).
+html_comp_i(34,'Ismultiline',0,d,[ bool ]).
+html_comp_i(34,'Fill',-1,d,[ bool ]).
+html_comp_i(34,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(34,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(34,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(34,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(34,'Title','',d,[ str ]).
+html_comp_i(37,'Class','FieldSet',v,[ str ]).
+html_comp_i(37,'Caption','Lista de Selección',d,[ str ]).
+html_comp_i(37,'Id','Group2',v,[ str ]).
+html_comp_i(37,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(37,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(38,'Id','Table3',v,[ str ]).
+html_comp_i(38,'Class','Table',v,[ str ]).
+html_comp_i(38,'Title','',d,[ str ]).
+html_comp_i(38,'Align',left,d,[ str ]).
+html_comp_i(38,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(38,'Border','0',d,[ str ]).
+html_comp_i(38,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(38,'Cellpadding','1',d,[ str ]).
+html_comp_i(38,'Cellspacing','2',d,[ str ]).
+html_comp_i(38,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(38,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(38,'Rules',none,d,[ str ]).
+html_comp_i(40,'Colspan',3,v,[ num ]).
+html_comp_i(41,'Controlname','Grid1',v,[ str ]).
+html_comp_i(41,'Rules',none,d,[ str ]).
+html_comp_i(41,'Sflrender','',d,[ str ]).
+html_comp_i(41,'Class','Grid',d,[ str ]).
+html_comp_i(41,'Autoresize',-1,d,[ bool ]).
+html_comp_i(41,'Gxwidth',measure(0,px),d,[ measure ]).
+html_comp_i(41,'Gxheight',measure(0,px),d,[ measure ]).
+html_comp_i(41,'Border','0',d,[ str ]).
+html_comp_i(41,'Backcolorstyle',2,v,[ num ]).
+html_comp_i(41,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(41,'Maxrows',10,v,[ num ]).
+html_comp_i(41,'Title','',d,[ str ]).
+html_comp_i(41,'Linescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(41,'Linesbackcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(41,'Linesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(41,'Titlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(41,'Titlebackcolor',rgb(157,31,31),d,[ color ]).
+html_comp_i(41,'Titlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(41,'Align',left,d,[ str ]).
+html_comp_i(41,'Cellpadding','1',v,[ str ]).
+html_comp_i(41,'Cellspacing','0',v,[ str ]).
+html_comp_i(41,'Sortable',-1,d,[ bool ]).
+html_comp_i(41,'Allowdrop',0,d,[ bool ]).
+html_comp_i(41,'Allowdrag',0,d,[ bool ]).
+html_comp_i(41,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(41,'Allowcollapsing',0,d,[ bool ]).
+html_comp_i(41,'Allowselection',0,d,[ bool ]).
+html_comp_i(42,'Colattid',-5,v,[ num ]).
+html_comp_i(42,'Controlname','&Linkselection',d,[ str ]).
+html_comp_i(42,'Class','Image',d,[ str ]).
+html_comp_i(42,'Returnonclick',-1,v,[ bool ]).
+html_comp_i(42,'Eventgx','',d,[ str ]).
+html_comp_i(42,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(42,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(42,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(42,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(42,'Coltitle','',d,[ str ]).
+html_comp_i(42,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(42,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(42,'Colvisible',-1,d,[ bool ]).
+html_comp_i(42,'Border','0',d,[ str ]).
+html_comp_i(42,'Alt','',d,[ str ]).
+html_comp_i(42,'Title','Seleccionar',v,[ str ]).
+html_comp_i(42,'Hspace',0,d,[ num ]).
+html_comp_i(42,'Vspace',0,d,[ num ]).
+html_comp_i(43,'Colattid',20,v,[ num ]).
+html_comp_i(43,'Controlname','Enfermeroid',d,[ str ]).
+html_comp_i(43,'Class','Attribute',d,[ str ]).
+html_comp_i(43,'Returnonclick',0,d,[ bool ]).
+html_comp_i(43,'Eventgx','',d,[ str ]).
+html_comp_i(43,'Controltype',2,d,[ num ]).
+html_comp_i(43,'Inputtype',0,d,[ num ]).
+html_comp_i(43,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(43,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(43,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(43,'Ispassword',0,d,[ bool ]).
+html_comp_i(43,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(43,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(43,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(43,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(43,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(43,'Coltitle','Id',d,[ str ]).
+html_comp_i(43,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(43,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(43,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(43,'Gxformat',0,d,[ num ]).
+html_comp_i(43,'Colvisible',-1,d,[ bool ]).
+html_comp_i(43,'Title','',d,[ str ]).
+html_comp_i(44,'Colattid',21,v,[ num ]).
+html_comp_i(44,'Controlname','Enfermeronombre',d,[ str ]).
+html_comp_i(44,'Class','Attribute',d,[ str ]).
+html_comp_i(44,'Returnonclick',-1,v,[ bool ]).
+html_comp_i(44,'Eventgx','',d,[ str ]).
+html_comp_i(44,'Controltype',2,d,[ num ]).
+html_comp_i(44,'Inputtype',0,d,[ num ]).
+html_comp_i(44,'Editautocomplete',0,d,[ num ]).
+html_comp_i(44,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(44,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(44,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(44,'Ispassword',0,d,[ bool ]).
+html_comp_i(44,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(44,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(44,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(44,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(44,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(44,'Coltitle','Nombre',d,[ str ]).
+html_comp_i(44,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(44,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(44,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(44,'Gxformat',0,d,[ num ]).
+html_comp_i(44,'Colvisible',-1,d,[ bool ]).
+html_comp_i(44,'Title','Seleccionar',v,[ str ]).
+html_comp_i(45,'Colattid',22,v,[ num ]).
+html_comp_i(45,'Controlname','Enfermeroapellido',d,[ str ]).
+html_comp_i(45,'Class','Attribute',d,[ str ]).
+html_comp_i(45,'Returnonclick',0,d,[ bool ]).
+html_comp_i(45,'Eventgx','',d,[ str ]).
+html_comp_i(45,'Controltype',2,d,[ num ]).
+html_comp_i(45,'Inputtype',0,d,[ num ]).
+html_comp_i(45,'Editautocomplete',0,d,[ num ]).
+html_comp_i(45,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(45,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(45,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(45,'Ispassword',0,d,[ bool ]).
+html_comp_i(45,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(45,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(45,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(45,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(45,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(45,'Coltitle','Apellido',d,[ str ]).
+html_comp_i(45,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(45,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(45,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(45,'Gxformat',0,d,[ num ]).
+html_comp_i(45,'Colvisible',-1,d,[ bool ]).
+html_comp_i(45,'Title','',d,[ str ]).
+html_comp_i(46,'Colattid',23,v,[ num ]).
+html_comp_i(46,'Controlname','Enfermerodomicilio',d,[ str ]).
+html_comp_i(46,'Class','Attribute',d,[ str ]).
+html_comp_i(46,'Returnonclick',0,d,[ bool ]).
+html_comp_i(46,'Eventgx','',d,[ str ]).
+html_comp_i(46,'Controltype',2,d,[ num ]).
+html_comp_i(46,'Inputtype',0,d,[ num ]).
+html_comp_i(46,'Editautocomplete',0,d,[ num ]).
+html_comp_i(46,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(46,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(46,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(46,'Ispassword',0,d,[ bool ]).
+html_comp_i(46,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(46,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(46,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(46,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(46,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(46,'Coltitle','Domicilio',d,[ str ]).
+html_comp_i(46,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(46,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(46,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(46,'Gxformat',0,d,[ num ]).
+html_comp_i(46,'Colvisible',-1,d,[ bool ]).
+html_comp_i(46,'Title','',d,[ str ]).
+html_comp_i(47,'Colattid',24,v,[ num ]).
+html_comp_i(47,'Controlname','Enfermeroestadocivil',d,[ str ]).
+html_comp_i(47,'Class','Attribute',d,[ str ]).
+html_comp_i(47,'Returnonclick',0,d,[ bool ]).
+html_comp_i(47,'Controltype',0,d,[ num ]).
+html_comp_i(47,'Controlvalues',[ [ 'Soltero','S' ],[ 'Casado','C' ],[ 'Viudo','V' ],[ 'Divorciado','D' ] ],d,[ values ]).
+html_comp_i(47,'Addemptyitem',0,d,[ bool ]).
+html_comp_i(47,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(47,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(47,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(47,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(47,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(47,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(47,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(47,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(47,'Coltitle','Estado Civil',d,[ str ]).
+html_comp_i(47,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(47,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(47,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(47,'Colvisible',-1,d,[ bool ]).
+html_comp_i(47,'Title','',d,[ str ]).
+html_comp_i(49,'Align',right,v,[ str ]).
+html_comp_i(50,'Id','Table4',v,[ str ]).
+html_comp_i(50,'Class','Table',v,[ str ]).
+html_comp_i(50,'Title','',d,[ str ]).
+html_comp_i(50,'Align',left,d,[ str ]).
+html_comp_i(50,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(50,'Border','0',d,[ str ]).
+html_comp_i(50,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(50,'Cellpadding','1',d,[ str ]).
+html_comp_i(50,'Cellspacing','2',d,[ str ]).
+html_comp_i(50,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(50,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(50,'Rules',none,d,[ str ]).
+html_comp_i(53,'Controlname','Btn_cancel',v,[ str ]).
+html_comp_i(53,'Class','BtnCancel',v,[ str ]).
+html_comp_i(53,'Event','Cancel',v,[ str ]).
+html_comp_i(53,'Caption','Cancelar',d,[ str ]).
+html_comp_i(53,'Title','Cancelar',d,[ str ]).
+html_comp_i(53,'Type',0,d,[ num ]).
+html_comp_i(53,'Font',font('Verdana',8,[]),d,[ font ]).
+html_comp_i(53,'Forecolor',rgb(157,31,31),d,[ color ]).
+html_comp_i(53,'Backcolor',rgb(159,159,159),d,[ color ]).
+html_comp_i(53,'Border','0',d,[ str ]).
+html_comp_i(53,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(53,'Buttonborderstyle',rounded,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,1,comp(errview),[ ctlname('Ctlerror'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(12,1,t('Enfermero Id',3),[ ctlname('Textblockenfermeroid') ]).
+lit_i(14,1,t('Cenfermeroid',23),[ ctlname('&Cenfermeroid'),ctrltype(edit,14),pos(14),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(17,1,t('Enfermero Nombre',3),[ ctlname('Textblockenfermeronombre') ]).
+lit_i(19,1,t('Cenfermeronombre',23),[ ctlname('&Cenfermeronombre'),ctrltype(edit,19),pos(19),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(22,1,t('Enfermero Apellido',3),[ ctlname('Textblockenfermeroapellido') ]).
+lit_i(24,1,t('Cenfermeroapellido',23),[ ctlname('&Cenfermeroapellido'),ctrltype(edit,24),pos(24),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(27,1,t('Enfermero Domicilio',3),[ ctlname('Textblockenfermerodomicilio') ]).
+lit_i(29,1,t('Cenfermerodomicilio',23),[ ctlname('&Cenfermerodomicilio'),ctrltype(edit,29),pos(29),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(32,1,t('Enfermero Estado Civil',3),[ ctlname('Textblockenfermeroestadocivil') ]).
+lit_i(34,1,t('Cenfermeroestadocivil',23),[ ctlname('&Cenfermeroestadocivil'),ctrltype(combo,34),pos(34),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(9,1,table(9),[ ctlname('Table2') ]).
+lit_i(8,1,group(8),[ ctlname('Group1') ]).
+lit_i(42,1,s(t('Linkselection',23),41),[ ctlname('&Linkselection'),ctrltype(edit,42),pos(42),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(43,1,s(t(20,2),41),[ ctlname(20),ctrltype(edit,43),pos(43),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(44,1,s(t(21,2),41),[ ctlname(21),ctrltype(edit,44),pos(44),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(45,1,s(t(22,2),41),[ ctlname(22),ctrltype(edit,45),pos(45),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(46,1,s(t(23,2),41),[ ctlname(23),ctrltype(edit,46),pos(46),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(47,1,s(t(24,2),41),[ ctlname(24),ctrltype(combo,47),pos(47),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(41,1,s(41),[ ctlname('Grid1'),el([ t('Linkselection',23),t(20,2),t(21,2),t(22,2),t(23,2),t(24,2) ]),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(53,1,button('Cancel'),[ ctlname('Btn_cancel'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(50,1,table(50),[ ctlname('Table4') ]).
+lit_i(38,1,table(38),[ ctlname('Table3') ]).
+lit_i(37,1,group(37),[ ctlname('Group2') ]).
+lit_i(2,1,table(2),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ctrl_info_i(1,34,[ [ [ 'Soltero','S' ],[ 'Casado','C' ],[ 'Viudo','V' ],[ 'Divorciado','D' ] ],[ '' ] ]).
+ctrl_info_i(1,42,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,47,[ [ [ 'Soltero','S' ],[ 'Casado','C' ],[ 'Viudo','V' ],[ 'Divorciado','D' ] ],[ '' ] ]).
+ 
+ 
+ 
+att_prop_i(2,20,'ExternalName','EnfermeroId',d).
+att_prop_i(2,20,'ExternalNamespace',taller041,d).
+att_prop_i(2,20,'EmptyAsNull','Yes',d).
+att_prop_i(2,20,'AUTONUMBER','-1',v).
+att_prop_i(2,20,'AUTONUMBER_START','1',d).
+att_prop_i(2,20,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,20,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,20,'AttRegEx','',d).
+att_prop_i(2,20,'AttValidationFailedMsg','',d).
+att_prop_i(2,20,'FullName','EnfermeroId',v).
+att_prop_i(2,21,'ExternalName','EnfermeroNombre',d).
+att_prop_i(2,21,'ExternalNamespace',taller041,d).
+att_prop_i(2,21,'EmptyAsNull','Yes',d).
+att_prop_i(2,21,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,21,'AttRegEx','',d).
+att_prop_i(2,21,'AttValidationFailedMsg','',d).
+att_prop_i(2,21,'FullName','EnfermeroNombre',v).
+att_prop_i(2,22,'ExternalName','EnfermeroApellido',d).
+att_prop_i(2,22,'ExternalNamespace',taller041,d).
+att_prop_i(2,22,'EmptyAsNull','Yes',d).
+att_prop_i(2,22,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,22,'AttRegEx','',d).
+att_prop_i(2,22,'AttValidationFailedMsg','',d).
+att_prop_i(2,22,'FullName','EnfermeroApellido',v).
+att_prop_i(2,23,'ExternalName','EnfermeroDomicilio',d).
+att_prop_i(2,23,'ExternalNamespace',taller041,d).
+att_prop_i(2,23,'EmptyAsNull','Yes',d).
+att_prop_i(2,23,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,23,'AttRegEx','',d).
+att_prop_i(2,23,'AttValidationFailedMsg','',d).
+att_prop_i(2,23,'FullName','EnfermeroDomicilio',v).
+att_prop_i(2,24,'ExternalName','EnfermeroEstadoCivil',d).
+att_prop_i(2,24,'ExternalNamespace',taller041,d).
+att_prop_i(2,24,'EmptyAsNull','Yes',d).
+att_prop_i(2,24,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,24,'AttRegEx','',d).
+att_prop_i(2,24,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(2,24,'FullName','EnfermeroEstadoCivil',v).
+ 
+ 
+tbl_att_prop_i(2,3,20,'AllowNulls',n).
+tbl_att_prop_i(2,3,20,'AUTONUMBER',y).
+tbl_att_prop_i(2,3,21,'AllowNulls',n).
+tbl_att_prop_i(2,3,22,'AllowNulls',n).
+tbl_att_prop_i(2,3,23,'AllowNulls',n).
+tbl_att_prop_i(2,3,24,'AllowNulls',n).
+ 
+var_prop_i(2,'Cenfermeroestadocivil','AttValidationFailedMsg','GXSPC_OutOfRange',d).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

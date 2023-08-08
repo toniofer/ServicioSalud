@@ -1,0 +1,15 @@
+current_obj_i(2,proc,10).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(consultorioocupado,[],[],[],10).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_ConsultaFechaX','short aP1_TurnoIdX','short aP2_ConsultorioIdX','bool aP3_Ocupado' ],[ [ 'Consultafechax',inout ],[ 'Turnoidx',in ],[ 'Consultorioidx',in ],[ 'Ocupado',out ] ]).
+ 
+ 
+ 

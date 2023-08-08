@@ -1,0 +1,35 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>5</ObjId>
+<ObjName>Home</ObjName>
+<ObjDesc>Home</ObjDesc>
+<ObjPgmName>Home</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Main>Yes</Main>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Load</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>ListPrograms</ObjName>
+<ObjPgmName>ListPrograms</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Programnames</VarId>
+<VarName>&amp;ProgramNames</VarName></Variable></Parameters>
+<IF></IF></CALL></Event>
+<Suggests></Suggests></ObjectSpec>

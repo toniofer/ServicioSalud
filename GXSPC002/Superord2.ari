@@ -1,0 +1,8 @@
+dir_superordinates_i(2,5,[ [ 6,[ 57 ] ],[ 7,[ 60 ] ],[ 1,[ 12 ] ] ]).
+dir_superordinates_i(2,2,[]).
+dir_superordinates_i(2,8,[ [ 5,[ 43,12,60 ] ],[ 4,[ 34 ] ] ]).
+dir_superordinates_i(2,1,[ [ 509,[ 46 ] ],[ 510,[ 51 ] ],[ 2,[ 9 ] ] ]).
+dir_superordinates_i(2,7,[]).
+dir_superordinates_i(2,6,[]).
+dir_superordinates_i(2,4,[]).
+ 

@@ -1,0 +1,103 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>31</ObjId>
+<ObjName>Gx0060</ObjName>
+<ObjDesc>Selection List Consultorio</ObjDesc>
+<ObjPgmName>Gx0060</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Pconsultorioid</VarId>
+<VarName>&amp;pConsultorioId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>6</TableId>
+<TableName>Consultorio</TableName>
+<Description>Consultorio</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>57</AttriId>
+<AttriName>ConsultorioId</AttriName>
+<Description>Consultorio Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICONSULTORIO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>57</AttriId>
+<AttriName>ConsultorioId</AttriName>
+<Description>Consultorio Id</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cconsultorioid</VarId>
+<VarName>&amp;cConsultorioId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>58</AttriId>
+<AttriName>ConsultorioDescripcion</AttriName>
+<Description>Cons. Nombre</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cconsultoriodescripcion</VarId>
+<VarName>&amp;cConsultorioDescripcion</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>59</AttriId>
+<AttriName>ConsultorioUbicacion</AttriName>
+<Description>Consultorio Ubicación</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cconsultorioubicacion</VarId>
+<VarName>&amp;cConsultorioUbicacion</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>6</TableId>
+<TableName>Consultorio</TableName>
+<Description>Consultorio</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>57</AttriId>
+<AttriName>ConsultorioId</AttriName>
+<Description>Consultorio Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

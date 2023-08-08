@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Objects><Object name="GestionConsultaCatalog" id="2" type="DataProvider"><DefaultOutput type="PivotTable" /></Object><Object name="ConsultaCatalog" id="3" type="DataProvider"><DefaultOutput type="PivotTable" /></Object><Object name="DPEstadisticas" id="4" type="DataProvider"><DefaultOutput type="PivotTable" /></Object></Objects>

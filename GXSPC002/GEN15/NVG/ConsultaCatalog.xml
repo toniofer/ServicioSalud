@@ -1,0 +1,24 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>33</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>ConsultaCatalog</ObjName>
+<ObjDesc>Consulta Catalog</ObjDesc>
+<ObjPgmName>ConsultaCatalog</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Token>TreeNodeCollection</Token></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

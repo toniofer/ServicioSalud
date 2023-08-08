@@ -1,0 +1,230 @@
+spec_i([ proc,1,'Get Tab Image Name','GetTabImage',78,spa,'10_1_3-34981' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Folder',o(8,'GeneralWeb'))).
+rule_i(0,prop('ObjDesc','Get Tab Image Name')).
+rule_i(0,prop('ObjName','GetTabImage')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Isfirsttab','Isselected','Isbeforetabselected','Islasttab','Bitmap' ],[])).
+rule_i(0,parmio([ [ 'Isfirsttab',in ],[ 'Isselected',in ],[ 'Isbeforetabselected',in ],[ 'Islasttab',in ],[ 'Bitmap',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',15 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',14 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',13 ]).
+attri_i('Islasttab',[ 'IsLastTab',boolean,4,0,'',0,'Is Last Tab','',12 ]).
+attri_i('Isbeforetabselected',[ 'IsBeforeTabSelected',boolean,4,0,'',0,'Is Before Tab Selected','',11 ]).
+attri_i('Isselected',[ 'IsSelected',boolean,4,0,'',0,'Is Selected','',10 ]).
+attri_i('Isfirsttab',[ 'IsFirstTab',boolean,4,0,'',0,'Is First Tab','',9 ]).
+attri_i('Bitmap',[ 'Bitmap',bits,4,0,'',0,'Bitmap','',8 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',109,0,0),t('(',0,0,4),t('Islasttab',23,0,5),t(')',4,0,15) ]).
+b_line_i(3,1,1,cmd,0,[ t('',109,0,0),t('(',0,0,5),t('Isselected',23,0,6),t(')',4,0,17) ]).
+b_line_i(4,1,1,cmd,0,[ t('',107,0,0),t([ t('Bitmap',23,4,3),t('fromimage(',1,4,11) ],31,4,3),t(i(98,'0424c12e-f1b1-4123-889e-b2966eb27e93'),69,0,22),t(')',4,0,36) ]).
+b_line_i(5,1,1,cmd,0,[ t('',110,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',107,0,0),t([ t('Bitmap',23,6,3),t('fromimage(',1,6,11) ],31,6,3),t(i(98,'a46a2602-a799-4dab-a329-130bd24fbbb4'),69,0,22),t(')',4,0,38) ]).
+b_line_i(7,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(8,1,1,cmd,0,[ t('',110,0,0) ]).
+b_line_i(9,1,1,cmd,0,[ t('',109,0,0),t('(',0,0,5),t('Isselected',23,0,6),t(')',4,0,17) ]).
+b_line_i(10,1,1,cmd,0,[ t('',109,0,0),t('(',0,0,6),t('Isfirsttab',23,0,7),t(')',4,0,18) ]).
+b_line_i(11,1,1,cmd,0,[ t('',107,0,0),t([ t('Bitmap',23,11,4),t('fromimage(',1,11,12) ],31,11,4),t(i(98,'f4a0965f-129d-45fc-bdfe-107944e516c0'),69,0,23),t(')',4,0,39) ]).
+b_line_i(12,1,1,cmd,0,[ t('',110,0,0) ]).
+b_line_i(13,1,1,cmd,0,[ t('',107,0,0),t([ t('Bitmap',23,13,4),t('fromimage(',1,13,12) ],31,13,4),t(i(98,'a908a75c-9ebf-4d01-bcda-9711089e0493'),69,0,23),t(')',4,0,44) ]).
+b_line_i(14,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(15,1,1,cmd,0,[ t('',110,0,0) ]).
+b_line_i(16,1,1,cmd,0,[ t('',109,0,0),t('(',0,0,6),t('Isfirsttab',23,0,7),t(')',4,0,18) ]).
+b_line_i(17,1,1,cmd,0,[ t('',107,0,0),t([ t('Bitmap',23,17,4),t('fromimage(',1,17,12) ],31,17,4),t(i(98,'014ad39b-4d50-4343-92ef-0117c86e1b16'),69,0,23),t(')',4,0,41) ]).
+b_line_i(18,1,1,cmd,0,[ t('',110,0,0) ]).
+b_line_i(19,1,1,cmd,0,[ t('',109,0,0),t('(',0,0,7),t('Isbeforetabselected',23,0,8),t(')',4,0,28) ]).
+b_line_i(20,1,1,cmd,0,[ t('',107,0,0),t([ t('Bitmap',23,20,5),t('fromimage(',1,20,13) ],31,20,5),t(i(98,'3e28b5a8-f17c-43b3-8850-2e932e706b48'),69,0,24),t(')',4,0,45) ]).
+b_line_i(21,1,1,cmd,0,[ t('',110,0,0) ]).
+b_line_i(22,1,1,cmd,0,[ t('',107,0,0),t([ t('Bitmap',23,22,5),t('fromimage(',1,22,13) ],31,22,5),t(i(98,'ce463bdd-5a79-4a33-a6e5-8b0b7cb85bcd'),69,0,24),t(')',4,0,47) ]).
+b_line_i(23,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(24,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(25,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(26,1,1,cmd,0,[ t('',111,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

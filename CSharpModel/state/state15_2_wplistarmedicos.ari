@@ -1,0 +1,17 @@
+current_obj_i(2,web,27).
+ 
+called_tree_i(13,27,1,14).
+called_tree_i(13,27,13,1).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(wplistarmedicos,[],[],[],27).
+ 
+ 
+obj_parms_i([],[]).
+ 
+ 
+ 

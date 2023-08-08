@@ -1,0 +1,10 @@
+<ConnectionInformation>
+	<DBName>taller041</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>D930\SQLEXPRESS</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Models\taller041</Directory>
+	<DataFile>taller041.mdf</DataFile>
+	<LogFile>taller041_log.LDF</LogFile>
+	<HostName>D930</HostName>
+</ConnectionInformation>

@@ -1,0 +1,367 @@
+lng_i(1,[ 'Spanish','Spanish',spa ]).
+ 
+lng_prop_i(1,'ISOLangCode','ES',v).
+lng_prop_i(1,'ISOCountryCode','ES',v).
+lng_prop_i(1,'Codepage','1252',v).
+lng_prop_i(1,'LanguageLocalization','',d).
+lng_prop_i(1,'LangDateFormat','SPA',v).
+lng_prop_i(1,'LangTimeFormat','24',v).
+lng_prop_i(1,'LangDecimalPoint',',',v).
+ 
+lit(spa,datefmt,'SET DATE BRITISH').
+lit(spa,trnrpt,[ '''Otras Transacciones''','''Otros Informes''','''Otros Procedimientos''','''Otros Work Panels''','''Otros Menues''' ]).
+lit(spa,mmmainmenu,[ '''Menu principal''','''Menu de la base de datos''','''Transacciones''','''Informes''','''Crear base de datos''','''Reconstruir índices''','''Reconstruir redundancia''','''Reorganizar base de datos''','''Exportar aplicación''','''Utilizar interprete''','''Procedimientos''','''Work Panels''','''Menues''' ]).
+lit(spa,mmint,[ '''Integrador de Menues GX''','''Menues''' ]).
+lit(spa,opt,'''Opciones''').
+lit(spa,nomenu,'''No hay menues del usuario''').
+lit(spa,keys,'''Esc=Retornar  F1=Ayuda''').
+lit(spa,prot,'''Prototipo''').
+lit(spa,prod,'''Producción''').
+lit(spa,idx,'''Reindexa la base de datos?''').
+lit(spa,endofproc,'''Proceso terminado''').
+lit(spa,mmmain,'''GENEXUS - Administrador de menues''').
+lit(spa,mmmdlname,'''Nombre del modelo''').
+lit(spa,mmmdldate,'''Fecha creación''').
+lit(spa,nooptions,'''No existen opciones para este menu''').
+lit(spa,more,'''Otras').
+lit(spa,moredots,'Más...').
+lit(spa,deleinfo,'"Realmente desea eliminar estos datos?"').
+lit(spa,sltlst,'"Lista de Selección"').
+lit(spa,poslst,'"Digite todos o parte de uno de los siguientes campos, luego presione Intro."').
+lit(spa,selopt,[ '"Seleccione uno de los siguientes, luego presione Intro."','"Más:"' ]).
+lit(spa,lastrec,'"Este es el último registro que cumple la condición"').
+lit(spa,firstrec,'"Este es el primer registro que cumple la condición"').
+lit(spa,norectobrow,'"No hay registros que cumplan la condición"').
+lit(spa,filecrea,'"Creando la tabla %1 %2."').
+lit(spa,fileremove,'"Borrando la tabla %1 %2."').
+lit(spa,fileupdate,'"Modificando la tabla %1 %2."').
+lit(spa,refintcrea,'"Creando integridad referencial %1."').
+lit(spa,ambiguousck,'"%1 es ambiguo"').
+lit(spa,deleterow,'"Eliminar fila"').
+lit(spa,fileren,'"Renombrando %1 como %2"').
+lit(spa,dbadduser,'''Agregando usuario %1 a la base de datos %2''').
+lit(spa,dbcrea,'''Creando la base de datos''').
+lit(spa,conftrn,'''Confirma la transacción?''').
+lit(spa,waschg,'%1 fue modificada.').
+lit(spa,tlotitle,'"Transferencia de datos para Lotus 1-2-3 (tm)"').
+lit(spa,creaindx,'"Creando el índice %1 ..."').
+lit(spa,recconv,'"registros convertidos"').
+lit(spa,loaddata,'"Cargando información en"').
+lit(spa,nodelete,'"No es posible la eliminación"').
+lit(spa,inex,'"No existe %1"').
+lit(spa,inex_browse,'". DESEA VISUALIZAR?"').
+lit(spa,queryok,'"El criterio de selección es correcto?"').
+lit(spa,failequal,'"No es posible acceder al registro"').
+lit(spa,yes,'"S"').
+lit(spa,no,'"N"').
+lit(spa,date,[ 'DD','MM','YY' ]).
+lit(spa,conf,'"¿Los datos son correctos? (S/N)"').
+lit(spa,rtop,'"¿Listar por impresora? (S/N)"').
+lit(spa,rptques,'"Listar por"').
+lit(spa,rptsel,'"Pantalla SCR;Impresora PRN;Archivo FIL"').
+lit(spa,printing,'"Imprimiendo..."').
+lit(spa,canques,'"¿Cancela el programa? (S/N)"').
+lit(spa,canmsg,'"Programa cancelado por el usuario"').
+lit(spa,wait,'"Oprima Intro para continuar ..."').
+lit(spa,del,'"Eliminación no válida, hay información en %1"').
+lit(spa,delcas,'"Eliminar toda la información en"').
+lit(spa,lock,[ '"Registro','reservado por otro"' ]).
+lit(spa,flock,[ '"Tabla','esta siendo utilizado por otro"' ]).
+lit(spa,help,'"Ayuda"').
+lit(spa,noupdate,'"Ya existe el registro"').
+lit(spa,noinsert,'"No se encontró el registro"').
+lit(spa,chg,'"¿Descarta modificaciones? (S/N)"').
+lit(spa,mlmax,'"Número de lineas excedió el límite de').
+lit(spa,rgzlcktb,'"%1. Bloqueando el uso de tablas a reorganizar."').
+lit(spa,rgzdic,'"%1. Eliminando restricciones de integridad referencial."').
+lit(spa,rgzdropcol,'"Eliminando atributos de la tabla %1."').
+lit(spa,1001,'"Eliminando índice %2, tabla %1."').
+lit(spa,1002,'"Eliminando tabla %1."').
+lit(spa,1003,'"Estableciendo los valores iniciales para los atributos de la tabla %1"').
+lit(spa,1004,'"Ya existe %1"').
+lit(spa,dropindx,'"Eliminando el índice %1 ..."').
+lit(spa,outrange,'"%1 fuera de rango"').
+lit(spa,graph,'"Gráfico"').
+lit(spa,print,'"Imprimir"').
+lit(spa,strdate,'%3 de %2 de %1').
+lit(spa,runpgm,'"Ejecutando programa %1."').
+lit(spa,mbactions,'Acciones').
+lit(spa,mbview,'Ver').
+lit(spa,mbhelp,'Ayuda').
+lit(spa,mbview_first,'Primero').
+lit(spa,mbview_last,'Ultimo').
+lit(spa,mbview_previous,'Anterior').
+lit(spa,mbview_next,'Siguiente').
+lit(spa,mbview_select,'Seleccionar').
+lit(spa,mbhelp_cont,'Contenido').
+lit(spa,mbdelete,'Eliminar').
+lit(spa,mbrefresh,'Renovar').
+lit(spa,mbclose,'Cancelar').
+lit(spa,mbconfirm,'Confirmar').
+lit(spa,selone,'''Seleccione una de las siguientes opciones. Luego presione Intro.''').
+lit(spa,selnocor,'La selección de menú especificada no es correcta.').
+lit(spa,cmdandopt,'No puede seleccionar una opción de menú y especificar un mandato.').
+lit(spa,cmdlpmpt,'''Mandato ===>''').
+lit(spa,deltbl,'''Eliminando la antigua tabla %1 y creando la nueva.''').
+lit(spa,rename,'''Renombrando la tabla %1 a %2.''').
+lit(spa,confrpt,'''Presione Intro para comenzar el proceso.''').
+lit(spa,nochgmode,'''No es posible cambiar a la modalidad solicitada.''').
+lit(spa,oneselonly,'''No puede seleccionar más de un item de la lista.''').
+lit(spa,eof,'''Se ha alcanzado el principio/fin de datos.''').
+lit(spa,canctrn,'''Transacción cancelada.''').
+lit(spa,confins,'''Agregando datos. Presione Intro para confirmar.''').
+lit(spa,confupd,'''Modificando datos. Presione Intro para confirmar.''').
+lit(spa,confdel,'''Eliminando datos. Presione Intro para confirmar.''').
+lit(spa,recins,'''Los datos fueron agregados.''').
+lit(spa,recupd,'''Los datos fueron modificados.''').
+lit(spa,recdel,'''Los datos fueron eliminados.''').
+lit(spa,notsame,'''Los datos no pertenecen al mismo %1.''').
+lit(spa,faildel,'''Eliminación no válida. Hay información en %1''').
+lit(spa,noexist,'''No existe %1''').
+lit(spa,noaccept,'''Se ignoran los cambios hechos a %1.''').
+lit(spa,failbool,'''%1 debe ser "S" o "N".''').
+lit(spa,wrongopt,'''Opción debe ser "4" o espacio''').
+lit(spa,dupkey,'''Los datos ya fueron agregados por otro usuario.''').
+lit(spa,noprompt,'''Posición del cursor no válida para petición de solicitud.''').
+lit(spa,spc,'Especificar valor a seleccionar').
+lit(spa,tcpe,'Teclee criterio de selección, pulse Intro.').
+lit(spa,spv,'Seleccionar item de lista').
+lit(spa,tope,'Teclee opciones, pulse Intro.').
+lit(spa,oeqs,'1=Seleccionar').
+lit(spa,datachg,'''Los datos fueron modificados por otro usuario (%1).''').
+lit(spa,icp,'''Posición del cursor no válida.''').
+lit(spa,seloptwrong,'''La opción no está permitida.''').
+lit(spa,nomnuopt,'''No hay opciones para este menu''').
+lit(spa,emptylist,'(La lista esta vacia.)').
+lit(spa,callerr,'''Error al llamar a %1''').
+lit(spa,exist,'''Ya existe %1''').
+lit(spa,norecrpt,'No hay datos que satisfagan el informe.').
+lit(spa,0,'Intro').
+lit(spa,enter,'Procesa').
+lit(spa,cancel,'Cancelar').
+lit(spa,display,'Visualizar').
+lit(spa,insert,'Agrega').
+lit(spa,update,'Modifica').
+lit(spa,delete,'Eliminar').
+lit(spa,first,'Primero').
+lit(spa,next,'Siguiente').
+lit(spa,previous,'Anterior').
+lit(spa,prompt,'Solicitud').
+lit(spa,select,'Seleccionar').
+lit(spa,menu,'Barra de menu').
+lit(spa,exit,'Salir').
+lit(spa,refresh,'Renovar').
+lit(spa,retrieve,'Recuperar').
+lit(spa,morekeys,'Más teclas').
+lit(spa,badkey,'''Tecla de función no válida en este momento.''').
+lit(spa,faildate,'''%1 no es una fecha/hora válida.''').
+lit(spa,nohelp,'No hay ayuda disponible.').
+lit(spa,lockrcd,'''Otro usuario traba los datos de''').
+lit(spa,readerr,[ '''Error (''',''') procesando''' ]).
+lit(spa,usrcanc,'''Proceso cancelado por el usuario.''').
+lit(spa,tipe,'Teclee información, pulse Intro.').
+lit(spa,actions,'''Acciones''').
+lit(spa,view,'''Ver''').
+lit(spa,rgzctnt,'"%1. Creando tablas nuevas y temporarias."').
+lit(spa,rgzrrpgm,'"%1. Ejecutando programas de reorganización."').
+lit(spa,rgzrnmtbl,'"%1. Renombrando tablas."').
+lit(spa,rgzbldidx,'"%1. Construyendo índices y restricciones de integridad."').
+lit(spa,rgzdroptbl,'"%1. Borrando tablas eliminadas."').
+lit(spa,rgztbllck,'"Bloqueando el uso de la tabla %1."').
+lit(spa,rgzd1c,'"Eliminando restricciones de integridad en la tabla %1."').
+lit(spa,recdeleted,'"Error - Registro eliminado por otro usuario."').
+lit(spa,keynfound,'"No se encontraron datos con la clave especificada."').
+lit(spa,unexp,'"Error inesperado al intentar actualizar la base de datos. Por favor reintente."').
+lit(spa,sucadded,'"Los datos han sido agregados."').
+lit(spa,sucupdated,'"Los datos han sido actualizados."').
+lit(spa,sucdeleted,'"Los datos han sido eliminados."').
+lit(spa,captionadd,'"Agrega"').
+lit(spa,captionupdate,'"Modifica"').
+lit(spa,captiondelete,'"Eliminar"').
+lit(spa,captionconfirm,'"Confirmar"').
+lit(spa,getbeforedlt,'"Por favor haga ''Get'' de los datos antes de eliminarlos."').
+lit(spa,getbeforeupd,'"Por favor haga ''Get'' de los datos antes de actualizarlos."').
+lit(spa,mustconfirm,'"Por favor confirme los datos."').
+lit(spa,confdelete,'"Confirme la eliminación de los datos."').
+lit(spa,baddatetime,'"%1 no es una fecha y hora válida."').
+lit(spa,badtime,'"%1 no es una hora válida."').
+lit(spa,badnum,'"El valor no representa un número correcto."').
+lit(spa,nomatch,'No hay datos que cumplan la condición.').
+lit(spa,pmterr,'No existe el programa para solicitud %1').
+lit(spa,refcallerror,'No existe el programa para refcall %1').
+lit(spa,browse,'Visualiza').
+lit(spa,badkeyrfr,'Tecla no válida en este momento. Renovación pendiente').
+lit(spa,dateoutr,'%1 fuera del rango (%2-%3).').
+lit(spa,arrayerror,'Indice de vector o matriz fuera de rango').
+lit(spa,callerror,'Error en la llamada al programa').
+lit(spa,divideerror,'División por cero').
+lit(spa,numericalerror,'Error numérico').
+lit(spa,fileerror,'Error de archivo en').
+lit(spa,code,código).
+lit(spa,index,índice).
+lit(spa,refinterror,'"Error desconocido de integridad referencial."').
+lit(spa,makdsc,[ 'Menu principal' ]).
+lit(spa,dbcr1,'"Creación de la base de datos"').
+lit(spa,dbcr2,'"Creación de tablas"').
+lit(spa,dbcr3,'"Creación de Indices"').
+lit(spa,dbcr4,'"Transferencia de datos"').
+lit(spa,dbcr5,'"Renombrar Tablas"').
+lit(spa,dbcr6,'"Actualización del Modelo"').
+lit(spa,dbcrtitle,'"Administrador GeneXus de Base de Datos"').
+lit(spa,tblcrea,'"Creando las Tablas"').
+lit(spa,idxcrea,'"Creando los Indices"').
+lit(spa,reocom,'"Reorganización completa"').
+lit(spa,delreo,'"Eliminando las especificaciones de reorganización"').
+lit(spa,creinpro,'"Creación de la base de datos en proceso ...').
+lit(spa,notcrespc,'"No se encontraron especificaciones de Creación"').
+lit(spa,notreospc,'"No existen especificaciones de reorganización"').
+lit(spa,asktocre,'"¿Realmente desea crear la estructura vacía de la base de datos?"').
+lit(spa,creok,'"Base de Datos Creada"').
+lit(spa,asktoreo,'"¿Reorganiza la base de datos?"').
+lit(spa,reoinpro,'"Reorganización en proceso ..."').
+lit(spa,okcapt,'"&Aceptar"').
+lit(spa,genwith,'Generado por').
+lit(spa,aboutcapt,'Acerca de').
+lit(spa,sysinfo,'"&Info. del Sistema..."').
+lit(spa,notsysinfo,'Información del Sistema no disponible en este momento').
+lit(spa,cnclcapt,'"&Cancelar"').
+lit(spa,prtready,'"¿Está la impresora lista? (S/N)"').
+lit(spa,rwait,'"Intro=Continua  Esc=Retorna"').
+lit(spa,idate,'"Fecha inválida"').
+lit(spa,isdone,'"Hecho"').
+lit(spa,nnul,'"No se permiten valores nulos"').
+lit(spa,discard,'"Descarta modificaciones"').
+lit(spa,logfull,'"Transaction Log Is Full, must commit or rollback"').
+lit(spa,opna,'"Opción no disponible"').
+lit(spa,savechanges,'"¿Desea grabar los cambios ?"').
+lit(spa,mnuopts,[ '&Archivo','&Salir','&Editar','Cor&tar','&Copiar','&Pegar','&Suprimir','Seleccionar &Todo','&Ver','&Anterior','Próximo','&Primero','&Último','&Barra de Herramientas','&Barra de Estados','&Acciones','&Seleccionar','&Renovar','&Eliminar Registro','Ve&ntana','&Cascada','Ordenar &Iconos','&Ayuda','&Contenido','&Buscar...','&Acerca de','&Objeto','&Expandir','Expandir &Todo' ]).
+lit(spa,newmnuopts,[ '&Archivo','Cerrar','&Salir','&Editar','Cor&tar','&Copiar','&Pegar','&Suprimir','Seleccionar &Todo','&Ver','&Anterior','Próximo','&Primero','&Último','&Barra de Herramientas','&Barra de Estados','&Acciones','&Seleccionar','&Renovar','&Eliminar Registro','Ve&ntana','&Cascada','Ordenar &Iconos','&Ayuda','&Contenido','&Buscar...','&Acerca de','Confir&ma' ]).
+lit(spa,invalid_dir,'''%1 no es un nombre de directorio válido''').
+lit(spa,gxws_loadingfrom,'''Cargando %1 desde''').
+lit(spa,captionaddweb,'''Agregar''').
+lit(spa,captionupdateweb,'''Actualizar''').
+lit(spa,captionconfirmweb,'''Confirmar''').
+lit(spa,captiondeleteweb,'''Eliminar''').
+lit(spa,errtitle,'''Error''').
+lit(spa,err_details,'''&Detalles''').
+lit(spa,err_quit,'''&Salir''').
+lit(spa,err_retry,'''&Reintentar''').
+lit(spa,err_login_ldap,'''Usuario/Contraseña inválidos''').
+lit(spa,runtimeerr,'''Error de ejecución''').
+lit(spa,runtimedb,'''Ha ocurrido un error al acceder a la base de datos.''').
+lit(spa,runtimeappsrv,'''Ha ocurrido un error al acceder al servidor de aplicaciones.''').
+lit(spa,colordialog,'''Seleccione un color''').
+lit(spa,dblogin,'''Conexión al servidor''').
+lit(spa,user,'''Usuario''').
+lit(spa,password,'''Contraseña''').
+lit(spa,enteruser,'''Por favor ingrese el nombre de usuario''').
+lit(spa,enterpwd,'''Por favor ingrese la contraseña''').
+lit(spa,invaliddate,'''Fecha inválida''').
+lit(spa,reportdest,'''Seleccione destino''').
+lit(spa,reportdest_printer,'''Impresora''').
+lit(spa,reportdest_screen,'''Pantalla''').
+lit(spa,reportdest_file,'''Archivo''').
+lit(spa,button_cancel,'''&Cancelar''').
+lit(spa,button_ok,'''&Aceptar''').
+lit(spa,confirmtitle,'''Confirmar''').
+lit(spa,msgtitle,'''Mensaje''').
+lit(spa,yestext,'''Si''').
+lit(spa,notext,'''No''').
+lit(spa,errconas,'''No es posible conectarse al servidor de aplicaciones o base de datos''').
+lit(spa,gxdbm,'''Mantenimiento de la base de datos''').
+lit(spa,gxdbm_reorg,'''Mantenimiento de la base de datos''').
+lit(spa,gxdbm_cpymdl,'''Actualización del Modelo GeneXus''').
+lit(spa,confirm_cpymdl,'''Ha elegido actualizar el modelo GeneXus. Está seguro?''').
+lit(spa,gxdbm_gxdb,'''Actualización de las GXDB++''').
+lit(spa,confirmgxdb,'''Ha elegido actualizar las GXDB++. Está seguro?''').
+lit(spa,noreorg,'''No hay especificaciones de reorganización.''').
+lit(spa,nosuccess,'''La generación de los programas de reorganización no fue exitosa. Reintente.''').
+lit(spa,confirmreorg,'''Está seguro que quiere reorganizar la base de datos?''').
+lit(spa,dbnotreorg,'''La base de datos no se reorganiza.''').
+lit(spa,reorgpref,'''(preference Reorganize Server Tables = No)''').
+lit(spa,reorgsuccess,'''El proceso de reorganización ha finalizado con éxito.''').
+lit(spa,reorgnotsuccess,'''El proceso de reorganización no ha sido exitoso.''').
+lit(spa,reorgupdgxdb,'''Actualizando GXDB++ ...''').
+lit(spa,reorgrenre,'''No se pudo renombrar indicador de reorganización''').
+lit(spa,reorgrengx,'''No se pudo renombrar archivo especificador de GXDB++''').
+lit(spa,reorgerrupdgxdb,'''Error al actualizar clases GXDB++''').
+lit(spa,mnufile,'''&Archivo''').
+lit(spa,mnuexit,'''&Salir''').
+lit(spa,mnuedit,'''&Editar''').
+lit(spa,mnucut,'''Cor&tar''').
+lit(spa,mnucopy,'''&Copiar''').
+lit(spa,mnupaste,'''&Pegar''').
+lit(spa,mnudelete,'''&Suprimir''').
+lit(spa,mnuselectall,'''Seleccionar &Todo''').
+lit(spa,mnuview,'''&Ver''').
+lit(spa,mnuprev,'''&Anterior''').
+lit(spa,mnunext,'''Próximo''').
+lit(spa,mnufirst,'''&Primero''').
+lit(spa,mnulast,'''&Último''').
+lit(spa,mnutoolbar,'''&Barra de Herramientas''').
+lit(spa,mnustatusbar,'''&Barra de Estados''').
+lit(spa,mnuactions,'''&Acciones''').
+lit(spa,mnuselect,'''&Seleccionar''').
+lit(spa,mnurefresh,'''&Renovar''').
+lit(spa,mnudelrec,'''Eliminar Registro''').
+lit(spa,mnuwindow,'''Ve&ntana''').
+lit(spa,mnuarrange,'''&Mosaico''').
+lit(spa,mnucascade,'''&Cascada''').
+lit(spa,mnuhelp,'''&Ayuda''').
+lit(spa,mnuindex,'''&Contenido''').
+lit(spa,mnusearch,'''&Buscar...''').
+lit(spa,mnuabout,'''&Acerca de''').
+lit(spa,mnuclose,'''Cerrar''').
+lit(spa,mnuconfirm,'''Confir&ma''').
+lit(spa,toolcut,'''Cortar''').
+lit(spa,toolcopy,'''Copiar''').
+lit(spa,toolpaste,'''Pegar''').
+lit(spa,toolrefresh,'''Renovar''').
+lit(spa,toolhelp,'''Ayuda''').
+lit(spa,devmenutrn,'''Transacciones''').
+lit(spa,devmenurpt,'''Informes''').
+lit(spa,devmenuproc,'''Procedimientos''').
+lit(spa,devmenuscr,'''Work Panels''').
+lit(spa,ids_column,'''Resultado de la reorganización''').
+lit(spa,ids_execute,'''&Ejecutar''').
+lit(spa,ids_failed,'''La reorganización falló''').
+lit(spa,ids_ok,'''Reorganización completada''').
+lit(spa,ids_title,'''Reorganización GeneXus''').
+lit(spa,ids_close,'''&Cerrar''').
+lit(spa,ids_noneeded,'''No es necesario reorganizar''').
+lit(spa,ids_needed,'''Es necesario reorganizar''').
+lit(spa,ids_run,'''Ejecutando...''').
+lit(spa,january,'''Enero''').
+lit(spa,february,'''Febrero''').
+lit(spa,march,'''Marzo''').
+lit(spa,april,'''Abril''').
+lit(spa,may,'''Mayo''').
+lit(spa,june,'''Junio''').
+lit(spa,july,'''Julio''').
+lit(spa,august,'''Agosto''').
+lit(spa,september,'''Setiembre''').
+lit(spa,sessionexpired,'''La sesión ha caducado, la página se recargará''').
+lit(spa,october,'''Octubre''').
+lit(spa,november,'''Noviembre''').
+lit(spa,december,'''Diciembre''').
+lit(spa,vsltlst,'"Lista de selección"').
+lit(spa,toolcalculator,'Calculadora').
+lit(spa,toolcalendar,'Calendario').
+lit(spa,toolbrowsedata,'Seleccionar dato').
+lit(spa,toolselectall,'Seleccionar &Todo').
+lit(spa,tooldelete,'&Suprimir').
+lit(spa,mnu_previous,'&Anterior').
+lit(spa,mnu_tile,'&Mosaico').
+lit(spa,mnu_contents,'Contenido').
+lit(spa,table_recordcount,'"Tabla %1 tiene %2 registros."').
+lit(spa,executing,'"Ejecutando %1"').
+lit(spa,lastreorg_failed1,'"La última reorganización ha fallado y Ud. está intentando ejecutar una reorganización diferente."').
+lit(spa,lastreorg_failed2,'"Errores inesperados podrían ocurrir si Ud. no intenta finalizar la reorganización anterior antes de ejecutar ésta."').
+lit(spa,lastreorg_failed3,'"Si ud. quiere ejecutar esta reorganización de todas formas, utilice el parámetro ''ignoreresume''."').
+lit(spa,bad_DBMS_version,'"El código de la reorganización fue generado para ejecutar en un DBMS de versión superior al actual. El DBMS debería ser al menos de versión %1 o Ud. debería regenerar y ejecutar nuevamente la reorganización luego de cambiar la propiedad ''Version'' del DBMS"').
+lit(spa,error_in_schema_verification,'"An error was found in the database schema verification process."').
+lit(spa,table_exist,'"Tabla o Vista %1 ya existe"').
+lit(spa,table_not_exist,'"Tabla o Vista %1 no existe."').
+lit(spa,column_exist,'"Columna %1 en tabla %2 ya existe."').
+lit(spa,column_not_exist,'"Columna %1 en tabla %2 no existe."').
+ 

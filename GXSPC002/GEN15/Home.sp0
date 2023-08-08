@@ -1,0 +1,343 @@
+spec_i([ web,5,'Home','Home',0,spa,'10_1_3-34981' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Menuitem' ] ]).
+ 
+lac_i(2,[ [ 'Menuitem' ] ]).
+ 
+ 
+ 
+cls_i([ 2,0 ],[ 2,99 ]).
+ 
+pos_i('Menuitem',[ 1,2,0 ]).
+ 
+repeat_i(2,[ 1,2,[ 'Menuitem' ],[ 'Menuitem' ] ]).
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('TAG_LANGUAGE','HTML')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'AppMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('Folder',o(8,'GeneralWeb'))).
+rule_i(0,prop('ObjDesc','Home')).
+rule_i(0,prop('ObjName','Home')).
+rule_i(0,maingen(15)).
+rule_i(0,prop('PGMTYPE',main)).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'',[],10 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',9 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',8 ]).
+attri_i('Programname',[ 'ProgramName',o('ProgramNames.ProgramName'),0,0,'',0,'Program Name','',7 ]).
+attri_i('Programnames',[ 'ProgramNames',o(objectcollection('ProgramNames.ProgramName')),0,0,'',0,'Program Names','',6 ]).
+attri_i('Menuitem',[ 'MenuItem',char,100,0,'',0,'Menu Item','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Load',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',104,1,0),t(o(1,'ListPrograms'),28,1,5),t('Programnames',23,1,24) ]).
+b_line_i(3,2,2,cmd,1,[ t('',107,1,0),t('GXV1',23,1,0),t(=,10,1,0),t(1,3,1,0) ]).
+b_line_i([ 3,2 ],2,2,cmd,1,[ t('',114,1,0),t('GXV1',23,1,0),t(<=,10,1,0),t([ t('Programnames',23,3,25),t('Count',3,3,0) ],29,3,0) ]).
+b_line_i([ 3,3 ],2,2,cmd,1,[ t('',107,1,0),t('Programname',23,1,0),t(=,10,1,0),t([ t('Programnames',23,1,0),t('item(',1,1,0) ],31,1,0),t('GXV1',23,1,0),t(')',4,1,0) ]).
+b_line_i(4,2,2,cmd,2,[ t('',107,2,0),t('Menuitem',23,2,0),t(=,10,2,0),t([ t('Programname',23,2,0),t('Description',3,2,0) ],29,2,0) ]).
+b_line_i(5,2,2,cmd,2,[ t('',107,2,0),t([ t('Menuitem',23,2,0),t('Link',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Programname',23,2,0),t('Link',3,2,0) ],29,2,0) ]).
+b_line_i(6,2,2,cmd,2,[ t('',155,2,0) ]).
+b_line_i([ 7,1 ],2,2,cmd,2,[ t('',107,2,0),t('GXV1',23,2,0),t(=,10,2,0),t('GXV1',23,2,0),t(+,5,2,0),t(1,3,2,0) ]).
+b_line_i([ 7,2 ],2,2,cmd,2,[ t('',115,2,0) ]).
+b_line_i(8,2,2,cmd,3,[ t('',147,3,0) ]).
+ 
+sf_break_i(5,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,0,html_i(0,html('<P/>'))).
+html_sub_i(4,5,html_i(1,s(5))).
+html_sub_i(5,6,html_i(0,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,8,html_i(0,t('Menuitem',23))).
+html_sub_i(2,0,html_i(2,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+html_tags_i(5,gxProp,'class=;ControlName=Grid1').
+html_tags_i(5,width,'100%').
+ 
+html_comp_i(2,'Id','Table1',v,[ str ]).
+html_comp_i(2,'Class','ViewTable',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(2,'Border','1',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(192,192,192),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(100,'%'),v,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Valign',top,v,[ str ]).
+html_comp_i(5,'Controlname','Grid1',v,[ str ]).
+html_comp_i(5,'Class','ViewTable',v,[ str ]).
+html_comp_i(5,'Allowdrop',0,d,[ bool ]).
+html_comp_i(5,'Allowdrag',0,d,[ bool ]).
+html_comp_i(5,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(5,'Title','',d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Bordercolor',rgb(192,192,192),d,[ color ]).
+html_comp_i(5,'Gxwidth',measure(100,'%'),v,[ measure ]).
+html_comp_i(5,'Gxheight',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Rules',none,d,[ str ]).
+html_comp_i(5,'Cellpadding','1',d,[ str ]).
+html_comp_i(5,'Cellspacing','0',v,[ str ]).
+html_comp_i(5,'Border','0',v,[ str ]).
+html_comp_i(5,'Maxcols',1,d,[ num ]).
+html_comp_i(5,'Maxrows',0,d,[ num ]).
+html_comp_i(5,'Backcolorstyle',0,d,[ num ]).
+html_comp_i(5,'Linesbackcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(5,'Allowcollapsing',0,d,[ bool ]).
+html_comp_i(8,'Attid',-5,v,[ num ]).
+html_comp_i(8,'Controlname','&Menuitem',d,[ str ]).
+html_comp_i(8,'Returnonclick',0,d,[ bool ]).
+html_comp_i(8,'Controltype',2,d,[ num ]).
+html_comp_i(8,'Inputtype',0,d,[ num ]).
+html_comp_i(8,'Editautocomplete',0,d,[ num ]).
+html_comp_i(8,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(8,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(8,'Readonly',0,d,[ bool ]).
+html_comp_i(8,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(8,'Ispassword',0,d,[ bool ]).
+html_comp_i(8,'Autoresize',-1,d,[ bool ]).
+html_comp_i(8,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(8,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(8,'Ismultiline',0,d,[ bool ]).
+html_comp_i(8,'Fill',-1,d,[ bool ]).
+html_comp_i(8,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(8,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(8,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(8,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(8,'Gxformat',0,d,[ num ]).
+html_comp_i(8,'Title','',d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(8,5,s(t('Menuitem',23),5),[ ctlname('&Menuitem'),ctrltype(edit,8),pos(8),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(5,1,s(5),[ ctlname('Grid1'),el([ t('Menuitem',23) ]),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(2,1,table(2),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,5,0 ],name,'ProgramNames').
+struct_dt_i([ 26,5,0 ],namespace,taller041).
+struct_dt_i([ 26,5,0 ],'ObjName','ProgramNames').
+struct_dt_i([ 26,5,0 ],'ObjDesc','Program Names').
+struct_dt_i([ 26,5,0 ],'ExternalName','ProgramNames').
+struct_dt_i([ 26,5,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,5,0 ],collection,'True').
+struct_dt_i([ 26,5,0 ],datatype,[ 26,5,6 ]).
+struct_dt_i([ 26,5,6 ],name,'ProgramName').
+struct_dt_i([ 26,5,6 ],namespace,'taller041.ProgramNames').
+struct_dt_i([ 26,5,0 ],fullname,'ProgramNames').
+struct_dt_i([ 26,5,6 ],fullname,'ProgramNames.ProgramName').
+ 
+struct_dt_elem_i([ 26,5,6 ],1,name,'Name').
+struct_dt_elem_i([ 26,5,6 ],1,camelname,'Name').
+struct_dt_elem_i([ 26,5,6 ],1,basedon,4).
+struct_dt_elem_i([ 26,5,6 ],1,length,256).
+struct_dt_elem_i([ 26,5,6 ],1,decimals,0).
+struct_dt_elem_i([ 26,5,6 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,5,6 ],1,pic,'').
+struct_dt_elem_i([ 26,5,6 ],1,collection,'False').
+struct_dt_elem_i([ 26,5,6 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,5,6 ],1,'XmlName','').
+struct_dt_elem_i([ 26,5,6 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,5,6 ],1,soaptype,'').
+struct_dt_elem_i([ 26,5,6 ],2,name,'Description').
+struct_dt_elem_i([ 26,5,6 ],2,camelname,'Description').
+struct_dt_elem_i([ 26,5,6 ],2,length,255).
+struct_dt_elem_i([ 26,5,6 ],2,decimals,0).
+struct_dt_elem_i([ 26,5,6 ],2,type,[ 13,255,0 ]).
+struct_dt_elem_i([ 26,5,6 ],2,pic,'').
+struct_dt_elem_i([ 26,5,6 ],2,collection,'False').
+struct_dt_elem_i([ 26,5,6 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,5,6 ],2,'XmlName','').
+struct_dt_elem_i([ 26,5,6 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,5,6 ],2,soaptype,'').
+struct_dt_elem_i([ 26,5,6 ],3,name,'Link').
+struct_dt_elem_i([ 26,5,6 ],3,camelname,'Link').
+struct_dt_elem_i([ 26,5,6 ],3,basedon,5).
+struct_dt_elem_i([ 26,5,6 ],3,length,1000).
+struct_dt_elem_i([ 26,5,6 ],3,decimals,0).
+struct_dt_elem_i([ 26,5,6 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,5,6 ],3,pic,'').
+struct_dt_elem_i([ 26,5,6 ],3,collection,'False').
+struct_dt_elem_i([ 26,5,6 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,5,6 ],3,'XmlName','').
+struct_dt_elem_i([ 26,5,6 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,5,6 ],3,soaptype,'').
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,3,'LISTPROGRAMS',[ [ o(objectcollection('ProgramNames.ProgramName')),0,0,0 ] ],[ [ 'ProgramNames',out,[] ] ]).
+ 
+pgm_main_info_i(web,5,'HOME',[ 15,'HOME','Home','','','','' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 

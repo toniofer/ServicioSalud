@@ -1,0 +1,15 @@
+current_obj_i(2,proc,9).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(cantidadconsultas,[],[],[],9).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_ConsultaFecha','int aP1_MedicoId','short aP2_CantidadX' ],[ [ 43,in ],[ 12,in ],[ 'Cantidadx',out ] ]).
+ 
+ 
+ 

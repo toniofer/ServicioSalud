@@ -1,0 +1,17 @@
+current_obj_i(2,trn,2).
+ 
+called_tree_i(0,2,13,1).
+called_tree_i(0,2,13,32).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(especialidad,[],[],[],2).
+ 
+ 
+obj_parms_i([],[]).
+ 
+ 
+ 

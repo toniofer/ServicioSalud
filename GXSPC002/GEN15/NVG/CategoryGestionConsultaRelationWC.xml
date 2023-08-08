@@ -1,0 +1,23 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>24</ObjId>
+<ObjName>CategoryGestionConsultaRelationWC</ObjName>
+<ObjDesc>Category Gestion Consulta Relation WC</ObjDesc>
+<ObjPgmName>CategoryGestionConsultaRelationWC</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Main>Yes</Main>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

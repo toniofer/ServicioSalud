@@ -1,0 +1,94 @@
+<?xml-stylesheet type='text/xsl' href='prgs.xsl'?><Objects>
+  <Charset>iso-8859-1</Charset>
+  <Path>file:///C:/Archivos de programa/Artech/GeneXus/GeneXusXEv1Trial/</Path>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>Medico</ObjName>
+    <ObjDesc>Médico</ObjDesc>
+    <ObjLink>medico.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>Especialidad</ObjName>
+    <ObjDesc>Especialidad</ObjDesc>
+    <ObjLink>especialidad.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>Paciente</ObjName>
+    <ObjDesc>Paciente</ObjDesc>
+    <ObjLink>paciente.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>Consulta</ObjName>
+    <ObjDesc>Consulta</ObjDesc>
+    <ObjLink>consulta.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>Consultorio</ObjName>
+    <ObjDesc>Consultorio</ObjDesc>
+    <ObjLink>consultorio.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>Turno</ObjName>
+    <ObjDesc>Turno</ObjDesc>
+    <ObjLink>turno.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>GestionConsultaPaciente</ObjName>
+    <ObjDesc>Gestion Consulta Paciente</ObjDesc>
+    <ObjLink>gestionconsultapaciente.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>Home</ObjName>
+    <ObjDesc>Home</ObjDesc>
+    <ObjLink>home.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWEnfermero</ObjName>
+    <ObjDesc>Work With Enfermero</ObjDesc>
+    <ObjLink>wwenfermero.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWConsultaPaciente</ObjName>
+    <ObjDesc>Work With Consulta Paciente</ObjDesc>
+    <ObjLink>wwconsultapaciente.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWGestionConsulta</ObjName>
+    <ObjDesc>Work With Gestion Consulta</ObjDesc>
+    <ObjLink>wwgestionconsulta.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>SolicitudConsulta</ObjName>
+    <ObjDesc>Solicitud Consulta</ObjDesc>
+    <ObjLink>solicitudconsulta.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WPEstadisticas</ObjName>
+    <ObjDesc>WPEstadisticas</ObjDesc>
+    <ObjLink>wpestadisticas.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WPListarMedicos</ObjName>
+    <ObjDesc>WPListar Medicos</ObjDesc>
+    <ObjLink>wplistarmedicos.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWHistoriaClinica</ObjName>
+    <ObjDesc>Work With Historia Clinica</ObjDesc>
+    <ObjLink>wwhistoriaclinica.aspx</ObjLink>
+  </Object>
+</Objects>

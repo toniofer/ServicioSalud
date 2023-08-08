@@ -1,0 +1,16 @@
+current_obj_i(2,proc,12).
+ 
+called_tree_i(1,12,1,9).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(turnosconsecutivos2,[],[],[],12).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_ConsultaFecha','int aP1_MedicoId','short aP2_TurnoIdX','bool aP3_Consecutivo' ],[ [ 43,in ],[ 12,in ],[ 'Turnoidx',in ],[ 'Consecutivo',out ] ]).
+ 
+ 
+ 

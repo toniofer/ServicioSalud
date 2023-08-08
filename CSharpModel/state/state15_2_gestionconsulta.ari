@@ -1,0 +1,23 @@
+current_obj_i(2,trn,9).
+ 
+called_tree_i(0,9,1,2).
+called_tree_i(0,9,1,4).
+called_tree_i(0,9,13,1).
+called_tree_i(0,9,13,4).
+called_tree_i(0,9,13,16).
+called_tree_i(0,9,13,23).
+called_tree_i(0,9,13,28).
+called_tree_i(0,9,13,31).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gestionconsulta,[],[],[],9).
+ 
+ 
+obj_parms_i([ 'String aP0_Gx_mode','DateTime aP1_ConsultaFecha','int aP2_MedicoId','short aP3_TurnoId' ],[ [ 'Mode',in ],[ 'Consultafecha',in ],[ 'Medicoid',in ],[ 'Turnoid',in ] ]).
+ 
+ 
+ 

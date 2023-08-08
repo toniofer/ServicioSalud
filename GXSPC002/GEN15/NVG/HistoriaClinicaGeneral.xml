@@ -1,0 +1,359 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>38</ObjId>
+<ObjName>HistoriaClinicaGeneral</ObjName>
+<ObjDesc>Historia Clinica General</ObjDesc>
+<ObjPgmName>HistoriaClinicaGeneral</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>nogenreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute></Parameter>
+<Parameter>
+<IO>in</IO>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></Parameter>
+<Parameter>
+<IO>in</IO>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></Parameter>
+<Parameter>
+<IO>in</IO>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>2</ObjId>
+<ObjName>IsAuthorized</ObjName>
+<ObjPgmName>IsAuthorized</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Isauthorized</VarId>
+<VarName>&amp;IsAuthorized</VarName></Variable></Parameters>
+<IF></IF></CALL>
+<CALL>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>NotAuthorized</ObjName>
+<ObjPgmName>NotAuthorized</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For First</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>ConsultaPaciente</TableName>
+<Description>Consulta Paciente</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICONSULTAPACIENTE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>@ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>@PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>@MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>@TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>@ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>@PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>@MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>@TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>ConsultaPaciente</TableName>
+<Description>Consulta Paciente</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>2</TableId>
+<TableName>Especialidad</TableName>
+<Description>Especialidad</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table>
+<Table>
+<TableId>7</TableId>
+<TableName>Turno</TableName>
+<Description>Turno</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>'DoUpdate'</EventName>
+<CALL>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>10</ObjId>
+<ObjName>HistoriaClinica</ObjName>
+<ObjPgmName>HistoriaClinica</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Parameters>
+<Token>TrnMode</Token>
+<Token>.Update</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'DoDelete'</EventName>
+<CALL>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>10</ObjId>
+<ObjName>HistoriaClinica</ObjName>
+<ObjPgmName>HistoriaClinica</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Parameters>
+<Token>TrnMode</Token>
+<Token>.Delete</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'PREPARETRANSACTION'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Suggests></Suggests></ObjectSpec>

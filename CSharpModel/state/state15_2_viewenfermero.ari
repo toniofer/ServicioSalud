@@ -1,0 +1,25 @@
+current_obj_i(2,web,12).
+ 
+called_tree_i(13,12,1,2).
+called_tree_i(13,12,1,4).
+called_tree_i(13,12,13,1).
+called_tree_i(13,12,13,4).
+called_tree_i(13,12,13,6).
+called_tree_i(13,12,13,8).
+called_tree_i(13,12,13,9).
+called_tree_i(13,12,13,10).
+called_tree_i(13,12,13,11).
+called_tree_i(13,12,13,12).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(viewenfermero,[],[],[],12).
+ 
+ 
+obj_parms_i([ 'int aP0_EnfermeroId','String aP1_TabCode' ],[ [ 'Enfermeroid',in ],[ 'Tabcode',in ] ]).
+ 
+ 
+ 

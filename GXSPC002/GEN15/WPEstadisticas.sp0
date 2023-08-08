@@ -1,0 +1,513 @@
+spec_i([ web,26,'WPEstadisticas','WPEstadisticas',0,spa,'10_1_3-34981' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Fechadesde','Fechahasta','Codigoxml' ] ]).
+ 
+lac_i(2,[ [ 'Fechadesde','Fechahasta','Codigoxml' ] ]).
+ 
+ 
+lits_i('Estadísticas por Especialidades y Médicos',5,10).
+lits_i('Fecha Desde:',5,10).
+lits_i('Fecha Hasta:',5,10).
+ 
+cls_i([ 0,0 ],[ 5,50 ]).
+ 
+pos_i('Fechadesde',[ 0,0,0 ]).
+pos_i('Fechahasta',[ 0,0,0 ]).
+pos_i('Codigoxml',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('TAG_LANGUAGE','HTML')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'AppMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','WPEstadisticas')).
+rule_i(0,prop('ObjName','WPEstadisticas')).
+rule_i(0,maingen(15)).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',11 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',10 ]).
+attri_i('Estadisticas',[ 'Estadisticas',o('EstadisticasSDT'),0,0,'',0,'Estadisticas','',9 ]).
+attri_i('Fechahasta',[ 'FechaHasta',date,8,0,'99/99/99',0,'Fecha Hasta','',6 ]).
+attri_i('Fechadesde',[ 'FechaDesde',date,8,0,'99/99/99',0,'Fecha Desde','',5 ]).
+attri_i('Codigoxml',[ codigoXML,vchar,2097152,0,'',0,'codigo XML','',8 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(2,'Estadisticas',yes,udp,o(33,'DPEstadisticas'),[],2,'Estadisticas',[ [ t('Fechadesde',23),t(',',7),t('Fechahasta',23) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Enter',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',107,1,0),t('Estadisticas',23,1,0),t(=,10,1,0),t('udp(',1,1,0),t('Estadisticas',3,1,0),t(2,3,1,0),t('Fechadesde',23,1,0),t(',',7,1,0),t('Fechahasta',23,1,0),t(')',4,1,0) ]).
+b_line_i(3,2,2,cmd,1,[ t('',107,1,0),t('Codigoxml',23,1,0),t(=,10,1,0),t([ t('Estadisticas',23,1,0),t('toxml(',1,1,0) ],31,1,0),t(')',4,1,0) ]).
+b_line_i(4,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(1000,2,2,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,2,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,2,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,t('Estadísticas por Especialidades y Médicos',3))).
+html_sub_i(3,6,html_i(1,cell(6))).
+html_sub_i(2,7,html_i(2,row(7))).
+html_sub_i(7,8,html_i(0,cell(8))).
+html_sub_i(8,9,html_i(0,t('Fecha Desde:',3))).
+html_sub_i(8,10,html_i(1,t('Fechadesde',23))).
+html_sub_i(7,11,html_i(1,cell(11))).
+html_sub_i(2,12,html_i(3,row(12))).
+html_sub_i(12,13,html_i(0,cell(13))).
+html_sub_i(13,14,html_i(0,t('Fecha Hasta:',3))).
+html_sub_i(13,15,html_i(1,t('Fechahasta',23))).
+html_sub_i(12,16,html_i(1,cell(16))).
+html_sub_i(2,17,html_i(4,row(17))).
+html_sub_i(17,18,html_i(0,cell(18))).
+html_sub_i(18,19,html_i(0,button('Enter'))).
+html_sub_i(17,20,html_i(1,cell(20))).
+html_sub_i(2,21,html_i(5,row(21))).
+html_sub_i(21,22,html_i(0,cell(22))).
+html_sub_i(22,23,html_i(0,t('Codigoxml',23))).
+html_sub_i(21,24,html_i(1,cell(24))).
+html_sub_i(2,0,html_i(6,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(2,'Id','Table1',v,[ str ]).
+html_comp_i(2,'Class','Table',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(425,px),v,[ measure ]).
+html_comp_i(2,'Width',measure(565,px),v,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Height',measure(33,px),v,[ measure ]).
+html_comp_i(5,'Caption','Estadísticas por Especialidades y Médicos',d,[ str ]).
+html_comp_i(5,'Id','Textblock1',v,[ str ]).
+html_comp_i(5,'Class','TextBlock',d,[ str ]).
+html_comp_i(5,'Event','',d,[ str ]).
+html_comp_i(5,'Returnonclick',0,d,[ bool ]).
+html_comp_i(5,'Gxformat',0,d,[ num ]).
+html_comp_i(5,'Title','',d,[ str ]).
+html_comp_i(5,'Fill',-1,d,[ bool ]).
+html_comp_i(5,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(5,'Forecolor',rgb(0,128,0),v,[ color ]).
+html_comp_i(5,'Font',font('Arial Rounded MT Bold',12,[]),v,[ font ]).
+html_comp_i(8,'Height',measure(36,px),v,[ measure ]).
+html_comp_i(9,'Caption','Fecha Desde:',d,[ str ]).
+html_comp_i(9,'Id','Textblock2',v,[ str ]).
+html_comp_i(9,'Class','TextBlock',d,[ str ]).
+html_comp_i(9,'Event','',d,[ str ]).
+html_comp_i(9,'Returnonclick',0,d,[ bool ]).
+html_comp_i(9,'Gxformat',0,d,[ num ]).
+html_comp_i(9,'Title','',d,[ str ]).
+html_comp_i(9,'Fill',-1,d,[ bool ]).
+html_comp_i(9,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(9,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(9,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(10,'Attid',-5,v,[ num ]).
+html_comp_i(10,'Class','Attribute',d,[ str ]).
+html_comp_i(10,'Controlname','&Fechadesde',d,[ str ]).
+html_comp_i(10,'Returnonclick',0,d,[ bool ]).
+html_comp_i(10,'Controltype',2,d,[ num ]).
+html_comp_i(10,'Inputtype',0,d,[ num ]).
+html_comp_i(10,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(10,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(10,'Readonly',0,d,[ bool ]).
+html_comp_i(10,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(10,'Ispassword',0,d,[ bool ]).
+html_comp_i(10,'Autoresize',-1,d,[ bool ]).
+html_comp_i(10,'Gxwidth',measure(8,chr),d,[ measure ]).
+html_comp_i(10,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(10,'Ismultiline',0,d,[ bool ]).
+html_comp_i(10,'Fill',-1,d,[ bool ]).
+html_comp_i(10,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(10,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(10,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(10,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(10,'Gxformat',0,d,[ num ]).
+html_comp_i(10,'Title','',d,[ str ]).
+html_comp_i(10,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(10,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(13,'Height',measure(24,px),v,[ measure ]).
+html_comp_i(14,'Caption','Fecha Hasta:',d,[ str ]).
+html_comp_i(14,'Id','Textblock3',v,[ str ]).
+html_comp_i(14,'Class','TextBlock',d,[ str ]).
+html_comp_i(14,'Event','',d,[ str ]).
+html_comp_i(14,'Returnonclick',0,d,[ bool ]).
+html_comp_i(14,'Gxformat',0,d,[ num ]).
+html_comp_i(14,'Title','',d,[ str ]).
+html_comp_i(14,'Fill',-1,d,[ bool ]).
+html_comp_i(14,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(14,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(14,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(15,'Attid',-6,v,[ num ]).
+html_comp_i(15,'Class','Attribute',d,[ str ]).
+html_comp_i(15,'Controlname','&Fechahasta',d,[ str ]).
+html_comp_i(15,'Returnonclick',0,d,[ bool ]).
+html_comp_i(15,'Controltype',2,d,[ num ]).
+html_comp_i(15,'Inputtype',0,d,[ num ]).
+html_comp_i(15,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(15,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(15,'Readonly',0,d,[ bool ]).
+html_comp_i(15,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(15,'Ispassword',0,d,[ bool ]).
+html_comp_i(15,'Autoresize',-1,d,[ bool ]).
+html_comp_i(15,'Gxwidth',measure(8,chr),d,[ measure ]).
+html_comp_i(15,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(15,'Ismultiline',0,d,[ bool ]).
+html_comp_i(15,'Fill',-1,d,[ bool ]).
+html_comp_i(15,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(15,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(15,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(15,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(15,'Gxformat',0,d,[ num ]).
+html_comp_i(15,'Title','',d,[ str ]).
+html_comp_i(15,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(15,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(18,'Height',measure(46,px),v,[ measure ]).
+html_comp_i(19,'Controlname','Button1',v,[ str ]).
+html_comp_i(19,'Class','SpecialButtons',d,[ str ]).
+html_comp_i(19,'Event','Enter',d,[ str ]).
+html_comp_i(19,'Caption','Confirmar',d,[ str ]).
+html_comp_i(19,'Title','Confirmar',d,[ str ]).
+html_comp_i(19,'Type',0,d,[ num ]).
+html_comp_i(19,'Font',font('Verdana',8,[]),d,[ font ]).
+html_comp_i(19,'Forecolor',rgb(157,31,31),d,[ color ]).
+html_comp_i(19,'Backcolor',rgb(159,159,159),d,[ color ]).
+html_comp_i(19,'Border','0',d,[ str ]).
+html_comp_i(19,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(19,'Buttonborderstyle',rounded,d,[ str ]).
+html_comp_i(23,'Attid',-8,v,[ num ]).
+html_comp_i(23,'Class','Attribute',d,[ str ]).
+html_comp_i(23,'Controlname','&Codigoxml',d,[ str ]).
+html_comp_i(23,'Returnonclick',0,d,[ bool ]).
+html_comp_i(23,'Controltype',2,d,[ num ]).
+html_comp_i(23,'Inputtype',0,d,[ num ]).
+html_comp_i(23,'Editautocomplete',0,d,[ num ]).
+html_comp_i(23,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(23,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(23,'Readonly',0,d,[ bool ]).
+html_comp_i(23,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(23,'Ispassword',0,d,[ bool ]).
+html_comp_i(23,'Autoresize',0,v,[ bool ]).
+html_comp_i(23,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(23,'Gxheight',measure(10,row),d,[ measure ]).
+html_comp_i(23,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(23,'Fill',-1,d,[ bool ]).
+html_comp_i(23,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(23,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(23,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(23,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(23,'Gxformat',0,d,[ num ]).
+html_comp_i(23,'Title','',d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,1,t('Estadísticas por Especialidades y Médicos',3),[ ctlname('Textblock1') ]).
+lit_i(9,1,t('Fecha Desde:',3),[ ctlname('Textblock2') ]).
+lit_i(10,1,t('Fechadesde',23),[ ctlname('&Fechadesde'),ctrltype(edit,10),pos(10),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(14,1,t('Fecha Hasta:',3),[ ctlname('Textblock3') ]).
+lit_i(15,1,t('Fechahasta',23),[ ctlname('&Fechahasta'),ctrltype(edit,15),pos(15),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(19,1,button('Enter'),[ ctlname('Button1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(23,1,t('Codigoxml',23),[ ctlname('&Codigoxml'),ctrltype(edit,23),pos(23),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(2,1,table(2),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,11,0 ],name,'EstadisticasSDT').
+struct_dt_i([ 26,11,0 ],namespace,taller041).
+struct_dt_i([ 26,11,0 ],'ObjName','EstadisticasSDT').
+struct_dt_i([ 26,11,0 ],'ObjDesc','Estadisticas SDT').
+struct_dt_i([ 26,11,0 ],'ExternalName','EstadisticasSDT').
+struct_dt_i([ 26,11,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,11,14 ],name,'EspecialidadItem').
+struct_dt_i([ 26,11,14 ],namespace,'taller041.EstadisticasSDT').
+struct_dt_i([ 26,11,15 ],name,'MedicoItem').
+struct_dt_i([ 26,11,15 ],namespace,'taller041.EstadisticasSDT.EspecialidadItem').
+struct_dt_i([ 26,11,0 ],fullname,'EstadisticasSDT').
+struct_dt_i([ 26,11,14 ],fullname,'EstadisticasSDT.EspecialidadItem').
+struct_dt_i([ 26,11,15 ],fullname,'EstadisticasSDT.EspecialidadItem.MedicoItem').
+ 
+struct_dt_elem_i([ 26,11,0 ],1,name,'Fechadesde').
+struct_dt_elem_i([ 26,11,0 ],1,camelname,'FechaDesde').
+struct_dt_elem_i([ 26,11,0 ],1,length,8).
+struct_dt_elem_i([ 26,11,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,11,0 ],1,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 26,11,0 ],1,pic,'99/99/99').
+struct_dt_elem_i([ 26,11,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,11,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,11,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,11,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,11,0 ],2,name,'Fechahasta').
+struct_dt_elem_i([ 26,11,0 ],2,camelname,'FechaHasta').
+struct_dt_elem_i([ 26,11,0 ],2,length,8).
+struct_dt_elem_i([ 26,11,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,11,0 ],2,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 26,11,0 ],2,pic,'99/99/99').
+struct_dt_elem_i([ 26,11,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,11,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,11,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,11,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,11,0 ],3,name,'Especialidad').
+struct_dt_elem_i([ 26,11,0 ],3,camelname,'Especialidad').
+struct_dt_elem_i([ 26,11,0 ],3,type,[ [ 26,11,14 ],0,0 ]).
+struct_dt_elem_i([ 26,11,0 ],3,pic,'').
+struct_dt_elem_i([ 26,11,0 ],3,collection,'True').
+struct_dt_elem_i([ 26,11,0 ],3,'ObjName','Especialidad').
+struct_dt_elem_i([ 26,11,0 ],3,'ObjDesc','Especialidad').
+struct_dt_elem_i([ 26,11,0 ],3,'CollectionItemName','EspecialidadItem').
+struct_dt_elem_i([ 26,11,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,11,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,0 ],3,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,11,14 ],1,name,'Especialidad').
+struct_dt_elem_i([ 26,11,14 ],1,camelname,'Especialidad').
+struct_dt_elem_i([ 26,11,14 ],1,basedon,11).
+struct_dt_elem_i([ 26,11,14 ],1,length,20).
+struct_dt_elem_i([ 26,11,14 ],1,decimals,0).
+struct_dt_elem_i([ 26,11,14 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,11,14 ],1,pic,'').
+struct_dt_elem_i([ 26,11,14 ],1,collection,'False').
+struct_dt_elem_i([ 26,11,14 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,11,14 ],1,'XmlName','').
+struct_dt_elem_i([ 26,11,14 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,14 ],1,soaptype,'').
+struct_dt_elem_i([ 26,11,14 ],2,name,'Medico').
+struct_dt_elem_i([ 26,11,14 ],2,camelname,'Medico').
+struct_dt_elem_i([ 26,11,14 ],2,type,[ [ 26,11,15 ],0,0 ]).
+struct_dt_elem_i([ 26,11,14 ],2,pic,'').
+struct_dt_elem_i([ 26,11,14 ],2,collection,'True').
+struct_dt_elem_i([ 26,11,14 ],2,'ObjName','Medico').
+struct_dt_elem_i([ 26,11,14 ],2,'ObjDesc','Medico').
+struct_dt_elem_i([ 26,11,14 ],2,'CollectionItemName','MedicoItem').
+struct_dt_elem_i([ 26,11,14 ],2,'XmlName','').
+struct_dt_elem_i([ 26,11,14 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,14 ],2,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,11,15 ],1,name,'Medicoapellido').
+struct_dt_elem_i([ 26,11,15 ],1,camelname,'MedicoApellido').
+struct_dt_elem_i([ 26,11,15 ],1,basedon,12).
+struct_dt_elem_i([ 26,11,15 ],1,length,20).
+struct_dt_elem_i([ 26,11,15 ],1,decimals,0).
+struct_dt_elem_i([ 26,11,15 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,11,15 ],1,pic,'').
+struct_dt_elem_i([ 26,11,15 ],1,collection,'False').
+struct_dt_elem_i([ 26,11,15 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,11,15 ],1,'XmlName','').
+struct_dt_elem_i([ 26,11,15 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,15 ],1,soaptype,'').
+struct_dt_elem_i([ 26,11,15 ],2,name,'Mediconombre').
+struct_dt_elem_i([ 26,11,15 ],2,camelname,'MedicoNombre').
+struct_dt_elem_i([ 26,11,15 ],2,basedon,11).
+struct_dt_elem_i([ 26,11,15 ],2,length,20).
+struct_dt_elem_i([ 26,11,15 ],2,decimals,0).
+struct_dt_elem_i([ 26,11,15 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,11,15 ],2,pic,'').
+struct_dt_elem_i([ 26,11,15 ],2,collection,'False').
+struct_dt_elem_i([ 26,11,15 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,11,15 ],2,'XmlName','').
+struct_dt_elem_i([ 26,11,15 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,15 ],2,soaptype,'').
+struct_dt_elem_i([ 26,11,15 ],3,name,'Cantconsultas').
+struct_dt_elem_i([ 26,11,15 ],3,camelname,'CantConsultas').
+struct_dt_elem_i([ 26,11,15 ],3,length,2).
+struct_dt_elem_i([ 26,11,15 ],3,decimals,0).
+struct_dt_elem_i([ 26,11,15 ],3,sign,0).
+struct_dt_elem_i([ 26,11,15 ],3,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,11,15 ],3,pic,'Z9').
+struct_dt_elem_i([ 26,11,15 ],3,collection,'False').
+struct_dt_elem_i([ 26,11,15 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,11,15 ],3,'XmlName','').
+struct_dt_elem_i([ 26,11,15 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,15 ],3,soaptype,'').
+struct_dt_elem_i([ 26,11,15 ],4,name,'Cantpacatendidos').
+struct_dt_elem_i([ 26,11,15 ],4,camelname,'CantPacAtendidos').
+struct_dt_elem_i([ 26,11,15 ],4,length,2).
+struct_dt_elem_i([ 26,11,15 ],4,decimals,0).
+struct_dt_elem_i([ 26,11,15 ],4,sign,0).
+struct_dt_elem_i([ 26,11,15 ],4,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,11,15 ],4,pic,'Z9').
+struct_dt_elem_i([ 26,11,15 ],4,collection,'False').
+struct_dt_elem_i([ 26,11,15 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,11,15 ],4,'XmlName','').
+struct_dt_elem_i([ 26,11,15 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,15 ],4,soaptype,'').
+struct_dt_elem_i([ 26,11,14 ],1,pic,'ZZ9').
+struct_dt_elem_i([ 26,11,14 ],1,pic,'ZZ9').
+struct_dt_elem_i([ 26,11,15 ],1,pic,'ZZZZZ9').
+struct_dt_elem_i([ 26,11,15 ],2,pic,'ZZ9').
+struct_dt_elem_i([ 26,11,15 ],1,pic,'ZZZZZ9').
+struct_dt_elem_i([ 26,11,15 ],2,pic,'ZZ9').
+struct_dt_elem_i([ 26,11,15 ],1,pic,'ZZZZZ9').
+struct_dt_elem_i([ 26,11,15 ],2,pic,'ZZ9').
+ 
+ 
+ 
+ 
+pgm_parm_i(mnproc,4,'DPESTADISTICAS',[ [ date,8,0,0 ],[ date,8,0,0 ],[ o('EstadisticasSDT'),0,0,0 ] ],[ [ 'FechaDesde',in,[] ],[ 'FechaHasta',in,[] ],[ 'ReturnValue',out,[] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

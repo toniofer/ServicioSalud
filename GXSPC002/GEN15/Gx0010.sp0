@@ -1,0 +1,902 @@
+spec_i([ web,23,'Selection List Médico','Gx0010',0,spa,'10_1_3-34981' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 1,[ [ 1,many ] ],[],[],[ [ [ 1 ],[ 18,9,16,15,14,13,12 ] ] ],[ [ [ 1 ],[] ] ],[ 12 ],'IMEDICO',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [ c([ t(13,2),t('.LIKE.',10),t('Cmediconombre',23) ],[ 13 ]),c([ t(14,2),t('.LIKE.',10),t('Cmedicoapellido',23) ],[ 14 ]),c([ t(15,2),t('.LIKE.',10),t('Cmedicodomicilio',23) ],[ 15 ]),c([ t(16,2),t('.LIKE.',10),t('Cmedicotelefono',23) ],[ 16 ]),c([ t(18,2),t(>=,10),t('Cmedicofechaingreso',23) ],[ 18 ]) ] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 1,18 ],[ 1,9 ],[ 1,16 ],[ 1,15 ],[ 1,14 ],[ 1,13 ],[ 1,12 ] ] ]).
+ 
+las_i(2,[ [ 'Pmedicoid','Cmedicoid','Cmediconombre','Cmedicoapellido','Cmedicodomicilio','Cmedicotelefono','Cmedicofechaingreso',18,9,16,15,14,13,12 ] ]).
+ 
+lac_i(2,[ [ 'Cmedicoid','Cmediconombre','Cmedicoapellido','Cmedicodomicilio','Cmedicotelefono','Cmedicofechaingreso' ] ]).
+ 
+ 
+lits_i('Medico Id',5,10).
+lits_i('Medico Nombre',5,10).
+lits_i('Medico Apellido',5,10).
+lits_i('Medico Domicilio',5,10).
+lits_i('Medico Telefono',5,10).
+lits_i('Medico Fecha Ingreso',5,10).
+ 
+cls_i([ 0,0 ],[ 5,121 ]).
+ 
+pos_i('Cmedicoid',[ 0,0,0 ]).
+pos_i('Cmediconombre',[ 0,0,0 ]).
+pos_i('Cmedicoapellido',[ 0,0,0 ]).
+pos_i('Cmedicodomicilio',[ 0,0,0 ]).
+pos_i('Cmedicotelefono',[ 0,0,0 ]).
+pos_i('Cmedicofechaingreso',[ 0,0,0 ]).
+pos_i('Linkselection',[ 1,2,0 ]).
+pos_i(12,[ 1,2,5 ]).
+pos_i(13,[ 1,2,12 ]).
+pos_i(14,[ 1,2,33 ]).
+pos_i(15,[ 1,2,54 ]).
+pos_i(16,[ 1,2,95 ]).
+pos_i(9,[ 1,2,116 ]).
+ 
+repeat_i(2,[ 1,2,[ 'Linkselection',12,13,14,15,16,9 ],[] ]).
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('TAG_LANGUAGE','HTML')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('PMPTAssocTable',o(7,'Medico'))).
+rule_i(0,prop('IsUserPrompt','-1')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','-1')).
+rule_i(0,prop('MasterPage',o(13,'PromptMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Selection List Médico')).
+rule_i(0,prop('ObjName','Gx0010')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Pmedicoid' ],[])).
+rule_i(0,parmio([ [ 'Pmedicoid',inout ] ])).
+rule_i(0,order([ 12 ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,1,[],[ [],'IMEDICO',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,18).
+v_i(t,o,2,9).
+v_i(t,o,2,16).
+v_i(t,o,2,15).
+v_i(t,o,2,14).
+v_i(t,o,2,13).
+v_i(t,o,2,12).
+ 
+ 
+ 
+ 
+ 
+attri_i(18,[ 'MedicoFechaIngreso',date,8,0,'99/99/99',0,'Medico Fecha Ingreso','',0 ]).
+attri_i(9,[ 'EspecialidadId',int,6,0,'ZZZZZ9',0,'Especialidad Id','',0 ]).
+attri_i(16,[ 'MedicoTelefono',char,20,0,'',0,'Medico Telefono','',0 ]).
+attri_i(15,[ 'MedicoDomicilio',char,40,0,'',0,'Medico Domicilio','',0 ]).
+attri_i(14,[ 'MedicoApellido',char,20,0,'',0,'Medico Apellido','',0 ]).
+attri_i(13,[ 'MedicoNombre',char,20,0,'',0,'Medico Nombre','',0 ]).
+attri_i(12,[ 'MedicoId',int,6,0,'ZZZZZ9',0,'Medico Id','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',15 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',14 ]).
+attri_i('Pmedicoid',[ pMedicoId,int,6,0,'ZZZZZ9',0,'Medico Id','',13 ]).
+attri_i('Cmedicofechaingreso',[ cMedicoFechaIngreso,date,8,0,'99/99/99',0,'Medico Fecha Ingreso','',12 ]).
+attri_i('Cmedicoestadocivil',[ cMedicoEstadoCivil,char,1,0,'',0,'Medico Estado Civil','',11 ]).
+attri_i('Cmedicotelefono',[ cMedicoTelefono,char,20,0,'',0,'Medico Telefono','',10 ]).
+attri_i('Cmedicodomicilio',[ cMedicoDomicilio,char,40,0,'',0,'Medico Domicilio','',9 ]).
+attri_i('Cmedicoapellido',[ cMedicoApellido,char,20,0,'',0,'Medico Apellido','',8 ]).
+attri_i('Cmediconombre',[ cMedicoNombre,char,20,0,'',0,'Medico Nombre','',7 ]).
+attri_i('Cmedicoid',[ cMedicoId,int,6,0,'ZZZZZ9',0,'Medico Id','',6 ]).
+attri_i('Linkselection',[ 'LinkSelection',bits,4,0,'',0,'Link Selection','',5 ]).
+ 
+table_i(1,[ 'Medico',[ 12,13,14,15,16,18,9 ],'Médico','Medico' ]).
+ 
+index_i(1,[ 'IMEDICO',u,[ 12 ],'IMedico' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 12,23,'Cmedicoid',>= ] ],many ]).
+ 
+ 
+ 
+ 
+ 
+enumerated_i(2,'Cmedicoestadocivil',15).
+enumerated_i(2,17,15).
+ 
+enum_value_i(2,15,'"S"','Soltero','"Soltero"').
+enum_value_i(2,15,'"C"','Casado','"Casado"').
+enum_value_i(2,15,'"V"','Viudo','"Viudo"').
+enum_value_i(2,15,'"D"','Divorciado','"Divorciado"').
+ 
+enum_value_info_i(2,15,'EstadoCivil').
+ 
+enum_type_i(2,15,char,1,0).
+ 
+ 
+break_i(2,nvg,1,[ 12 ],[ [ 12,13,14,15,16,9 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,6).
+b_group_i(2,3,lit,0,7,10).
+b_group_i(2,4,lit,0,11,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(3,2,2,cmd,2,[ t('',107,2,0),t([ t('Form',3,2,0),t('Caption',3,2,0) ],29,2,0),t(=,10,2,0),t('format(',1,2,0),t('"Lista de Selección %1"',3,2,0),t(',',7,2,0),t('"Médico"',3,2,0),t(')',4,2,0) ]).
+b_line_i(4,2,2,cmd,2,[ t('',147,2,0) ]).
+b_line_i(6,2,2,cmd,2,[ t('',146,2,0),t('Load',3,6,7) ]).
+b_line_i(7,2,3,cmd,2,[ t('',107,2,0),t([ t('Linkselection',23,7,2),t('fromimage(',1,7,17) ],31,7,2),t(i(98,'3914535b-0c03-44c5-9538-906a99cdd2bc'),69,2,28),t(')',4,2,37) ]).
+b_line_i(8,2,3,cmd,2,[ t('',155,0,0) ]).
+b_line_i(8,2,3,cmd,2,[ t('',147,2,0) ]).
+b_line_i(10,2,3,cmd,2,[ t('',146,2,0),t('Enter',3,10,7) ]).
+b_line_i(11,2,4,cmd,2,[ t('',107,2,0),t('Pmedicoid',23,2,0),t(=,10,2,0),t(12,2,2,0) ]).
+b_line_i(12,2,4,cmd,2,[ t('',118,2,0) ]).
+b_line_i(13,2,4,cmd,2,[ t('',147,2,0) ]).
+ 
+sf_break_i(46,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,comp(errview))).
+html_sub_i(2,6,html_i(2,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,8,html_i(0,group(8))).
+html_sub_i(8,9,html_i(0,table(9))).
+html_sub_i(9,0,html_i(0,html('<TBODY>'))).
+html_sub_i(9,10,html_i(1,row(10))).
+html_sub_i(10,11,html_i(0,cell(11))).
+html_sub_i(11,12,html_i(0,t('Medico Id',3))).
+html_sub_i(10,13,html_i(1,cell(13))).
+html_sub_i(13,14,html_i(0,t('Cmedicoid',23))).
+html_sub_i(9,15,html_i(2,row(15))).
+html_sub_i(15,16,html_i(0,cell(16))).
+html_sub_i(16,17,html_i(0,t('Medico Nombre',3))).
+html_sub_i(15,18,html_i(1,cell(18))).
+html_sub_i(18,19,html_i(0,t('Cmediconombre',23))).
+html_sub_i(9,20,html_i(3,row(20))).
+html_sub_i(20,21,html_i(0,cell(21))).
+html_sub_i(21,22,html_i(0,t('Medico Apellido',3))).
+html_sub_i(20,23,html_i(1,cell(23))).
+html_sub_i(23,24,html_i(0,t('Cmedicoapellido',23))).
+html_sub_i(9,25,html_i(4,row(25))).
+html_sub_i(25,26,html_i(0,cell(26))).
+html_sub_i(26,27,html_i(0,t('Medico Domicilio',3))).
+html_sub_i(25,28,html_i(1,cell(28))).
+html_sub_i(28,29,html_i(0,t('Cmedicodomicilio',23))).
+html_sub_i(9,30,html_i(5,row(30))).
+html_sub_i(30,31,html_i(0,cell(31))).
+html_sub_i(31,32,html_i(0,t('Medico Telefono',3))).
+html_sub_i(30,33,html_i(1,cell(33))).
+html_sub_i(33,34,html_i(0,t('Cmedicotelefono',23))).
+html_sub_i(9,35,html_i(6,row(35))).
+html_sub_i(35,36,html_i(0,cell(36))).
+html_sub_i(36,37,html_i(0,t('Medico Fecha Ingreso',3))).
+html_sub_i(35,38,html_i(1,cell(38))).
+html_sub_i(38,39,html_i(0,t('Cmedicofechaingreso',23))).
+html_sub_i(9,0,html_i(7,html('</TBODY>'))).
+html_sub_i(2,40,html_i(3,row(40))).
+html_sub_i(40,41,html_i(0,cell(41))).
+html_sub_i(41,42,html_i(0,group(42))).
+html_sub_i(42,43,html_i(0,table(43))).
+html_sub_i(43,0,html_i(0,html('<TBODY>'))).
+html_sub_i(43,44,html_i(1,row(44))).
+html_sub_i(44,45,html_i(0,cell(45))).
+html_sub_i(45,46,html_i(0,s(46))).
+html_sub_i(43,54,html_i(2,row(54))).
+html_sub_i(54,55,html_i(0,cell(55))).
+html_sub_i(55,56,html_i(0,table(56))).
+html_sub_i(56,0,html_i(0,html('<TBODY>'))).
+html_sub_i(56,57,html_i(1,row(57))).
+html_sub_i(57,58,html_i(0,cell(58))).
+html_sub_i(58,59,html_i(0,button('Cancel'))).
+html_sub_i(56,0,html_i(2,html('</TBODY>'))).
+html_sub_i(43,0,html_i(3,html('</TBODY>'))).
+html_sub_i(2,0,html_i(4,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(5,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Id','Table1',v,[ str ]).
+html_comp_i(2,'Class','Table',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Align',center,v,[ str ]).
+html_comp_i(5,'Controlname','Ctlerror',v,[ str ]).
+html_comp_i(5,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(5,'Displaymode',1,d,[ num ]).
+html_comp_i(5,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(5,'Fill',-1,d,[ bool ]).
+html_comp_i(8,'Class','FieldSet',v,[ str ]).
+html_comp_i(8,'Caption','Filters',d,[ str ]).
+html_comp_i(8,'Id','Group1',v,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Id','Table2',v,[ str ]).
+html_comp_i(9,'Class','Table',v,[ str ]).
+html_comp_i(9,'Title','',d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Border','0',d,[ str ]).
+html_comp_i(9,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Cellpadding','1',d,[ str ]).
+html_comp_i(9,'Cellspacing','2',d,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Rules',none,d,[ str ]).
+html_comp_i(12,'Caption','Medico Id',d,[ str ]).
+html_comp_i(12,'Id','Textblockmedicoid',v,[ str ]).
+html_comp_i(12,'Class','TextBlock',d,[ str ]).
+html_comp_i(12,'Event','',d,[ str ]).
+html_comp_i(12,'Returnonclick',0,d,[ bool ]).
+html_comp_i(12,'Gxformat',0,d,[ num ]).
+html_comp_i(12,'Title','',d,[ str ]).
+html_comp_i(12,'Fill',-1,d,[ bool ]).
+html_comp_i(12,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(12,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(12,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(14,'Attid',-6,v,[ num ]).
+html_comp_i(14,'Class','Attribute',d,[ str ]).
+html_comp_i(14,'Controlname','&Cmedicoid',d,[ str ]).
+html_comp_i(14,'Returnonclick',0,d,[ bool ]).
+html_comp_i(14,'Controltype',2,d,[ num ]).
+html_comp_i(14,'Inputtype',0,d,[ num ]).
+html_comp_i(14,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(14,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(14,'Readonly',0,d,[ bool ]).
+html_comp_i(14,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(14,'Ispassword',0,d,[ bool ]).
+html_comp_i(14,'Autoresize',-1,d,[ bool ]).
+html_comp_i(14,'Gxwidth',measure(6,chr),d,[ measure ]).
+html_comp_i(14,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(14,'Ismultiline',0,d,[ bool ]).
+html_comp_i(14,'Fill',-1,d,[ bool ]).
+html_comp_i(14,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(14,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(14,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(14,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(14,'Gxformat',0,d,[ num ]).
+html_comp_i(14,'Title','',d,[ str ]).
+html_comp_i(17,'Caption','Medico Nombre',d,[ str ]).
+html_comp_i(17,'Id','Textblockmediconombre',v,[ str ]).
+html_comp_i(17,'Class','TextBlock',d,[ str ]).
+html_comp_i(17,'Event','',d,[ str ]).
+html_comp_i(17,'Returnonclick',0,d,[ bool ]).
+html_comp_i(17,'Gxformat',0,d,[ num ]).
+html_comp_i(17,'Title','',d,[ str ]).
+html_comp_i(17,'Fill',-1,d,[ bool ]).
+html_comp_i(17,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(17,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(17,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(19,'Attid',-7,v,[ num ]).
+html_comp_i(19,'Class','Attribute',d,[ str ]).
+html_comp_i(19,'Controlname','&Cmediconombre',d,[ str ]).
+html_comp_i(19,'Returnonclick',0,d,[ bool ]).
+html_comp_i(19,'Controltype',2,d,[ num ]).
+html_comp_i(19,'Inputtype',0,d,[ num ]).
+html_comp_i(19,'Editautocomplete',0,d,[ num ]).
+html_comp_i(19,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(19,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(19,'Readonly',0,d,[ bool ]).
+html_comp_i(19,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(19,'Ispassword',0,d,[ bool ]).
+html_comp_i(19,'Autoresize',-1,d,[ bool ]).
+html_comp_i(19,'Gxwidth',measure(20,chr),d,[ measure ]).
+html_comp_i(19,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(19,'Ismultiline',0,d,[ bool ]).
+html_comp_i(19,'Fill',-1,d,[ bool ]).
+html_comp_i(19,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(19,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(19,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(19,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(19,'Gxformat',0,d,[ num ]).
+html_comp_i(19,'Title','',d,[ str ]).
+html_comp_i(22,'Caption','Medico Apellido',d,[ str ]).
+html_comp_i(22,'Id','Textblockmedicoapellido',v,[ str ]).
+html_comp_i(22,'Class','TextBlock',d,[ str ]).
+html_comp_i(22,'Event','',d,[ str ]).
+html_comp_i(22,'Returnonclick',0,d,[ bool ]).
+html_comp_i(22,'Gxformat',0,d,[ num ]).
+html_comp_i(22,'Title','',d,[ str ]).
+html_comp_i(22,'Fill',-1,d,[ bool ]).
+html_comp_i(22,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(22,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(22,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(24,'Attid',-8,v,[ num ]).
+html_comp_i(24,'Class','Attribute',d,[ str ]).
+html_comp_i(24,'Controlname','&Cmedicoapellido',d,[ str ]).
+html_comp_i(24,'Returnonclick',0,d,[ bool ]).
+html_comp_i(24,'Controltype',2,d,[ num ]).
+html_comp_i(24,'Inputtype',0,d,[ num ]).
+html_comp_i(24,'Editautocomplete',0,d,[ num ]).
+html_comp_i(24,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(24,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(24,'Readonly',0,d,[ bool ]).
+html_comp_i(24,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(24,'Ispassword',0,d,[ bool ]).
+html_comp_i(24,'Autoresize',-1,d,[ bool ]).
+html_comp_i(24,'Gxwidth',measure(20,chr),d,[ measure ]).
+html_comp_i(24,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(24,'Ismultiline',0,d,[ bool ]).
+html_comp_i(24,'Fill',-1,d,[ bool ]).
+html_comp_i(24,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(24,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(24,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(24,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(24,'Gxformat',0,d,[ num ]).
+html_comp_i(24,'Title','',d,[ str ]).
+html_comp_i(27,'Caption','Medico Domicilio',d,[ str ]).
+html_comp_i(27,'Id','Textblockmedicodomicilio',v,[ str ]).
+html_comp_i(27,'Class','TextBlock',d,[ str ]).
+html_comp_i(27,'Event','',d,[ str ]).
+html_comp_i(27,'Returnonclick',0,d,[ bool ]).
+html_comp_i(27,'Gxformat',0,d,[ num ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Fill',-1,d,[ bool ]).
+html_comp_i(27,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(27,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(29,'Attid',-9,v,[ num ]).
+html_comp_i(29,'Class','Attribute',d,[ str ]).
+html_comp_i(29,'Controlname','&Cmedicodomicilio',d,[ str ]).
+html_comp_i(29,'Returnonclick',0,d,[ bool ]).
+html_comp_i(29,'Controltype',2,d,[ num ]).
+html_comp_i(29,'Inputtype',0,d,[ num ]).
+html_comp_i(29,'Editautocomplete',0,d,[ num ]).
+html_comp_i(29,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(29,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(29,'Readonly',0,d,[ bool ]).
+html_comp_i(29,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(29,'Ispassword',0,d,[ bool ]).
+html_comp_i(29,'Autoresize',-1,d,[ bool ]).
+html_comp_i(29,'Gxwidth',measure(40,chr),d,[ measure ]).
+html_comp_i(29,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(29,'Ismultiline',0,d,[ bool ]).
+html_comp_i(29,'Fill',-1,d,[ bool ]).
+html_comp_i(29,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(29,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(29,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(29,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(29,'Gxformat',0,d,[ num ]).
+html_comp_i(29,'Title','',d,[ str ]).
+html_comp_i(32,'Caption','Medico Telefono',d,[ str ]).
+html_comp_i(32,'Id','Textblockmedicotelefono',v,[ str ]).
+html_comp_i(32,'Class','TextBlock',d,[ str ]).
+html_comp_i(32,'Event','',d,[ str ]).
+html_comp_i(32,'Returnonclick',0,d,[ bool ]).
+html_comp_i(32,'Gxformat',0,d,[ num ]).
+html_comp_i(32,'Title','',d,[ str ]).
+html_comp_i(32,'Fill',-1,d,[ bool ]).
+html_comp_i(32,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(32,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(32,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(34,'Attid',-10,v,[ num ]).
+html_comp_i(34,'Class','Attribute',d,[ str ]).
+html_comp_i(34,'Controlname','&Cmedicotelefono',d,[ str ]).
+html_comp_i(34,'Returnonclick',0,d,[ bool ]).
+html_comp_i(34,'Controltype',2,d,[ num ]).
+html_comp_i(34,'Inputtype',0,d,[ num ]).
+html_comp_i(34,'Editautocomplete',0,d,[ num ]).
+html_comp_i(34,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(34,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(34,'Readonly',0,d,[ bool ]).
+html_comp_i(34,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(34,'Ispassword',0,d,[ bool ]).
+html_comp_i(34,'Autoresize',-1,d,[ bool ]).
+html_comp_i(34,'Gxwidth',measure(20,chr),d,[ measure ]).
+html_comp_i(34,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(34,'Ismultiline',0,d,[ bool ]).
+html_comp_i(34,'Fill',-1,d,[ bool ]).
+html_comp_i(34,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(34,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(34,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(34,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(34,'Gxformat',0,d,[ num ]).
+html_comp_i(34,'Title','',d,[ str ]).
+html_comp_i(37,'Caption','Medico Fecha Ingreso',d,[ str ]).
+html_comp_i(37,'Id','Textblockmedicofechaingreso',v,[ str ]).
+html_comp_i(37,'Class','TextBlock',d,[ str ]).
+html_comp_i(37,'Event','',d,[ str ]).
+html_comp_i(37,'Returnonclick',0,d,[ bool ]).
+html_comp_i(37,'Gxformat',0,d,[ num ]).
+html_comp_i(37,'Title','',d,[ str ]).
+html_comp_i(37,'Fill',-1,d,[ bool ]).
+html_comp_i(37,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(37,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(37,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(39,'Attid',-12,v,[ num ]).
+html_comp_i(39,'Class','Attribute',d,[ str ]).
+html_comp_i(39,'Controlname','&Cmedicofechaingreso',d,[ str ]).
+html_comp_i(39,'Returnonclick',0,d,[ bool ]).
+html_comp_i(39,'Controltype',2,d,[ num ]).
+html_comp_i(39,'Inputtype',0,d,[ num ]).
+html_comp_i(39,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(39,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(39,'Readonly',0,d,[ bool ]).
+html_comp_i(39,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(39,'Ispassword',0,d,[ bool ]).
+html_comp_i(39,'Autoresize',-1,d,[ bool ]).
+html_comp_i(39,'Gxwidth',measure(8,chr),d,[ measure ]).
+html_comp_i(39,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(39,'Ismultiline',0,d,[ bool ]).
+html_comp_i(39,'Fill',-1,d,[ bool ]).
+html_comp_i(39,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(39,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(39,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(39,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(39,'Gxformat',0,d,[ num ]).
+html_comp_i(39,'Title','',d,[ str ]).
+html_comp_i(39,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(39,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(42,'Class','FieldSet',v,[ str ]).
+html_comp_i(42,'Caption','Lista de Selección',d,[ str ]).
+html_comp_i(42,'Id','Group2',v,[ str ]).
+html_comp_i(42,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(42,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(43,'Id','Table3',v,[ str ]).
+html_comp_i(43,'Class','Table',v,[ str ]).
+html_comp_i(43,'Title','',d,[ str ]).
+html_comp_i(43,'Align',left,d,[ str ]).
+html_comp_i(43,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(43,'Border','0',d,[ str ]).
+html_comp_i(43,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(43,'Cellpadding','1',d,[ str ]).
+html_comp_i(43,'Cellspacing','2',d,[ str ]).
+html_comp_i(43,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(43,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(43,'Rules',none,d,[ str ]).
+html_comp_i(45,'Colspan',3,v,[ num ]).
+html_comp_i(46,'Controlname','Grid1',v,[ str ]).
+html_comp_i(46,'Rules',none,d,[ str ]).
+html_comp_i(46,'Sflrender','',d,[ str ]).
+html_comp_i(46,'Class','Grid',d,[ str ]).
+html_comp_i(46,'Autoresize',-1,d,[ bool ]).
+html_comp_i(46,'Gxwidth',measure(0,px),d,[ measure ]).
+html_comp_i(46,'Gxheight',measure(0,px),d,[ measure ]).
+html_comp_i(46,'Border','0',d,[ str ]).
+html_comp_i(46,'Backcolorstyle',2,v,[ num ]).
+html_comp_i(46,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(46,'Maxrows',10,v,[ num ]).
+html_comp_i(46,'Title','',d,[ str ]).
+html_comp_i(46,'Linescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(46,'Linesbackcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(46,'Linesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(46,'Titlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(46,'Titlebackcolor',rgb(157,31,31),d,[ color ]).
+html_comp_i(46,'Titlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(46,'Align',left,d,[ str ]).
+html_comp_i(46,'Cellpadding','1',v,[ str ]).
+html_comp_i(46,'Cellspacing','0',v,[ str ]).
+html_comp_i(46,'Sortable',-1,d,[ bool ]).
+html_comp_i(46,'Allowdrop',0,d,[ bool ]).
+html_comp_i(46,'Allowdrag',0,d,[ bool ]).
+html_comp_i(46,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(46,'Allowcollapsing',0,d,[ bool ]).
+html_comp_i(46,'Allowselection',0,d,[ bool ]).
+html_comp_i(47,'Colattid',-5,v,[ num ]).
+html_comp_i(47,'Controlname','&Linkselection',d,[ str ]).
+html_comp_i(47,'Class','Image',d,[ str ]).
+html_comp_i(47,'Returnonclick',-1,v,[ bool ]).
+html_comp_i(47,'Eventgx','',d,[ str ]).
+html_comp_i(47,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(47,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(47,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(47,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(47,'Coltitle','',d,[ str ]).
+html_comp_i(47,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(47,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(47,'Colvisible',-1,d,[ bool ]).
+html_comp_i(47,'Border','0',d,[ str ]).
+html_comp_i(47,'Alt','',d,[ str ]).
+html_comp_i(47,'Title','Seleccionar',v,[ str ]).
+html_comp_i(47,'Hspace',0,d,[ num ]).
+html_comp_i(47,'Vspace',0,d,[ num ]).
+html_comp_i(48,'Colattid',12,v,[ num ]).
+html_comp_i(48,'Controlname','Medicoid',d,[ str ]).
+html_comp_i(48,'Class','Attribute',d,[ str ]).
+html_comp_i(48,'Returnonclick',0,d,[ bool ]).
+html_comp_i(48,'Eventgx','',d,[ str ]).
+html_comp_i(48,'Controltype',2,d,[ num ]).
+html_comp_i(48,'Inputtype',0,d,[ num ]).
+html_comp_i(48,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(48,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(48,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(48,'Ispassword',0,d,[ bool ]).
+html_comp_i(48,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(48,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(48,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(48,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(48,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(48,'Coltitle','Id',d,[ str ]).
+html_comp_i(48,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(48,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(48,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(48,'Gxformat',0,d,[ num ]).
+html_comp_i(48,'Colvisible',-1,d,[ bool ]).
+html_comp_i(48,'Title','',d,[ str ]).
+html_comp_i(49,'Colattid',13,v,[ num ]).
+html_comp_i(49,'Controlname','Mediconombre',d,[ str ]).
+html_comp_i(49,'Class','Attribute',d,[ str ]).
+html_comp_i(49,'Returnonclick',-1,v,[ bool ]).
+html_comp_i(49,'Eventgx','',d,[ str ]).
+html_comp_i(49,'Controltype',2,d,[ num ]).
+html_comp_i(49,'Inputtype',0,d,[ num ]).
+html_comp_i(49,'Editautocomplete',0,d,[ num ]).
+html_comp_i(49,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(49,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(49,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(49,'Ispassword',0,d,[ bool ]).
+html_comp_i(49,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(49,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(49,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(49,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(49,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(49,'Coltitle','Nombre',d,[ str ]).
+html_comp_i(49,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(49,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(49,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(49,'Gxformat',0,d,[ num ]).
+html_comp_i(49,'Colvisible',-1,d,[ bool ]).
+html_comp_i(49,'Title','Seleccionar',v,[ str ]).
+html_comp_i(50,'Colattid',14,v,[ num ]).
+html_comp_i(50,'Controlname','Medicoapellido',d,[ str ]).
+html_comp_i(50,'Class','Attribute',d,[ str ]).
+html_comp_i(50,'Returnonclick',0,d,[ bool ]).
+html_comp_i(50,'Eventgx','',d,[ str ]).
+html_comp_i(50,'Controltype',2,d,[ num ]).
+html_comp_i(50,'Inputtype',0,d,[ num ]).
+html_comp_i(50,'Editautocomplete',0,d,[ num ]).
+html_comp_i(50,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(50,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(50,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(50,'Ispassword',0,d,[ bool ]).
+html_comp_i(50,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(50,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(50,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(50,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(50,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(50,'Coltitle','Apellido',d,[ str ]).
+html_comp_i(50,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(50,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(50,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(50,'Gxformat',0,d,[ num ]).
+html_comp_i(50,'Colvisible',-1,d,[ bool ]).
+html_comp_i(50,'Title','',d,[ str ]).
+html_comp_i(51,'Colattid',15,v,[ num ]).
+html_comp_i(51,'Controlname','Medicodomicilio',d,[ str ]).
+html_comp_i(51,'Class','Attribute',d,[ str ]).
+html_comp_i(51,'Returnonclick',0,d,[ bool ]).
+html_comp_i(51,'Eventgx','',d,[ str ]).
+html_comp_i(51,'Controltype',2,d,[ num ]).
+html_comp_i(51,'Inputtype',0,d,[ num ]).
+html_comp_i(51,'Editautocomplete',0,d,[ num ]).
+html_comp_i(51,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(51,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(51,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(51,'Ispassword',0,d,[ bool ]).
+html_comp_i(51,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(51,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(51,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(51,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(51,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(51,'Coltitle','Domicilio',d,[ str ]).
+html_comp_i(51,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(51,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(51,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(51,'Gxformat',0,d,[ num ]).
+html_comp_i(51,'Colvisible',-1,d,[ bool ]).
+html_comp_i(51,'Title','',d,[ str ]).
+html_comp_i(52,'Colattid',16,v,[ num ]).
+html_comp_i(52,'Controlname','Medicotelefono',d,[ str ]).
+html_comp_i(52,'Class','Attribute',d,[ str ]).
+html_comp_i(52,'Returnonclick',0,d,[ bool ]).
+html_comp_i(52,'Eventgx','',d,[ str ]).
+html_comp_i(52,'Controltype',2,d,[ num ]).
+html_comp_i(52,'Inputtype',0,d,[ num ]).
+html_comp_i(52,'Editautocomplete',0,d,[ num ]).
+html_comp_i(52,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(52,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(52,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(52,'Ispassword',0,d,[ bool ]).
+html_comp_i(52,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(52,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(52,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(52,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(52,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(52,'Coltitle','Telefono',d,[ str ]).
+html_comp_i(52,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(52,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(52,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(52,'Gxformat',0,d,[ num ]).
+html_comp_i(52,'Colvisible',-1,d,[ bool ]).
+html_comp_i(52,'Title','',d,[ str ]).
+html_comp_i(53,'Colattid',9,v,[ num ]).
+html_comp_i(53,'Controlname','Especialidadid',d,[ str ]).
+html_comp_i(53,'Class','Attribute',d,[ str ]).
+html_comp_i(53,'Returnonclick',0,d,[ bool ]).
+html_comp_i(53,'Eventgx','',d,[ str ]).
+html_comp_i(53,'Controltype',2,d,[ num ]).
+html_comp_i(53,'Inputtype',0,d,[ num ]).
+html_comp_i(53,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(53,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(53,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(53,'Ispassword',0,d,[ bool ]).
+html_comp_i(53,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(53,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(53,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(53,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(53,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(53,'Coltitle','Espec. Id',d,[ str ]).
+html_comp_i(53,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(53,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(53,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(53,'Gxformat',0,d,[ num ]).
+html_comp_i(53,'Colvisible',-1,d,[ bool ]).
+html_comp_i(53,'Title','',d,[ str ]).
+html_comp_i(55,'Align',right,v,[ str ]).
+html_comp_i(56,'Id','Table4',v,[ str ]).
+html_comp_i(56,'Class','Table',v,[ str ]).
+html_comp_i(56,'Title','',d,[ str ]).
+html_comp_i(56,'Align',left,d,[ str ]).
+html_comp_i(56,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(56,'Border','0',d,[ str ]).
+html_comp_i(56,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(56,'Cellpadding','1',d,[ str ]).
+html_comp_i(56,'Cellspacing','2',d,[ str ]).
+html_comp_i(56,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(56,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(56,'Rules',none,d,[ str ]).
+html_comp_i(59,'Controlname','Btn_cancel',v,[ str ]).
+html_comp_i(59,'Class','BtnCancel',v,[ str ]).
+html_comp_i(59,'Event','Cancel',v,[ str ]).
+html_comp_i(59,'Caption','Cancelar',d,[ str ]).
+html_comp_i(59,'Title','Cancelar',d,[ str ]).
+html_comp_i(59,'Type',0,d,[ num ]).
+html_comp_i(59,'Font',font('Verdana',8,[]),d,[ font ]).
+html_comp_i(59,'Forecolor',rgb(157,31,31),d,[ color ]).
+html_comp_i(59,'Backcolor',rgb(159,159,159),d,[ color ]).
+html_comp_i(59,'Border','0',d,[ str ]).
+html_comp_i(59,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(59,'Buttonborderstyle',rounded,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,1,comp(errview),[ ctlname('Ctlerror'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(12,1,t('Medico Id',3),[ ctlname('Textblockmedicoid') ]).
+lit_i(14,1,t('Cmedicoid',23),[ ctlname('&Cmedicoid'),ctrltype(edit,14),pos(14),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(17,1,t('Medico Nombre',3),[ ctlname('Textblockmediconombre') ]).
+lit_i(19,1,t('Cmediconombre',23),[ ctlname('&Cmediconombre'),ctrltype(edit,19),pos(19),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(22,1,t('Medico Apellido',3),[ ctlname('Textblockmedicoapellido') ]).
+lit_i(24,1,t('Cmedicoapellido',23),[ ctlname('&Cmedicoapellido'),ctrltype(edit,24),pos(24),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(27,1,t('Medico Domicilio',3),[ ctlname('Textblockmedicodomicilio') ]).
+lit_i(29,1,t('Cmedicodomicilio',23),[ ctlname('&Cmedicodomicilio'),ctrltype(edit,29),pos(29),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(32,1,t('Medico Telefono',3),[ ctlname('Textblockmedicotelefono') ]).
+lit_i(34,1,t('Cmedicotelefono',23),[ ctlname('&Cmedicotelefono'),ctrltype(edit,34),pos(34),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(37,1,t('Medico Fecha Ingreso',3),[ ctlname('Textblockmedicofechaingreso') ]).
+lit_i(39,1,t('Cmedicofechaingreso',23),[ ctlname('&Cmedicofechaingreso'),ctrltype(edit,39),pos(39),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(9,1,table(9),[ ctlname('Table2') ]).
+lit_i(8,1,group(8),[ ctlname('Group1') ]).
+lit_i(47,1,s(t('Linkselection',23),46),[ ctlname('&Linkselection'),ctrltype(edit,47),pos(47),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(48,1,s(t(12,2),46),[ ctlname(12),ctrltype(edit,48),pos(48),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(49,1,s(t(13,2),46),[ ctlname(13),ctrltype(edit,49),pos(49),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(50,1,s(t(14,2),46),[ ctlname(14),ctrltype(edit,50),pos(50),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(51,1,s(t(15,2),46),[ ctlname(15),ctrltype(edit,51),pos(51),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(52,1,s(t(16,2),46),[ ctlname(16),ctrltype(edit,52),pos(52),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(53,1,s(t(9,2),46),[ ctlname(9),ctrltype(edit,53),pos(53),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(46,1,s(46),[ ctlname('Grid1'),el([ t('Linkselection',23),t(12,2),t(13,2),t(14,2),t(15,2),t(16,2),t(9,2) ]),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(59,1,button('Cancel'),[ ctlname('Btn_cancel'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(56,1,table(56),[ ctlname('Table4') ]).
+lit_i(43,1,table(43),[ ctlname('Table3') ]).
+lit_i(42,1,group(42),[ ctlname('Group2') ]).
+lit_i(2,1,table(2),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ctrl_info_i(1,47,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+ 
+att_prop_i(2,12,'ExternalName','MedicoId',d).
+att_prop_i(2,12,'ExternalNamespace',taller041,d).
+att_prop_i(2,12,'EmptyAsNull','Yes',d).
+att_prop_i(2,12,'AUTONUMBER','-1',v).
+att_prop_i(2,12,'AUTONUMBER_START','1',d).
+att_prop_i(2,12,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,12,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,12,'AttRegEx','',d).
+att_prop_i(2,12,'AttValidationFailedMsg','',d).
+att_prop_i(2,12,'FullName','MedicoId',v).
+att_prop_i(2,13,'ExternalName','MedicoNombre',d).
+att_prop_i(2,13,'ExternalNamespace',taller041,d).
+att_prop_i(2,13,'EmptyAsNull','Yes',d).
+att_prop_i(2,13,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,13,'AttRegEx','',d).
+att_prop_i(2,13,'AttValidationFailedMsg','',d).
+att_prop_i(2,13,'FullName','MedicoNombre',v).
+att_prop_i(2,14,'ExternalName','MedicoApellido',d).
+att_prop_i(2,14,'ExternalNamespace',taller041,d).
+att_prop_i(2,14,'EmptyAsNull','Yes',d).
+att_prop_i(2,14,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,14,'AttRegEx','',d).
+att_prop_i(2,14,'AttValidationFailedMsg','',d).
+att_prop_i(2,14,'FullName','MedicoApellido',v).
+att_prop_i(2,15,'ExternalName','MedicoDomicilio',d).
+att_prop_i(2,15,'ExternalNamespace',taller041,d).
+att_prop_i(2,15,'EmptyAsNull','Yes',d).
+att_prop_i(2,15,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,15,'AttRegEx','',d).
+att_prop_i(2,15,'AttValidationFailedMsg','',d).
+att_prop_i(2,15,'FullName','MedicoDomicilio',v).
+att_prop_i(2,16,'ExternalName','MedicoTelefono',d).
+att_prop_i(2,16,'ExternalNamespace',taller041,d).
+att_prop_i(2,16,'EmptyAsNull','Yes',d).
+att_prop_i(2,16,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,16,'AttRegEx','',d).
+att_prop_i(2,16,'AttValidationFailedMsg','',d).
+att_prop_i(2,16,'FullName','MedicoTelefono',v).
+att_prop_i(2,9,'ExternalName','EspecialidadId',d).
+att_prop_i(2,9,'ExternalNamespace',taller041,d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,'AUTONUMBER','-1',v).
+att_prop_i(2,9,'AUTONUMBER_START','1',d).
+att_prop_i(2,9,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,9,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'FullName','EspecialidadId',v).
+att_prop_i(2,18,'ExternalName','MedicoFechaIngreso',d).
+att_prop_i(2,18,'ExternalNamespace',taller041,d).
+att_prop_i(2,18,'EmptyAsNull','Yes',d).
+att_prop_i(2,18,'AttRegEx','',d).
+att_prop_i(2,18,'AttValidationFailedMsg','',d).
+att_prop_i(2,18,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,18,'FullName','MedicoFechaIngreso',v).
+ 
+ 
+tbl_att_prop_i(2,1,12,'AllowNulls',n).
+tbl_att_prop_i(2,1,12,'AUTONUMBER',y).
+tbl_att_prop_i(2,1,13,'AllowNulls',n).
+tbl_att_prop_i(2,1,14,'AllowNulls',n).
+tbl_att_prop_i(2,1,15,'AllowNulls',n).
+tbl_att_prop_i(2,1,16,'AllowNulls',n).
+tbl_att_prop_i(2,1,18,'AllowNulls',n).
+tbl_att_prop_i(2,1,9,'AllowNulls',n).
+ 
+var_prop_i(2,'Cmedicoestadocivil','AttValidationFailedMsg','GXSPC_OutOfRange',d).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

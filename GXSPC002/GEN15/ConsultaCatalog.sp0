@@ -1,0 +1,286 @@
+spec_i([ mnproc,3,'Consulta Catalog','ConsultaCatalog',0,spa,'10_1_3-34981' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'TreeNodeCollection'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','Consulta Catalog')).
+rule_i(0,prop('ObjName','ConsultaCatalog')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Renovar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Gxm1rootcol' ],[])).
+rule_i(0,parmio([ [ 'Gxm1rootcol',out ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',7 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',6 ]).
+attri_i('Gxm1rootcol',[ 'Gxm1rootcol',o(objectcollection('TreeNodeCollection.TreeNode')),0,0,'',0,'Gxm1rootcol','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,8,0 ],name,'TreeNodeCollection').
+struct_dt_i([ 26,8,0 ],namespace,taller041).
+struct_dt_i([ 26,8,0 ],'ObjName','TreeNodeCollection').
+struct_dt_i([ 26,8,0 ],'ObjDesc','Tree Node Collection').
+struct_dt_i([ 26,8,0 ],'ExternalName','TreeNodeCollection').
+struct_dt_i([ 26,8,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,8,0 ],collection,'True').
+struct_dt_i([ 26,8,0 ],datatype,[ 26,8,10 ]).
+struct_dt_i([ 26,8,10 ],name,'TreeNode').
+struct_dt_i([ 26,8,10 ],namespace,'taller041.TreeNodeCollection').
+struct_dt_i([ 26,8,0 ],camelname,'Treenodecollection').
+struct_dt_i([ 26,8,10 ],camelname,'Treenode').
+struct_dt_i([ 26,8,0 ],fullname,'TreeNodeCollection').
+struct_dt_i([ 26,8,10 ],fullname,'TreeNodeCollection.TreeNode').
+ 
+struct_dt_elem_i([ 26,8,10 ],1,name,'Id').
+struct_dt_elem_i([ 26,8,10 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,8,10 ],1,length,500).
+struct_dt_elem_i([ 26,8,10 ],1,decimals,0).
+struct_dt_elem_i([ 26,8,10 ],1,type,[ 5,500,0 ]).
+struct_dt_elem_i([ 26,8,10 ],1,pic,'').
+struct_dt_elem_i([ 26,8,10 ],1,collection,'False').
+struct_dt_elem_i([ 26,8,10 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,8,10 ],1,'XmlName','').
+struct_dt_elem_i([ 26,8,10 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,10 ],1,soaptype,'').
+struct_dt_elem_i([ 26,8,10 ],2,name,'Name').
+struct_dt_elem_i([ 26,8,10 ],2,camelname,'Name').
+struct_dt_elem_i([ 26,8,10 ],2,length,500).
+struct_dt_elem_i([ 26,8,10 ],2,decimals,0).
+struct_dt_elem_i([ 26,8,10 ],2,type,[ 5,500,0 ]).
+struct_dt_elem_i([ 26,8,10 ],2,pic,'').
+struct_dt_elem_i([ 26,8,10 ],2,collection,'False').
+struct_dt_elem_i([ 26,8,10 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,8,10 ],2,'XmlName','').
+struct_dt_elem_i([ 26,8,10 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,10 ],2,soaptype,'').
+struct_dt_elem_i([ 26,8,10 ],3,name,'Link').
+struct_dt_elem_i([ 26,8,10 ],3,camelname,'Link').
+struct_dt_elem_i([ 26,8,10 ],3,length,500).
+struct_dt_elem_i([ 26,8,10 ],3,decimals,0).
+struct_dt_elem_i([ 26,8,10 ],3,type,[ 5,500,0 ]).
+struct_dt_elem_i([ 26,8,10 ],3,pic,'').
+struct_dt_elem_i([ 26,8,10 ],3,collection,'False').
+struct_dt_elem_i([ 26,8,10 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,8,10 ],3,'XmlName','').
+struct_dt_elem_i([ 26,8,10 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,10 ],3,soaptype,'').
+struct_dt_elem_i([ 26,8,10 ],4,name,'Linktarget').
+struct_dt_elem_i([ 26,8,10 ],4,camelname,'LinkTarget').
+struct_dt_elem_i([ 26,8,10 ],4,length,500).
+struct_dt_elem_i([ 26,8,10 ],4,decimals,0).
+struct_dt_elem_i([ 26,8,10 ],4,type,[ 5,500,0 ]).
+struct_dt_elem_i([ 26,8,10 ],4,pic,'').
+struct_dt_elem_i([ 26,8,10 ],4,collection,'False').
+struct_dt_elem_i([ 26,8,10 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,8,10 ],4,'XmlName','').
+struct_dt_elem_i([ 26,8,10 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,10 ],4,soaptype,'').
+struct_dt_elem_i([ 26,8,10 ],5,name,'Expanded').
+struct_dt_elem_i([ 26,8,10 ],5,camelname,'Expanded').
+struct_dt_elem_i([ 26,8,10 ],5,length,4).
+struct_dt_elem_i([ 26,8,10 ],5,decimals,0).
+struct_dt_elem_i([ 26,8,10 ],5,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,8,10 ],5,pic,'').
+struct_dt_elem_i([ 26,8,10 ],5,collection,'False').
+struct_dt_elem_i([ 26,8,10 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,8,10 ],5,'XmlName','').
+struct_dt_elem_i([ 26,8,10 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,10 ],5,soaptype,'').
+struct_dt_elem_i([ 26,8,10 ],6,name,'Dynamicload').
+struct_dt_elem_i([ 26,8,10 ],6,camelname,'DynamicLoad').
+struct_dt_elem_i([ 26,8,10 ],6,length,4).
+struct_dt_elem_i([ 26,8,10 ],6,decimals,0).
+struct_dt_elem_i([ 26,8,10 ],6,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,8,10 ],6,pic,'').
+struct_dt_elem_i([ 26,8,10 ],6,collection,'False').
+struct_dt_elem_i([ 26,8,10 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,8,10 ],6,'XmlName','').
+struct_dt_elem_i([ 26,8,10 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,10 ],6,soaptype,'').
+struct_dt_elem_i([ 26,8,10 ],7,name,'Icon').
+struct_dt_elem_i([ 26,8,10 ],7,camelname,'Icon').
+struct_dt_elem_i([ 26,8,10 ],7,length,500).
+struct_dt_elem_i([ 26,8,10 ],7,decimals,0).
+struct_dt_elem_i([ 26,8,10 ],7,type,[ 5,500,0 ]).
+struct_dt_elem_i([ 26,8,10 ],7,pic,'').
+struct_dt_elem_i([ 26,8,10 ],7,collection,'False').
+struct_dt_elem_i([ 26,8,10 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,8,10 ],7,'XmlName','').
+struct_dt_elem_i([ 26,8,10 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,10 ],7,soaptype,'').
+struct_dt_elem_i([ 26,8,10 ],8,name,'Iconwhenselected').
+struct_dt_elem_i([ 26,8,10 ],8,camelname,'IconWhenSelected').
+struct_dt_elem_i([ 26,8,10 ],8,length,500).
+struct_dt_elem_i([ 26,8,10 ],8,decimals,0).
+struct_dt_elem_i([ 26,8,10 ],8,type,[ 5,500,0 ]).
+struct_dt_elem_i([ 26,8,10 ],8,pic,'').
+struct_dt_elem_i([ 26,8,10 ],8,collection,'False').
+struct_dt_elem_i([ 26,8,10 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,8,10 ],8,'XmlName','').
+struct_dt_elem_i([ 26,8,10 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,10 ],8,soaptype,'').
+struct_dt_elem_i([ 26,8,10 ],9,name,'Nodes').
+struct_dt_elem_i([ 26,8,10 ],9,camelname,'Nodes').
+struct_dt_elem_i([ 26,8,10 ],9,length,4).
+struct_dt_elem_i([ 26,8,10 ],9,decimals,0).
+struct_dt_elem_i([ 26,8,10 ],9,type,[ [ 26,8,0 ],4,0 ]).
+struct_dt_elem_i([ 26,8,10 ],9,pic,'').
+struct_dt_elem_i([ 26,8,10 ],9,collection,'False').
+struct_dt_elem_i([ 26,8,10 ],9,'XmlName','').
+struct_dt_elem_i([ 26,8,10 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,8,10 ],9,soaptype,'').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,32 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>2</ObjId>
+<ObjName>RecentLinks</ObjName>
+<ObjDesc>Recent Links web component</ObjDesc>
+<ObjPgmName>RecentLinks</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Formcaption</VarId>
+<VarName>&amp;FormCaption</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Formpgmname</VarId>
+<VarName>&amp;FormPgmName</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Links.Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

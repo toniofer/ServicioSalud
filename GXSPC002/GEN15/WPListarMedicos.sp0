@@ -1,0 +1,315 @@
+spec_i([ web,27,'WPListar Medicos','WPListarMedicos',0,spa,'10_1_3-34981' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Desde','Hasta' ] ]).
+ 
+lac_i(2,[ [ 'Desde','Hasta' ] ]).
+ 
+ 
+ 
+cls_i([ 0,0 ],[ 0,7 ]).
+ 
+pos_i('Desde',[ 0,0,0 ]).
+pos_i('Hasta',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('TAG_LANGUAGE','HTML')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'AppMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','WPListar Medicos')).
+rule_i(0,prop('ObjName','WPListarMedicos')).
+rule_i(0,maingen(15)).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',8 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',7 ]).
+attri_i('Hasta',[ hasta,date,8,0,'99/99/99',0,hasta,'',6 ]).
+attri_i('Desde',[ desde,date,8,0,'99/99/99',0,desde,'',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Enter',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',104,1,0),t(o(1,'ListarMedicos'),28,1,2),t('Desde',23,1,16),t(',',7,1,22),t('Hasta',23,1,23) ]).
+b_line_i(3,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(1000,2,2,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,2,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,2,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(3,5,html_i(1,cell(5))).
+html_sub_i(2,6,html_i(2,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,8,html_i(0,t('Desde',23))).
+html_sub_i(6,9,html_i(1,cell(9))).
+html_sub_i(2,10,html_i(3,row(10))).
+html_sub_i(10,11,html_i(0,cell(11))).
+html_sub_i(11,12,html_i(0,t('Hasta',23))).
+html_sub_i(10,13,html_i(1,cell(13))).
+html_sub_i(2,14,html_i(4,row(14))).
+html_sub_i(14,15,html_i(0,cell(15))).
+html_sub_i(14,16,html_i(1,cell(16))).
+html_sub_i(2,17,html_i(5,row(17))).
+html_sub_i(17,18,html_i(0,cell(18))).
+html_sub_i(18,19,html_i(0,button('Enter'))).
+html_sub_i(17,20,html_i(1,cell(20))).
+html_sub_i(2,0,html_i(6,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(2,'Id','Table1',v,[ str ]).
+html_comp_i(2,'Class','Table',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(169,px),v,[ measure ]).
+html_comp_i(2,'Width',measure(242,px),v,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Width',measure(109,px),v,[ measure ]).
+html_comp_i(5,'Width',measure(7,px),v,[ measure ]).
+html_comp_i(8,'Attid',-5,v,[ num ]).
+html_comp_i(8,'Class','Attribute',d,[ str ]).
+html_comp_i(8,'Controlname','&Desde',d,[ str ]).
+html_comp_i(8,'Returnonclick',0,d,[ bool ]).
+html_comp_i(8,'Controltype',2,d,[ num ]).
+html_comp_i(8,'Inputtype',0,d,[ num ]).
+html_comp_i(8,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(8,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(8,'Readonly',0,d,[ bool ]).
+html_comp_i(8,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(8,'Ispassword',0,d,[ bool ]).
+html_comp_i(8,'Autoresize',-1,d,[ bool ]).
+html_comp_i(8,'Gxwidth',measure(8,chr),d,[ measure ]).
+html_comp_i(8,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(8,'Ismultiline',0,d,[ bool ]).
+html_comp_i(8,'Fill',-1,d,[ bool ]).
+html_comp_i(8,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(8,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(8,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(8,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(8,'Gxformat',0,d,[ num ]).
+html_comp_i(8,'Title','',d,[ str ]).
+html_comp_i(8,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(8,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(12,'Attid',-6,v,[ num ]).
+html_comp_i(12,'Class','Attribute',d,[ str ]).
+html_comp_i(12,'Controlname','&Hasta',d,[ str ]).
+html_comp_i(12,'Returnonclick',0,d,[ bool ]).
+html_comp_i(12,'Controltype',2,d,[ num ]).
+html_comp_i(12,'Inputtype',0,d,[ num ]).
+html_comp_i(12,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(12,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(12,'Readonly',0,d,[ bool ]).
+html_comp_i(12,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(12,'Ispassword',0,d,[ bool ]).
+html_comp_i(12,'Autoresize',-1,d,[ bool ]).
+html_comp_i(12,'Gxwidth',measure(8,chr),d,[ measure ]).
+html_comp_i(12,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(12,'Ismultiline',0,d,[ bool ]).
+html_comp_i(12,'Fill',-1,d,[ bool ]).
+html_comp_i(12,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(12,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(12,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(12,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(12,'Gxformat',0,d,[ num ]).
+html_comp_i(12,'Title','',d,[ str ]).
+html_comp_i(12,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(12,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(19,'Controlname','Button1',v,[ str ]).
+html_comp_i(19,'Class','SpecialButtons',d,[ str ]).
+html_comp_i(19,'Event','Enter',d,[ str ]).
+html_comp_i(19,'Caption','Confirmar',d,[ str ]).
+html_comp_i(19,'Title','Confirmar',d,[ str ]).
+html_comp_i(19,'Type',0,d,[ num ]).
+html_comp_i(19,'Font',font('Verdana',8,[]),d,[ font ]).
+html_comp_i(19,'Forecolor',rgb(157,31,31),d,[ color ]).
+html_comp_i(19,'Backcolor',rgb(159,159,159),d,[ color ]).
+html_comp_i(19,'Border','0',d,[ str ]).
+html_comp_i(19,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(19,'Buttonborderstyle',rounded,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(8,1,t('Desde',23),[ ctlname('&Desde'),ctrltype(edit,8),pos(8),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(12,1,t('Hasta',23),[ ctlname('&Hasta'),ctrltype(edit,12),pos(12),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(19,1,button('Enter'),[ ctlname('Button1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(2,1,table(2),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,14,'LISTARMEDICOS',[ [ date,8,0,0 ],[ date,8,0,0 ] ],[ [ desde,in,[] ],[ hasta,in,[] ] ]).
+ 
+pgm_main_info_i(proc,14,'LISTARMEDICOS',[ 15,'ALISTARMEDICOS','','','','','HTTP' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 

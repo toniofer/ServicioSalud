@@ -1,0 +1,19 @@
+current_obj_i(2,web,9).
+ 
+called_tree_i(13,9,1,2).
+called_tree_i(13,9,1,4).
+called_tree_i(13,9,0,3).
+called_tree_i(13,9,13,4).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(enfermerogeneral,[],[],[],9).
+ 
+ 
+obj_parms_i([ 'int aP0_EnfermeroId' ],[ [ 20,in ] ]).
+ 
+ 
+ 

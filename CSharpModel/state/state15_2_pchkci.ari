@@ -1,0 +1,15 @@
+current_obj_i(2,proc,6).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(pchkci,[],[],[],6).
+ 
+ 
+obj_parms_i([ 'String aP0_VDocNro','String aP1_CDOK' ],[ [ 'Vdocnro',inout ],[ 'Cdok',inout ] ]).
+ 
+ 
+ 

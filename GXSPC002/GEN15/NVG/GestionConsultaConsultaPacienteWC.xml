@@ -1,0 +1,240 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>18</ObjId>
+<ObjName>GestionConsultaConsultaPacienteWC</ObjName>
+<ObjDesc>Gestion Consulta Consulta Paciente WC</ObjDesc>
+<ObjPgmName>GestionConsultaConsultaPacienteWC</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>63</AttriId>
+<AttriName>ConsultaNro</AttriName>
+<Description>Consulta Nro</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in grid '</Token>
+<Token>Grid</Token>
+<Token>'</Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Consultafecha</VarId>
+<VarName>&amp;ConsultaFecha</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Medicoid</VarId>
+<VarName>&amp;MedicoId</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Turnoid</VarId>
+<VarName>&amp;TurnoId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>2</ObjId>
+<ObjName>IsAuthorized</ObjName>
+<ObjPgmName>IsAuthorized</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Isauthorized</VarId>
+<VarName>&amp;IsAuthorized</VarName></Variable></Parameters>
+<IF></IF></CALL>
+<CALL>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>NotAuthorized</ObjName>
+<ObjPgmName>NotAuthorized</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Grid.Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>ConsultaPaciente</TableName>
+<Description>Consulta Paciente</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>63</AttriId>
+<AttriName>ConsultaNro</AttriName>
+<Description>Consulta Nro</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Consultafecha</VarId>
+<VarName>&amp;ConsultaFecha</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Medicoid</VarId>
+<VarName>&amp;MedicoId</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Turnoid</VarId>
+<VarName>&amp;TurnoId</VarName></Variable></Condition></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>ConsultaPaciente</TableName>
+<Description>Consulta Paciente</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>2</TableId>
+<TableName>Especialidad</TableName>
+<Description>Especialidad</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>'DoInsert'</EventName>
+<CALL>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>8</ObjId>
+<ObjName>ConsultaPaciente</ObjName>
+<ObjPgmName>ConsultaPaciente</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Parameters>
+<Token>TrnMode</Token>
+<Token>.Insert</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Consultafecha</VarId>
+<VarName>&amp;ConsultaFecha</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Token>nullvalue(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute>
+<Token>)</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Medicoid</VarId>
+<VarName>&amp;MedicoId</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Turnoid</VarId>
+<VarName>&amp;TurnoId</VarName></Variable></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'PREPARETRANSACTION'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Suggests></Suggests></ObjectSpec>

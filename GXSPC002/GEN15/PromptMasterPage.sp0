@@ -1,0 +1,388 @@
+spec_i([ web,3,'Prompt Master Page ','PromptMasterPage',0,spa,'10_1_3-34981' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+lits_i('Footer Info',5,10).
+ 
+cls_i([ 5,10 ],[ 5,20 ]).
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('TAG_LANGUAGE','HTML')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('WEB_COMP','Master')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('Folder',o(8,'GeneralWeb'))).
+rule_i(0,prop('ObjDesc','Prompt Master Page ')).
+rule_i(0,prop('ObjName','PromptMasterPage')).
+rule_i(0,maingen(15)).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',7 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',6 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,12).
+b_group_i(2,3,lit,0,13,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(10,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(12,2,2,cmd,1,[ t('',146,1,0),t('Refresh',3,12,7) ]).
+b_line_i(13,2,3,cmd,1,[ t('',147,1,0) ]).
+b_line_i(1000,2,3,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,3,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,3,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+html_i(34,html('<P/>')).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(2,5,html_i(2,row(5))).
+html_sub_i(5,6,html_i(0,cell(6))).
+html_sub_i(5,7,html_i(1,cell(7))).
+html_sub_i(7,8,html_i(0,table(8))).
+html_sub_i(8,0,html_i(0,html('<TBODY>'))).
+html_sub_i(8,9,html_i(1,row(9))).
+html_sub_i(9,10,html_i(0,cell(10))).
+html_sub_i(10,11,html_i(0,comp(conthold))).
+html_sub_i(8,0,html_i(2,html('</TBODY>'))).
+html_sub_i(5,12,html_i(2,cell(12))).
+html_sub_i(2,13,html_i(3,row(13))).
+html_sub_i(13,14,html_i(0,cell(14))).
+html_sub_i(14,15,html_i(0,table(15))).
+html_sub_i(15,0,html_i(0,html('<TBODY>'))).
+html_sub_i(15,16,html_i(1,row(16))).
+html_sub_i(16,17,html_i(0,cell(17))).
+html_sub_i(15,0,html_i(2,html('</TBODY>'))).
+html_sub_i(14,18,html_i(1,table(18))).
+html_sub_i(18,0,html_i(0,html('<TBODY>'))).
+html_sub_i(18,19,html_i(1,row(19))).
+html_sub_i(19,20,html_i(0,cell(20))).
+html_sub_i(18,0,html_i(2,html('</TBODY>'))).
+html_sub_i(14,21,html_i(2,table(21))).
+html_sub_i(21,0,html_i(0,html('<TBODY>'))).
+html_sub_i(21,22,html_i(1,row(22))).
+html_sub_i(22,23,html_i(0,cell(23))).
+html_sub_i(21,0,html_i(2,html('</TBODY>'))).
+html_sub_i(14,24,html_i(3,table(24))).
+html_sub_i(24,0,html_i(0,html('<TBODY>'))).
+html_sub_i(24,25,html_i(1,row(25))).
+html_sub_i(25,26,html_i(0,cell(26))).
+html_sub_i(26,27,html_i(0,t('Footer Info',3))).
+html_sub_i(24,0,html_i(2,html('</TBODY>'))).
+html_sub_i(14,28,html_i(4,table(28))).
+html_sub_i(28,0,html_i(0,html('<TBODY>'))).
+html_sub_i(28,29,html_i(1,row(29))).
+html_sub_i(29,30,html_i(0,cell(30))).
+html_sub_i(28,0,html_i(2,html('</TBODY>'))).
+html_sub_i(14,31,html_i(5,table(31))).
+html_sub_i(31,0,html_i(0,html('<TBODY>'))).
+html_sub_i(31,32,html_i(1,row(32))).
+html_sub_i(32,33,html_i(0,cell(33))).
+html_sub_i(31,0,html_i(2,html('</TBODY>'))).
+html_sub_i(2,0,html_i(4,html('</TBODY>'))).
+ 
+html_tags_i(1,'Topmargin','50').
+html_tags_i(1,'Class','Form').
+html_tags_i(1,'Style','WHITE-SPACE: nowrap').
+ 
+html_comp_i(2,'Id','Table2',v,[ str ]).
+html_comp_i(2,'Class','Table95',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','0',v,[ str ]).
+html_comp_i(2,'Cellspacing','0',v,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(95,'%'),v,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Colspan',3,v,[ num ]).
+html_comp_i(6,'Width',measure(0,px),v,[ measure ]).
+html_comp_i(7,'Width',measure(100,'%'),v,[ measure ]).
+html_comp_i(8,'Id','Table3',v,[ str ]).
+html_comp_i(8,'Class','ViewTable',v,[ str ]).
+html_comp_i(8,'Title','',d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(8,'Border','1',d,[ str ]).
+html_comp_i(8,'Bordercolor',rgb(192,192,192),d,[ color ]).
+html_comp_i(8,'Cellpadding','1',d,[ str ]).
+html_comp_i(8,'Cellspacing','2',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Rules',none,d,[ str ]).
+html_comp_i(11,'Controlname','Contentholder',v,[ str ]).
+html_comp_i(12,'Width',measure(0,px),v,[ measure ]).
+html_comp_i(14,'Colspan',3,v,[ num ]).
+html_comp_i(15,'Id','Table4',v,[ str ]).
+html_comp_i(15,'Class','HorizontalSpace',v,[ str ]).
+html_comp_i(15,'Title','',d,[ str ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(15,'Border','0',d,[ str ]).
+html_comp_i(15,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(15,'Cellpadding','1',d,[ str ]).
+html_comp_i(15,'Cellspacing','2',d,[ str ]).
+html_comp_i(15,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Rules',none,d,[ str ]).
+html_comp_i(18,'Id','Table5',v,[ str ]).
+html_comp_i(18,'Class','HorizontalLine',v,[ str ]).
+html_comp_i(18,'Title','',d,[ str ]).
+html_comp_i(18,'Align',left,d,[ str ]).
+html_comp_i(18,'Bgcolor',rgb(157,31,31),d,[ color ]).
+html_comp_i(18,'Border','0',d,[ str ]).
+html_comp_i(18,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(18,'Cellpadding','0',v,[ str ]).
+html_comp_i(18,'Cellspacing','0',v,[ str ]).
+html_comp_i(18,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Rules',none,d,[ str ]).
+html_comp_i(21,'Id','Table6',v,[ str ]).
+html_comp_i(21,'Class','HorizontalSpace',v,[ str ]).
+html_comp_i(21,'Title','',d,[ str ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(21,'Border','0',d,[ str ]).
+html_comp_i(21,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(21,'Cellpadding','0',v,[ str ]).
+html_comp_i(21,'Cellspacing','0',v,[ str ]).
+html_comp_i(21,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Rules',none,d,[ str ]).
+html_comp_i(24,'Id','Table1',v,[ str ]).
+html_comp_i(24,'Class','TableBottom',v,[ str ]).
+html_comp_i(24,'Title','',d,[ str ]).
+html_comp_i(24,'Align',left,d,[ str ]).
+html_comp_i(24,'Bgcolor',rgb(157,31,31),d,[ color ]).
+html_comp_i(24,'Border','0',d,[ str ]).
+html_comp_i(24,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(24,'Cellpadding','1',d,[ str ]).
+html_comp_i(24,'Cellspacing','2',d,[ str ]).
+html_comp_i(24,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Rules',none,d,[ str ]).
+html_comp_i(25,'Align',left,v,[ str ]).
+html_comp_i(26,'Align',center,v,[ str ]).
+html_comp_i(27,'Caption','Footer Info',v,[ str ]).
+html_comp_i(27,'Id','Textblock1',v,[ str ]).
+html_comp_i(27,'Class','SmallText',v,[ str ]).
+html_comp_i(27,'Event','',d,[ str ]).
+html_comp_i(27,'Returnonclick',0,d,[ bool ]).
+html_comp_i(27,'Gxformat',0,d,[ num ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Fill',-1,d,[ bool ]).
+html_comp_i(27,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Forecolor',rgb(169,169,169),d,[ color ]).
+html_comp_i(27,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(28,'Id','Table7',v,[ str ]).
+html_comp_i(28,'Class','HorizontalSpace',v,[ str ]).
+html_comp_i(28,'Title','',d,[ str ]).
+html_comp_i(28,'Align',left,d,[ str ]).
+html_comp_i(28,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(28,'Border','0',d,[ str ]).
+html_comp_i(28,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(28,'Cellpadding','0',v,[ str ]).
+html_comp_i(28,'Cellspacing','0',v,[ str ]).
+html_comp_i(28,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Rules',none,d,[ str ]).
+html_comp_i(31,'Id','Table8',v,[ str ]).
+html_comp_i(31,'Class','HorizontalLine',v,[ str ]).
+html_comp_i(31,'Title','',d,[ str ]).
+html_comp_i(31,'Align',left,d,[ str ]).
+html_comp_i(31,'Bgcolor',rgb(157,31,31),d,[ color ]).
+html_comp_i(31,'Border','0',d,[ str ]).
+html_comp_i(31,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(31,'Cellpadding','0',v,[ str ]).
+html_comp_i(31,'Cellspacing','0',v,[ str ]).
+html_comp_i(31,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Rules',none,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(11,1,comp(conthold),[ ctlname('Contentholder'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(8,1,table(8),[ ctlname('Table3') ]).
+lit_i(15,1,table(15),[ ctlname('Table4') ]).
+lit_i(18,1,table(18),[ ctlname('Table5') ]).
+lit_i(21,1,table(21),[ ctlname('Table6') ]).
+lit_i(27,1,t('Footer Info',3),[ ctlname('Textblock1') ]).
+lit_i(24,1,table(24),[ ctlname('Table1') ]).
+lit_i(28,1,table(28),[ ctlname('Table7') ]).
+lit_i(31,1,table(31),[ ctlname('Table8') ]).
+lit_i(2,1,table(2),[ ctlname('Table2') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

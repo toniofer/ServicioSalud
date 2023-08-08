@@ -1,0 +1,2307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportLog>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>HttpMethod</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>Page</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>TabCode</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>TrnMode</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>Context</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>GridState</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>ProgramNames</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>TabOptions</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>TransactionContext</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00000000-0000-0000-0000-000000000008</Type>
+		<Name>ContextManagement</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00000000-0000-0000-0000-000000000008</Type>
+		<Name>Security</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>GetTabImage</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>IsAuthorized</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Warning</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>ListPrograms</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>LoadContext</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>SetContext</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>Home</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>NotAuthorized</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>TabbedView</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c804fdbd-7c0b-440d-8527-4316c92649a6</Type>
+		<Name>GeneXusXSD</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Close</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>popupheader</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ActionDelete</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ActionUpdate</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Cancel</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>GXX_M</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>First</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Last</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Next</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>PageFirst</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>PageLast</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>PageNext</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>PagePrevious</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>PDA_48x48</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Previous</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Smartphone_48x48</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Save</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>AppMasterSD</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00000000-0000-0000-0000-000000000009</Type>
+		<Name>Knowledge Base Properties</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00000000-0000-0000-0000-000000000002</Type>
+		<Name>Version Properties</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00000000-0000-0000-0000-000000000002</Type>
+		<Name>.Net Environment</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>IMEMode</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>MessageTypes</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>RecentLinksOptions</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>ObjectName</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>URLString</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>HttpMethod</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>Page</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>TabCode</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>TrnMode</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>Id</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>Nombre</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>Apellido</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>Domicilio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>Telefono</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>EstadoCivil</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>Turno</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>Consultorio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00972a17-9975-449e-aab1-d26165d51393</Type>
+		<Name>NroConsultorio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicosId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicosNombre</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicosApellido</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicosDomicilio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicosTelefono</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicosEstadoCivil</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicosFechaIngreso</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicosEspecialidad</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EspecialidadId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EspecialidadDescripcion</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EspecialidadMaxPacientes</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicoId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicoNombre</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicoApellido</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicoDomicilio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicoTelefono</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicoEstadoCivil</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicoFechaIngreso</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MedicoEspecialidad</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroNombre</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroApellido</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroDomicilio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroEstadoCivil</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroFechaIngreso</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacientesId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacientesNombre</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacientesApellido</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacientesDomicilio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacientesEstadoCivil</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacientesFechaNacimiento</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacientesFechaIngreso</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacientesCI</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacienteId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacienteNombre</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacienteApellido</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacienteDomicilio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacienteEstadoCivil</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacienteFechaNacimiento</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacienteFechaIngreso</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>PacienteCI</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultaId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultaFecha</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultaTurno</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultaConsultorio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroTitularId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroTitularNombre</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroTitularApellido</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroTitularEstadoCivil</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroTitularFechaIngreso</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroSuplenteId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroSuplenteNombre</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroSuplenteDomicilio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroSuplenteEstadoCivil</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroSuplenteFechaIngreso</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>EnfermeroSuplenteApellido</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultorioId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultorioDescripcion</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultorioUbicacion</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>TurnoId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>TurnoNombre</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultaPacienteId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultaNro</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>NrosAsignados</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>NrosDisponibles</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>CantNrosAsig</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>UltimoNroAsig</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>MotivoConsulta</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>AnotacionesConsulta</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>CantPacConf</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultaCatId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultaCatName</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultaCatParentId</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>ConsultaCatParentName</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<Name>Confirmado</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>Messages</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>LinkList</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>Context</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>GridState</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>ProgramNames</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>TabOptions</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>TransactionContext</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>TreeNodeCollection</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>MedicoSTD</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>MedicosSTD</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00000000-0000-0000-0000-000000000008</Type>
+		<Name>GeneralWeb</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00000000-0000-0000-0000-000000000008</Type>
+		<Name>ContextManagement</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00000000-0000-0000-0000-000000000008</Type>
+		<Name>Security</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00000000-0000-0000-0000-000000000008</Type>
+		<Name>Persona</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c804fdbd-7c0b-440d-8527-4316c92649a6</Type>
+		<Name>GeneXusX</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c804fdbd-7c0b-440d-8527-4316c92649a6</Type>
+		<Name>GeneXusXSD</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>1db606f2-af09-4cf9-a3b5-b481519d28f6</Type>
+		<Name>Medico</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>1db606f2-af09-4cf9-a3b5-b481519d28f6</Type>
+		<Name>Especialidad</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>1db606f2-af09-4cf9-a3b5-b481519d28f6</Type>
+		<Name>Enfermero</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>1db606f2-af09-4cf9-a3b5-b481519d28f6</Type>
+		<Name>Paciente</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>1db606f2-af09-4cf9-a3b5-b481519d28f6</Type>
+		<Name>Consulta</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>1db606f2-af09-4cf9-a3b5-b481519d28f6</Type>
+		<Name>Consultorio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>1db606f2-af09-4cf9-a3b5-b481519d28f6</Type>
+		<Name>Turno</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>1db606f2-af09-4cf9-a3b5-b481519d28f6</Type>
+		<Name>ConsultaPaciente</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>1db606f2-af09-4cf9-a3b5-b481519d28f6</Type>
+		<Name>GestionConsulta</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>1db606f2-af09-4cf9-a3b5-b481519d28f6</Type>
+		<Name>HistoriaClinica</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>1db606f2-af09-4cf9-a3b5-b481519d28f6</Type>
+		<Name>GestionConsultaPaciente</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>87313f43-5eb2-41d7-9b8c-e8d9f5bf9588</Type>
+		<Name>EnfermeroTitular</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>87313f43-5eb2-41d7-9b8c-e8d9f5bf9588</Type>
+		<Name>EnfermeroSuplente</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>857ca50e-7905-0000-0007-c5d9ff2975ec</Type>
+		<Name>Medico</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>857ca50e-7905-0000-0007-c5d9ff2975ec</Type>
+		<Name>Especialidad</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>857ca50e-7905-0000-0007-c5d9ff2975ec</Type>
+		<Name>Enfermero</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>857ca50e-7905-0000-0007-c5d9ff2975ec</Type>
+		<Name>Paciente</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>857ca50e-7905-0000-0007-c5d9ff2975ec</Type>
+		<Name>Consulta</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>857ca50e-7905-0000-0007-c5d9ff2975ec</Type>
+		<Name>Consultorio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>857ca50e-7905-0000-0007-c5d9ff2975ec</Type>
+		<Name>Turno</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>857ca50e-7905-0000-0007-c5d9ff2975ec</Type>
+		<Name>ConsultaPaciente</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>GetTabImage</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>IsAuthorized</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>ListPrograms</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>LoadContext</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>SetContext</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>PChkCI</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>TurnosConsecutivos</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>ConsultorioAsignado</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>CantidadConsultas</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>ConsultorioOcupado</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>TurnoOcupado</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>TurnosConsecutivos2</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>ImpresionTiket</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>84a12160-f59b-4ad7-a683-ea4481ac23e9</Type>
+		<Name>ListarMedicos</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>AppMasterPage</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>RecentLinks</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>PromptMasterPage</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>NotAuthorized</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>Home</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>TabbedView</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>AppMasterSD</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>WWEnfermero</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>EnfermeroGeneral</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>EnfermeroMedicoWC</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>EnfermeroMedico1WC</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>ViewEnfermero</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>ViewConsultaPaciente</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>WWConsultaPaciente</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>ConsultaPacienteGeneral</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>WWGestionConsulta</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>GestionConsultaGeneral</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>GestionConsultaConsultaPacienteWC</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>ViewGestionConsulta</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>Gx0030</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>Gx0040</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>SolicitudConsulta</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>Gx0010</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>CategoryGestionConsultaRelationWC</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>CategoryConsultaRelationWC</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>WPEstadisticas</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>c9584656-94b6-4ccd-890f-332d11fc2c25</Type>
+		<Name>WPListarMedicos</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00000000-0000-0000-0000-000000000006</Type>
+		<Name>Main Programs</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>83476c1e-fa72-4229-9930-f51b954fca2d</Type>
+		<Name>WorkWith</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>83476c1e-fa72-4229-9930-f51b954fca2d</Type>
+		<Name>Category</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>78cecefe-be7d-4980-86ce-8d6e91fba04b</Type>
+		<Name>WorkWithEnfermero</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>78cecefe-be7d-4980-86ce-8d6e91fba04b</Type>
+		<Name>WorkWithConsultaPaciente</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>78cecefe-be7d-4980-86ce-8d6e91fba04b</Type>
+		<Name>WorkWithGestionConsulta</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>280c149c-48b2-4284-a532-0c999df9e006</Type>
+		<Name>Diagram1</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>2a9e9aba-d2de-4801-ae7f-5e3819222daf</Type>
+		<Name>GestionConsultaCatalog</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>2a9e9aba-d2de-4801-ae7f-5e3819222daf</Type>
+		<Name>ConsultaCatalog</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>2a9e9aba-d2de-4801-ae7f-5e3819222daf</Type>
+		<Name>DP1</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>88313f43-5eb2-0000-0028-e8d9f5bf9588</Type>
+		<Name>Spanish</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>PageFirst</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>PageLast</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>PageNext</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>PagePrevious</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>menuarrow</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ClosePrompt</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Button</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>btnL</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>btnR</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>btnC</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>btnLDisabled</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>btnRDisabled</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>btnCDisabled</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>header_small1</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>HeaderBackground</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>line_header</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabSelected</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabUnselected</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabLine</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>popupheader</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabBeginUnselected</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabEndUnselected</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabUnselectedUnselected</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabBeginSelected</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabUnselectedSelected</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabEndSelected</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabSelectedUnselected</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ActionDelete</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ActionDeleteDisabled</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ActionDisabled</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ActionDisplay</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ActionDisplayDisabled</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ActionExport</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ActionInsert</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ActionUpdate</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>ActionUpdateDisabled</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>BigButton</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>btn_cancel</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>calendar</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Cancel</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Close</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>First</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>FooterLine</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Last</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>LeftTopWW</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>new</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Next</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Previous</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>DeleteRow</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>UndeleteRow</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>prompt</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>RecentLinksBackground</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>RightTopWW</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Save</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Select</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>selectRow</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabGroupNext</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>TabGroupPrevious</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>toolbarbg</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>toolbarseparator</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>topL</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>topR</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>GXX_M</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>PDA_48x48</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>9fb193d9-64a4-4d30-b129-ff7c76830f7e</Type>
+		<Name>Smartphone_48x48</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+</ImportLog>

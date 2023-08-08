@@ -1,0 +1,16 @@
+current_obj_i(2,web,23).
+ 
+called_tree_i(13,23,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx0010,[],[],[],23).
+ 
+ 
+obj_parms_i([ 'int aP0_pMedicoId' ],[ [ 'Pmedicoid',inout ] ]).
+ 
+ 
+ 

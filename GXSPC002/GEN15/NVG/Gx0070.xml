@@ -1,0 +1,128 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>29</ObjId>
+<ObjName>Gx0070</ObjName>
+<ObjDesc>Selection List Turno</ObjDesc>
+<ObjPgmName>Gx0070</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Pturnoid</VarId>
+<VarName>&amp;pTurnoId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules>
+<Action>
+<ActionType>DynamicLoad</ActionType>
+<DynamicLoad>
+<ControlName>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></ControlName>
+<CodeAttributes>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></CodeAttributes>
+<DescriptionAttributes>
+<Attribute>
+<AttriId>61</AttriId>
+<AttriName>TurnoNombre</AttriName>
+<Description>Turno Nombre</Description></Attribute></DescriptionAttributes>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>Turno</TableName>
+<Description>Turno</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute>
+<Attribute>
+<AttriId>61</AttriId>
+<AttriName>TurnoNombre</AttriName>
+<Description>Turno Nombre</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions></NavigationConditions>
+<NavigationOrder>
+<Order></Order>
+<Condition></Condition></NavigationOrder></Navigation></DynamicLoad></Action></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>7</TableId>
+<TableName>Turno</TableName>
+<Description>Turno</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITURNO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>61</AttriId>
+<AttriName>TurnoNombre</AttriName>
+<Description>Turno Nombre</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cturnonombre</VarId>
+<VarName>&amp;cTurnoNombre</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>Turno</TableName>
+<Description>Turno</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

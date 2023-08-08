@@ -1,0 +1,136 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>21</ObjId>
+<ObjName>Gx0040</ObjName>
+<ObjDesc>Selection List Paciente</ObjDesc>
+<ObjPgmName>Gx0040</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ppacienteid</VarId>
+<VarName>&amp;pPacienteId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IPACIENTE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cpacienteid</VarId>
+<VarName>&amp;cPacienteId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>PacienteNombre</AttriName>
+<Description>Paciente Nombre</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cpacientenombre</VarId>
+<VarName>&amp;cPacienteNombre</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>36</AttriId>
+<AttriName>PacienteApellido</AttriName>
+<Description>Paciente Apellido</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cpacienteapellido</VarId>
+<VarName>&amp;cPacienteApellido</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>PacienteDomicilio</AttriName>
+<Description>Paciente Domicilio</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cpacientedomicilio</VarId>
+<VarName>&amp;cPacienteDomicilio</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>PacienteFechaNacimiento</AttriName>
+<Description>Paciente Fecha Nacimiento</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cpacientefechanacimiento</VarId>
+<VarName>&amp;cPacienteFechaNacimiento</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>PacienteFechaIngreso</AttriName>
+<Description>Paciente Fecha Ingreso</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cpacientefechaingreso</VarId>
+<VarName>&amp;cPacienteFechaIngreso</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

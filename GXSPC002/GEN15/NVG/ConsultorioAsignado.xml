@@ -1,0 +1,138 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>8</ObjId>
+<ObjName>ConsultorioAsignado</ObjName>
+<ObjDesc>Consultorio Asignado</ObjDesc>
+<ObjPgmName>ConsultorioAsignado</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute></Parameter>
+<Parameter>
+<IO>in</IO>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Consultorioidx</VarId>
+<VarName>&amp;ConsultorioIdX</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>2</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>Consulta</TableName>
+<Description>Consulta</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICONSULTA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>@ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>@MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>@ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>@MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>Consulta</TableName>
+<Description>Consulta</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

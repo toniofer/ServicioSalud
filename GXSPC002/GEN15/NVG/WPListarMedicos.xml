@@ -1,0 +1,41 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>27</ObjId>
+<ObjName>WPListarMedicos</ObjName>
+<ObjDesc>WPListar Medicos</ObjDesc>
+<ObjPgmName>WPListarMedicos</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Enter</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>14</ObjId>
+<ObjName>ListarMedicos</ObjName>
+<ObjPgmName>ListarMedicos</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Desde</VarId>
+<VarName>&amp;desde</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Hasta</VarId>
+<VarName>&amp;hasta</VarName></Variable></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

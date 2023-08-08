@@ -1,0 +1,321 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>37</ObjId>
+<ObjName>WWHistoriaClinica</ObjName>
+<ObjDesc>Work With Historia Clinica</ObjDesc>
+<ObjPgmName>WWHistoriaClinica</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>63</AttriId>
+<AttriName>ConsultaNro</AttriName>
+<Description>Consulta Nro</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in grid '</Token>
+<Token>Grid</Token>
+<Token>'</Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules>
+<Action>
+<ActionType>DynamicLoad</ActionType>
+<DynamicLoad>
+<ControlName>
+<Variable>
+<VarId>Turnoid</VarId>
+<VarName>&amp;TurnoId</VarName></Variable></ControlName>
+<CodeAttributes>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></CodeAttributes>
+<DescriptionAttributes>
+<Attribute>
+<AttriId>61</AttriId>
+<AttriName>TurnoNombre</AttriName>
+<Description>Turno Nombre</Description></Attribute></DescriptionAttributes>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>Turno</TableName>
+<Description>Turno</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute>
+<Attribute>
+<AttriId>61</AttriId>
+<AttriName>TurnoNombre</AttriName>
+<Description>Turno Nombre</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions></NavigationConditions>
+<NavigationOrder>
+<Order></Order>
+<Condition></Condition></NavigationOrder></Navigation></DynamicLoad></Action></StandAloneRules>
+<Event>
+<EventName>Start</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>2</ObjId>
+<ObjName>IsAuthorized</ObjName>
+<ObjPgmName>IsAuthorized</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Isauthorized</VarId>
+<VarName>&amp;IsAuthorized</VarName></Variable></Parameters>
+<IF></IF></CALL>
+<CALL>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>NotAuthorized</ObjName>
+<ObjPgmName>NotAuthorized</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Refresh</EventName></Event>
+<Event>
+<EventName>Grid.Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>ConsultaPaciente</TableName>
+<Description>Consulta Paciente</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>63</AttriId>
+<AttriName>ConsultaNro</AttriName>
+<Description>Consulta Nro</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<ConditionalConstraint>
+<Constraint>
+<Attribute>
+<AttriId>63</AttriId>
+<AttriName>ConsultaNro</AttriName>
+<Description>Consulta Nro</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Consultanro</VarId>
+<VarName>&amp;ConsultaNro</VarName></Variable></Constraint>
+<Condition>
+<Token>not</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Consultanro</VarId>
+<VarName>&amp;ConsultaNro</VarName></Variable>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token></Condition></ConditionalConstraint>
+<ConditionalConstraint>
+<Constraint>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Consultafecha</VarId>
+<VarName>&amp;ConsultaFecha</VarName></Variable></Constraint>
+<Condition>
+<Token>not</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Consultafecha</VarId>
+<VarName>&amp;ConsultaFecha</VarName></Variable>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token></Condition></ConditionalConstraint>
+<ConditionalConstraint>
+<Constraint>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Medicoid</VarId>
+<VarName>&amp;MedicoId</VarName></Variable></Constraint>
+<Condition>
+<Token>not</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Medicoid</VarId>
+<VarName>&amp;MedicoId</VarName></Variable>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token></Condition></ConditionalConstraint>
+<ConditionalConstraint>
+<Constraint>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Turnoid</VarId>
+<VarName>&amp;TurnoId</VarName></Variable></Constraint>
+<Condition>
+<Token>not</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Turnoid</VarId>
+<VarName>&amp;TurnoId</VarName></Variable>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token></Condition></ConditionalConstraint></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>ConsultaPaciente</TableName>
+<Description>Consulta Paciente</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>7</TableId>
+<TableName>Turno</TableName>
+<Description>Turno</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>'LOADGRIDSTATE'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Event>
+<EventName>'SAVEGRIDSTATE'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Event>
+<EventName>'PREPARETRANSACTION'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Suggests></Suggests></ObjectSpec>

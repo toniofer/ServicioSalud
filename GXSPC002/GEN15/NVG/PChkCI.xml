@@ -1,0 +1,31 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>6</ObjId>
+<ObjName>PChkCI</ObjName>
+<ObjDesc>Check digit Uruguay - C.I.</ObjDesc>
+<ObjPgmName>PChkCI</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Vdocnro</VarId>
+<VarName>&amp;VDocNro</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Cdok</VarId>
+<VarName>&amp;CDOK</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

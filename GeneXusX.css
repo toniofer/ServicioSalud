@@ -1,0 +1,3441 @@
+.BaseRBtn{
+	display:inline-block;
+}
+.BaseRBtn span, .RoundedBtn input{
+	display:block;
+	float: left;
+	position:relative;
+}
+.BaseRBtn .BtnLeft{
+	background: transparent no-repeat scroll 0 0;
+}
+.BaseRBtn .BtnRight{
+	background: transparent no-repeat scroll right 0;
+}
+.BaseRBtn .BtnBackground{
+	overflow:hidden;
+	background: transparent repeat-x scroll;
+}
+.BaseRBtn .BtnText{
+	border: 0px;
+	background: transparent;
+	margin:0;
+	white-space:no-wrap;
+	width:auto;
+	overflow:visible;
+}
+.Attribute,.ReadonlyAttribute,.BlobContentAttribute,.ReadonlyBlobContentAttribute,.BlobInputAttribute,.AttributeDragging,.AttributeAcceptDrag,.AttributeNoAcceptDrag,.AttSubTitle,.BlobInputAttSubTitle,.BlobContentAttSubTitle,.ReadonlyBlobContentAttSubTitle,.ReadonlyAttSubTitle,.IME_Active,.BlobContentIME_Active,.ReadonlyBlobContentIME_Active,.BlobInputIME_Active,.ReadonlyIME_Active,.IME_Inactive,.BlobContentIME_Inactive,.ReadonlyBlobContentIME_Inactive,.BlobInputIME_Inactive,.ReadonlyIME_Inactive,.IME_Disabled,.BlobContentIME_Disabled,.ReadonlyBlobContentIME_Disabled,.BlobInputIME_Disabled,.ReadonlyIME_Disabled
+{
+	border-bottom-color: #D3D4D3;
+	border-left-color: #D3D4D3;
+	border-right-color: #D3D4D3;
+	border-top-color: #D3D4D3;
+	border-style: inset;
+	border-width: 1px;
+	font-family: Arial;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-decoration: none;
+	color: #333333;
+	ime-mode: auto;
+
+}
+
+.ReadonlyAttribute
+{
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	border-style: none;
+	color: #747474;
+
+}
+
+
+
+
+
+
+
+.AttSubTitle,.BlobInputAttSubTitle,.BlobContentAttSubTitle,.ReadonlyBlobContentAttSubTitle,.ReadonlyAttSubTitle
+{
+	padding-top: 5pt;
+	border-style: none;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #666666;
+	height: 30px;
+
+}
+
+
+
+
+
+.IME_Active,.BlobContentIME_Active,.ReadonlyBlobContentIME_Active,.BlobInputIME_Active,.ReadonlyIME_Active
+{
+	ime-mode: active;
+
+}
+
+
+.ReadonlyBlobContentIME_Active
+{
+	border-width: 0px;
+
+}
+
+
+.ReadonlyIME_Active
+{
+	border-width: 0px;
+
+}
+
+.IME_Inactive,.BlobContentIME_Inactive,.ReadonlyBlobContentIME_Inactive,.BlobInputIME_Inactive,.ReadonlyIME_Inactive
+{
+	ime-mode: inactive;
+
+}
+
+
+.ReadonlyBlobContentIME_Inactive
+{
+	border-width: 0px;
+
+}
+
+
+.ReadonlyIME_Inactive
+{
+	border-width: 0px;
+
+}
+
+.IME_Disabled,.BlobContentIME_Disabled,.ReadonlyBlobContentIME_Disabled,.BlobInputIME_Disabled,.ReadonlyIME_Disabled
+{
+	ime-mode: disabled;
+
+}
+
+
+.ReadonlyBlobContentIME_Disabled
+{
+	border-width: 0px;
+
+}
+
+
+.ReadonlyIME_Disabled
+{
+	border-width: 0px;
+
+}
+
+.Button,.SpecialButtons,.BtnCancel,.BtnCheck,.BtnDelete,.BtnEnter,.BtnFirst,.BtnGet,.BtnHelp,.BtnLast,.BtnNext,.BtnPrevious,.BtnRefresh,.BtnSelect,.SpecialButtonsDisabled,.ButtonDragging,.ButtonAcceptDrag,.ButtonNoAcceptDrag,.ActionButtons,.ButtonDisabled
+{
+	margin-bottom: 3pt;
+	margin-left: 0pt;
+	margin-right: 3pt;
+	margin-top: 3pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	background-color: #9F9F9F;
+	background-image: url(Resources/Button.gif);
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	height: 19px;
+	width: 80px;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+.RButton
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RButton .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RButton .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RButton .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RButton .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RSpecialButtons
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RSpecialButtons .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RSpecialButtons .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RSpecialButtons .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RSpecialButtons .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnCancel
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnCancel .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnCancel .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnCancel .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnCancel .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnCheck
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnCheck .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnCheck .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnCheck .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnCheck .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnDelete
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnDelete .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnDelete .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnDelete .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnDelete .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnEnter
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnEnter .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnEnter .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnEnter .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnEnter .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnFirst
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnFirst .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnFirst .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnFirst .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnFirst .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnGet
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnGet .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnGet .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnGet .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnGet .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnHelp
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnHelp .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnHelp .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnHelp .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnHelp .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnLast
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnLast .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnLast .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnLast .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnLast .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnNext
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnNext .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnNext .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnNext .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnNext .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnPrevious
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnPrevious .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnPrevious .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnPrevious .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnPrevious .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnRefresh
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnRefresh .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnRefresh .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnRefresh .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnRefresh .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RBtnSelect
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RBtnSelect .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RBtnSelect .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RBtnSelect .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RBtnSelect .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.SpecialButtonsDisabled
+{
+	color: #531111;
+
+}
+
+.RSpecialButtonsDisabled
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RSpecialButtonsDisabled .BtnLeft
+{
+	background-image: url(Resources/btnLDisabled.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RSpecialButtonsDisabled .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnRDisabled.gif);
+	padding-right: 9px;
+}
+
+.RSpecialButtonsDisabled .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnCDisabled.gif);
+}
+
+.RSpecialButtonsDisabled .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #531111;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RButtonDragging
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RButtonDragging .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RButtonDragging .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RButtonDragging .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RButtonDragging .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RButtonAcceptDrag
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RButtonAcceptDrag .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RButtonAcceptDrag .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RButtonAcceptDrag .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RButtonAcceptDrag .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.RButtonNoAcceptDrag
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RButtonNoAcceptDrag .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RButtonNoAcceptDrag .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RButtonNoAcceptDrag .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RButtonNoAcceptDrag .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9D1F1F;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.ActionButtons
+{
+	color: Maroon;
+
+}
+
+.RActionButtons
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RActionButtons .BtnLeft
+{
+	background-image: url(Resources/btnL.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RActionButtons .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnR.gif);
+	padding-right: 9px;
+}
+
+.RActionButtons .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnC.gif);
+}
+
+.RActionButtons .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: Maroon;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.ButtonDisabled
+{
+	color: #531111;
+
+}
+
+.RButtonDisabled
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RButtonDisabled .BtnLeft
+{
+	background-image: url(Resources/btnLDisabled.gif);
+	padding-left: 9px;
+	cursor: pointer;
+}
+
+.RButtonDisabled .BtnRight
+{
+	cursor: pointer;
+	background-image: url(Resources/btnRDisabled.gif);
+	padding-right: 9px;
+}
+
+.RButtonDisabled .BtnBackground
+{
+	cursor: pointer;
+	background-image: url(Resources/btnCDisabled.gif);
+}
+
+.RButtonDisabled .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 19px;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 7.8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #531111;
+	text-indent: 0pt;
+	vertical-align: top;
+
+}
+
+
+.ErrorViewer
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: "Microsoft Sans Serif";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+
+}
+
+.Form
+{
+	margin-bottom: 0pt;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	background-image: none;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+	height: 100%;
+	color: #747474;
+
+}
+
+.FreeStyleGrid,.VerticalTabGrid
+{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.FreeStyleGridUniform
+{
+	background-color: #D3D4D3;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+
+}
+
+.FreeStyleGridOdd
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #FFFFFF;
+
+}
+
+.FreeStyleGridEven
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #D3D4D3;
+
+}
+
+.FreeStyleGridUniformTitle
+{
+	background-color: #D3D4D3;
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.FreeStyleGridTitle
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.VerticalTabGridUniform
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.VerticalTabGridOdd
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #FFFFFF;
+
+}
+
+.VerticalTabGridEven
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #D3D4D3;
+
+}
+
+.VerticalTabGridUniformTitle
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.VerticalTabGridTitle
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.Grid,.GridDragging,.GridAcceptDrag,.GridNoAcceptDrag,.WorkWith
+{
+	margin-bottom: 1pt;
+	margin-left: 1pt;
+	margin-right: 1pt;
+	margin-top: 1pt;
+	padding-bottom: 1pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 1pt;
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridUniform
+{
+	background-color: #D3D4D3;
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridOdd
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	background-color: #F0F0F0;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridEven
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	background-color: #E5E5E5;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridUniformTitle
+{
+	background-color: #D3D4D3;
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridTitle
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #9D1F1F;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridDraggingUniform
+{
+	background-color: #D3D4D3;
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridDraggingOdd
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	background-color: #F0F0F0;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridDraggingEven
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	background-color: #E5E5E5;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridDraggingUniformTitle
+{
+	background-color: #D3D4D3;
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridDraggingTitle
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #9D1F1F;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridAcceptDragUniform
+{
+	background-color: #D3D4D3;
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridAcceptDragOdd
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	background-color: #F0F0F0;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridAcceptDragEven
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	background-color: #E5E5E5;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridAcceptDragUniformTitle
+{
+	background-color: #D3D4D3;
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridAcceptDragTitle
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #9D1F1F;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridNoAcceptDragUniform
+{
+	background-color: #D3D4D3;
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridNoAcceptDragOdd
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	background-color: #F0F0F0;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridNoAcceptDragEven
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	background-color: #E5E5E5;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridNoAcceptDragUniformTitle
+{
+	background-color: #D3D4D3;
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.GridNoAcceptDragTitle
+{
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #9D1F1F;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.WorkWith
+{
+	margin-right: 20pt;
+	padding-left: 1pt;
+	border-bottom-color: rgb(219,236,252);
+	border-left-color: rgb(219,236,252);
+	border-right-color: rgb(219,236,252);
+	border-top-color: rgb(219,236,252);
+
+}
+
+.WorkWithUniform
+{
+	background-color: #D3D4D3;
+	border-bottom-color: rgb(219,236,252);
+	border-left-color: rgb(219,236,252);
+	border-right-color: rgb(219,236,252);
+	border-top-color: rgb(219,236,252);
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.WorkWithOdd
+{
+	border-bottom-color: rgb(219,236,252);
+	border-left-color: rgb(219,236,252);
+	border-right-color: rgb(219,236,252);
+	border-top-color: rgb(219,236,252);
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	background-color: #F0F0F0;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.WorkWithEven
+{
+	border-bottom-color: rgb(219,236,252);
+	border-left-color: rgb(219,236,252);
+	border-right-color: rgb(219,236,252);
+	border-top-color: rgb(219,236,252);
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 8.5pt;
+	font-style: normal;
+	background-color: #E5E5E5;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.WorkWithUniformTitle
+{
+	background-color: #D3D4D3;
+	border-bottom-color: rgb(219,236,252);
+	border-left-color: rgb(219,236,252);
+	border-right-color: rgb(219,236,252);
+	border-top-color: rgb(219,236,252);
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.WorkWithTitle
+{
+	border-bottom-color: rgb(219,236,252);
+	border-left-color: rgb(219,236,252);
+	border-right-color: rgb(219,236,252);
+	border-top-color: rgb(219,236,252);
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #9D1F1F;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 5px;
+
+}
+
+.Hyperlink
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: underline;
+
+}
+
+.Image,.ImageDragging,.ImageAcceptDrag,.ImageNoAcceptDrag,.PagingButtons,.PagingButtonsFirst,.PagingButtonsLast,.PagingButtonsNext,.PagingButtonsPrevious,.ImageHeaderBackground,.ImageTop,.HeaderImage1,.ImageTopHeader,.ImageHandCenter,.ImageHandCenter:hover,.TabPaging,.TabPagingNext,.TabPagingPrevious
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+
+
+
+.PagingButtons,.PagingButtonsFirst,.PagingButtonsLast,.PagingButtonsNext,.PagingButtonsPrevious
+{
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+
+}
+
+.PagingButtonsFirst
+{
+	background-image: url(Resources/PageFirst.gif);
+
+}
+
+.PagingButtonsLast
+{
+	background-image: url(Resources/PageLast.gif);
+
+}
+
+.PagingButtonsNext
+{
+	background-image: url(Resources/PageNext.gif);
+
+}
+
+.PagingButtonsPrevious
+{
+	background-image: url(Resources/PagePrevious.gif);
+
+}
+
+.ImageHeaderBackground
+{
+	background-repeat: no-repeat;
+	background-image: url(Resources/header_small1.gif);
+	height: 90px;
+	width: 390px;
+
+}
+
+.ImageTop
+{
+	background-color: White;
+	height: 10px;
+	width: 5px;
+
+}
+
+.HeaderImage1
+{
+	height: 80px;
+	width: 390px;
+	text-align: right;
+	vertical-align: top;
+
+}
+
+.ImageTopHeader
+{
+	height: 0px;
+	width: 0px;
+
+}
+
+.ImageHandCenter,.ImageHandCenter:hover
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	cursor: pointer;
+	vertical-align: middle;
+
+}
+
+
+
+
+
+.Messages,.ErrorMessages,.WarningMessages
+{
+	background-color: #F6E2C6;
+	border-bottom-color: #716F64;
+	border-left-color: #716F64;
+	border-right-color: #716F64;
+	border-top-color: #716F64;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #7D7D7D;
+
+}
+
+.ErrorMessages
+{
+	background-color: #D84523;
+	font-weight: bold;
+	color: #FFFFFF;
+
+}
+
+.WarningMessages
+{
+	background-color: #F6A849;
+	font-weight: bold;
+	color: #FFFFFF;
+
+}
+
+.Table,.TableDragging,.TableAcceptDrag,.TableNoAcceptDrag,.TableGrid,.TableTop,.TableContent,.Table100x100,.TableBorder,.TableLeftMenu,.TableTopMenu,.ViewTable,.HorizontalLine,.HorizontalSpace,.TableBottom,.RecentLinksTable,.Table80,.Table95
+{
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 9pt;
+	font-style: normal;
+
+}
+
+
+
+
+.TableGrid
+{
+	background-color: #E4E5E6;
+	border-bottom-color: #747474;
+	border-left-color: #747474;
+	border-right-color: #747474;
+	border-top-color: #747474;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 8pt;
+
+}
+
+.TableTop
+{
+	background-repeat: repeat-x;
+	list-style-image: none;
+	background-image: url(Resources/HeaderBackground.gif);
+	height: 80px;
+	width: 100%;
+
+}
+
+.TableContent
+{
+	padding-bottom: 10pt;
+	padding-left: 10pt;
+	padding-right: 10pt;
+	padding-top: 10pt;
+	color: #747474;
+	vertical-align: top;
+
+}
+
+.Table100x100,.TableBorder
+{
+	width: 100%;
+	vertical-align: top;
+
+}
+
+.TableBorder
+{
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	padding-bottom: 5pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 5pt;
+	border-bottom-color: #9D1F1F;
+	border-left-color: #9D1F1F;
+	border-right-color: #9D1F1F;
+	border-style: solid;
+
+}
+
+.TableLeftMenu
+{
+	background-color: #E4E5E6;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	width: 100%;
+	text-indent: 15pt;
+
+}
+
+.TableTopMenu
+{
+	padding-bottom: 3pt;
+	padding-left: 5pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	font-size: 8.25pt;
+	font-weight: bold;
+	color: #666666;
+	vertical-align: middle;
+
+}
+
+.ViewTable
+{
+	border-bottom: 1;
+	border-left: 1;
+	border-right: 1;
+	border-top: 1;
+	background-color: White;
+	border-bottom-color: Silver;
+	border-left-color: Silver;
+	border-right-color: Silver;
+	border-top-color: Silver;
+	border-width: 1px;
+	color: #404040;
+	width: 100%;
+
+}
+
+.HorizontalLine
+{
+	background-color: #9D1F1F;
+	height: 1px;
+	width: 100%;
+
+}
+
+.HorizontalSpace
+{
+	background-color: #FFFFFF;
+	height: 10px;
+	width: 100%;
+
+}
+
+.TableBottom
+{
+	background-color: #9D1F1F;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.RecentLinksTable
+{
+	padding-left: 5pt;
+	padding-right: 5pt;
+	background-color: WhiteSmoke;
+	border-bottom-color: #9D1F1F;
+	height: 15px;
+	width: 100%;
+
+}
+
+.Table80
+{
+	width: 80%;
+
+}
+
+.Table95
+{
+	width: 100%;
+
+}
+
+.TextBlock,.TextBlockDragging,.TextBlockAcceptDrag,.TextBlockNoAcceptDrag,.bullet,.subBullet,.TextTable,.TBTopMenu,.TBLeftMenu,.Title,.SubTitle,.Label,.SmallText,.TextBlockHeader,.SelectedTab,.UnSelectedTab,.RecentLink,.FieldSetTitle,.Separator
+{
+	padding-right: 3pt;
+	white-space: nowrap;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-decoration: none;
+	color: #747474;
+	ime-mode: auto;
+	vertical-align: middle;
+
+}
+
+
+
+
+.bullet,.subBullet
+{
+	text-indent: 5pt;
+
+}
+
+.subBullet
+{
+	text-indent: 10pt;
+
+}
+
+
+.TBTopMenu
+{
+	background-image: none;
+	font-family: "Verdana";
+	font-size: 8pt;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	text-indent: 3pt;
+
+}
+
+.TBLeftMenu
+{
+	background-color: rgb(219, 236, 252);
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+
+}
+
+.Title,.SubTitle
+{
+	font-size: 12pt;
+	font-weight: bold;
+	color: #333333;
+
+}
+
+.SubTitle
+{
+	background-repeat: repeat-x;
+	box-sizing: border-box;
+	clear: none;
+	padding-left: 22pt;
+	padding-top: 5pt;
+	-moz-box-sizing: border-box;
+	background-image: url(Resources/line_header.gif);
+	font-size: 10pt;
+	height: 29px;
+	color: #78797A;
+	width: 100%;
+
+}
+
+.Label
+{
+	font-weight: bold;
+
+}
+
+.SmallText
+{
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	color: DarkGray;
+	text-align: center;
+
+}
+
+.TextBlockHeader
+{
+	background-repeat: no-repeat;
+	list-style-image: none;
+	white-space: normal;
+	background-image: none;
+	font-family: Verdana, Arial;
+	font-size: 16pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #9D1F1F;
+
+}
+
+.SelectedTab
+{
+	padding-top: 2px;
+	display: block;
+	-moz-box-sizing: border-box;
+	background-color: White;
+	background-image: url(Resources/TabSelected.gif);
+	font-size: 8pt;
+	height: 20px;
+	vertical-align: bottom;
+
+}
+
+.UnSelectedTab
+{
+	box-sizing: border-box;
+	display: block;
+	-moz-box-sizing: border-box;
+	background-color: White;
+	background-image: url(Resources/TabUnselected.gif);
+	font-size: 8pt;
+	height: 20px;
+	vertical-align: bottom;
+
+}
+
+.RecentLink
+{
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	font-size: 8.25pt;
+	height: 20px;
+	color: #404040;
+	width: 5%;
+	text-align: left;
+
+}
+
+.FieldSetTitle
+{
+	font-size: 10pt;
+	font-weight: bold;
+	color: #9D1F1F;
+
+}
+
+.Separator
+{
+	box-sizing: border-box;
+	display: block;
+	-moz-box-sizing: border-box;
+	color: White;
+
+}
+
+.Section,.TabContainer
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.TabContainer
+{
+	background-image: url(Resources/TabLine.gif);
+	background-position: 0 3px;
+	background-repeat: repeat-x;
+	float: left;
+	width: 100%;
+
+}
+
+.Group,.GroupTitle
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.GroupTitle
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.GroupTitle
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #9D1F1F;
+	text-indent: 0px;
+
+}
+
+.GroupTitleTitle
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #9D1F1F;
+	text-indent: 0px;
+
+}
+
+.Calendar 
+{
+	background-color: #FFFFFF;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	display: none;
+	cursor: default;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px ;
+	font-style: normal;
+	font-variant: normal;
+	color: #7D7D7D;
+
+}
+
+.Calendar .CalendarButton 
+{
+	background-color: #E4E5E6;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+	text-align: center;
+
+}
+
+.Calendar .nav 
+{
+	background-color: #E4E5E6;
+	background-image: url(Resources/menuarrow.gif);
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+
+}
+
+.Calendar  TABLE
+{
+	background-color: #FFFFFF;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	cursor: default;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+	text-align: center;
+
+}
+
+.Calendar  TABLE.wn 
+{
+	background-color: #D3D4D3;
+	border-right: 1px solid #D3D4D3;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 3px;
+	padding-top: 2px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+
+}
+
+.Calendar  THEAD
+{
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+
+}
+
+.Calendar  THEAD.headrow 
+{
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+
+}
+
+.Calendar  THEAD.daynames 
+{
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #404040;
+
+}
+
+.Calendar  THEAD.name 
+{
+	background-color: #C00000;
+	border-bottom: 1px solid #E4E5E6;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+	text-align: center;
+
+}
+
+.Calendar  THEAD.weekend 
+{
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #D84523;
+
+}
+
+.Calendar  THEAD.hilite 
+{
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 2px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+
+}
+
+.Calendar  THEAD.active 
+{
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 0px;
+	padding-top: 2px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+
+}
+
+.Calendar  THEAD.CalendarTitle 
+{
+	background-color: #747474;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+
+
+.Calendar  TBODY.day 
+{
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 4px;
+	padding-top: 2px;
+	width: 2em;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+	text-align: center;
+
+}
+
+
+.Calendar  TBODY.rowhilite  TD
+{
+	background-color: #E4E5E6;
+	color: #333333;
+
+}
+
+.Calendar  TBODY.emptyrow 
+{
+	display: none;
+
+}
+
+.Calendar  TBODY.emptycell 
+{
+	visibility: hidden;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+
+}
+
+
+.Calendar  TBODY TD.hilite 
+{
+	border-bottom-color: #fff;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 3px;
+	padding-top: 1px;
+
+}
+
+.Calendar  TBODY TD.active 
+{
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+
+}
+
+.Calendar  TBODY TD.selected 
+{
+	background-color: ButtonFace;
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-weight: bold;
+	color: ButtonText;
+
+}
+
+.Calendar  TBODY TD.weekend 
+{
+	color: #f00;
+
+}
+
+.Calendar  TBODY TD.today 
+{
+	font-weight: bold;
+	color: #00f;
+
+}
+
+.Calendar  TBODY TD.disabled 
+{
+	color: GrayText;
+
+}
+
+.Calendar  TBODY TD.time 
+{
+	background-color: ButtonFace;
+	border-top: 1px solid ButtonShadow;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 1px;
+	text-align: center;
+
+}
+
+.Calendar  TBODY TD.time .hour 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+
+}
+
+.Calendar  TBODY TD.time .minute 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+
+}
+
+.Calendar  TBODY TD.time .ampm 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.Calendar  TBODY TD.time .colon 
+{
+	padding-bottom: 0px;
+	padding-left: 3px;
+	padding-right: 2px;
+	padding-top: 0px;
+	font-weight: bold;
+
+}
+
+
+.Calendar  TBODY TD.time  SPAN.hilite 
+{
+	background-color: Highlight;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #000;
+	color: HighlightText;
+
+}
+
+.Calendar  TBODY TD.time  SPAN.active 
+{
+	background-color: #000;
+	border-bottom-color: #f00;
+	border-left-color: #f00;
+	border-right-color: #f00;
+	border-top-color: #f00;
+	color: #0f0;
+
+}
+
+
+.Calendar  TFOOT.footrow 
+{
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: White;
+
+}
+
+.Calendar  TFOOT.ttip 
+{
+	background-color: #E4E5E6;
+	border-bottom-color: #fff;
+	border-left-color: #767676;
+	border-right-color: #fff;
+	border-top-color: #767676;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+	text-align: center;
+
+}
+
+.Calendar  TFOOT.hilite 
+{
+	background-color: #D3D4D3;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+
+}
+
+.Calendar  TFOOT.active 
+{
+	border-bottom-color: #fff;
+	border-left-color: #000;
+	border-right-color: #fff;
+	border-top-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 0px;
+	padding-top: 2px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+
+}
+
+.CalendarCombo 
+{
+	background-color: #FFFFFF;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	left: 0px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	position: absolute;
+	top: 0px;
+	width: 4em;
+	display: none;
+	cursor: default;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+
+}
+
+.CalendarCombo .label 
+{
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+	text-align: center;
+
+}
+
+.CalendarCombo .label-IEfix 
+{
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	width: 4em;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+	text-align: center;
+
+}
+
+.CalendarCombo .active 
+{
+	border-bottom-color: #969696;
+	border-left-color: #969696;
+	border-right-color: #969696;
+	border-top-color: #969696;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+
+}
+
+.CalendarCombo .hilite 
+{
+	background-color: #969696;
+	border-bottom-color: #D3D4D3;
+	border-left-color: #D3D4D3;
+	border-right-color: #D3D4D3;
+	border-top-color: #D3D4D3;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+
+}
+
+
+DIV.suggestions 
+{
+	background-color: White;
+	border-bottom-color: Black;
+	border-left-color: Black;
+	border-right-color: Black;
+	border-top-color: Black;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	position: absolute;
+	-moz-box-sizing: border-box;
+	font-family: Arial, Verdana;
+	font-size: 9px;
+
+}
+
+DIV.suggestions  DIV
+{
+	padding-bottom: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	cursor: default;
+	font-family: Arial, Verdana;
+	font-size: 9px;
+
+}
+
+DIV.suggestions  DIV.current 
+{
+	background-color: rgb(176,196,222);
+	font-family: Arial, Verdana;
+	font-size: 9px;
+	color: White;
+
+}
+
+
+.dojoDialog 
+{
+	background-color: #eee;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	border-right-color: #999;
+	border-top-color: #999;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+
+}
+
+#gx_ajax_notification
+{
+	height: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 5px;
+	position: absolute;
+	top: 21px;
+	z-index: 999;
+	width: 100%;
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.PopupHeader 
+{
+	background-image: url(Resources/popupheader.gif);
+	float: left;
+	width: 100%;
+	cursor: move;
+	font-family: Verdana, Arial;
+	font-size: 9pt;
+	font-weight: bold;
+	color: White;
+	text-indent: 3px;
+	vertical-align: bottom;
+	width:100% !important;
+	 top:0px !important;
+	 left:0px !important;
+
+}
+
+.PopupHeaderButton 
+{
+	background-image: url(Resources/ClosePrompt.gif);
+	background-position: right;
+	float: right;
+	height: 16px;
+	margin-right: 2px;
+	margin-top: 2px;
+	width: 16px;
+	cursor: pointer;
+	text-align: right;
+
+}
+
+
+.PopupContent  IFRAME
+{
+	border-width: 0px;
+
+}
+
+.RowDeleted 
+{
+	text-decoration: line-through;
+
+}
+
+.UnSelectedTab 
+{
+	background-image: url(Resources/TabUnselected.gif);
+	font-family: Arial;
+	font-size: 8pt;
+
+}
+
+.UnSelectedTab  A
+{
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: bottom;
+
+}
+
+.td5 
+{
+	width: 5%;
+
+}
+
+.td100 
+{
+	width: 100%;
+
+}
+
+.PopupBorder 
+{
+	background-color: White;
+	border-bottom-color: #F77984;
+	border-left-color: #F77984;
+	border-right-color: #F77984;
+	border-top-color: #F77984;
+	border-style: solid;
+	border-width: 1px;
+
+}
+
+.PopupShadow 
+{
+	background-color: #404040;
+
+}
+
+.HRDefault 
+{
+	background-color: #9D1F1F;
+	border-width: 0px;
+	height: 2px;
+	color: #9D1F1F;
+
+}
+
+DIV.suggestions
+{
+	background-color: #FFFFFF;
+	border-bottom-color: #969696;
+	border-left-color: #969696;
+	border-right-color: #969696;
+	border-top-color: #969696;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	position: absolute;
+	-moz-box-sizing: border-box;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+
+}
+
+DIV.suggestions DIV
+{
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	cursor: default;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+
+}
+
+DIV.suggestions DIV.current
+{
+	background-color: #D3D4D3;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+
+}
+
+UL.Tabs
+{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+
+}
+
+UL.Tabs LI.Tab
+{
+	float: left;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+
+}
+
+UL.Tabs LI.Tab A
+{
+	display: block;
+	text-decoration: none;
+
+}
+
+UL.Tabs LI.Tab A.TabFirst
+{
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(Resources/TabBeginUnselected.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	padding-left: 11px;
+
+}
+
+UL.Tabs LI.Tab A.TabLeft
+{
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: none;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	margin-left: -7px;
+	padding-left: 7px;
+
+}
+
+UL.Tabs LI.Tab SPAN
+{
+	display: block;
+
+}
+
+UL.Tabs LI.Tab SPAN.TabBackground
+{
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(Resources/TabUnselected.gif);
+	background-repeat: repeat-x;
+	overflow: hidden;
+
+}
+
+UL.Tabs LI.Tab SPAN.TabLast
+{
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(Resources/TabEndUnselected.gif);
+	background-position: right 0;
+	background-repeat: no-repeat;
+	padding-right: 18px;
+
+}
+
+UL.Tabs LI.Tab SPAN.TabRight
+{
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(Resources/TabUnselectedUnselected.gif);
+	background-position: right 0;
+	background-repeat: no-repeat;
+	padding-right: 23px;
+
+}
+
+UL.Tabs LI.Tab SPAN.TabText
+{
+	padding-bottom: 3px;
+	padding-top: 4px;
+	white-space: nowrap;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-weight: bold;
+
+}
+
+UL.Tabs LI.TabSelected
+{
+	position: relative;
+
+}
+
+UL.Tabs LI.TabSelected A
+{
+	float: left;
+	position: relative;
+
+}
+
+UL.Tabs LI.TabSelected A.TabFirst
+{
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(Resources/TabBeginSelected.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	padding-left: 12px;
+
+}
+
+UL.Tabs LI.TabSelected A.TabLeft
+{
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(Resources/TabUnselectedSelected.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	margin-left: -23px;
+	padding-left: 23px;
+
+}
+
+UL.Tabs LI.TabSelected SPAN
+{
+	float: left;
+	position: relative;
+
+}
+
+UL.Tabs LI.TabSelected SPAN.TabBackground
+{
+	background-color: transparent;
+	background-image: url(Resources/TabSelected.gif);
+
+}
+
+UL.Tabs LI.TabSelected SPAN.TabLast
+{
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(Resources/TabEndSelected.gif);
+	background-position: right 0;
+	background-repeat: no-repeat;
+	padding-right: 19px;
+
+}
+
+UL.Tabs LI.TabSelected SPAN.TabRight
+{
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(Resources/TabSelectedUnselected.gif);
+	background-position: right 0;
+	background-repeat: no-repeat;
+	margin-right: 0px;
+	padding-right: 23px;
+
+}
+
+UL.Tabs LI.TabSelected SPAN.TabText
+{
+	font-family: Verdana, Arial;
+	font-weight: normal;
+	color: #747474;
+
+}
+
+HTML
+{
+	height: 100%;
+
+}
+
+BODY
+{
+	height: 100%;
+
+}
+

@@ -1,0 +1,15 @@
+current_obj_i(2,proc,1).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gettabimage,[],[],[],1).
+ 
+ 
+obj_parms_i([ 'bool aP0_IsFirstTab','bool aP1_IsSelected','bool aP2_IsBeforeTabSelected','bool aP3_IsLastTab','String aP4_Bitmap' ],[ [ 'Isfirsttab',in ],[ 'Isselected',in ],[ 'Isbeforetabselected',in ],[ 'Islasttab',in ],[ 'Bitmap',out ] ]).
+ 
+ 
+ 

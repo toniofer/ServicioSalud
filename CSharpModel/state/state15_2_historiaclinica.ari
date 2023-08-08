@@ -1,0 +1,24 @@
+current_obj_i(2,trn,10).
+ 
+called_tree_i(0,10,1,2).
+called_tree_i(0,10,1,4).
+called_tree_i(0,10,13,1).
+called_tree_i(0,10,13,4).
+called_tree_i(0,10,13,21).
+called_tree_i(0,10,13,23).
+called_tree_i(0,10,13,28).
+called_tree_i(0,10,13,30).
+called_tree_i(0,10,13,37).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(historiaclinica,[],[],[],10).
+ 
+ 
+obj_parms_i([ 'String aP0_Gx_mode','DateTime aP1_ConsultaFecha','int aP2_PacienteId','int aP3_MedicoId','short aP4_TurnoId' ],[ [ 'Mode',in ],[ 'Consultafecha',in ],[ 'Pacienteid',in ],[ 'Medicoid',in ],[ 'Turnoid',in ] ]).
+ 
+ 
+ 

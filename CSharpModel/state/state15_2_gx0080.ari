@@ -1,0 +1,16 @@
+current_obj_i(2,web,30).
+ 
+called_tree_i(13,30,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx0080,[],[],[],30).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_pConsultaFecha','int aP1_pPacienteId','int aP2_pMedicoId','short aP3_pTurnoId' ],[ [ 'Pconsultafecha',inout ],[ 'Ppacienteid',inout ],[ 'Pmedicoid',inout ],[ 'Pturnoid',inout ] ]).
+ 
+ 
+ 

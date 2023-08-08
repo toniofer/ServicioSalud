@@ -1,0 +1,263 @@
+
+<ReorgSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Table>
+<TableId>8</TableId>
+<TableName>ConsultaPaciente</TableName>
+<Description>Consulta Paciente</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>new</ReorgCode>
+<ReorgMsg>ConsultaPaciente is new</ReorgMsg>
+<ReorgAction>*</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description>
+<TakesValueFrom></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>D</DataType>
+<Presicion>8</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description>
+<TakesValueFrom></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>6</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description>
+<TakesValueFrom></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>6</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description>
+<TakesValueFrom></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>2</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>63</AttriId>
+<AttriName>ConsultaNro</AttriName>
+<Description>Consulta Nro</Description>
+<TakesValueFrom></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>2</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>75</AttriId>
+<AttriName>Confirmado</AttriName>
+<Description>Confirmado</Description>
+<TakesValueFrom></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>68</AttriId>
+<AttriName>MotivoConsulta</AttriName>
+<Description>Motivo Consulta</Description>
+<TakesValueFrom></TakesValueFrom>
+<AttriType>
+<DataType>L</DataType>
+<Presicion>2097152</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>69</AttriId>
+<AttriName>AnotacionesConsulta</AttriName>
+<Description>Anotaciones Consulta</Description>
+<TakesValueFrom></TakesValueFrom>
+<AttriType>
+<DataType>L</DataType>
+<Presicion>2097152</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>ICONSULTAPACIENTE</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index>
+<Index>
+<IndexName>ICONSULTAPACIENTE1</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index>
+<Index>
+<IndexName>ICONSULTAPACIENTE2</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></Indices></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>5</TableId>
+<TableName>Consulta</TableName>
+<Description>Consulta</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>CREATE TABLE [ConsultaPaciente] ([ConsultaFecha] datetime NOT NULL , [PacienteId] int NOT NULL , [MedicoId] int NOT NULL , [TurnoId] smallint NOT NULL , [ConsultaNro] smallint NULL , [Confirmado] BIT NOT NULL , [MotivoConsulta] varchar(MAX) NULL , [AnotacionesConsulta] varchar(MAX) NULL , PRIMARY KEY([ConsultaFecha], [PacienteId], [MedicoId], [TurnoId])) </Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ICONSULTAPACIENTE1] ON [ConsultaPaciente] ([ConsultaFecha] ,[MedicoId] ,[TurnoId] )</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ICONSULTAPACIENTE2] ON [ConsultaPaciente] ([PacienteId] )</Statement>
+<Statement>ALTER TABLE [ConsultaPaciente] ADD CONSTRAINT [ICONSULTAPACIENTE2] FOREIGN KEY ([PacienteId]) REFERENCES [Paciente] ([PacienteId])</Statement>
+<Statement>ALTER TABLE [ConsultaPaciente] ADD CONSTRAINT [ICONSULTAPACIENTE1] FOREIGN KEY ([ConsultaFecha], [MedicoId], [TurnoId]) REFERENCES [Consulta] ([ConsultaFecha], [MedicoId], [TurnoId])</Statement></Statements>
+<NeedReorganizationProgram>False</NeedReorganizationProgram>
+<Warnings></Warnings>
+<Errors></Errors></ReorgSpec>

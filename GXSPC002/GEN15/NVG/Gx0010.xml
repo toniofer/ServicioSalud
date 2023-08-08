@@ -1,0 +1,136 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>23</ObjId>
+<ObjName>Gx0010</ObjName>
+<ObjDesc>Selection List Médico</ObjDesc>
+<ObjPgmName>Gx0010</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Pmedicoid</VarId>
+<VarName>&amp;pMedicoId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IMEDICO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cmedicoid</VarId>
+<VarName>&amp;cMedicoId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>MedicoNombre</AttriName>
+<Description>Medico Nombre</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cmediconombre</VarId>
+<VarName>&amp;cMedicoNombre</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>MedicoApellido</AttriName>
+<Description>Medico Apellido</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cmedicoapellido</VarId>
+<VarName>&amp;cMedicoApellido</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>MedicoDomicilio</AttriName>
+<Description>Medico Domicilio</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cmedicodomicilio</VarId>
+<VarName>&amp;cMedicoDomicilio</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>MedicoTelefono</AttriName>
+<Description>Medico Telefono</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cmedicotelefono</VarId>
+<VarName>&amp;cMedicoTelefono</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>MedicoFechaIngreso</AttriName>
+<Description>Medico Fecha Ingreso</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cmedicofechaingreso</VarId>
+<VarName>&amp;cMedicoFechaIngreso</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

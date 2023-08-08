@@ -1,0 +1,17 @@
+current_obj_i(2,web,26).
+ 
+called_tree_i(13,26,33,4).
+called_tree_i(13,26,13,1).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(wpestadisticas,[],[],[],26).
+ 
+ 
+obj_parms_i([],[]).
+ 
+ 
+ 

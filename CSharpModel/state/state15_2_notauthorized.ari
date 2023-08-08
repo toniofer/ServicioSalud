@@ -1,0 +1,17 @@
+current_obj_i(2,web,4).
+ 
+called_tree_i(13,4,13,1).
+called_tree_i(13,4,13,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(notauthorized,[],[],[],4).
+ 
+ 
+obj_parms_i([ 'String aP0_GxObject' ],[ [ 'Gxobject',in ] ]).
+ 
+ 
+ 

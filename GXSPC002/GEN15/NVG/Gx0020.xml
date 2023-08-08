@@ -1,0 +1,103 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>32</ObjId>
+<ObjName>Gx0020</ObjName>
+<ObjDesc>Selection List Especialidad</ObjDesc>
+<ObjPgmName>Gx0020</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Pespecialidadid</VarId>
+<VarName>&amp;pEspecialidadId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>Especialidad</TableName>
+<Description>Especialidad</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IESPECIALIDAD</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cespecialidadid</VarId>
+<VarName>&amp;cEspecialidadId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>EspecialidadDescripcion</AttriName>
+<Description>Especialidad Descripcion</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cespecialidaddescripcion</VarId>
+<VarName>&amp;cEspecialidadDescripcion</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>EspecialidadMaxPacientes</AttriName>
+<Description>Especialidad Max Pacientes</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cespecialidadmaxpacientes</VarId>
+<VarName>&amp;cEspecialidadMaxPacientes</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>Especialidad</TableName>
+<Description>Especialidad</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

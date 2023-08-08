@@ -1,0 +1,185 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>33</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>DPEstadisticas</ObjName>
+<ObjDesc>DPEstadisticas</ObjDesc>
+<ObjPgmName>DPEstadisticas</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Fechadesde</VarId>
+<VarName>&amp;FechaDesde</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Fechahasta</VarId>
+<VarName>&amp;FechaHasta</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Token>EstadisticasSDT</Token></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>8</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>Especialidad</TableName>
+<Description>Especialidad</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IESPECIALIDAD</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>Especialidad</TableName>
+<Description>Especialidad</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>13</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IMEDICO1</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>@EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>@EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>1</TableId>
+<TableName>count( CantPacConf ) , sum( CantPacConf )  navigation</TableName>
+<Description>Médico</Description>
+<RecordsToRead>one</RecordsToRead>
+<JoinType>Outer</JoinType>
+<Tables>
+<Table>
+<TableId>5</TableId>
+<TableName>Consulta</TableName>
+<Description>Consulta</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>5</TableId>
+<TableName>CantPacConf navigation</TableName>
+<Description>Consulta</Description>
+<RecordsToRead>one</RecordsToRead>
+<JoinType>Outer</JoinType>
+<Tables>
+<Table>
+<TableId>8</TableId>
+<TableName>ConsultaPaciente</TableName>
+<Description>Consulta Paciente</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>ConsultaFecha</AttriName>
+<Description>Consulta Fecha</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TurnoId</AttriName>
+<Description>Turno Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

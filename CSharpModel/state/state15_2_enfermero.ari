@@ -1,0 +1,20 @@
+current_obj_i(2,trn,3).
+ 
+called_tree_i(0,3,1,2).
+called_tree_i(0,3,1,4).
+called_tree_i(0,3,13,1).
+called_tree_i(0,3,13,4).
+called_tree_i(0,3,13,8).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(enfermero,[],[],[],3).
+ 
+ 
+obj_parms_i([ 'String aP0_Gx_mode','int aP1_EnfermeroId' ],[ [ 'Mode',in ],[ 'Enfermeroid',in ] ]).
+ 
+ 
+ 

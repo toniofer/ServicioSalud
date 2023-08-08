@@ -1,0 +1,265 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>Medico</ObjName>
+<ObjDesc>Médico</ObjDesc>
+<ObjPgmName>Medico</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>1</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>2</TableId>
+<TableName>Especialidad</TableName>
+<Description>Especialidad</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>3</TableId>
+<TableName>Enfermero</TableName>
+<Description>Enfermero</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>EnfermeroTitularId</AttriName>
+<Description>Enfermero Titular Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>3</TableId>
+<TableName>Enfermero</TableName>
+<Description>Enfermero</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>EnfermeroSuplenteId</AttriName>
+<Description>Enfermero Suplente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>MedicoNombre</AttriName>
+<Description>Medico Nombre</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>MedicoApellido</AttriName>
+<Description>Medico Apellido</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>MedicoDomicilio</AttriName>
+<Description>Medico Domicilio</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>MedicoTelefono</AttriName>
+<Description>Medico Telefono</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>MedicoEstadoCivil</AttriName>
+<Description>Medico Estado Civil</Description></Attribute>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>MedicoFechaIngreso</AttriName>
+<Description>Medico Fecha Ingreso</Description></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>EnfermeroTitularId</AttriName>
+<Description>Enfermero Titular Id</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>EnfermeroSuplenteId</AttriName>
+<Description>Enfermero Suplente Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>MedicoNombre</AttriName>
+<Description>Medico Nombre</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>MedicoApellido</AttriName>
+<Description>Medico Apellido</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>MedicoDomicilio</AttriName>
+<Description>Medico Domicilio</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>MedicoTelefono</AttriName>
+<Description>Medico Telefono</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>MedicoEstadoCivil</AttriName>
+<Description>Medico Estado Civil</Description></Attribute>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>MedicoFechaIngreso</AttriName>
+<Description>Medico Fecha Ingreso</Description></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>EnfermeroTitularId</AttriName>
+<Description>Enfermero Titular Id</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>EnfermeroSuplenteId</AttriName>
+<Description>Enfermero Suplente Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>5</TableId>
+<TableName>Consulta</TableName>
+<Description>Consulta</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>3</TableId>
+<TableName>Enfermero</TableName>
+<Description>Enfermero</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>20</ObjId>
+<ObjName>Gx0030</ObjName>
+<ObjPgmName>Gx0030</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>EnfermeroSuplenteId</AttriName>
+<Description>Enfermero Suplente Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>3</TableId>
+<TableName>Enfermero</TableName>
+<Description>Enfermero</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>20</ObjId>
+<ObjName>Gx0030</ObjName>
+<ObjPgmName>Gx0030</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>EnfermeroTitularId</AttriName>
+<Description>Enfermero Titular Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>2</TableId>
+<TableName>Especialidad</TableName>
+<Description>Especialidad</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>32</ObjId>
+<ObjName>Gx0020</ObjName>
+<ObjPgmName>Gx0020</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>EspecialidadId</AttriName>
+<Description>Especialidad Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>23</ObjId>
+<ObjName>Gx0010</ObjName>
+<ObjPgmName>Gx0010</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>MedicoId</AttriName>
+<Description>Medico Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

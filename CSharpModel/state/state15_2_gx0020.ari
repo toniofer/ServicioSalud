@@ -1,0 +1,16 @@
+current_obj_i(2,web,32).
+ 
+called_tree_i(13,32,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx0020,[],[],[],32).
+ 
+ 
+obj_parms_i([ 'int aP0_pEspecialidadId' ],[ [ 'Pespecialidadid',inout ] ]).
+ 
+ 
+ 

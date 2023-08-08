@@ -1,0 +1,849 @@
+spec_i([ trn,8,'Consulta Paciente','ConsultaPaciente_BC',[],spa,'10_1_3-34981' ]).
+ 
+struct_i(8,0,[ 'Context' ],[]).
+ 
+level_i(8,[ 8,[ [ 8,many ],[ 5,one ],[ 4,one ],[ 1,one ],[ 2,one ],[ 7,one ] ],[ 43,34,12,60 ],[],[],[],[ 43,34,12,60 ],'ICONSULTAPACIENTE',[ 8,[] ],[] ]).
+ 
+tw_i(8,[ [ 5,[ [ 8,43,43 ],[ 8,12,12 ],[ 8,60,60 ] ] ],[ 4,[ [ 8,34,34 ] ] ],[ 1,[ [ 8,12,12 ] ] ],[ 2,[ [ 1,9,9 ] ] ],[ 7,[ [ 8,60,60 ] ] ] ]).
+ 
+lwi_i(8,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(8,[ [ [ 1,9 ],[ 5,67 ],[ 8,63 ],[ 4,36 ],[ 4,35 ],[ 4,41 ],[ 1,14 ],[ 1,13 ],[ 2,11 ],[ 7,61 ],[ 8,75 ],[ 8,43 ],[ 8,12 ],[ 8,60 ],[ 8,34 ] ] ]).
+ 
+las_i(8,[ [ 9,'Context',43,34,12,60,67,63,'GxBScreen','Today',36,35,41,14,13,11,61,75 ] ]).
+ 
+lac_i(8,[ [ 43,34,12,60,75 ] ]).
+ 
+ 
+ 
+cls_i([ 25,80 ],[ 0,0 ]).
+ 
+ 
+ 
+default_i(e(43,4,3,[ t('Today',23) ])).
+default_i(e('Today',2,2,'''today''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SEARCH_VIEWER',o(13,'ViewConsultaPaciente'))).
+rule_i(0,prop('SEARCHABLE','UMPV')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('AUTOENTER','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('BEEPONERROR','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WBCHAR','')).
+rule_i(0,prop('WBATTR',none)).
+rule_i(0,prop('WBCOLOR',none)).
+rule_i(0,prop('WNDPOP','NO')).
+rule_i(0,prop('OKBUT','YES')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('AUTOSCROLL_FORM','UMPV')).
+rule_i(0,prop('SHOW_FRM','UMPV')).
+rule_i(0,prop('MODAL','PARM')).
+rule_i(0,prop('CTRBOX','YES')).
+rule_i(0,prop('ICON','')).
+rule_i(0,prop('S_TASK','YES')).
+rule_i(0,prop('MINBUT','YES')).
+rule_i(0,prop('MAXBUT','YES')).
+rule_i(0,prop('BORSTY','2')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'AppMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('ExternalNamespace',taller041)).
+rule_i(0,prop('ExternalName','ConsultaPaciente')).
+rule_i(0,prop(idISBCWEBSERVICE,'0')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(idISBUSINESSCOMPONENT,'-1')).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Consulta Paciente')).
+rule_i(0,prop('ObjName','ConsultaPaciente')).
+rule_i(0,rule([ a(22,[ 'Dlt','"Eliminar"','' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,macro(63,serial(67,[ t('1',3) ]))).
+rule_i(8,rule([ a(1,msg([ t('"Campo Consulta Fecha fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(43,2),t(')',4),t('.OR.',9),t(43,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ],[ insert,update ],[ 43 ])).
+rule_i(8,rule([ a(3,[ t(63,2) ]) ],[],[ insert,update,delete ],[ 63 ])).
+rule_i(8,rule([ a(19,[ [ 43,12,60 ],msg([ t('"No existe ''Consulta''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 43,12,60 ])).
+rule_i(8,rule([ a(19,[ [ 34 ],msg([ t('"No existe ''Paciente''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 34 ])).
+rule_i(8,rule([ a(19,[ [ 12 ],msg([ t('"No existe ''Médico''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 12 ])).
+rule_i(8,rule([ a(19,[ [ 9 ],msg([ t('"No existe ''Especialidad''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 9 ])).
+rule_i(8,rule([ a(19,[ [ 60 ],msg([ t('"No existe ''Turno''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 60 ])).
+ 
+a_i(1,8,b,0,[],[ [],[ a(1,msg([ t('"Campo Consulta Fecha fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(43,2),t(')',4),t('.OR.',9),t(43,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ] ]).
+a_i(2,8,f,67,[],[ [ insert ],[ t('old(',1),t(67,2),t(')',4),t(+,5),t('1',3),t('IF',17),t(insert,1),t(';',18) ] ]).
+a_i(3,8,f,63,[],[ [ insert ],[ t(67,2),t('IF',17),t(insert,1),t(';',18) ] ]).
+a_i(4,8,f,43,[],[ [ insert ],[ t('Today',23),t('IF',17),t(insert,1),t('AND',9),t('null1(',1),t(43,2),t(')',4),t('AND',9),t('GxBScreen',23),t(=,10),t(0,3),t(';',18) ] ]).
+a_i(5,8,t,8,[],[ [ [ [],43,43 ],[ [],34,34 ],[ [],12,12 ],[ [],60,60 ] ],'ICONSULTAPACIENTE',[] ]).
+a_i(6,8,r,1,[],[ [ [ 8,12,12 ] ],'IMEDICO',[] ]).
+a_i(7,8,r,7,[],[ [ [ 8,60,60 ] ],'ITURNO',[] ]).
+a_i(8,8,r,5,[],[ [ [ 8,43,43 ],[ 8,12,12 ],[ 8,60,60 ] ],'ICONSULTA',[] ]).
+a_i(9,8,r,4,[],[ [ [ 8,34,34 ] ],'IPACIENTE',[] ]).
+a_i(10,8,r,2,[],[ [ [ 1,9,9 ] ],'IESPECIALIDAD',[] ]).
+a_i(11,8,f,'GxBScreen',[],[ [],[ t('0',3) ] ]).
+a_i(12,8,f,'Today',[],[ [],[ t('today(',1),t(')',4) ] ]).
+ 
+v_i(b,i,1,43).
+v_i(b,o,1,[]).
+v_i(f,i,2,67).
+v_i(f,o,2,67).
+v_i(f,i,3,67).
+v_i(f,o,3,63).
+v_i(f,i,4,'Today').
+v_i(f,i,4,'GxBScreen').
+v_i(f,o,4,43).
+v_i(t,i,5,43).
+v_i(t,i,5,34).
+v_i(t,i,5,12).
+v_i(t,i,5,60).
+v_i(t,o,5,63).
+v_i(t,o,5,75).
+v_i(r,i,6,12).
+v_i(r,o,6,9).
+v_i(r,o,6,14).
+v_i(r,o,6,13).
+v_i(r,i,7,60).
+v_i(r,o,7,61).
+v_i(r,i,8,43).
+v_i(r,i,8,12).
+v_i(r,i,8,60).
+v_i(r,o,8,67).
+v_i(r,i,9,34).
+v_i(r,o,9,36).
+v_i(r,o,9,35).
+v_i(r,o,9,41).
+v_i(r,i,10,9).
+v_i(r,o,10,11).
+v_i(f,i,11,[]).
+v_i(f,o,11,'GxBScreen').
+v_i(f,i,12,[]).
+v_i(f,o,12,'Today').
+ 
+ca_i(3,63).
+ca_i(2,67).
+ 
+ 
+ 
+ 
+attri_i(69,[ 'AnotacionesConsulta',vchar,2097152,0,'',0,'Anotaciones Consulta','',0 ]).
+attri_i(68,[ 'MotivoConsulta',vchar,2097152,0,'',0,'Motivo Consulta','',0 ]).
+attri_i(75,[ 'Confirmado',boolean,4,0,'',0,'Confirmado','',0 ]).
+attri_i(61,[ 'TurnoNombre',char,20,0,'',0,'Turno Nombre','',0 ]).
+attri_i(11,[ 'EspecialidadMaxPacientes',int,3,0,'ZZ9',0,'Especialidad Max Pacientes','',0 ]).
+attri_i(13,[ 'MedicoNombre',char,20,0,'',0,'Medico Nombre','',0 ]).
+attri_i(14,[ 'MedicoApellido',char,20,0,'',0,'Medico Apellido','',0 ]).
+attri_i(41,[ 'PacienteCI',char,8,0,'',0,'Paciente CI','',0 ]).
+attri_i(35,[ 'PacienteNombre',char,20,0,'',0,'Paciente Nombre','',0 ]).
+attri_i(36,[ 'PacienteApellido',char,20,0,'',0,'Paciente Apellido','',0 ]).
+attri_i(63,[ 'ConsultaNro',int,2,0,'Z9',0,'Consulta Nro','',0 ]).
+attri_i(67,[ 'UltimoNroAsig',int,2,0,'Z9',0,'Ultimo Nro Asig','',0 ]).
+attri_i(60,[ 'TurnoId',int,2,0,'Z9',0,'Turno Id','',0 ]).
+attri_i(12,[ 'MedicoId',int,6,0,'ZZZZZ9',0,'Medico Id','',0 ]).
+attri_i(34,[ 'PacienteId',int,6,0,'ZZZZZ9',0,'Paciente Id','',0 ]).
+attri_i(43,[ 'ConsultaFecha',date,8,0,'99/99/99',0,'Consulta Fecha','',0 ]).
+attri_i(9,[ 'EspecialidadId',int,6,0,'ZZZZZ9',0,'Especialidad Id','',0 ]).
+attri_i('GxBScreen',[ 'Gx_BScreen',int,1,0,'',0,'','',16 ]).
+attri_i('Today',[ 'Gx_date',date,8,0,'99/99/99',1,'','',15 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Turnoid',[ 'TurnoId',int,2,0,'Z9',0,'Turno Id','',14 ]).
+attri_i('Medicoid',[ 'MedicoId',int,6,0,'ZZZZZ9',0,'Medico Id','',13 ]).
+attri_i('Pacienteid',[ 'PacienteId',int,6,0,'ZZZZZ9',0,'Paciente Id','',12 ]).
+attri_i('Consultafecha',[ 'ConsultaFecha',date,8,0,'99/99/99',0,'Consulta Fecha','',11 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,'Web Session','',10 ]).
+attri_i('Trncontext',[ 'TrnContext',o('TransactionContext'),0,0,'',0,'Trn Context','',9 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',8 ]).
+attri_i('Context',[ 'Context',o('Context'),0,0,'',0,'Context','',7 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(7,[ 'Turno',[ 60,61 ],'Turno','Turno' ]).
+table_i(2,[ 'Especialidad',[ 9,11 ],'Especialidad','Especialidad' ]).
+table_i(4,[ 'Paciente',[ 34,36,35,41 ],'Paciente','Paciente' ]).
+table_i(8,[ 'ConsultaPaciente',[ 43,34,12,60,63,75,68,69 ],'Consulta Paciente','ConsultaPaciente' ]).
+table_i(5,[ 'Consulta',[ 43,12,60,67 ],'Consulta','Consulta' ]).
+table_i(1,[ 'Medico',[ 12,13,14,9 ],'Médico','Medico' ]).
+ 
+index_i(8,[ 'ICONSULTAPACIENTE',u,[ 43,34,12,60 ],'IConsultaPaciente' ]).
+index_i(5,[ 'ICONSULTA',u,[ 43,12,60 ],'IConsulta' ]).
+index_i(4,[ 'IPACIENTE',u,[ 34 ],'IPaciente' ]).
+index_i(1,[ 'IMEDICO',u,[ 12 ],'IMedico' ]).
+index_i(2,[ 'IESPECIALIDAD',u,[ 9 ],'IEspecialidad' ]).
+index_i(7,[ 'ITURNO',u,[ 60 ],'ITurno' ]).
+ 
+ 
+ 
+function_i(8,67,no,old,'old(',[ 67 ],0,67,[ 2 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(8,8,i,[ [ 63,75,43,12,60,34 ],[],'ICONSULTAPACIENTE',[ [ [],43,43 ],[ [],34,34 ],[ [],12,12 ],[ [],60,60 ] ] ]).
+upd_i(8,8,u,[ [ 63,75 ],[],'ICONSULTAPACIENTE',[] ]).
+upd_i(8,8,d,[ [],[],'ICONSULTAPACIENTE',[] ]).
+upd_i(8,5,u,[ [ 67 ],[],'ICONSULTA',[ [ 8,43,43 ],[ 8,12,12 ],[ 8,60,60 ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(2,38,15).
+enumerated_i(2,17,15).
+ 
+enum_value_i(2,15,'"S"','Soltero','"Soltero"').
+enum_value_i(2,15,'"C"','Casado','"Casado"').
+enum_value_i(2,15,'"V"','Viudo','"Viudo"').
+enum_value_i(2,15,'"D"','Divorciado','"Divorciado"').
+ 
+enum_value_info_i(2,15,'EstadoCivil').
+ 
+enum_type_i(2,15,char,1,0).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,15).
+b_group_i(2,3,lit,0,16,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(13,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(15,2,2,cmd,1,[ t('',146,1,0),t('After Trn',3,15,7) ]).
+b_line_i(26,2,3,cmd,1,[ t('',147,1,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,43,'HORIZONTAL_DESCRIPTION','Consulta Fecha',d).
+att_prop_i(2,43,'ExternalName','ConsultaFecha',d).
+att_prop_i(2,43,'ExternalNamespace',taller041,d).
+att_prop_i(2,43,'EmptyAsNull','Yes',d).
+att_prop_i(2,43,'AttRegEx','',d).
+att_prop_i(2,43,'AttValidationFailedMsg','',d).
+att_prop_i(2,43,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,43,'FullName','ConsultaFecha',v).
+att_prop_i(2,34,'HORIZONTAL_DESCRIPTION','Paciente Id',d).
+att_prop_i(2,34,'ExternalName','PacienteId',d).
+att_prop_i(2,34,'ExternalNamespace',taller041,d).
+att_prop_i(2,34,'EmptyAsNull','Yes',d).
+att_prop_i(2,34,'AUTONUMBER','-1',v).
+att_prop_i(2,34,'AUTONUMBER_START','1',d).
+att_prop_i(2,34,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,34,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,34,'AttRegEx','',d).
+att_prop_i(2,34,'AttValidationFailedMsg','',d).
+att_prop_i(2,34,'FullName','PacienteId',v).
+att_prop_i(2,36,'HORIZONTAL_DESCRIPTION','Paciente Apellido',d).
+att_prop_i(2,36,'ExternalName','PacienteApellido',d).
+att_prop_i(2,36,'ExternalNamespace',taller041,d).
+att_prop_i(2,36,'EmptyAsNull','Yes',d).
+att_prop_i(2,36,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,36,'AttRegEx','',d).
+att_prop_i(2,36,'AttValidationFailedMsg','',d).
+att_prop_i(2,36,'FullName','PacienteApellido',v).
+att_prop_i(2,35,'HORIZONTAL_DESCRIPTION','Paciente Nombre',d).
+att_prop_i(2,35,'ExternalName','PacienteNombre',d).
+att_prop_i(2,35,'ExternalNamespace',taller041,d).
+att_prop_i(2,35,'EmptyAsNull','Yes',d).
+att_prop_i(2,35,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,35,'AttRegEx','',d).
+att_prop_i(2,35,'AttValidationFailedMsg','',d).
+att_prop_i(2,35,'FullName','PacienteNombre',v).
+att_prop_i(2,41,'HORIZONTAL_DESCRIPTION','Paciente CI',d).
+att_prop_i(2,41,'ExternalName','PacienteCI',d).
+att_prop_i(2,41,'ExternalNamespace',taller041,d).
+att_prop_i(2,41,'EmptyAsNull','Yes',d).
+att_prop_i(2,41,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,41,'AttRegEx','',d).
+att_prop_i(2,41,'AttValidationFailedMsg','',d).
+att_prop_i(2,41,'FullName','PacienteCI',v).
+att_prop_i(2,12,'HORIZONTAL_DESCRIPTION','Medico Id',d).
+att_prop_i(2,12,'ExternalName','MedicoId',d).
+att_prop_i(2,12,'ExternalNamespace',taller041,d).
+att_prop_i(2,12,'EmptyAsNull','Yes',d).
+att_prop_i(2,12,'AUTONUMBER','-1',v).
+att_prop_i(2,12,'AUTONUMBER_START','1',d).
+att_prop_i(2,12,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,12,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,12,'AttRegEx','',d).
+att_prop_i(2,12,'AttValidationFailedMsg','',d).
+att_prop_i(2,12,'FullName','MedicoId',v).
+att_prop_i(2,14,'HORIZONTAL_DESCRIPTION','Medico Apellido',d).
+att_prop_i(2,14,'ExternalName','MedicoApellido',d).
+att_prop_i(2,14,'ExternalNamespace',taller041,d).
+att_prop_i(2,14,'EmptyAsNull','Yes',d).
+att_prop_i(2,14,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,14,'AttRegEx','',d).
+att_prop_i(2,14,'AttValidationFailedMsg','',d).
+att_prop_i(2,14,'FullName','MedicoApellido',v).
+att_prop_i(2,13,'HORIZONTAL_DESCRIPTION','Medico Nombre',d).
+att_prop_i(2,13,'ExternalName','MedicoNombre',d).
+att_prop_i(2,13,'ExternalNamespace',taller041,d).
+att_prop_i(2,13,'EmptyAsNull','Yes',d).
+att_prop_i(2,13,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,13,'AttRegEx','',d).
+att_prop_i(2,13,'AttValidationFailedMsg','',d).
+att_prop_i(2,13,'FullName','MedicoNombre',v).
+att_prop_i(2,11,'HORIZONTAL_DESCRIPTION','Especialidad Max Pacientes',d).
+att_prop_i(2,11,'ExternalName','EspecialidadMaxPacientes',d).
+att_prop_i(2,11,'ExternalNamespace',taller041,d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,'AUTONUMBER','0',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'FullName','EspecialidadMaxPacientes',v).
+att_prop_i(2,60,'HORIZONTAL_DESCRIPTION','Turno Id',d).
+att_prop_i(2,60,'ExternalName','TurnoId',d).
+att_prop_i(2,60,'ExternalNamespace',taller041,d).
+att_prop_i(2,60,'EmptyAsNull','Yes',d).
+att_prop_i(2,60,'AUTONUMBER','0',d).
+att_prop_i(2,60,'AttRegEx','',d).
+att_prop_i(2,60,'AttValidationFailedMsg','',d).
+att_prop_i(2,60,'FullName','TurnoId',v).
+att_prop_i(2,61,'HORIZONTAL_DESCRIPTION','Turno Nombre',d).
+att_prop_i(2,61,'ExternalName','TurnoNombre',d).
+att_prop_i(2,61,'ExternalNamespace',taller041,d).
+att_prop_i(2,61,'EmptyAsNull','Yes',d).
+att_prop_i(2,61,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,61,'AttRegEx','',d).
+att_prop_i(2,61,'AttValidationFailedMsg','',d).
+att_prop_i(2,61,'FullName','TurnoNombre',v).
+att_prop_i(2,63,'HORIZONTAL_DESCRIPTION','Consulta Nro',d).
+att_prop_i(2,63,'ExternalName','ConsultaNro',d).
+att_prop_i(2,63,'ExternalNamespace',taller041,d).
+att_prop_i(2,63,'EmptyAsNull','Yes',d).
+att_prop_i(2,63,'AUTONUMBER','0',v).
+att_prop_i(2,63,'AttRegEx','',d).
+att_prop_i(2,63,'AttValidationFailedMsg','',d).
+att_prop_i(2,63,'FullName','ConsultaNro',v).
+att_prop_i(2,75,'HORIZONTAL_DESCRIPTION','Confirmado',d).
+att_prop_i(2,75,'ExternalName','Confirmado',d).
+att_prop_i(2,75,'ExternalNamespace',taller041,d).
+att_prop_i(2,75,'EmptyAsNull','Yes',d).
+att_prop_i(2,75,'AttRegEx','',d).
+att_prop_i(2,75,'AttValidationFailedMsg','',d).
+att_prop_i(2,75,'FullName','Confirmado',v).
+att_prop_i(2,68,'HORIZONTAL_DESCRIPTION','Motivo Consulta',d).
+att_prop_i(2,68,'ExternalName','MotivoConsulta',d).
+att_prop_i(2,68,'ExternalNamespace',taller041,d).
+att_prop_i(2,68,'EmptyAsNull','Yes',d).
+att_prop_i(2,68,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,68,'AttRegEx','',d).
+att_prop_i(2,68,'AttValidationFailedMsg','',d).
+att_prop_i(2,68,'FullName','MotivoConsulta',v).
+att_prop_i(2,69,'HORIZONTAL_DESCRIPTION','Anotaciones Consulta',d).
+att_prop_i(2,69,'ExternalName','AnotacionesConsulta',d).
+att_prop_i(2,69,'ExternalNamespace',taller041,d).
+att_prop_i(2,69,'EmptyAsNull','Yes',d).
+att_prop_i(2,69,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,69,'AttRegEx','',d).
+att_prop_i(2,69,'AttValidationFailedMsg','',d).
+att_prop_i(2,69,'FullName','AnotacionesConsulta',v).
+att_prop_i(2,9,'HORIZONTAL_DESCRIPTION','Especialidad Id',d).
+att_prop_i(2,9,'ExternalName','EspecialidadId',d).
+att_prop_i(2,9,'ExternalNamespace',taller041,d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,'AUTONUMBER','-1',v).
+att_prop_i(2,9,'AUTONUMBER_START','1',d).
+att_prop_i(2,9,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,9,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'FullName','EspecialidadId',v).
+att_prop_i(2,67,'HORIZONTAL_DESCRIPTION','Ultimo Nro Asig',d).
+att_prop_i(2,67,'ExternalName','UltimoNroAsig',d).
+att_prop_i(2,67,'ExternalNamespace',taller041,d).
+att_prop_i(2,67,'EmptyAsNull','Yes',d).
+att_prop_i(2,67,'AUTONUMBER','0',d).
+att_prop_i(2,67,'ATT_INITIAL_VALUE',[ t('0',3) ],v).
+att_prop_i(2,67,'AttRegEx','',d).
+att_prop_i(2,67,'AttValidationFailedMsg','',d).
+att_prop_i(2,67,'FullName','UltimoNroAsig',v).
+ 
+tbl_prop_i(2,1,'AllDirSuper',[ [ 2,[ 9 ] ] ],v).
+tbl_prop_i(2,5,'AllDirSuper',[ [ 7,[ 60 ] ],[ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,8,'AllDirSuper',[ [ 5,[ 43,12,60 ] ],[ 4,[ 34 ] ] ],v).
+tbl_prop_i(2,7,'DirSubor',[ [ 5,[ 60 ] ] ],v).
+tbl_prop_i(2,2,'DirSubor',[ [ 1,[ 9 ] ] ],v).
+tbl_prop_i(2,1,'DirSubor',[ [ 5,[ 12 ] ] ],v).
+tbl_prop_i(2,4,'DirSubor',[ [ 8,[ 34 ] ] ],v).
+tbl_prop_i(2,5,'DirSubor',[ [ 8,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,1,'DirSuper',[ [ 2,[ 9 ] ] ],v).
+tbl_prop_i(2,5,'DirSuper',[ [ 7,[ 60 ] ],[ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,8,'DirSuper',[ [ 5,[ 43,12,60 ] ],[ 4,[ 34 ] ] ],v).
+ 
+tbl_att_prop_i(2,8,43,'AllowNulls',n).
+tbl_att_prop_i(2,8,34,'AllowNulls',n).
+tbl_att_prop_i(2,8,12,'AllowNulls',n).
+tbl_att_prop_i(2,8,60,'AllowNulls',n).
+tbl_att_prop_i(2,8,75,'AllowNulls',n).
+tbl_att_prop_i(2,5,43,'AllowNulls',n).
+tbl_att_prop_i(2,5,12,'AllowNulls',n).
+tbl_att_prop_i(2,5,60,'AllowNulls',n).
+tbl_att_prop_i(2,4,34,'AllowNulls',n).
+tbl_att_prop_i(2,4,34,'AUTONUMBER',y).
+tbl_att_prop_i(2,4,36,'AllowNulls',n).
+tbl_att_prop_i(2,4,35,'AllowNulls',n).
+tbl_att_prop_i(2,4,41,'AllowNulls',n).
+tbl_att_prop_i(2,1,12,'AllowNulls',n).
+tbl_att_prop_i(2,1,12,'AUTONUMBER',y).
+tbl_att_prop_i(2,1,13,'AllowNulls',n).
+tbl_att_prop_i(2,1,14,'AllowNulls',n).
+tbl_att_prop_i(2,1,9,'AllowNulls',n).
+tbl_att_prop_i(2,2,9,'AllowNulls',n).
+tbl_att_prop_i(2,2,9,'AUTONUMBER',y).
+tbl_att_prop_i(2,2,11,'AllowNulls',n).
+tbl_att_prop_i(2,7,60,'AllowNulls',n).
+tbl_att_prop_i(2,7,61,'AllowNulls',n).
+ 
+var_prop_i(2,'Context','ATT_INITIAL_VALUE',[ t('udp(',1),t(o(1,'LoadContext'),28),t(')',4) ],v).
+ 
+ 
+ 
+ 
+trn_level_i(8,[ [ 43,34,36,35,41,12,14,13,11,60,61,63,75 ],'ConsultaPaciente','Consulta Paciente','ConsultaPaciente','',41 ]).
+ 
+struct_dt_i([ 26,3,0 ],name,'Context').
+struct_dt_i([ 26,3,0 ],namespace,taller041).
+struct_dt_i([ 26,3,0 ],'ObjName','Context').
+struct_dt_i([ 26,3,0 ],'ObjDesc','Context').
+struct_dt_i([ 26,3,0 ],'ExternalName','Context').
+struct_dt_i([ 26,3,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,7,0 ],name,'TransactionContext').
+struct_dt_i([ 26,7,0 ],namespace,taller041).
+struct_dt_i([ 26,7,0 ],'ObjName','TransactionContext').
+struct_dt_i([ 26,7,0 ],'ObjDesc','Transaction Context').
+struct_dt_i([ 26,7,0 ],'ExternalName','TransactionContext').
+struct_dt_i([ 26,7,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,7,9 ],name,'Attribute').
+struct_dt_i([ 26,7,9 ],namespace,'taller041.TransactionContext').
+struct_dt_i([ 0,8,0 ],name,'ConsultaPaciente').
+struct_dt_i([ 0,8,0 ],namespace,taller041).
+struct_dt_i([ 0,8,0 ],significantName,'ConsultaPaciente').
+struct_dt_i([ 0,8,0 ],'ObjName','ConsultaPaciente').
+struct_dt_i([ 0,8,0 ],'ObjDesc','Consulta Paciente').
+struct_dt_i([ 0,8,0 ],'ExternalName','ConsultaPaciente').
+struct_dt_i([ 0,8,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 0,8,0 ],key,[ 43,34,12,60 ]).
+struct_dt_i([ 0,8,0 ],lvl,8).
+struct_dt_i([ 26,1,0 ],name,'Messages').
+struct_dt_i([ 26,1,0 ],namespace,'Genexus').
+struct_dt_i([ 26,1,0 ],'ObjName','Messages').
+struct_dt_i([ 26,1,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,1,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,1,0 ],'ExternalNamespace','Genexus').
+struct_dt_i([ 26,1,0 ],collection,'True').
+struct_dt_i([ 26,1,0 ],datatype,[ 26,1,1 ]).
+struct_dt_i([ 26,1,1 ],name,'Message').
+struct_dt_i([ 26,1,1 ],namespace,'Genexus.Messages').
+struct_dt_i([ 26,3,0 ],fullname,'Context').
+struct_dt_i([ 26,7,0 ],fullname,'TransactionContext').
+struct_dt_i([ 26,7,9 ],fullname,'TransactionContext.Attribute').
+struct_dt_i([ 0,8,0 ],fullname,'ConsultaPaciente').
+struct_dt_i([ 26,1,0 ],fullname,'Messages').
+struct_dt_i([ 26,1,1 ],fullname,'Messages.Message').
+ 
+struct_dt_elem_i([ 26,3,0 ],1,name,'User').
+struct_dt_elem_i([ 26,3,0 ],1,camelname,'User').
+struct_dt_elem_i([ 26,3,0 ],1,length,20).
+struct_dt_elem_i([ 26,3,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],1,pic,'').
+struct_dt_elem_i([ 26,3,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],2,name,'Companycode').
+struct_dt_elem_i([ 26,3,0 ],2,camelname,'CompanyCode').
+struct_dt_elem_i([ 26,3,0 ],2,length,4).
+struct_dt_elem_i([ 26,3,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],2,sign,0).
+struct_dt_elem_i([ 26,3,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],3,name,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,camelname,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,length,20).
+struct_dt_elem_i([ 26,3,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],3,pic,'').
+struct_dt_elem_i([ 26,3,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],1,name,'Callerobject').
+struct_dt_elem_i([ 26,7,0 ],1,camelname,'CallerObject').
+struct_dt_elem_i([ 26,7,0 ],1,basedon,4).
+struct_dt_elem_i([ 26,7,0 ],1,length,256).
+struct_dt_elem_i([ 26,7,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,7,0 ],1,pic,'').
+struct_dt_elem_i([ 26,7,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],2,name,'Callerondelete').
+struct_dt_elem_i([ 26,7,0 ],2,camelname,'CallerOnDelete').
+struct_dt_elem_i([ 26,7,0 ],2,length,4).
+struct_dt_elem_i([ 26,7,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,7,0 ],2,pic,'').
+struct_dt_elem_i([ 26,7,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],3,name,'Callerurl').
+struct_dt_elem_i([ 26,7,0 ],3,camelname,'CallerURL').
+struct_dt_elem_i([ 26,7,0 ],3,basedon,5).
+struct_dt_elem_i([ 26,7,0 ],3,length,1000).
+struct_dt_elem_i([ 26,7,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,7,0 ],3,pic,'').
+struct_dt_elem_i([ 26,7,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],4,name,'Transactionname').
+struct_dt_elem_i([ 26,7,0 ],4,camelname,'TransactionName').
+struct_dt_elem_i([ 26,7,0 ],4,basedon,4).
+struct_dt_elem_i([ 26,7,0 ],4,length,256).
+struct_dt_elem_i([ 26,7,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,7,0 ],4,pic,'').
+struct_dt_elem_i([ 26,7,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],5,name,'Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,camelname,'Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,type,[ [ 26,7,9 ],0,0 ]).
+struct_dt_elem_i([ 26,7,0 ],5,pic,'').
+struct_dt_elem_i([ 26,7,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,7,0 ],5,'ObjName','Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,'ObjDesc','Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,'CollectionItemName','Attribute').
+struct_dt_elem_i([ 26,7,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,7,9 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,7,9 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,7,9 ],1,length,128).
+struct_dt_elem_i([ 26,7,9 ],1,decimals,0).
+struct_dt_elem_i([ 26,7,9 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,7,9 ],1,pic,'').
+struct_dt_elem_i([ 26,7,9 ],1,collection,'False').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlName','').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,9 ],1,soaptype,'').
+struct_dt_elem_i([ 26,7,9 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,7,9 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,7,9 ],2,length,1000).
+struct_dt_elem_i([ 26,7,9 ],2,decimals,0).
+struct_dt_elem_i([ 26,7,9 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,7,9 ],2,pic,'').
+struct_dt_elem_i([ 26,7,9 ],2,collection,'False').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlName','').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,9 ],2,soaptype,'').
+struct_dt_elem_i([ 0,8,0 ],1,name,'Consultafecha').
+struct_dt_elem_i([ 0,8,0 ],1,camelname,'ConsultaFecha').
+struct_dt_elem_i([ 0,8,0 ],1,length,8).
+struct_dt_elem_i([ 0,8,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],1,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,8,0 ],1,pic,'99/99/99').
+struct_dt_elem_i([ 0,8,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],1,attributeid,'43').
+struct_dt_elem_i([ 0,8,0 ],2,name,'Pacienteid').
+struct_dt_elem_i([ 0,8,0 ],2,camelname,'PacienteId').
+struct_dt_elem_i([ 0,8,0 ],2,basedon,10).
+struct_dt_elem_i([ 0,8,0 ],2,length,6).
+struct_dt_elem_i([ 0,8,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],2,sign,0).
+struct_dt_elem_i([ 0,8,0 ],2,type,[ 4,6,0 ]).
+struct_dt_elem_i([ 0,8,0 ],2,pic,'ZZZZZ9').
+struct_dt_elem_i([ 0,8,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],2,attributeid,'34').
+struct_dt_elem_i([ 0,8,0 ],3,name,'Pacienteapellido').
+struct_dt_elem_i([ 0,8,0 ],3,camelname,'PacienteApellido').
+struct_dt_elem_i([ 0,8,0 ],3,basedon,12).
+struct_dt_elem_i([ 0,8,0 ],3,length,20).
+struct_dt_elem_i([ 0,8,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,8,0 ],3,pic,'').
+struct_dt_elem_i([ 0,8,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,8,0 ],4,name,'Pacientenombre').
+struct_dt_elem_i([ 0,8,0 ],4,camelname,'PacienteNombre').
+struct_dt_elem_i([ 0,8,0 ],4,basedon,11).
+struct_dt_elem_i([ 0,8,0 ],4,length,20).
+struct_dt_elem_i([ 0,8,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],4,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,8,0 ],4,pic,'').
+struct_dt_elem_i([ 0,8,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],4,attributeid,'35').
+struct_dt_elem_i([ 0,8,0 ],5,name,'Pacienteci').
+struct_dt_elem_i([ 0,8,0 ],5,camelname,'PacienteCI').
+struct_dt_elem_i([ 0,8,0 ],5,length,8).
+struct_dt_elem_i([ 0,8,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],5,type,[ 5,8,0 ]).
+struct_dt_elem_i([ 0,8,0 ],5,pic,'').
+struct_dt_elem_i([ 0,8,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],5,attributeid,'41').
+struct_dt_elem_i([ 0,8,0 ],6,name,'Medicoid').
+struct_dt_elem_i([ 0,8,0 ],6,camelname,'MedicoId').
+struct_dt_elem_i([ 0,8,0 ],6,basedon,10).
+struct_dt_elem_i([ 0,8,0 ],6,length,6).
+struct_dt_elem_i([ 0,8,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],6,sign,0).
+struct_dt_elem_i([ 0,8,0 ],6,type,[ 4,6,0 ]).
+struct_dt_elem_i([ 0,8,0 ],6,pic,'ZZZZZ9').
+struct_dt_elem_i([ 0,8,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],6,attributeid,'12').
+struct_dt_elem_i([ 0,8,0 ],7,name,'Medicoapellido').
+struct_dt_elem_i([ 0,8,0 ],7,camelname,'MedicoApellido').
+struct_dt_elem_i([ 0,8,0 ],7,basedon,12).
+struct_dt_elem_i([ 0,8,0 ],7,length,20).
+struct_dt_elem_i([ 0,8,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],7,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,8,0 ],7,pic,'').
+struct_dt_elem_i([ 0,8,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],7,attributeid,'14').
+struct_dt_elem_i([ 0,8,0 ],8,name,'Mediconombre').
+struct_dt_elem_i([ 0,8,0 ],8,camelname,'MedicoNombre').
+struct_dt_elem_i([ 0,8,0 ],8,basedon,11).
+struct_dt_elem_i([ 0,8,0 ],8,length,20).
+struct_dt_elem_i([ 0,8,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],8,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,8,0 ],8,pic,'').
+struct_dt_elem_i([ 0,8,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],8,attributeid,'13').
+struct_dt_elem_i([ 0,8,0 ],9,name,'Especialidadmaxpacientes').
+struct_dt_elem_i([ 0,8,0 ],9,camelname,'EspecialidadMaxPacientes').
+struct_dt_elem_i([ 0,8,0 ],9,length,3).
+struct_dt_elem_i([ 0,8,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],9,sign,0).
+struct_dt_elem_i([ 0,8,0 ],9,type,[ 4,3,0 ]).
+struct_dt_elem_i([ 0,8,0 ],9,pic,'ZZ9').
+struct_dt_elem_i([ 0,8,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],9,attributeid,'11').
+struct_dt_elem_i([ 0,8,0 ],10,name,'Turnoid').
+struct_dt_elem_i([ 0,8,0 ],10,camelname,'TurnoId').
+struct_dt_elem_i([ 0,8,0 ],10,basedon,16).
+struct_dt_elem_i([ 0,8,0 ],10,length,2).
+struct_dt_elem_i([ 0,8,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],10,sign,0).
+struct_dt_elem_i([ 0,8,0 ],10,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 0,8,0 ],10,pic,'Z9').
+struct_dt_elem_i([ 0,8,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],10,attributeid,'60').
+struct_dt_elem_i([ 0,8,0 ],11,name,'Turnonombre').
+struct_dt_elem_i([ 0,8,0 ],11,camelname,'TurnoNombre').
+struct_dt_elem_i([ 0,8,0 ],11,basedon,11).
+struct_dt_elem_i([ 0,8,0 ],11,length,20).
+struct_dt_elem_i([ 0,8,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],11,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,8,0 ],11,pic,'').
+struct_dt_elem_i([ 0,8,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],11,attributeid,'61').
+struct_dt_elem_i([ 0,8,0 ],12,name,'Consultanro').
+struct_dt_elem_i([ 0,8,0 ],12,camelname,'ConsultaNro').
+struct_dt_elem_i([ 0,8,0 ],12,length,2).
+struct_dt_elem_i([ 0,8,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],12,sign,0).
+struct_dt_elem_i([ 0,8,0 ],12,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 0,8,0 ],12,pic,'Z9').
+struct_dt_elem_i([ 0,8,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],12,attributeid,'63').
+struct_dt_elem_i([ 0,8,0 ],13,name,'Confirmado').
+struct_dt_elem_i([ 0,8,0 ],13,camelname,'Confirmado').
+struct_dt_elem_i([ 0,8,0 ],13,length,4).
+struct_dt_elem_i([ 0,8,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],13,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,8,0 ],13,pic,'').
+struct_dt_elem_i([ 0,8,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],13,attributeid,'75').
+struct_dt_elem_i([ 26,1,1 ],1,name,'Id').
+struct_dt_elem_i([ 26,1,1 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,1,1 ],1,length,128).
+struct_dt_elem_i([ 26,1,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,1,1 ],1,pic,'').
+struct_dt_elem_i([ 26,1,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],1,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],2,name,'Type').
+struct_dt_elem_i([ 26,1,1 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,1,1 ],2,basedon,2).
+struct_dt_elem_i([ 26,1,1 ],2,length,2).
+struct_dt_elem_i([ 26,1,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1,1 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,1,1 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,1,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],2,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],3,name,'Description').
+struct_dt_elem_i([ 26,1,1 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,1,1 ],3,length,256).
+struct_dt_elem_i([ 26,1,1 ],3,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,1,1 ],3,pic,'').
+struct_dt_elem_i([ 26,1,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],3,soaptype,'').
+struct_dt_elem_i([ 0,8,0 ],3,pic,'ZZZZZ9').
+struct_dt_elem_i([ 0,8,0 ],4,pic,'ZZ9').
+struct_dt_elem_i([ 0,8,0 ],7,pic,'ZZZZZ9').
+struct_dt_elem_i([ 0,8,0 ],8,pic,'ZZ9').
+struct_dt_elem_i([ 0,8,0 ],11,pic,'ZZ9').
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,4,'LOADCONTEXT',[ [ o('Context'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

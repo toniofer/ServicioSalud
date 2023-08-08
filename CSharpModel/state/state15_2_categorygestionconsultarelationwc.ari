@@ -1,0 +1,16 @@
+current_obj_i(2,web,24).
+ 
+ 
+ 
+ij_main_object(categorygestionconsultarelationwc,'Category Gestion Consulta Relation WC','','""','').
+ 
+ 
+ 
+ 
+ij_object_dependency(categorygestionconsultarelationwc,[],[],[],24).
+ 
+ 
+obj_parms_i([],[]).
+ 
+ 
+ 

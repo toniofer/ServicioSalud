@@ -1,0 +1,105 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>20</ObjId>
+<ObjName>Gx0030</ObjName>
+<ObjDesc>Selection List Enfermero</ObjDesc>
+<ObjPgmName>Gx0030</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Penfermeroid</VarId>
+<VarName>&amp;pEnfermeroId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>Enfermero</TableName>
+<Description>Enfermero</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>EnfermeroId</AttriName>
+<Description>Enfermero Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IENFERMERO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>EnfermeroNombre</AttriName>
+<Description>Enfermero Nombre</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cenfermeronombre</VarId>
+<VarName>&amp;cEnfermeroNombre</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>EnfermeroApellido</AttriName>
+<Description>Enfermero Apellido</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cenfermeroapellido</VarId>
+<VarName>&amp;cEnfermeroApellido</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>EnfermeroDomicilio</AttriName>
+<Description>Enfermero Domicilio</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cenfermerodomicilio</VarId>
+<VarName>&amp;cEnfermeroDomicilio</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>Enfermero</TableName>
+<Description>Enfermero</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>EnfermeroId</AttriName>
+<Description>Enfermero Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,16 @@
+current_obj_i(2,web,20).
+ 
+called_tree_i(13,20,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx0030,[],[],[],20).
+ 
+ 
+obj_parms_i([ 'int aP0_pEnfermeroId' ],[ [ 'Penfermeroid',inout ] ]).
+ 
+ 
+ 

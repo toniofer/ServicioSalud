@@ -1,0 +1,17 @@
+current_obj_i(2,proc,14).
+ 
+ 
+is_webproc_i(alistarmedicos).
+ 
+ij_main_object(alistarmedicos,'Listar Medicos','','""','HTTP').
+ 
+ 
+ 
+ 
+ij_object_dependency(alistarmedicos,[],[],[],14).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_desde','DateTime aP1_hasta' ],[ [ 'Desde',in ],[ 'Hasta',in ] ]).
+ 
+ 
+ 

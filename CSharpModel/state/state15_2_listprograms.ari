@@ -1,0 +1,16 @@
+current_obj_i(2,proc,3).
+ 
+called_tree_i(1,3,1,4).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(listprograms,[],[],[],3).
+ 
+ 
+obj_parms_i([ 'IGxCollection aP0_ProgramNames' ],[ [ 'Programnames',out ] ]).
+ 
+ 
+ 

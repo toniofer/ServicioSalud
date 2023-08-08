@@ -1,0 +1,15 @@
+current_obj_i(2,proc,11).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(turnoocupado,[],[],[],11).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_ConsultaFechaX','short aP1_TurnoIdX','int aP2_MedicoIdX','bool aP3_TurnoOcupado' ],[ [ 'Consultafechax',in ],[ 'Turnoidx',in ],[ 'Medicoidx',in ],[ 'Turnoocupado',out ] ]).
+ 
+ 
+ 

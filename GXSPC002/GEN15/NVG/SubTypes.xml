@@ -1,0 +1,53 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>10</ObjCls>
+<ObjId>0</ObjId>
+<ObjName>SubTypes</ObjName>
+<ObjDesc>Subtype groups analysis report</ObjDesc>
+<ObjPgmName>SubTypes</ObjPgmName>
+<ObjClsName>Subtype group</ObjClsName></Object>
+<Warnings>
+<Warning>
+<MsgCode>spc0079</MsgCode>
+<Message>
+<Token>Attribute(s) </Token>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>EnfermeroTitularEstadoCivil</AttriName>
+<Description>Enfermero Titular Estado Civil</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>EnfermeroTitularFechaIngreso</AttriName>
+<Description>Enfermero Titular Fecha Ingreso</Description></Attribute>
+<Token> in subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>1</SubtypeGroupId>
+<SubtypeGroupName>EnfermeroTitular</SubtypeGroupName></SubtypeGroup>
+<Token>' is(are) not associated to any transaction.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0079</MsgCode>
+<Message>
+<Token>Attribute(s) </Token>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>EnfermeroSuplenteDomicilio</AttriName>
+<Description>Enfermero Suplente Domicilio</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>EnfermeroSuplenteEstadoCivil</AttriName>
+<Description>Enfermero Suplente Estado Civil</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>55</AttriId>
+<AttriName>EnfermeroSuplenteFechaIngreso</AttriName>
+<Description>Enfermero Suplente Fecha Ingreso</Description></Attribute>
+<Token> in subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>2</SubtypeGroupId>
+<SubtypeGroupName>EnfermeroSuplente</SubtypeGroupName></SubtypeGroup>
+<Token>' is(are) not associated to any transaction.</Token></Message></Warning></Warnings>
+<Errors></Errors></ObjectSpec>

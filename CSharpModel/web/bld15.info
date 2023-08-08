@@ -1,0 +1,8 @@
+generatorNumber=15
+modelNumber=2
+statePath=..\state\
+modelPath=..\..\
+appnamespace=GeneXus.Programs
+staticPath=
+helpPath=Help/
+webStaticFiles=calendar.js;calendar-setup.js;calendar-es.js;calendar-system.css;messages.spa.js;gxdec.js;gxgral.js;gxcfg.js;gxapiSD.js;gxfxSD.js;gxtypesSD.js;gxpopupSD.js;gxfrmutlSD.js;gxgridSD.js;JavaScripTableSD.js;rijndaelSD.js;gxgralSD.js;prompt.gif;collapse.gif;expand.gif;calendar-img.gif;prev.gif;next.gif;last.gif;indicator.gif;first.gif;desc.gif;asc.gif;delete_16x.jpg;blank.jpg;min.gif;max.gif;close.gif;resize.gif;container.css;autosuggest.css;download.gif;prgs.xsl;bg_cabezal.gif;cabezal.png;logo.gif;top_izq.gif;bg_tops.gif;top_der.gif;margin_left.gif;margin_right.gif;codo_izq_foot.gif;foot_middle.gif;codo_der_foot.gif;prompt.gif

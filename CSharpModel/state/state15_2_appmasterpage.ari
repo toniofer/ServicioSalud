@@ -1,0 +1,16 @@
+current_obj_i(2,web,1).
+ 
+called_tree_i(13,1,13,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(appmasterpage,[],[],[],1).
+ 
+ 
+obj_parms_i([],[]).
+ 
+ 
+ 

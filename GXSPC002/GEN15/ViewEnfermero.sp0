@@ -1,0 +1,578 @@
+spec_i([ web,12,'View Enfermero','ViewEnfermero',0,spa,'10_1_3-34981' ]).
+ 
+struct_i(2,1,[ 'Pgmname','Isauthorized','Exists','Context' ],[]).
+struct_i(3,1,[],[]).
+ 
+level_i(2,[ 3,[ [ 3,many ] ],[],[],[ [ [ 3 ],[ 20,22 ] ] ],[ [ [ 3 ],[] ] ],[ 20 ],'IENFERMERO',[ 3,[ [ [],'Enfermeroid',20 ] ] ],[] ]).
+level_i(3,[ 3,[ [ 3,many ] ],[],[],[ [ [ 3 ],[ 20,22 ] ] ],[ [ [ 3 ],[] ] ],[ 20 ],'IENFERMERO',[ 3,[ [ [],'Enfermeroid',20 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+tw_i(3,[]).
+ 
+lwi_i(2,[ [] ]).
+lwi_i(3,[ [] ]).
+ 
+ 
+ 
+level_option_i(3,usr_condition,y).
+ 
+ta_i(2,[ [ [ 3,20 ],[ 3,22 ] ] ]).
+ta_i(3,[ [ [ 3,20 ],[ 3,22 ] ] ]).
+ 
+las_i(2,[ [ 'Enfermeroid','Tabcode',20,22 ] ]).
+las_i(3,[ [ 'Enfermeroid','Tabcode',20,22 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+lits_i('Enfermero Information',5,10).
+lits_i('Work With Enfermeroes',5,10).
+lits_i('Apellido',5,10).
+lits_i('',5,10).
+ 
+cls_i([ 0,0 ],[ 5,30 ]).
+ 
+pos_i(22,[ 0,0,0 ]).
+ 
+ 
+default_i(e('Pgmname',2,2,'"ViewEnfermero"')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('TAG_LANGUAGE','HTML')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'AppMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('ObjDesc','View Enfermero')).
+rule_i(0,prop('ObjName','ViewEnfermero')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Enfermeroid','Tabcode' ],[])).
+rule_i(0,parmio([ [ 'Enfermeroid',in ],[ 'Tabcode',in ] ])).
+ 
+a_i(1,1,f,'Pgmname',[],[ [],[ t('"ViewEnfermero"',3) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(3,3,t,3,[],[ [ [ [],'Enfermeroid',20 ] ],'IENFERMERO',[] ]).
+a_i(4,2,t,3,[],[ [ [ [],'Enfermeroid',20 ] ],'IENFERMERO',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Pgmname').
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+v_i(t,i,3,'Enfermeroid').
+v_i(t,o,3,20).
+v_i(t,o,3,22).
+v_i(t,i,4,'Enfermeroid').
+v_i(t,o,4,20).
+v_i(t,o,4,22).
+ 
+ 
+ 
+ 
+ 
+attri_i(20,[ 'EnfermeroId',int,6,0,'ZZZZZ9',0,'Enfermero Id','',0 ]).
+attri_i(22,[ 'EnfermeroApellido',char,20,0,'',0,'Enfermero Apellido','',0 ]).
+attri_i('GXLvl8',[ 'GXLvl8',int,1,0,'',0,'',[],15 ]).
+attri_i('Pgmname',[ 'Pgmname',char,129,0,'',1,'Program name','',14 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',13 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',12 ]).
+attri_i('Enfermeroid',[ 'EnfermeroId',int,6,0,'ZZZZZ9',0,'Enfermero Id','',11 ]).
+attri_i('Exists',[ 'Exists',boolean,4,0,'',0,'Exists','',10 ]).
+attri_i('Tab',[ 'Tab',o('TabOptions.TabOptionsItem'),0,0,'',0,'Tab','',9 ]).
+attri_i('Tabs',[ 'Tabs',o(objectcollection('TabOptions.TabOptionsItem')),0,0,'',0,'Tabs','',8 ]).
+attri_i('Tabcode',[ 'TabCode',char,50,0,'',0,'Tab Code','',7 ]).
+attri_i('Context',[ 'Context',o('Context'),0,0,'',0,'Context','',6 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',5 ]).
+ 
+table_i(3,[ 'Enfermero',[ 20,22 ],'Enfermero','Enfermero' ]).
+ 
+index_i(3,[ 'IENFERMERO',u,[ 20 ],'IEnfermero' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 20,23,'Enfermeroid',= ] ],one ]).
+start_i(3,0,0,[ [ [ 20,23,'Enfermeroid',= ] ],one ]).
+ 
+end_i(2,0,0,[ [ [ t(20,2),t(=,10),t('Enfermeroid',23) ] ] ]).
+end_i(3,0,0,[ [ [ t(20,2),t(=,10),t('Enfermeroid',23) ] ] ]).
+ 
+ 
+ 
+ 
+enumerated_i(2,24,15).
+ 
+enum_value_i(2,15,'"S"','Soltero','"Soltero"').
+enum_value_i(2,15,'"C"','Casado','"Casado"').
+enum_value_i(2,15,'"V"','Viudo','"Viudo"').
+enum_value_i(2,15,'"D"','Divorciado','"Divorciado"').
+ 
+enum_value_info_i(2,15,'EstadoCivil').
+ 
+enum_type_i(2,15,char,1,0).
+ 
+ 
+break_i(3,nvg,1,[],[ [ 22 ],[ 20 ],[] ]).
+break_i(2,nvg,1,[],[ [ 22 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,1).
+b_group_i(2,3,nvg,3,8,8).
+b_group_i(3,1,lit,0,9,9).
+b_group_i(2,4,lit,0,13,23).
+b_group_i(2,5,lit,0,24,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',104,1,0),t(o(1,'IsAuthorized'),28,1,3),t('Pgmname',23,1,22),t(',',7,1,30),t('Isauthorized',23,1,32) ]).
+b_line_i(3,2,2,cmd,1,[ t('',109,1,0),t('(',0,1,5),t('.NOT.',8,1,6),t('Isauthorized',23,1,12),t(')',4,1,25) ]).
+b_line_i(4,2,2,cmd,1,[ t('',104,1,0),t(o(13,'NotAuthorized'),28,1,3),t('Pgmname',23,1,23) ]).
+b_line_i(5,2,2,cmd,1,[ t('',111,1,0) ]).
+b_line_i(6,2,2,cmd,1,[ t('',107,1,0),t([ t('Viewall',3,1,0),t('Link',3,1,0) ],29,1,0),t(=,10,1,0),t('link(',1,1,0),t(o(13,'WWEnfermero'),28,1,0),t(')',4,1,0) ]).
+b_line_i([ 8,0 ],2,2,cmd,1,[ t('',107,1,0),t('GXLvl8',23,1,0),t(=,10,1,0),t('0',3,1,0) ]).
+b_line_i(8,3,1,cmd,9,[ t('',121,8,0) ]).
+b_line_i([ 8,1 ],3,1,cmd,8,[ t('',107,8,0),t('GXLvl8',23,8,0),t(=,10,8,0),t('1',3,8,0) ]).
+b_line_i(10,3,1,cmd,9,[ t('',107,9,0),t([ t('Form',3,9,0),t('Caption',3,9,0) ],29,9,0),t(=,10,9,0),t(22,2,9,0) ]).
+b_line_i(11,3,1,cmd,9,[ t('',107,9,0),t('Exists',23,9,0),t(=,10,9,0),t('TRUE',40,9,0) ]).
+b_line_i(12,3,1,cmd,9,[ t('',128,9,0) ]).
+b_line_i([ 12,1 ],2,4,cmd,5,[ t('',109,5,0),t('GXLvl8',23,5,0),t(=,10,5,0),t('0',3,5,0) ]).
+b_line_i(13,2,4,cmd,6,[ t('',107,6,0),t([ t('Form',3,6,0),t('Caption',3,6,0) ],29,6,0),t(=,10,6,0),t('"Record not found"',3,6,0) ]).
+b_line_i(14,2,4,cmd,6,[ t('',107,6,0),t('Exists',23,6,0),t(=,10,6,0),t('FALSE',41,6,0) ]).
+b_line_i(15,2,4,cmd,6,[ t('',111,6,0) ]).
+b_line_i(17,2,4,cmd,6,[ t('',109,6,0),t('(',0,6,5),t('Exists',23,6,6),t(')',4,6,13) ]).
+b_line_i(18,2,4,cmd,6,[ t('',145,6,0),t('''LOADTABS''',3,18,6) ]).
+b_line_i(19,2,4,cmd,6,[ t('',107,6,0),t([ t('Tabbedview',3,6,0),t('Object',3,6,0) ],29,6,0),t(=,10,6,0),t('create(',1,6,0),t(o(13,'TabbedView'),28,6,0),t(',',7,6,0),t('Tabs',23,6,0),t(',',7,6,0),t('Tabcode',23,6,0),t(')',4,6,0) ]).
+b_line_i(20,2,4,cmd,6,[ t('',111,6,0) ]).
+b_line_i(21,2,4,cmd,6,[ t('',147,6,0) ]).
+b_line_i(23,2,4,cmd,6,[ t('',143,6,0),t('''LOADTABS''',3,23,5) ]).
+b_line_i(25,2,5,cmd,6,[ t('',107,6,0),t('Tabs',23,6,0),t(=,10,6,0),t([ 'TabOptions',[ t('(',0,25,13),t(')',4,25,14) ],n ],46,6,0) ]).
+b_line_i(27,2,5,cmd,6,[ t('',107,6,0),t('Tab',23,6,0),t(=,10,6,0),t([ 'TabOptions.TabOptionsItem',[ t('(',0,27,12),t(')',4,27,13) ],n ],46,6,0) ]).
+b_line_i(28,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Code',3,6,0) ],29,6,0),t(=,10,6,0),t('"General"',3,6,0) ]).
+b_line_i(29,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Description',3,6,0) ],29,6,0),t(=,10,6,0),t('"General"',3,6,0) ]).
+b_line_i(30,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Webcomponent',3,6,0) ],29,6,0),t(=,10,6,0),t('link(',1,6,0),t(o(13,'EnfermeroGeneral'),28,6,0),t(',',7,6,0),t('Enfermeroid',23,6,0),t(')',4,6,0) ]).
+b_line_i(31,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Link',3,6,0) ],29,6,0),t(=,10,6,0),t('link(',1,6,0),t(o(13,'ViewEnfermero'),28,6,0),t(',',7,6,0),t('Enfermeroid',23,6,0),t(',',7,6,0),t([ t('Tab',23,6,0),t('Code',3,6,0) ],29,6,0),t(')',4,6,0) ]).
+b_line_i(32,2,5,cmd,6,[ t('',107,6,0),t([ t('Tabs',23,32,2),t('add(',1,32,8) ],31,32,2),t('Tab',23,6,13),t(')',4,6,17) ]).
+b_line_i(34,2,5,cmd,6,[ t('',107,6,0),t('Tab',23,6,0),t(=,10,6,0),t([ 'TabOptions.TabOptionsItem',[ t('(',0,34,12),t(')',4,34,13) ],n ],46,6,0) ]).
+b_line_i(35,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Code',3,6,0) ],29,6,0),t(=,10,6,0),t('"Medico"',3,6,0) ]).
+b_line_i(36,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Description',3,6,0) ],29,6,0),t(=,10,6,0),t('"Enfermero Titular"',3,6,0) ]).
+b_line_i(37,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Webcomponent',3,6,0) ],29,6,0),t(=,10,6,0),t('link(',1,6,0),t(o(13,'EnfermeroMedicoWC'),28,6,0),t(',',7,6,0),t('Enfermeroid',23,6,0),t(')',4,6,0) ]).
+b_line_i(38,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Link',3,6,0) ],29,6,0),t(=,10,6,0),t('link(',1,6,0),t(o(13,'ViewEnfermero'),28,6,0),t(',',7,6,0),t('Enfermeroid',23,6,0),t(',',7,6,0),t([ t('Tab',23,6,0),t('Code',3,6,0) ],29,6,0),t(')',4,6,0) ]).
+b_line_i(39,2,5,cmd,6,[ t('',107,6,0),t([ t('Tabs',23,39,2),t('add(',1,39,8) ],31,39,2),t('Tab',23,6,13),t(')',4,6,17) ]).
+b_line_i(41,2,5,cmd,6,[ t('',107,6,0),t('Tab',23,6,0),t(=,10,6,0),t([ 'TabOptions.TabOptionsItem',[ t('(',0,41,12),t(')',4,41,13) ],n ],46,6,0) ]).
+b_line_i(42,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Code',3,6,0) ],29,6,0),t(=,10,6,0),t('"Medico1"',3,6,0) ]).
+b_line_i(43,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Description',3,6,0) ],29,6,0),t(=,10,6,0),t('"Enfermero Suplente"',3,6,0) ]).
+b_line_i(44,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Webcomponent',3,6,0) ],29,6,0),t(=,10,6,0),t('link(',1,6,0),t(o(13,'EnfermeroMedico1WC'),28,6,0),t(',',7,6,0),t('Enfermeroid',23,6,0),t(')',4,6,0) ]).
+b_line_i(45,2,5,cmd,6,[ t('',107,6,0),t([ t('Tab',23,6,0),t('Link',3,6,0) ],29,6,0),t(=,10,6,0),t('link(',1,6,0),t(o(13,'ViewEnfermero'),28,6,0),t(',',7,6,0),t('Enfermeroid',23,6,0),t(',',7,6,0),t([ t('Tab',23,6,0),t('Code',3,6,0) ],29,6,0),t(')',4,6,0) ]).
+b_line_i(46,2,5,cmd,6,[ t('',107,6,0),t([ t('Tabs',23,46,2),t('add(',1,46,8) ],31,46,2),t('Tab',23,6,13),t(')',4,6,17) ]).
+b_line_i(47,2,5,cmd,6,[ t('',144,6,0) ]).
+b_line_i(1000,2,5,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,5,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,5,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<tbody>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,table(5))).
+html_sub_i(5,0,html_i(0,html('<tbody>'))).
+html_sub_i(5,6,html_i(1,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,8,html_i(0,t('Enfermero Information',3))).
+html_sub_i(6,9,html_i(1,cell(9))).
+html_sub_i(9,10,html_i(0,t('Work With Enfermeroes',3))).
+html_sub_i(5,0,html_i(2,html('</tbody>'))).
+html_sub_i(2,11,html_i(2,row(11))).
+html_sub_i(11,12,html_i(0,cell(12))).
+html_sub_i(12,13,html_i(0,table(13))).
+html_sub_i(13,0,html_i(0,html('<tbody>'))).
+html_sub_i(13,14,html_i(1,row(14))).
+html_sub_i(14,15,html_i(0,cell(15))).
+html_sub_i(15,16,html_i(0,t('Apellido',3))).
+html_sub_i(14,17,html_i(1,cell(17))).
+html_sub_i(17,18,html_i(0,t(22,2))).
+html_sub_i(13,0,html_i(2,html('</tbody>'))).
+html_sub_i(12,19,html_i(1,t('',3))).
+html_sub_i(2,20,html_i(3,row(20))).
+html_sub_i(20,21,html_i(0,cell(21))).
+html_sub_i(21,22,html_i(0,comp(webcomp))).
+html_sub_i(2,0,html_i(4,html('</tbody>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(2,'Id','Viewtable',v,[ str ]).
+html_comp_i(2,'Class','ViewTable',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(2,'Border','1',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(192,192,192),d,[ color ]).
+html_comp_i(2,'Cellpadding','0',v,[ str ]).
+html_comp_i(2,'Cellspacing','0',v,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(5,'Id','Titletable',v,[ str ]).
+html_comp_i(5,'Class','Table100x100',v,[ str ]).
+html_comp_i(5,'Title','',d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Border','0',d,[ str ]).
+html_comp_i(5,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Cellpadding','0',v,[ str ]).
+html_comp_i(5,'Cellspacing','0',v,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Rules',none,d,[ str ]).
+html_comp_i(7,'Class','SubTitle',v,[ str ]).
+html_comp_i(8,'Caption','Enfermero Information',d,[ str ]).
+html_comp_i(8,'Id','Viewtitle',v,[ str ]).
+html_comp_i(8,'Event','',d,[ str ]).
+html_comp_i(8,'Returnonclick',0,d,[ bool ]).
+html_comp_i(8,'Gxformat',0,d,[ num ]).
+html_comp_i(8,'Title','',d,[ str ]).
+html_comp_i(8,'Fill',-1,d,[ bool ]).
+html_comp_i(8,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(8,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(8,'Font','',d,[ str ]).
+html_comp_i(9,'Align',right,v,[ str ]).
+html_comp_i(9,'Class','SubTitle',v,[ str ]).
+html_comp_i(9,'Colspan',1,v,[ num ]).
+html_comp_i(10,'Caption','Work With Enfermeroes',d,[ str ]).
+html_comp_i(10,'Id','Viewall',v,[ str ]).
+html_comp_i(10,'Class','TextBlock',v,[ str ]).
+html_comp_i(10,'Event','',d,[ str ]).
+html_comp_i(10,'Returnonclick',0,d,[ bool ]).
+html_comp_i(10,'Gxformat',0,d,[ num ]).
+html_comp_i(10,'Title','',d,[ str ]).
+html_comp_i(10,'Fill',-1,d,[ bool ]).
+html_comp_i(10,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(10,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(10,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(13,'Id','Table1',v,[ str ]).
+html_comp_i(13,'Class','Table',v,[ str ]).
+html_comp_i(13,'Title','',d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(13,'Border','0',d,[ str ]).
+html_comp_i(13,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(13,'Cellpadding','1',d,[ str ]).
+html_comp_i(13,'Cellspacing','2',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Rules',none,d,[ str ]).
+html_comp_i(16,'Caption','Apellido',d,[ str ]).
+html_comp_i(16,'Id','Fixtextenfermeroapellido',v,[ str ]).
+html_comp_i(16,'Class','Label',v,[ str ]).
+html_comp_i(16,'Event','',d,[ str ]).
+html_comp_i(16,'Returnonclick',0,d,[ bool ]).
+html_comp_i(16,'Gxformat',0,d,[ num ]).
+html_comp_i(16,'Title','',d,[ str ]).
+html_comp_i(16,'Fill',-1,d,[ bool ]).
+html_comp_i(16,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(16,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(16,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(18,'Attid',22,v,[ num ]).
+html_comp_i(18,'Class','ReadonlyAttribute',v,[ str ]).
+html_comp_i(18,'Controlname','Enfermeroapellido',d,[ str ]).
+html_comp_i(18,'Returnonclick',0,d,[ bool ]).
+html_comp_i(18,'Eventgx','',d,[ str ]).
+html_comp_i(18,'Controltype',2,d,[ num ]).
+html_comp_i(18,'Inputtype',0,d,[ num ]).
+html_comp_i(18,'Editautocomplete',0,d,[ num ]).
+html_comp_i(18,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(18,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(18,'Readonly',-1,d,[ bool ]).
+html_comp_i(18,'Ispassword',0,d,[ bool ]).
+html_comp_i(18,'Autoresize',-1,d,[ bool ]).
+html_comp_i(18,'Gxwidth',measure(20,chr),d,[ measure ]).
+html_comp_i(18,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(18,'Ismultiline',0,d,[ bool ]).
+html_comp_i(18,'Fill',0,d,[ bool ]).
+html_comp_i(18,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(18,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(18,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(18,'Gxformat',0,d,[ num ]).
+html_comp_i(18,'Title','',d,[ str ]).
+html_comp_i(19,'Caption','',d,[ str ]).
+html_comp_i(19,'Id','Spaceseparator',v,[ str ]).
+html_comp_i(19,'Class','Separator',v,[ str ]).
+html_comp_i(19,'Event','',d,[ str ]).
+html_comp_i(19,'Returnonclick',0,d,[ bool ]).
+html_comp_i(19,'Gxformat',0,d,[ num ]).
+html_comp_i(19,'Title','',d,[ str ]).
+html_comp_i(19,'Fill',-1,d,[ bool ]).
+html_comp_i(19,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(19,'Forecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(19,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(20,'Valign',bottom,v,[ str ]).
+html_comp_i(22,'Controlname','Tabbedview',v,[ str ]).
+html_comp_i(22,'Params',[],d,[ params ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(8,1,t('Enfermero Information',3),[ ctlname('Viewtitle') ]).
+lit_i(10,1,t('Work With Enfermeroes',3),[ ctlname('Viewall') ]).
+lit_i(5,1,table(5),[ ctlname('Titletable') ]).
+lit_i(16,1,t('Apellido',3),[ ctlname('Fixtextenfermeroapellido') ]).
+lit_i(18,1,t(22,2),[ ctlname(22),ctrltype(edit,18),pos(18),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(13,1,table(13),[ ctlname('Table1') ]).
+lit_i(19,1,t('',3),[ ctlname('Spaceseparator') ]).
+lit_i(22,1,comp(webcomp),[ ctlname('Tabbedview'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(2,1,table(2),[ ctlname('Viewtable') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,22,'ExternalName','EnfermeroApellido',d).
+att_prop_i(2,22,'ExternalNamespace',taller041,d).
+att_prop_i(2,22,'EmptyAsNull','Yes',d).
+att_prop_i(2,22,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,22,'AttRegEx','',d).
+att_prop_i(2,22,'AttValidationFailedMsg','',d).
+att_prop_i(2,22,'FullName','EnfermeroApellido',v).
+att_prop_i(2,20,'ExternalName','EnfermeroId',d).
+att_prop_i(2,20,'ExternalNamespace',taller041,d).
+att_prop_i(2,20,'EmptyAsNull','Yes',d).
+att_prop_i(2,20,'AUTONUMBER','-1',v).
+att_prop_i(2,20,'AUTONUMBER_START','1',d).
+att_prop_i(2,20,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,20,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,20,'AttRegEx','',d).
+att_prop_i(2,20,'AttValidationFailedMsg','',d).
+att_prop_i(2,20,'FullName','EnfermeroId',v).
+ 
+ 
+tbl_att_prop_i(2,3,20,'AllowNulls',n).
+tbl_att_prop_i(2,3,20,'AUTONUMBER',y).
+tbl_att_prop_i(2,3,22,'AllowNulls',n).
+ 
+var_prop_i(2,'Context','ATT_INITIAL_VALUE',[ t('udp(',1),t(o(1,'LoadContext'),28),t(')',4) ],v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,3,0 ],name,'Context').
+struct_dt_i([ 26,3,0 ],namespace,taller041).
+struct_dt_i([ 26,3,0 ],'ObjName','Context').
+struct_dt_i([ 26,3,0 ],'ObjDesc','Context').
+struct_dt_i([ 26,3,0 ],'ExternalName','Context').
+struct_dt_i([ 26,3,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,6,0 ],name,'TabOptions').
+struct_dt_i([ 26,6,0 ],namespace,taller041).
+struct_dt_i([ 26,6,0 ],'ObjName','TabOptions').
+struct_dt_i([ 26,6,0 ],'ObjDesc','Tab Options').
+struct_dt_i([ 26,6,0 ],'ExternalName','TabOptions').
+struct_dt_i([ 26,6,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,6,0 ],collection,'True').
+struct_dt_i([ 26,6,0 ],datatype,[ 26,6,7 ]).
+struct_dt_i([ 26,6,7 ],name,'TabOptionsItem').
+struct_dt_i([ 26,6,7 ],namespace,'taller041.TabOptions').
+struct_dt_i([ 26,3,0 ],fullname,'Context').
+struct_dt_i([ 26,6,0 ],fullname,'TabOptions').
+struct_dt_i([ 26,6,7 ],fullname,'TabOptions.TabOptionsItem').
+ 
+struct_dt_elem_i([ 26,3,0 ],1,name,'User').
+struct_dt_elem_i([ 26,3,0 ],1,camelname,'User').
+struct_dt_elem_i([ 26,3,0 ],1,length,20).
+struct_dt_elem_i([ 26,3,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],1,pic,'').
+struct_dt_elem_i([ 26,3,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],2,name,'Companycode').
+struct_dt_elem_i([ 26,3,0 ],2,camelname,'CompanyCode').
+struct_dt_elem_i([ 26,3,0 ],2,length,4).
+struct_dt_elem_i([ 26,3,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],2,sign,0).
+struct_dt_elem_i([ 26,3,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],3,name,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,camelname,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,length,20).
+struct_dt_elem_i([ 26,3,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],3,pic,'').
+struct_dt_elem_i([ 26,3,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,6,7 ],1,name,'Code').
+struct_dt_elem_i([ 26,6,7 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,6,7 ],1,basedon,8).
+struct_dt_elem_i([ 26,6,7 ],1,length,50).
+struct_dt_elem_i([ 26,6,7 ],1,decimals,0).
+struct_dt_elem_i([ 26,6,7 ],1,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,6,7 ],1,pic,'').
+struct_dt_elem_i([ 26,6,7 ],1,collection,'False').
+struct_dt_elem_i([ 26,6,7 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,6,7 ],1,'XmlName','').
+struct_dt_elem_i([ 26,6,7 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,6,7 ],1,soaptype,'').
+struct_dt_elem_i([ 26,6,7 ],2,name,'Description').
+struct_dt_elem_i([ 26,6,7 ],2,camelname,'Description').
+struct_dt_elem_i([ 26,6,7 ],2,length,255).
+struct_dt_elem_i([ 26,6,7 ],2,decimals,0).
+struct_dt_elem_i([ 26,6,7 ],2,type,[ 13,255,0 ]).
+struct_dt_elem_i([ 26,6,7 ],2,pic,'').
+struct_dt_elem_i([ 26,6,7 ],2,collection,'False').
+struct_dt_elem_i([ 26,6,7 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,6,7 ],2,'XmlName','').
+struct_dt_elem_i([ 26,6,7 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,6,7 ],2,soaptype,'').
+struct_dt_elem_i([ 26,6,7 ],3,name,'Link').
+struct_dt_elem_i([ 26,6,7 ],3,camelname,'Link').
+struct_dt_elem_i([ 26,6,7 ],3,basedon,5).
+struct_dt_elem_i([ 26,6,7 ],3,length,1000).
+struct_dt_elem_i([ 26,6,7 ],3,decimals,0).
+struct_dt_elem_i([ 26,6,7 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,6,7 ],3,pic,'').
+struct_dt_elem_i([ 26,6,7 ],3,collection,'False').
+struct_dt_elem_i([ 26,6,7 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,6,7 ],3,'XmlName','').
+struct_dt_elem_i([ 26,6,7 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,6,7 ],3,soaptype,'').
+struct_dt_elem_i([ 26,6,7 ],4,name,'Webcomponent').
+struct_dt_elem_i([ 26,6,7 ],4,camelname,'WebComponent').
+struct_dt_elem_i([ 26,6,7 ],4,basedon,5).
+struct_dt_elem_i([ 26,6,7 ],4,length,1000).
+struct_dt_elem_i([ 26,6,7 ],4,decimals,0).
+struct_dt_elem_i([ 26,6,7 ],4,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,6,7 ],4,pic,'').
+struct_dt_elem_i([ 26,6,7 ],4,collection,'False').
+struct_dt_elem_i([ 26,6,7 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,6,7 ],4,'XmlName','').
+struct_dt_elem_i([ 26,6,7 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,6,7 ],4,soaptype,'').
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,4,'LOADCONTEXT',[ [ o('Context'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(web,4,'NOTAUTHORIZED',[ [ svchar,256,0,0 ] ],[ [ 'GxObject',in,[] ] ]).
+pgm_parm_i(proc,2,'ISAUTHORIZED',[ [ svchar,256,0,0 ],[ boolean,4,0,0 ] ],[ [ 'GxObject',in,[] ],[ 'Authorized',out,[] ] ]).
+pgm_parm_i(web,11,'ENFERMEROMEDICO1WC',[ [ int,6,0,0 ] ],[ [ 'EnfermeroSuplenteId',in,[] ] ]).
+pgm_parm_i(web,10,'ENFERMEROMEDICOWC',[ [ int,6,0,0 ] ],[ [ 'EnfermeroTitularId',in,[] ] ]).
+pgm_parm_i(web,12,'VIEWENFERMERO',[ [ int,6,0,0 ],[ char,50,0,0 ] ],[ [ 'EnfermeroId',in,[] ],[ 'TabCode',in,[] ] ]).
+pgm_parm_i(web,9,'ENFERMEROGENERAL',[ [ int,6,0,0 ] ],[ [ 'EnfermeroId',in,[] ] ]).
+pgm_parm_i(web,6,'TABBEDVIEW',[ [ o(objectcollection('TabOptions.TabOptionsItem')),0,0,0 ],[ char,50,0,0 ] ],[ [ 'Tabs',in,[] ],[ 'TabCode',in,[] ] ]).
+pgm_parm_i(web,8,'WWENFERMERO',[],[]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

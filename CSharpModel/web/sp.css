@@ -1,0 +1,24 @@
+/* CSS StartPage Genexus */
+
+body
+{
+	margin: 0px 0px 0px 0px;
+	background-color: White;
+}
+
+.txtTitulos {
+	font-family: 'Verdana';
+	font-size: 12px;
+	color: #666666
+}
+.txtComun {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #010101
+}
+
+.linkComun:link, .linkComun:visited { font-family: 'Verdana'; color:#9c1e3d; font-size: 11px; text-decoration: none }
+.linkComun:hover { text-decoration: underline }
+
+.kbs:link, .kbs:visited { font-family: 'Verdana'; color:#333333; font-size: 11px; text-decoration: none }
+.kbs:hover { text-decoration: underline }

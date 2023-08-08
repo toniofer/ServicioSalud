@@ -1,0 +1,31 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>2</ObjId>
+<ObjName>IsAuthorized</ObjName>
+<ObjDesc>Is Authorized</ObjDesc>
+<ObjPgmName>IsAuthorized</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Gxobject</VarId>
+<VarName>&amp;GxObject</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Authorized</VarId>
+<VarName>&amp;Authorized</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

@@ -1,0 +1,245 @@
+spec_i([ mnproc,1,'DP1','DP1',0,spa,'10_1_3-34981' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'MedicosSTD'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','DP1')).
+rule_i(0,prop('ObjName','DP1')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Renovar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Desde','Hasta','Gxm1rootcol' ],[])).
+rule_i(0,parmio([ [ 'Desde',in ],[ 'Hasta',in ],[ 'Gxm1rootcol',out ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',10 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',9 ]).
+attri_i('Gxm1rootcol',[ 'Gxm1rootcol',o(objectcollection('MedicosSTD.MedicoSTD')),0,0,'',0,'Gxm1rootcol','',8 ]).
+attri_i('Cantmed',[ 'CantMed',int,4,0,'ZZZ9',0,'Cant Med','',7 ]).
+attri_i('Hasta',[ hasta,date,8,0,'99/99/99',0,hasta,'',6 ]).
+attri_i('Desde',[ desde,date,8,0,'99/99/99',0,desde,'',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,10,0 ],name,'MedicosSTD').
+struct_dt_i([ 26,10,0 ],namespace,taller041).
+struct_dt_i([ 26,10,0 ],'ObjName','MedicosSTD').
+struct_dt_i([ 26,10,0 ],'ObjDesc','Medicos STD').
+struct_dt_i([ 26,10,0 ],'ExternalName','MedicosSTD').
+struct_dt_i([ 26,10,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,10,0 ],collection,'True').
+struct_dt_i([ 26,10,0 ],datatype,[ 26,10,12 ]).
+struct_dt_i([ 26,10,12 ],name,'MedicoSTD').
+struct_dt_i([ 26,10,12 ],namespace,'taller041.MedicosSTD').
+struct_dt_i([ 26,10,0 ],camelname,'Medicosstd').
+struct_dt_i([ 26,10,12 ],camelname,'Medicostd').
+struct_dt_i([ 26,10,0 ],fullname,'MedicosSTD').
+struct_dt_i([ 26,10,12 ],fullname,'MedicosSTD.MedicoSTD').
+ 
+struct_dt_elem_i([ 26,10,12 ],1,name,'Medicoid').
+struct_dt_elem_i([ 26,10,12 ],1,camelname,'MedicoId').
+struct_dt_elem_i([ 26,10,12 ],1,basedon,10).
+struct_dt_elem_i([ 26,10,12 ],1,length,6).
+struct_dt_elem_i([ 26,10,12 ],1,decimals,0).
+struct_dt_elem_i([ 26,10,12 ],1,sign,0).
+struct_dt_elem_i([ 26,10,12 ],1,type,[ 4,6,0 ]).
+struct_dt_elem_i([ 26,10,12 ],1,pic,'ZZZZZ9').
+struct_dt_elem_i([ 26,10,12 ],1,collection,'False').
+struct_dt_elem_i([ 26,10,12 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,10,12 ],1,'XmlName','').
+struct_dt_elem_i([ 26,10,12 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,10,12 ],1,soaptype,'').
+struct_dt_elem_i([ 26,10,12 ],2,name,'Medicoapellido').
+struct_dt_elem_i([ 26,10,12 ],2,camelname,'MedicoApellido').
+struct_dt_elem_i([ 26,10,12 ],2,basedon,12).
+struct_dt_elem_i([ 26,10,12 ],2,length,20).
+struct_dt_elem_i([ 26,10,12 ],2,decimals,0).
+struct_dt_elem_i([ 26,10,12 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,10,12 ],2,pic,'').
+struct_dt_elem_i([ 26,10,12 ],2,collection,'False').
+struct_dt_elem_i([ 26,10,12 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,10,12 ],2,'XmlName','').
+struct_dt_elem_i([ 26,10,12 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,10,12 ],2,soaptype,'').
+struct_dt_elem_i([ 26,10,12 ],3,name,'Mediconombre').
+struct_dt_elem_i([ 26,10,12 ],3,camelname,'MedicoNombre').
+struct_dt_elem_i([ 26,10,12 ],3,basedon,11).
+struct_dt_elem_i([ 26,10,12 ],3,length,20).
+struct_dt_elem_i([ 26,10,12 ],3,decimals,0).
+struct_dt_elem_i([ 26,10,12 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,10,12 ],3,pic,'').
+struct_dt_elem_i([ 26,10,12 ],3,collection,'False').
+struct_dt_elem_i([ 26,10,12 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,10,12 ],3,'XmlName','').
+struct_dt_elem_i([ 26,10,12 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,10,12 ],3,soaptype,'').
+struct_dt_elem_i([ 26,10,12 ],4,name,'Especialidadid').
+struct_dt_elem_i([ 26,10,12 ],4,camelname,'EspecialidadId').
+struct_dt_elem_i([ 26,10,12 ],4,basedon,10).
+struct_dt_elem_i([ 26,10,12 ],4,length,6).
+struct_dt_elem_i([ 26,10,12 ],4,decimals,0).
+struct_dt_elem_i([ 26,10,12 ],4,sign,0).
+struct_dt_elem_i([ 26,10,12 ],4,type,[ 4,6,0 ]).
+struct_dt_elem_i([ 26,10,12 ],4,pic,'ZZZZZ9').
+struct_dt_elem_i([ 26,10,12 ],4,collection,'False').
+struct_dt_elem_i([ 26,10,12 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,10,12 ],4,'XmlName','').
+struct_dt_elem_i([ 26,10,12 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,10,12 ],4,soaptype,'').
+struct_dt_elem_i([ 26,10,12 ],2,pic,'ZZZZZ9').
+struct_dt_elem_i([ 26,10,12 ],3,pic,'ZZ9').
+struct_dt_elem_i([ 26,10,12 ],2,pic,'ZZZZZ9').
+struct_dt_elem_i([ 26,10,12 ],3,pic,'ZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

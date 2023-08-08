@@ -1,0 +1,2 @@
+gx.evt.autoSkip=false;function categoryconsultarelationwc(a){this.ServerClass="CategoryConsultaRelationWC";this.PackageName="GeneXus.Programs";this.setObjectType("web");this.setCmpContext(a);this.ReadonlyForm=true;this.hasEnterEvent=false;this.autoRefresh=true;this.SetStandaloneVars=function(){};this.e120p2_client=function(){this.executeServerEvent("ENTER",true)};this.e130p2_client=function(){this.executeServerEvent("CANCEL",true)};this.GXValidFnc=[];this.GXLastCtrlId=0;this.ServerEvents=["e120p2_client","e130p2_client"];
+this.SetStandaloneVars()};

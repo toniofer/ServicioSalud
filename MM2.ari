@@ -1,0 +1,121 @@
+ 
+ 
+ 
+pgm_main_i(proc,14,'LISTARMEDICOS',[ 15,'ALISTARMEDICOS','Listar Medicos','','','','HTTP' ]).
+pgm_main_i(proc,13,'IMPRESIONTIKET',[ 15,'AIMPRESIONTIKET','Impresion Tiket','','','','HTTP' ]).
+pgm_main_i(web,5,'HOME',[ 15,'HOME','Home','','','','' ]).
+pgm_main_i(web,24,'CATEGORYGESTIONCONSULTARELATIONWC',[ 15,'CATEGORYGESTIONCONSULTARELATIONWC','Category Gestion Consulta Relation WC','','','','' ]).
+pgm_main_i(web,25,'CATEGORYCONSULTARELATIONWC',[ 15,'CATEGORYCONSULTARELATIONWC','Category Consulta Relation WC','','','','' ]).
+ 
+pgm_prop_i(web,17,'GESTIONCONSULTAGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,17,'GESTIONCONSULTAGENERAL','URLAccess','No').
+pgm_prop_i(web,18,'GESTIONCONSULTACONSULTAPACIENTEWC','WEB_COMP','Yes').
+pgm_prop_i(web,18,'GESTIONCONSULTACONSULTAPACIENTEWC','URLAccess','No').
+pgm_prop_i(web,38,'HISTORIACLINICAGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,38,'HISTORIACLINICAGENERAL','URLAccess','No').
+pgm_prop_i(web,28,'GX0050','USE_ENCRYPTION','NO').
+pgm_prop_i(web,30,'GX0080','USE_ENCRYPTION','NO').
+pgm_prop_i(web,29,'GX0070','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,11,'GESTIONCONSULTAPACIENTE',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(web,15,'CONSULTAPACIENTEGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,15,'CONSULTAPACIENTEGENERAL','URLAccess','No').
+pgm_prop_i(trn,8,'CONSULTAPACIENTE',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(web,31,'GX0060','USE_ENCRYPTION','NO').
+pgm_prop_i(web,7,'APPMASTERSD','WEB_COMP','Master').
+pgm_prop_i(web,9,'ENFERMEROGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,9,'ENFERMEROGENERAL','URLAccess','No').
+pgm_prop_i(web,10,'ENFERMEROMEDICOWC','WEB_COMP','Yes').
+pgm_prop_i(web,10,'ENFERMEROMEDICOWC','URLAccess','No').
+pgm_prop_i(web,32,'GX0020','USE_ENCRYPTION','NO').
+pgm_prop_i(web,20,'GX0030','USE_ENCRYPTION','NO').
+pgm_prop_i(web,11,'ENFERMEROMEDICO1WC','WEB_COMP','Yes').
+pgm_prop_i(web,11,'ENFERMEROMEDICO1WC','URLAccess','No').
+pgm_prop_i(web,23,'GX0010','USE_ENCRYPTION','NO').
+pgm_prop_i(web,21,'GX0040','USE_ENCRYPTION','NO').
+pgm_prop_i(web,3,'PROMPTMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,6,'TABBEDVIEW','WEB_COMP','Yes').
+pgm_prop_i(web,6,'TABBEDVIEW','URLAccess','No').
+pgm_prop_i(web,1,'APPMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,2,'RECENTLINKS','WEB_COMP','Yes').
+pgm_prop_i(web,2,'RECENTLINKS','URLAccess','No').
+pgm_prop_i(web,24,'CATEGORYGESTIONCONSULTARELATIONWC','WEB_COMP','Yes').
+pgm_prop_i(web,24,'CATEGORYGESTIONCONSULTARELATIONWC','URLAccess','No').
+pgm_prop_i(web,25,'CATEGORYCONSULTARELATIONWC','WEB_COMP','Yes').
+pgm_prop_i(web,25,'CATEGORYCONSULTARELATIONWC','URLAccess','No').
+ 
+ 
+model_wrkinfo_i([ '.Net Environment','CSharpModel' ]).
+ 
+model_info_i([ 'Design','CSharpModel',1 ]).
+ 
+datastore_i(1,'DS_LAST_CHANGE','').
+datastore_i(1,'LOCK_RETRY','10').
+datastore_i(1,'WAIT_RECORD','0').
+datastore_i(1,'SQLSERVER_VERSION','9').
+datastore_i(1,'COMMENT_ON','No').
+datastore_i(1,'DFT_TMP_TBLSPACE','').
+datastore_i(1,'DFT_IDX_TBLSPACE','').
+datastore_i(1,'DFT_TBL_TBLSPACE','').
+datastore_i(1,'DCL_REF_INT_DB','Yes').
+datastore_i(1,'PRIMARY_KEY_TYPE','PK').
+datastore_i(1,'CS_SCHEMA','').
+datastore_i(1,'CC_USER_PASS','').
+datastore_i(1,'CC_USER_ID','').
+datastore_i(1,'CC_SERVER','').
+datastore_i(1,'CC_DBNAME','').
+datastore_i(1,'RecycleRWMin','30').
+datastore_i(1,'RecycleRWType','1').
+datastore_i(1,'RecycleRW','-1').
+datastore_i(1,'POOL_STARTUP','No').
+datastore_i(1,'POOLSIZE_RW','10').
+datastore_i(1,'UnlimitedRWPool','-1').
+datastore_i(1,'PoolRWEnabled','-1').
+datastore_i(1,'CS_RPCPGML','').
+datastore_i(1,'JDBC_DATASOURCE','').
+datastore_i(1,'USE_JDBC_DATASOURCE','0').
+datastore_i(1,'DS_DBMS_ADDINFO','').
+datastore_i(1,'USER_PASSWORD','').
+datastore_i(1,'USER_ID','').
+datastore_i(1,'TRUSTED_CONNECTION','Yes').
+datastore_i(1,'CS_CONNECT','First').
+datastore_i(1,'DBMS_PORT','').
+datastore_i(1,'CS_SERVER','D930\SQLEXPRESS').
+datastore_i(1,'CS_DBNAME',taller041).
+datastore_i(1,'CS_FLEDSNAME','').
+datastore_i(1,'CS_DRVNAME','sql server').
+datastore_i(1,'CS_DSNAME','').
+datastore_i(1,'DB_URL','').
+datastore_i(1,'JDBC_CUSTOM_URL','0').
+datastore_i(1,'JDBC_CUSTOM_DRIVER','').
+datastore_i(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver').
+datastore_i(1,'CONNECT_METHOD','OPSYS').
+datastore_i(1,'ACCESS_TECHNO','ADONET').
+datastore_i(1,'MAIN_DS','-1').
+datastore_i(1,'REORG_GEN','8').
+datastore_i(1,'HelpKeyword','20').
+datastore_i(1,'DBMS',12).
+datastore_i(1,'NAME','Default').
+ 
+subview_i(2,509,3).
+subview_i(2,510,3).
+ 
+subtype_group_i(1,1,[ 'EnfermeroTitular',[ [ 46,20 ],[ 47,21 ],[ 48,22 ] ] ]).
+subtype_group_i(1,2,[ 'EnfermeroSuplente',[ [ 51,20 ],[ 52,21 ],[ 56,22 ] ] ]).
+subtype_group_i(2,1,[ 'EnfermeroTitular',[ [ 46,20 ],[ 47,21 ],[ 48,22 ] ] ]).
+subtype_group_i(2,2,[ 'EnfermeroSuplente',[ [ 51,20 ],[ 52,21 ],[ 56,22 ] ] ]).
+ 
+ 
+culture_id_i(spa).
+ 
+lng_i(1,[ 'Spanish','Spanish',spa ]).
+ 
+lng_prop_i(1,'ISOLangCode','ES',v).
+lng_prop_i(1,'ISOCountryCode','ES',v).
+lng_prop_i(1,'Codepage','1252',v).
+lng_prop_i(1,'LanguageLocalization','',d).
+lng_prop_i(1,'LangDateFormat','SPA',v).
+lng_prop_i(1,'LangTimeFormat','24',v).
+lng_prop_i(1,'LangDecimalPoint',',',v).
+ 
+ver_stamp('20101122.083248').
+ 

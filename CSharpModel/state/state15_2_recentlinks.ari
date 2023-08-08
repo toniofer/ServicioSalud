@@ -1,0 +1,15 @@
+current_obj_i(2,web,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(recentlinks,[],[],[],2).
+ 
+ 
+obj_parms_i([ 'String aP0_FormCaption','String aP1_FormPgmName' ],[ [ 'Formcaption',in ],[ 'Formpgmname',in ] ]).
+ 
+ 
+ 

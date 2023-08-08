@@ -1,0 +1,162 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>Paciente</ObjName>
+<ObjDesc>Paciente</ObjDesc>
+<ObjPgmName>Paciente</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>4</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>36</AttriId>
+<AttriName>PacienteApellido</AttriName>
+<Description>Paciente Apellido</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>PacienteNombre</AttriName>
+<Description>Paciente Nombre</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>PacienteDomicilio</AttriName>
+<Description>Paciente Domicilio</Description></Attribute>
+<Attribute>
+<AttriId>38</AttriId>
+<AttriName>PacienteEstadoCivil</AttriName>
+<Description>Paciente Estado Civil</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>PacienteFechaNacimiento</AttriName>
+<Description>Paciente Fecha Nacimiento</Description></Attribute>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>PacienteFechaIngreso</AttriName>
+<Description>Paciente Fecha Ingreso</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>PacienteCI</AttriName>
+<Description>Paciente CI</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>36</AttriId>
+<AttriName>PacienteApellido</AttriName>
+<Description>Paciente Apellido</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>PacienteNombre</AttriName>
+<Description>Paciente Nombre</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>PacienteDomicilio</AttriName>
+<Description>Paciente Domicilio</Description></Attribute>
+<Attribute>
+<AttriId>38</AttriId>
+<AttriName>PacienteEstadoCivil</AttriName>
+<Description>Paciente Estado Civil</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>PacienteFechaNacimiento</AttriName>
+<Description>Paciente Fecha Nacimiento</Description></Attribute>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>PacienteFechaIngreso</AttriName>
+<Description>Paciente Fecha Ingreso</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>PacienteCI</AttriName>
+<Description>Paciente CI</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>8</TableId>
+<TableName>ConsultaPaciente</TableName>
+<Description>Consulta Paciente</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>4</TableId>
+<TableName>Paciente</TableName>
+<Description>Paciente</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>21</ObjId>
+<ObjName>Gx0040</ObjName>
+<ObjPgmName>Gx0040</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>PacienteId</AttriName>
+<Description>Paciente Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

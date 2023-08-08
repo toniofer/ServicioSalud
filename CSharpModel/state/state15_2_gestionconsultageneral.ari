@@ -1,0 +1,19 @@
+current_obj_i(2,web,17).
+ 
+called_tree_i(13,17,1,2).
+called_tree_i(13,17,1,4).
+called_tree_i(13,17,0,9).
+called_tree_i(13,17,13,4).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gestionconsultageneral,[],[],[],17).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_ConsultaFecha','int aP1_MedicoId','short aP2_TurnoId' ],[ [ 43,in ],[ 12,in ],[ 60,in ] ]).
+ 
+ 
+ 

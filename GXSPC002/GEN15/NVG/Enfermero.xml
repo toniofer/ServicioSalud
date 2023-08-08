@@ -1,0 +1,147 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>Enfermero</ObjName>
+<ObjDesc>Enfermero</ObjDesc>
+<ObjPgmName>Enfermero</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Enfermeroid</VarId>
+<VarName>&amp;EnfermeroId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>3</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>Enfermero</TableName>
+<Description>Enfermero</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>Enfermero</TableName>
+<Description>Enfermero</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>EnfermeroId</AttriName>
+<Description>Enfermero Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>Enfermero</TableName>
+<Description>Enfermero</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>EnfermeroNombre</AttriName>
+<Description>Enfermero Nombre</Description></Attribute>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>EnfermeroApellido</AttriName>
+<Description>Enfermero Apellido</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>EnfermeroDomicilio</AttriName>
+<Description>Enfermero Domicilio</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>EnfermeroEstadoCivil</AttriName>
+<Description>Enfermero Estado Civil</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>EnfermeroFechaIngreso</AttriName>
+<Description>Enfermero Fecha Ingreso</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>Enfermero</TableName>
+<Description>Enfermero</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>EnfermeroNombre</AttriName>
+<Description>Enfermero Nombre</Description></Attribute>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>EnfermeroApellido</AttriName>
+<Description>Enfermero Apellido</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>EnfermeroDomicilio</AttriName>
+<Description>Enfermero Domicilio</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>EnfermeroEstadoCivil</AttriName>
+<Description>Enfermero Estado Civil</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>EnfermeroFechaIngreso</AttriName>
+<Description>Enfermero Fecha Ingreso</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>Enfermero</TableName>
+<Description>Enfermero</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>EnfermeroSuplenteId</AttriName>
+<Description>Enfermero Suplente Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>1</TableId>
+<TableName>Medico</TableName>
+<Description>Médico</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>EnfermeroTitularId</AttriName>
+<Description>Enfermero Titular Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

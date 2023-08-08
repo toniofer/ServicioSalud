@@ -1,0 +1,513 @@
+spec_i([ mnproc,4,'DPEstadisticas','DPEstadisticas',0,spa,'10_1_3-34981' ]).
+ 
+struct_i(2,1,[],[]).
+struct_i(3,2,[ 9 ],[]).
+ 
+level_i(2,[ 2,[ [ 2,many ] ],[],[],[ [ [ 2 ],[ 9,10 ] ] ],[ [ [ 2 ],[] ] ],[ 9 ],'IESPECIALIDAD',[],[] ]).
+level_i(3,[ 1,[ [ 1,many ],[ 2001,one ] ],[],[],[ [ [ 1,2001 ],[ 9,14,13,40000,40001,12 ] ] ],[ [ [ 1,2001 ],[] ] ],[ 9 ],'IMEDICO1',[ 1,[ [ [],9,9 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+tw_i(3,[ [ 2001,[ [ 1,oe([ t(12,2) ]),12 ] ] ] ]).
+ 
+lwi_i(2,[ [] ]).
+lwi_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 2,9 ],[ 2,10 ] ] ]).
+ta_i(3,[ [ [ 1,12 ],[ 1,9 ],[ 1,14 ],[ 1,13 ],[ 2001,se(40000,[ [ 2001,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2001,se(40001,[ [ 2001,40001 ] ],[ t('coalesce(',1),t(40001,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ 
+las_i(2,[ [ 9,10 ] ]).
+las_i(3,[ [ 9,14,13,40000,40001,12 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'EstadisticasSDT'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','DPEstadisticas')).
+rule_i(0,prop('ObjName','DPEstadisticas')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Renovar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Fechadesde','Fechahasta','Gxm1estadisticassdt' ],[])).
+rule_i(0,parmio([ [ 'Fechadesde',in ],[ 'Fechahasta',in ],[ 'Gxm1estadisticassdt',out ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,3,t,1,[],[ [ [ [],9,9 ] ],'IMEDICO1',[] ]).
+a_i(3,3,r,2001,[],[ [ [ 1,oe([ t(12,2) ]),12 ] ],'IMEDICO',[] ]).
+a_i(4,2,t,2,[],[ [],'IESPECIALIDAD',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,9).
+v_i(t,o,2,12).
+v_i(t,o,2,14).
+v_i(t,o,2,13).
+v_i(r,i,3,12).
+v_i(r,o,3,40000).
+v_i(r,o,3,40001).
+v_i(t,i,4,[]).
+v_i(t,o,4,9).
+v_i(t,o,4,10).
+ 
+ 
+ 
+ 
+ 
+attri_i(34,[ 'PacienteId',int,6,0,'ZZZZZ9',0,'Paciente Id','',0 ]).
+attri_i(75,[ 'Confirmado',boolean,4,0,'',0,'Confirmado','',0 ]).
+attri_i(60,[ 'TurnoId',int,2,0,'Z9',0,'Turno Id','',0 ]).
+attri_i(12,[ 'MedicoId',int,6,0,'ZZZZZ9',0,'Medico Id','',0 ]).
+attri_i(43,[ 'ConsultaFecha',date,8,0,'99/99/99',0,'Consulta Fecha','',0 ]).
+attri_i(9,[ 'EspecialidadId',int,6,0,'ZZZZZ9',0,'Especialidad Id','',0 ]).
+attri_i(10,[ 'EspecialidadDescripcion',char,20,0,'',0,'Especialidad Descripcion','',0 ]).
+attri_i(14,[ 'MedicoApellido',char,20,0,'',0,'Medico Apellido','',0 ]).
+attri_i(13,[ 'MedicoNombre',char,20,0,'',0,'Medico Nombre','',0 ]).
+attri_i(40001,[ 'GXC2',int,2,0,'',0,'',[],0 ]).
+attri_i(40000,[ 'GXC1',int,9,0,'',0,'',[],0 ]).
+attri_i(70,[ 'CantPacConf',int,2,0,'Z9',0,'Cant Pac Conf','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',11 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',10 ]).
+attri_i('Gxm3estadisticassdt_especialidad_medico',[ 'Gxm3estadisticassdt_especialidad_medico',o('EstadisticasSDT.EspecialidadItem.MedicoItem'),0,0,'',0,'Gxm3estadisticassdt_especialidad_medico','',9 ]).
+attri_i('Gxm2estadisticassdt_especialidad',[ 'Gxm2estadisticassdt_especialidad',o('EstadisticasSDT.EspecialidadItem'),0,0,'',0,'Gxm2estadisticassdt_especialidad','',8 ]).
+attri_i('Gxm1estadisticassdt',[ 'Gxm1estadisticassdt',o('EstadisticasSDT'),0,0,'',0,'Gxm1estadisticassdt','',7 ]).
+attri_i('Fechahasta',[ 'FechaHasta',date,8,0,'99/99/99',0,'Fecha Hasta','',6 ]).
+attri_i('Fechadesde',[ 'FechaDesde',date,8,0,'99/99/99',0,'Fecha Desde','',5 ]).
+ 
+table_i(2000,[ 'Consulta',[ 43,12,60,70 ],'Consulta','Consulta' ]).
+table_i(5,[ 'Consulta',[ 43,12,60 ],'Consulta','Consulta' ]).
+table_i(8,[ 'ConsultaPaciente',[ 43,34,12,60,75 ],'Consulta Paciente','ConsultaPaciente' ]).
+table_i(2001,[ 'Medico',[ 12 ],'Médico','Medico' ]).
+table_i(1,[ 'Medico',[ 12,13,14,9 ],'Médico','Medico' ]).
+table_i(2,[ 'Especialidad',[ 9,10 ],'Especialidad','Especialidad' ]).
+ 
+index_i(8,[ 'ICONSULTAPACIENTE',u,[ 43,34,12,60 ],'IConsultaPaciente' ]).
+index_i(5,[ 'ICONSULTA',u,[ 43,12,60 ],'IConsulta' ]).
+index_i(2000,[ 'ICONSULTA',u,[ 43,12,60 ],'IConsulta' ]).
+index_i(1,[ 'IMEDICO',u,[ 12 ],'IMedico' ]).
+index_i(1,[ 'IMEDICO1',d,[ 9 ],'IMedico1' ]).
+index_i(2001,[ 'IMEDICO',u,[ 12 ],'IMedico' ]).
+index_i(2,[ 'IESPECIALIDAD',u,[ 9 ],'IEspecialidad' ]).
+ 
+lv_i(2,2000,5).
+lv_i(2,2001,1).
+ 
+ 
+ 
+nav_view_i(2001,[ 40000,40001 ],[ 12 ],[ 12 ],[ [ 2001,[ [ 1,oe([ t(12,2) ]),12 ] ] ] ],[ [ [ 2000,[ 'count(',se(70,[ [ 2000,70 ] ],[ t('coalesce(',1),t(70,2),t(',',7),t('0',3),t(')',4) ]) ] ],[ 5,12 ],[ 2000,[ 'sum(',se(70,[ [ 2000,70 ] ],[ t('coalesce(',1),t(70,2),t(',',7),t('0',3),t(')',4) ]) ] ] ],n,[ [ 5,many ],[ 2000,one ] ],[ [ 2000,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ] ],[],[ none ],[],[ 12 ],[] ]).
+nav_view_i(2000,[ 70 ],[ 43,12,60 ],[ 43,12,60 ],[ [ 2000,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ] ],[ [ [ 8,[ 'count(',75 ] ],[ 8,43 ],[ 8,12 ],[ 8,60 ] ],n,[ [ 8,many ] ],[],[ c([ t(75,2),t(=,10),t('TRUE',40) ],[ 75 ]) ],[ none ],[],[ 43,12,60 ],[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(3,0,0,[ [ [ 9,2,9,= ] ],many ]).
+ 
+end_i(3,0,0,[ [ [ t(9,2),t(=,10),t(9,23) ] ] ]).
+ 
+ 
+ 
+ 
+enumerated_i(2,17,15).
+ 
+enum_value_i(2,15,'"S"','Soltero','"Soltero"').
+enum_value_i(2,15,'"C"','Casado','"Casado"').
+enum_value_i(2,15,'"V"','Viudo','"Viudo"').
+enum_value_i(2,15,'"D"','Divorciado','"Divorciado"').
+ 
+enum_value_info_i(2,15,'EstadoCivil').
+ 
+enum_type_i(2,15,char,1,0).
+ 
+ 
+break_i(3,nvg,2,[],[ [ 13,14 ],[],[] ]).
+break_i(2,nvg,1,[],[ [ 10 ],[],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,3).
+b_group_i(1,2,nvg,2,7,7).
+b_group_i(2,1,lit,0,8,9).
+b_group_i(2,2,nvg,3,12,12).
+b_group_i(3,1,lit,0,13,14).
+b_group_i(2,3,lit,0,19,17).
+b_group_i(1,3,lit,0,21,0).
+ 
+b_line_i(3,1,1,cmd,3,[ t('',107,3,0),t([ t('Gxm1estadisticassdt',23,3,0),t('Fechadesde',3,3,0) ],29,3,0),t(=,10,3,0),t('Fechadesde',23,3,0) ]).
+b_line_i(4,1,1,cmd,3,[ t('',107,3,0),t([ t('Gxm1estadisticassdt',23,3,0),t('Fechahasta',3,3,0) ],29,3,0),t(=,10,3,0),t('Fechahasta',23,3,0) ]).
+b_line_i(7,2,1,cmd,8,[ t('',121,7,0) ]).
+b_line_i([ 7,1 ],2,1,cmd,7,[ t('',107,7,0),t('Gxm2estadisticassdt_especialidad',23,7,0),t(=,10,7,0),t([ 'EstadisticasSDT.EspecialidadItem',[ t('(',0,7,0),t(')',4,7,0) ],n ],46,7,0) ]).
+b_line_i([ 7,2 ],2,1,cmd,7,[ t('',107,7,0),t([ t('Gxm1estadisticassdt',23,7,0),t('Especialidad',3,7,0),t('add(',1,7,0) ],31,7,0),t('Gxm2estadisticassdt_especialidad',23,7,0),t(')',4,7,0) ]).
+b_line_i(9,2,1,cmd,9,[ t('',107,9,0),t([ t('Gxm2estadisticassdt_especialidad',23,9,0),t('Especialidad',3,9,0) ],29,9,0),t(=,10,9,0),t(10,2,9,0) ]).
+b_line_i(12,3,1,cmd,13,[ t('',121,12,0) ]).
+b_line_i([ 12,1 ],3,1,cmd,12,[ t('',107,12,0),t('Gxm3estadisticassdt_especialidad_medico',23,12,0),t(=,10,12,0),t([ 'EstadisticasSDT.EspecialidadItem.MedicoItem',[ t('(',0,12,0),t(')',4,12,0) ],n ],46,12,0) ]).
+b_line_i([ 12,2 ],3,1,cmd,12,[ t('',107,12,0),t([ t('Gxm2estadisticassdt_especialidad',23,12,0),t('Medico',3,12,0),t('add(',1,12,0) ],31,12,0),t('Gxm3estadisticassdt_especialidad_medico',23,12,0),t(')',4,12,0) ]).
+b_line_i(14,3,1,cmd,14,[ t('',107,14,0),t([ t('Gxm3estadisticassdt_especialidad_medico',23,14,0),t('Medicoapellido',3,14,0) ],29,14,0),t(=,10,14,0),t(14,2,14,0) ]).
+b_line_i(15,3,1,cmd,14,[ t('',107,14,0),t([ t('Gxm3estadisticassdt_especialidad_medico',23,14,0),t('Mediconombre',3,14,0) ],29,14,0),t(=,10,14,0),t(13,2,14,0) ]).
+b_line_i(16,3,1,cmd,14,[ t('',107,14,0),t([ t('Gxm3estadisticassdt_especialidad_medico',23,14,0),t('Cantconsultas',3,14,0) ],29,14,0),t(=,10,14,0),t(40000,2,14,0) ]).
+b_line_i(17,3,1,cmd,14,[ t('',107,14,0),t([ t('Gxm3estadisticassdt_especialidad_medico',23,14,0),t('Cantpacatendidos',3,14,0) ],29,14,0),t(=,10,14,0),t(40001,2,14,0) ]).
+b_line_i(18,3,1,cmd,14,[ t('',128,14,0) ]).
+b_line_i(20,2,3,cmd,17,[ t('',128,17,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,70,'ExternalName','CantPacConf',d).
+att_prop_i(2,70,'ExternalNamespace',taller041,d).
+att_prop_i(2,70,'EmptyAsNull','Yes',d).
+att_prop_i(2,70,'AUTONUMBER','0',d).
+att_prop_i(2,70,'AttRegEx','',d).
+att_prop_i(2,70,'AttValidationFailedMsg','',d).
+att_prop_i(2,70,'FullName','CantPacConf',v).
+att_prop_i(2,13,'ExternalName','MedicoNombre',d).
+att_prop_i(2,13,'ExternalNamespace',taller041,d).
+att_prop_i(2,13,'EmptyAsNull','Yes',d).
+att_prop_i(2,13,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,13,'AttRegEx','',d).
+att_prop_i(2,13,'AttValidationFailedMsg','',d).
+att_prop_i(2,13,'FullName','MedicoNombre',v).
+att_prop_i(2,14,'ExternalName','MedicoApellido',d).
+att_prop_i(2,14,'ExternalNamespace',taller041,d).
+att_prop_i(2,14,'EmptyAsNull','Yes',d).
+att_prop_i(2,14,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,14,'AttRegEx','',d).
+att_prop_i(2,14,'AttValidationFailedMsg','',d).
+att_prop_i(2,14,'FullName','MedicoApellido',v).
+att_prop_i(2,10,'ExternalName','EspecialidadDescripcion',d).
+att_prop_i(2,10,'ExternalNamespace',taller041,d).
+att_prop_i(2,10,'EmptyAsNull','Yes',d).
+att_prop_i(2,10,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,10,'AttRegEx','',d).
+att_prop_i(2,10,'AttValidationFailedMsg','',d).
+att_prop_i(2,10,'FullName','EspecialidadDescripcion',v).
+att_prop_i(2,9,'ExternalName','EspecialidadId',d).
+att_prop_i(2,9,'ExternalNamespace',taller041,d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,'AUTONUMBER','-1',v).
+att_prop_i(2,9,'AUTONUMBER_START','1',d).
+att_prop_i(2,9,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,9,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'FullName','EspecialidadId',v).
+att_prop_i(2,43,'ExternalName','ConsultaFecha',d).
+att_prop_i(2,43,'ExternalNamespace',taller041,d).
+att_prop_i(2,43,'EmptyAsNull','Yes',d).
+att_prop_i(2,43,'AttRegEx','',d).
+att_prop_i(2,43,'AttValidationFailedMsg','',d).
+att_prop_i(2,43,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,43,'FullName','ConsultaFecha',v).
+att_prop_i(2,12,'ExternalName','MedicoId',d).
+att_prop_i(2,12,'ExternalNamespace',taller041,d).
+att_prop_i(2,12,'EmptyAsNull','Yes',d).
+att_prop_i(2,12,'AUTONUMBER','-1',v).
+att_prop_i(2,12,'AUTONUMBER_START','1',d).
+att_prop_i(2,12,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,12,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,12,'AttRegEx','',d).
+att_prop_i(2,12,'AttValidationFailedMsg','',d).
+att_prop_i(2,12,'FullName','MedicoId',v).
+att_prop_i(2,60,'ExternalName','TurnoId',d).
+att_prop_i(2,60,'ExternalNamespace',taller041,d).
+att_prop_i(2,60,'EmptyAsNull','Yes',d).
+att_prop_i(2,60,'AUTONUMBER','0',d).
+att_prop_i(2,60,'AttRegEx','',d).
+att_prop_i(2,60,'AttValidationFailedMsg','',d).
+att_prop_i(2,60,'FullName','TurnoId',v).
+att_prop_i(2,75,'ExternalName','Confirmado',d).
+att_prop_i(2,75,'ExternalNamespace',taller041,d).
+att_prop_i(2,75,'EmptyAsNull','Yes',d).
+att_prop_i(2,75,'AttRegEx','',d).
+att_prop_i(2,75,'AttValidationFailedMsg','',d).
+att_prop_i(2,75,'FullName','Confirmado',v).
+att_prop_i(2,34,'ExternalName','PacienteId',d).
+att_prop_i(2,34,'ExternalNamespace',taller041,d).
+att_prop_i(2,34,'EmptyAsNull','Yes',d).
+att_prop_i(2,34,'AUTONUMBER','-1',v).
+att_prop_i(2,34,'AUTONUMBER_START','1',d).
+att_prop_i(2,34,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,34,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,34,'AttRegEx','',d).
+att_prop_i(2,34,'AttValidationFailedMsg','',d).
+att_prop_i(2,34,'FullName','PacienteId',v).
+ 
+tbl_prop_i(2,2000,'AllDirSuper',[ [ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,5,'AllDirSuper',[ [ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,8,'AllDirSuper',[ [ 5,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,1,'AllDirSuper',[ [ 2,[ 9 ] ] ],v).
+tbl_prop_i(2,2001,'DirSubor',[ [ 5,[ 12 ] ] ],v).
+tbl_prop_i(2,2000,'DirSubor',[ [ 8,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,5,'DirSubor',[ [ 8,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,1,'DirSubor',[ [ 5,[ 12 ] ] ],v).
+tbl_prop_i(2,2,'DirSubor',[ [ 1,[ 9 ] ] ],v).
+tbl_prop_i(2,2001,'DirSuper',[ [ 2,[ 9 ] ] ],v).
+tbl_prop_i(2,2000,'DirSuper',[ [ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,5,'DirSuper',[ [ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,8,'DirSuper',[ [ 5,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,1,'DirSuper',[ [ 2,[ 9 ] ] ],v).
+ 
+tbl_att_prop_i(2,8,43,'AllowNulls',n).
+tbl_att_prop_i(2,8,34,'AllowNulls',n).
+tbl_att_prop_i(2,8,12,'AllowNulls',n).
+tbl_att_prop_i(2,8,60,'AllowNulls',n).
+tbl_att_prop_i(2,8,75,'AllowNulls',n).
+tbl_att_prop_i(2,5,43,'AllowNulls',n).
+tbl_att_prop_i(2,5,12,'AllowNulls',n).
+tbl_att_prop_i(2,5,60,'AllowNulls',n).
+tbl_att_prop_i(2,2000,43,'AllowNulls',n).
+tbl_att_prop_i(2,2000,12,'AllowNulls',n).
+tbl_att_prop_i(2,2000,60,'AllowNulls',n).
+tbl_att_prop_i(2,1,12,'AllowNulls',n).
+tbl_att_prop_i(2,1,12,'AUTONUMBER',y).
+tbl_att_prop_i(2,1,13,'AllowNulls',n).
+tbl_att_prop_i(2,1,14,'AllowNulls',n).
+tbl_att_prop_i(2,1,9,'AllowNulls',n).
+tbl_att_prop_i(2,2001,12,'AllowNulls',n).
+tbl_att_prop_i(2,2001,12,'AUTONUMBER',y).
+tbl_att_prop_i(2,2,9,'AllowNulls',n).
+tbl_att_prop_i(2,2,9,'AUTONUMBER',y).
+tbl_att_prop_i(2,2,10,'AllowNulls',n).
+ 
+ 
+ 
+ 
+a_alias_i([ 'count(',75 ],'CantPacConf').
+a_alias_i(se(70,[ [ 2000,70 ] ],[ t('coalesce(',1),t(70,2),t(',',7),t('0',3),t(')',4) ]),'CantPacConf').
+a_alias_i([ 'count(',se(70,[ [ 2000,70 ] ],[ t('coalesce(',1),t(70,2),t(',',7),t('0',3),t(')',4) ]) ],'GXC1').
+a_alias_i(se(40000,[ [ 2001,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]),'GXC1').
+a_alias_i([ 'sum(',se(70,[ [ 2000,70 ] ],[ t('coalesce(',1),t(70,2),t(',',7),t('0',3),t(')',4) ]) ],'GXC2').
+a_alias_i(se(40001,[ [ 2001,40001 ] ],[ t('coalesce(',1),t(40001,2),t(',',7),t('0',3),t(')',4) ]),'GXC2').
+ 
+ 
+struct_dt_i([ 26,11,0 ],name,'EstadisticasSDT').
+struct_dt_i([ 26,11,0 ],namespace,taller041).
+struct_dt_i([ 26,11,0 ],'ObjName','EstadisticasSDT').
+struct_dt_i([ 26,11,0 ],'ObjDesc','Estadisticas SDT').
+struct_dt_i([ 26,11,0 ],'ExternalName','EstadisticasSDT').
+struct_dt_i([ 26,11,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,11,14 ],name,'EspecialidadItem').
+struct_dt_i([ 26,11,14 ],namespace,'taller041.EstadisticasSDT').
+struct_dt_i([ 26,11,15 ],name,'MedicoItem').
+struct_dt_i([ 26,11,15 ],namespace,'taller041.EstadisticasSDT.EspecialidadItem').
+struct_dt_i([ 26,11,0 ],camelname,'Estadisticassdt').
+struct_dt_i([ 26,11,14 ],camelname,'Especialidaditem').
+struct_dt_i([ 26,11,15 ],camelname,'Medicoitem').
+struct_dt_i([ 26,11,0 ],fullname,'EstadisticasSDT').
+struct_dt_i([ 26,11,14 ],fullname,'EstadisticasSDT.EspecialidadItem').
+struct_dt_i([ 26,11,15 ],fullname,'EstadisticasSDT.EspecialidadItem.MedicoItem').
+ 
+struct_dt_elem_i([ 26,11,0 ],1,name,'Fechadesde').
+struct_dt_elem_i([ 26,11,0 ],1,camelname,'FechaDesde').
+struct_dt_elem_i([ 26,11,0 ],1,length,8).
+struct_dt_elem_i([ 26,11,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,11,0 ],1,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 26,11,0 ],1,pic,'99/99/99').
+struct_dt_elem_i([ 26,11,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,11,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,11,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,11,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,11,0 ],2,name,'Fechahasta').
+struct_dt_elem_i([ 26,11,0 ],2,camelname,'FechaHasta').
+struct_dt_elem_i([ 26,11,0 ],2,length,8).
+struct_dt_elem_i([ 26,11,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,11,0 ],2,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 26,11,0 ],2,pic,'99/99/99').
+struct_dt_elem_i([ 26,11,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,11,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,11,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,11,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,11,0 ],3,name,'Especialidad').
+struct_dt_elem_i([ 26,11,0 ],3,camelname,'Especialidad').
+struct_dt_elem_i([ 26,11,0 ],3,type,[ [ 26,11,14 ],0,0 ]).
+struct_dt_elem_i([ 26,11,0 ],3,pic,'').
+struct_dt_elem_i([ 26,11,0 ],3,collection,'True').
+struct_dt_elem_i([ 26,11,0 ],3,'ObjName','Especialidad').
+struct_dt_elem_i([ 26,11,0 ],3,'ObjDesc','Especialidad').
+struct_dt_elem_i([ 26,11,0 ],3,'CollectionItemName','EspecialidadItem').
+struct_dt_elem_i([ 26,11,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,11,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,0 ],3,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,11,14 ],1,name,'Especialidad').
+struct_dt_elem_i([ 26,11,14 ],1,camelname,'Especialidad').
+struct_dt_elem_i([ 26,11,14 ],1,basedon,11).
+struct_dt_elem_i([ 26,11,14 ],1,length,20).
+struct_dt_elem_i([ 26,11,14 ],1,decimals,0).
+struct_dt_elem_i([ 26,11,14 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,11,14 ],1,pic,'').
+struct_dt_elem_i([ 26,11,14 ],1,collection,'False').
+struct_dt_elem_i([ 26,11,14 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,11,14 ],1,'XmlName','').
+struct_dt_elem_i([ 26,11,14 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,14 ],1,soaptype,'').
+struct_dt_elem_i([ 26,11,14 ],2,name,'Medico').
+struct_dt_elem_i([ 26,11,14 ],2,camelname,'Medico').
+struct_dt_elem_i([ 26,11,14 ],2,type,[ [ 26,11,15 ],0,0 ]).
+struct_dt_elem_i([ 26,11,14 ],2,pic,'').
+struct_dt_elem_i([ 26,11,14 ],2,collection,'True').
+struct_dt_elem_i([ 26,11,14 ],2,'ObjName','Medico').
+struct_dt_elem_i([ 26,11,14 ],2,'ObjDesc','Medico').
+struct_dt_elem_i([ 26,11,14 ],2,'CollectionItemName','MedicoItem').
+struct_dt_elem_i([ 26,11,14 ],2,'XmlName','').
+struct_dt_elem_i([ 26,11,14 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,14 ],2,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,11,15 ],1,name,'Medicoapellido').
+struct_dt_elem_i([ 26,11,15 ],1,camelname,'MedicoApellido').
+struct_dt_elem_i([ 26,11,15 ],1,basedon,12).
+struct_dt_elem_i([ 26,11,15 ],1,length,20).
+struct_dt_elem_i([ 26,11,15 ],1,decimals,0).
+struct_dt_elem_i([ 26,11,15 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,11,15 ],1,pic,'').
+struct_dt_elem_i([ 26,11,15 ],1,collection,'False').
+struct_dt_elem_i([ 26,11,15 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,11,15 ],1,'XmlName','').
+struct_dt_elem_i([ 26,11,15 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,15 ],1,soaptype,'').
+struct_dt_elem_i([ 26,11,15 ],2,name,'Mediconombre').
+struct_dt_elem_i([ 26,11,15 ],2,camelname,'MedicoNombre').
+struct_dt_elem_i([ 26,11,15 ],2,basedon,11).
+struct_dt_elem_i([ 26,11,15 ],2,length,20).
+struct_dt_elem_i([ 26,11,15 ],2,decimals,0).
+struct_dt_elem_i([ 26,11,15 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,11,15 ],2,pic,'').
+struct_dt_elem_i([ 26,11,15 ],2,collection,'False').
+struct_dt_elem_i([ 26,11,15 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,11,15 ],2,'XmlName','').
+struct_dt_elem_i([ 26,11,15 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,15 ],2,soaptype,'').
+struct_dt_elem_i([ 26,11,15 ],3,name,'Cantconsultas').
+struct_dt_elem_i([ 26,11,15 ],3,camelname,'CantConsultas').
+struct_dt_elem_i([ 26,11,15 ],3,length,2).
+struct_dt_elem_i([ 26,11,15 ],3,decimals,0).
+struct_dt_elem_i([ 26,11,15 ],3,sign,0).
+struct_dt_elem_i([ 26,11,15 ],3,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,11,15 ],3,pic,'Z9').
+struct_dt_elem_i([ 26,11,15 ],3,collection,'False').
+struct_dt_elem_i([ 26,11,15 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,11,15 ],3,'XmlName','').
+struct_dt_elem_i([ 26,11,15 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,15 ],3,soaptype,'').
+struct_dt_elem_i([ 26,11,15 ],4,name,'Cantpacatendidos').
+struct_dt_elem_i([ 26,11,15 ],4,camelname,'CantPacAtendidos').
+struct_dt_elem_i([ 26,11,15 ],4,length,2).
+struct_dt_elem_i([ 26,11,15 ],4,decimals,0).
+struct_dt_elem_i([ 26,11,15 ],4,sign,0).
+struct_dt_elem_i([ 26,11,15 ],4,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,11,15 ],4,pic,'Z9').
+struct_dt_elem_i([ 26,11,15 ],4,collection,'False').
+struct_dt_elem_i([ 26,11,15 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,11,15 ],4,'XmlName','').
+struct_dt_elem_i([ 26,11,15 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,11,15 ],4,soaptype,'').
+struct_dt_elem_i([ 26,11,14 ],1,pic,'ZZ9').
+struct_dt_elem_i([ 26,11,14 ],1,pic,'ZZ9').
+struct_dt_elem_i([ 26,11,15 ],1,pic,'ZZZZZ9').
+struct_dt_elem_i([ 26,11,15 ],2,pic,'ZZ9').
+struct_dt_elem_i([ 26,11,15 ],1,pic,'ZZZZZ9').
+struct_dt_elem_i([ 26,11,15 ],2,pic,'ZZ9').
+struct_dt_elem_i([ 26,11,15 ],1,pic,'ZZZZZ9').
+struct_dt_elem_i([ 26,11,15 ],2,pic,'ZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

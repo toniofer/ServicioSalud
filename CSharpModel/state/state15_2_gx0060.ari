@@ -1,0 +1,16 @@
+current_obj_i(2,web,31).
+ 
+called_tree_i(13,31,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx0060,[],[],[],31).
+ 
+ 
+obj_parms_i([ 'short aP0_pConsultorioId' ],[ [ 'Pconsultorioid',inout ] ]).
+ 
+ 
+ 

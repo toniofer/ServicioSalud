@@ -1,0 +1,15 @@
+current_obj_i(2,mnproc,4).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(dpestadisticas,[],[],[],4).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_FechaDesde','DateTime aP1_FechaHasta','SdtEstadisticasSDT aP2_Gxm1estadisticassdt' ],[ [ 'Fechadesde',in ],[ 'Fechahasta',in ],[ 'Gxm1estadisticassdt',out ] ]).
+ 
+ 
+ 

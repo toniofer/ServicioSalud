@@ -1,0 +1,312 @@
+spec_i([ web,4,'Not Authorized web panel','NotAuthorized',0,spa,'10_1_3-34981' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Gxobject' ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+lits_i('Not Authorized',5,10).
+ 
+cls_i([ 5,10 ],[ 5,23 ]).
+ 
+ 
+ 
+default_i(e('Pgmname',2,2,'"NotAuthorized"')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('TAG_LANGUAGE','HTML')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'AppMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('Folder',o(8,'Security'))).
+rule_i(0,prop('ObjDesc','Not Authorized web panel')).
+rule_i(0,prop('ObjName','NotAuthorized')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Gxobject' ],[])).
+rule_i(0,parmio([ [ 'Gxobject',in ] ])).
+ 
+a_i(1,1,f,'Pgmname',[],[ [],[ t('"NotAuthorized"',3) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Pgmname').
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Pgmname',[ 'Pgmname',char,129,0,'',1,'Program name','',8 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',7 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',6 ]).
+attri_i('Gxobject',[ 'GxObject',svchar,256,0,'',0,'Gx Object','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(4,2,2,cmd,2,[ t('',107,2,0),t([ t('Recentlinks',3,2,0),t('Object',3,2,0) ],29,2,0),t(=,10,2,0),t('create(',1,2,0),t(o(13,'RecentLinks'),28,2,0),t(',',7,2,0),t('"Not Authorized"',3,2,0),t(',',7,2,0),t('Pgmname',23,2,0),t(')',4,2,0) ]).
+b_line_i(5,2,2,cmd,2,[ t('',141,2,0),t('''You are not authorized to do this action''',3,5,6),t(')',4,2,48) ]).
+b_line_i(6,2,2,cmd,2,[ t('',147,2,0) ]).
+b_line_i(1000,2,2,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,2,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,2,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,comp(webcomp)).
+html_i(3,comp(webcomp)).
+html_i(4,table(4)).
+html_i(13,table(13)).
+html_i(16,table(16)).
+ 
+html_sub_i(4,0,html_i(0,html('<TBODY>'))).
+html_sub_i(4,5,html_i(1,row(5))).
+html_sub_i(5,6,html_i(0,cell(6))).
+html_sub_i(6,7,html_i(0,t('Not Authorized',3))).
+html_sub_i(4,8,html_i(2,row(8))).
+html_sub_i(8,9,html_i(0,cell(9))).
+html_sub_i(9,10,html_i(0,comp(errview))).
+html_sub_i(4,11,html_i(3,row(11))).
+html_sub_i(11,12,html_i(0,cell(12))).
+html_sub_i(4,0,html_i(4,html('</TBODY>'))).
+html_sub_i(13,0,html_i(0,html('<TBODY>'))).
+html_sub_i(13,14,html_i(1,row(14))).
+html_sub_i(14,15,html_i(0,cell(15))).
+html_sub_i(13,0,html_i(2,html('</TBODY>'))).
+html_sub_i(16,0,html_i(0,html('<TBODY>'))).
+html_sub_i(16,17,html_i(1,row(17))).
+html_sub_i(17,18,html_i(0,cell(18))).
+html_sub_i(16,0,html_i(2,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(10,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Controlname','Headerbc',v,[ str ]).
+html_comp_i(2,'Params',[],d,[ params ]).
+html_comp_i(3,'Controlname','Recentlinks',v,[ str ]).
+html_comp_i(3,'Params',[],d,[ params ]).
+html_comp_i(4,'Id','Table1',v,[ str ]).
+html_comp_i(4,'Class','ViewTable',v,[ str ]).
+html_comp_i(4,'Title','',d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(4,'Border','1',d,[ str ]).
+html_comp_i(4,'Bordercolor',rgb(192,192,192),d,[ color ]).
+html_comp_i(4,'Cellpadding','1',d,[ str ]).
+html_comp_i(4,'Cellspacing','2',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Rules',none,d,[ str ]).
+html_comp_i(6,'Colspan',2,v,[ num ]).
+html_comp_i(7,'Caption','Not Authorized',v,[ str ]).
+html_comp_i(7,'Id','Titletext',v,[ str ]).
+html_comp_i(7,'Class','SubTitle',v,[ str ]).
+html_comp_i(7,'Event','',d,[ str ]).
+html_comp_i(7,'Returnonclick',0,d,[ bool ]).
+html_comp_i(7,'Gxformat',0,d,[ num ]).
+html_comp_i(7,'Title','',d,[ str ]).
+html_comp_i(7,'Fill',-1,d,[ bool ]).
+html_comp_i(7,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(7,'Forecolor',rgb(120,121,122),d,[ color ]).
+html_comp_i(7,'Font',font('Arial',10,[]),d,[ font ]).
+html_comp_i(9,'Colspan',2,v,[ num ]).
+html_comp_i(10,'Controlname','Errviewer1',v,[ str ]).
+html_comp_i(10,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(10,'Displaymode',1,d,[ num ]).
+html_comp_i(10,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(10,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(10,'Fill',-1,d,[ bool ]).
+html_comp_i(12,'Colspan',2,v,[ num ]).
+html_comp_i(13,'Id','Table2',v,[ str ]).
+html_comp_i(13,'Class','HorizantalSpace',v,[ str ]).
+html_comp_i(13,'Title','',d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(13,'Border','0',d,[ str ]).
+html_comp_i(13,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(13,'Cellpadding','1',d,[ str ]).
+html_comp_i(13,'Cellspacing','2',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Rules',none,d,[ str ]).
+html_comp_i(16,'Id','Table3',v,[ str ]).
+html_comp_i(16,'Class','HorizontalLine',v,[ str ]).
+html_comp_i(16,'Title','',d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Bgcolor',rgb(157,31,31),d,[ color ]).
+html_comp_i(16,'Border','0',d,[ str ]).
+html_comp_i(16,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(16,'Cellpadding','1',d,[ str ]).
+html_comp_i(16,'Cellspacing','2',d,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Rules',none,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(2,1,comp(webcomp),[ ctlname('Headerbc'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(3,1,comp(webcomp),[ ctlname('Recentlinks'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(7,1,t('Not Authorized',3),[ ctlname('Titletext') ]).
+lit_i(10,1,comp(errview),[ ctlname('Errviewer1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(4,1,table(4),[ ctlname('Table1') ]).
+lit_i(13,1,table(13),[ ctlname('Table2') ]).
+lit_i(16,1,table(16),[ ctlname('Table3') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(web,2,'RECENTLINKS',[ [ char,100,0,0 ],[ svchar,256,0,0 ] ],[ [ 'FormCaption',in,[] ],[ 'FormPgmName',in,[] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

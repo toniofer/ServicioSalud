@@ -1,0 +1,16 @@
+current_obj_i(2,web,6).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tabbedview,[],[],[],6).
+ 
+ 
+obj_parms_i([ 'IGxCollection aP0_Tabs','String aP1_TabCode' ],[ [ 'Tabs',in ],[ 'Tabcode',in ] ]).
+ 
+ij_usercontrol_directory_i('HistoryManager').
+ 
+ 

@@ -1,0 +1,358 @@
+spec_i([ proc,0,'Stub for ImpresionTiket','ImpresionTiket',80,spa,'10_1_3-34981' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'ConsultaFecha','PacienteId','MedicoId','TurnoId' ],[])).
+rule_i(0,parmio([ [ 'ConsultaFecha',inout ],[ 'PacienteId',inout ],[ 'MedicoId',inout ],[ 'TurnoId',inout ] ])).
+rule_i(0,stub(proc)).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',7 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',6 ]).
+attri_i('TurnoId',[ 'TurnoId',int,2,0,'',0,'','',5 ]).
+attri_i('MedicoId',[ 'MedicoId',int,6,0,'',0,'','',4 ]).
+attri_i('PacienteId',[ 'PacienteId',int,6,0,'',0,'','',3 ]).
+attri_i('ConsultaFecha',[ 'ConsultaFecha',date,8,0,'',0,'','',2 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[ t('',163,0,0),t('AImpresionTiket',3,0,0),t(15,3,0,0),t('',3,0,0),t(',',7,0,0),t('ConsultaFecha',23,0,0),t(',',7,0,0),t('PacienteId',23,0,0),t(',',7,0,0),t('MedicoId',23,0,0),t(',',7,0,0),t('TurnoId',23,0,0),t(')',4,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 0,8,0 ],name,'ConsultaPaciente').
+struct_dt_i([ 0,8,0 ],namespace,taller041).
+struct_dt_i([ 0,8,0 ],significantName,'ConsultaPaciente').
+struct_dt_i([ 0,8,0 ],'ObjName','ConsultaPaciente').
+struct_dt_i([ 0,8,0 ],'ObjDesc','Consulta Paciente').
+struct_dt_i([ 0,8,0 ],'ExternalName','ConsultaPaciente').
+struct_dt_i([ 0,8,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 0,8,0 ],key,[ 43,34,12,60 ]).
+struct_dt_i([ 0,8,0 ],lvl,8).
+struct_dt_i([ 26,1,0 ],name,'Messages').
+struct_dt_i([ 26,1,0 ],namespace,'Genexus').
+struct_dt_i([ 26,1,0 ],'ObjName','Messages').
+struct_dt_i([ 26,1,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,1,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,1,0 ],'ExternalNamespace','Genexus').
+struct_dt_i([ 26,1,0 ],collection,'True').
+struct_dt_i([ 26,1,0 ],datatype,[ 26,1,1 ]).
+struct_dt_i([ 26,1,1 ],name,'Message').
+struct_dt_i([ 26,1,1 ],namespace,'Genexus.Messages').
+struct_dt_i([ 0,8,0 ],fullname,'ConsultaPaciente').
+struct_dt_i([ 26,1,0 ],fullname,'Messages').
+struct_dt_i([ 26,1,1 ],fullname,'Messages.Message').
+struct_dt_i([ 0,8,0 ],fullname,'ConsultaPaciente').
+struct_dt_i([ 26,1,0 ],fullname,'Messages').
+struct_dt_i([ 26,1,1 ],fullname,'Messages.Message').
+ 
+struct_dt_elem_i([ 0,8,0 ],1,name,'Consultafecha').
+struct_dt_elem_i([ 0,8,0 ],1,camelname,'ConsultaFecha').
+struct_dt_elem_i([ 0,8,0 ],1,length,8).
+struct_dt_elem_i([ 0,8,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],1,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,8,0 ],1,pic,'99/99/99').
+struct_dt_elem_i([ 0,8,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],1,attributeid,'43').
+struct_dt_elem_i([ 0,8,0 ],2,name,'Pacienteid').
+struct_dt_elem_i([ 0,8,0 ],2,camelname,'PacienteId').
+struct_dt_elem_i([ 0,8,0 ],2,basedon,10).
+struct_dt_elem_i([ 0,8,0 ],2,length,6).
+struct_dt_elem_i([ 0,8,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],2,sign,0).
+struct_dt_elem_i([ 0,8,0 ],2,type,[ 4,6,0 ]).
+struct_dt_elem_i([ 0,8,0 ],2,pic,'ZZZZZ9').
+struct_dt_elem_i([ 0,8,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],2,attributeid,'34').
+struct_dt_elem_i([ 0,8,0 ],3,name,'Pacienteapellido').
+struct_dt_elem_i([ 0,8,0 ],3,camelname,'PacienteApellido').
+struct_dt_elem_i([ 0,8,0 ],3,basedon,12).
+struct_dt_elem_i([ 0,8,0 ],3,length,20).
+struct_dt_elem_i([ 0,8,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,8,0 ],3,pic,'').
+struct_dt_elem_i([ 0,8,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],3,attributeid,'36').
+struct_dt_elem_i([ 0,8,0 ],4,name,'Pacientenombre').
+struct_dt_elem_i([ 0,8,0 ],4,camelname,'PacienteNombre').
+struct_dt_elem_i([ 0,8,0 ],4,basedon,11).
+struct_dt_elem_i([ 0,8,0 ],4,length,20).
+struct_dt_elem_i([ 0,8,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],4,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,8,0 ],4,pic,'').
+struct_dt_elem_i([ 0,8,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],4,attributeid,'35').
+struct_dt_elem_i([ 0,8,0 ],5,name,'Pacienteci').
+struct_dt_elem_i([ 0,8,0 ],5,camelname,'PacienteCI').
+struct_dt_elem_i([ 0,8,0 ],5,length,8).
+struct_dt_elem_i([ 0,8,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],5,type,[ 5,8,0 ]).
+struct_dt_elem_i([ 0,8,0 ],5,pic,'').
+struct_dt_elem_i([ 0,8,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],5,attributeid,'41').
+struct_dt_elem_i([ 0,8,0 ],6,name,'Medicoid').
+struct_dt_elem_i([ 0,8,0 ],6,camelname,'MedicoId').
+struct_dt_elem_i([ 0,8,0 ],6,basedon,10).
+struct_dt_elem_i([ 0,8,0 ],6,length,6).
+struct_dt_elem_i([ 0,8,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],6,sign,0).
+struct_dt_elem_i([ 0,8,0 ],6,type,[ 4,6,0 ]).
+struct_dt_elem_i([ 0,8,0 ],6,pic,'ZZZZZ9').
+struct_dt_elem_i([ 0,8,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],6,attributeid,'12').
+struct_dt_elem_i([ 0,8,0 ],7,name,'Medicoapellido').
+struct_dt_elem_i([ 0,8,0 ],7,camelname,'MedicoApellido').
+struct_dt_elem_i([ 0,8,0 ],7,basedon,12).
+struct_dt_elem_i([ 0,8,0 ],7,length,20).
+struct_dt_elem_i([ 0,8,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],7,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,8,0 ],7,pic,'').
+struct_dt_elem_i([ 0,8,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],7,attributeid,'14').
+struct_dt_elem_i([ 0,8,0 ],8,name,'Mediconombre').
+struct_dt_elem_i([ 0,8,0 ],8,camelname,'MedicoNombre').
+struct_dt_elem_i([ 0,8,0 ],8,basedon,11).
+struct_dt_elem_i([ 0,8,0 ],8,length,20).
+struct_dt_elem_i([ 0,8,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],8,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,8,0 ],8,pic,'').
+struct_dt_elem_i([ 0,8,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],8,attributeid,'13').
+struct_dt_elem_i([ 0,8,0 ],9,name,'Especialidadmaxpacientes').
+struct_dt_elem_i([ 0,8,0 ],9,camelname,'EspecialidadMaxPacientes').
+struct_dt_elem_i([ 0,8,0 ],9,length,3).
+struct_dt_elem_i([ 0,8,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],9,sign,0).
+struct_dt_elem_i([ 0,8,0 ],9,type,[ 4,3,0 ]).
+struct_dt_elem_i([ 0,8,0 ],9,pic,'ZZ9').
+struct_dt_elem_i([ 0,8,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],9,attributeid,'11').
+struct_dt_elem_i([ 0,8,0 ],10,name,'Turnoid').
+struct_dt_elem_i([ 0,8,0 ],10,camelname,'TurnoId').
+struct_dt_elem_i([ 0,8,0 ],10,basedon,16).
+struct_dt_elem_i([ 0,8,0 ],10,length,2).
+struct_dt_elem_i([ 0,8,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],10,sign,0).
+struct_dt_elem_i([ 0,8,0 ],10,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 0,8,0 ],10,pic,'Z9').
+struct_dt_elem_i([ 0,8,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],10,attributeid,'60').
+struct_dt_elem_i([ 0,8,0 ],11,name,'Turnonombre').
+struct_dt_elem_i([ 0,8,0 ],11,camelname,'TurnoNombre').
+struct_dt_elem_i([ 0,8,0 ],11,basedon,11).
+struct_dt_elem_i([ 0,8,0 ],11,length,20).
+struct_dt_elem_i([ 0,8,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],11,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,8,0 ],11,pic,'').
+struct_dt_elem_i([ 0,8,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],11,attributeid,'61').
+struct_dt_elem_i([ 0,8,0 ],12,name,'Consultanro').
+struct_dt_elem_i([ 0,8,0 ],12,camelname,'ConsultaNro').
+struct_dt_elem_i([ 0,8,0 ],12,length,2).
+struct_dt_elem_i([ 0,8,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],12,sign,0).
+struct_dt_elem_i([ 0,8,0 ],12,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 0,8,0 ],12,pic,'Z9').
+struct_dt_elem_i([ 0,8,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],12,attributeid,'63').
+struct_dt_elem_i([ 0,8,0 ],13,name,'Confirmado').
+struct_dt_elem_i([ 0,8,0 ],13,camelname,'Confirmado').
+struct_dt_elem_i([ 0,8,0 ],13,length,4).
+struct_dt_elem_i([ 0,8,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,8,0 ],13,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,8,0 ],13,pic,'').
+struct_dt_elem_i([ 0,8,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,8,0 ],13,attributeid,'75').
+struct_dt_elem_i([ 26,1,1 ],1,name,'Id').
+struct_dt_elem_i([ 26,1,1 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,1,1 ],1,length,128).
+struct_dt_elem_i([ 26,1,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,1,1 ],1,pic,'').
+struct_dt_elem_i([ 26,1,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],1,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],2,name,'Type').
+struct_dt_elem_i([ 26,1,1 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,1,1 ],2,basedon,2).
+struct_dt_elem_i([ 26,1,1 ],2,length,2).
+struct_dt_elem_i([ 26,1,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1,1 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,1,1 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,1,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],2,soaptype,'').
+struct_dt_elem_i([ 26,1,1 ],3,name,'Description').
+struct_dt_elem_i([ 26,1,1 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,1,1 ],3,length,256).
+struct_dt_elem_i([ 26,1,1 ],3,decimals,0).
+struct_dt_elem_i([ 26,1,1 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,1,1 ],3,pic,'').
+struct_dt_elem_i([ 26,1,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlName','').
+struct_dt_elem_i([ 26,1,1 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,1,1 ],3,soaptype,'').
+struct_dt_elem_i([ 0,8,0 ],3,pic,'ZZZZZ9').
+struct_dt_elem_i([ 0,8,0 ],4,pic,'ZZ9').
+struct_dt_elem_i([ 0,8,0 ],7,pic,'ZZZZZ9').
+struct_dt_elem_i([ 0,8,0 ],8,pic,'ZZ9').
+struct_dt_elem_i([ 0,8,0 ],11,pic,'ZZ9').
+struct_dt_elem_i([ 0,8,0 ],3,pic,'ZZZZZ9').
+struct_dt_elem_i([ 0,8,0 ],4,pic,'ZZ9').
+struct_dt_elem_i([ 0,8,0 ],7,pic,'ZZZZZ9').
+struct_dt_elem_i([ 0,8,0 ],8,pic,'ZZ9').
+struct_dt_elem_i([ 0,8,0 ],11,pic,'ZZ9').
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,13,'AIMPRESIONTIKET',[ [ date,8,0,0 ],[ int,6,0,0 ],[ int,6,0,0 ],[ int,2,0,0 ] ],[ [ 'ConsultaFecha',inout,[] ],[ 'PacienteId',inout,[] ],[ 'MedicoId',inout,[] ],[ 'TurnoId',inout,[] ] ]).
+ 
+pgm_main_info_i(proc,13,'IMPRESIONTIKET',[ 15,'AIMPRESIONTIKET','Impresion Tiket','','','','HTTP' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,1260 @@
+spec_i([ web,16,'Work With Gestion Consulta','WWGestionConsulta',0,spa,'10_1_3-34981' ]).
+ 
+struct_i(2,1,[ 'Pgmname','Isauthorized','Context' ],[]).
+ 
+level_i(2,[ 5,[ [ 5,many ],[ 1,one ],[ 7,one ],[ 2000,one ],[ 2002,one ],[ 2001,one ] ],[],[],[ [ [ 5,1,7,2000,2002,2001 ],[ 67,57,61,60,14,13,12,43,70,65,66 ] ] ],[ [ [ 5,1,7,2000,2002,2001 ],[] ] ],[ 57 ],'ICONSULTA1',[],[] ]).
+ 
+tw_i(2,[ [ 1,[ [ 5,12,12 ] ] ],[ 7,[ [ 5,60,60 ] ] ],[ 2000,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ],[ 2002,[ [ 5,43,43 ],[ 5,12,12 ],[ 5,60,60 ] ] ],[ 2001,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ] ]).
+ 
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(2,[ [ t(57,2),t(=,10),t('Consultorioid',23) ],[ 57 ],[ t('.NOT.',8),t('null(',1),t('Consultorioid',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(43,2),t(=,10),t('Consultafecha',23) ],[ 43 ],[ t('.NOT.',8),t('null(',1),t('Consultafecha',23),t(')',4) ],[] ]).
+ 
+ 
+ 
+ta_i(2,[ [ [ 5,67 ],[ 5,57 ],[ 7,61 ],[ 5,60 ],[ 1,14 ],[ 1,13 ],[ 5,12 ],[ 5,43 ],[ 2000,se(70,[ [ 2000,70 ] ],[ t('coalesce(',1),t(70,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2002,se(65,[ [ 2002,65 ] ],[ t('coalesce(',1),t(65,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2001,se(66,[ [ 2001,66 ] ],[ t('coalesce(',1),t(66,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ 
+las_i(2,[ [ 'Consultorioid','Consultafecha',67,57,61,60,14,13,12,43,70,65,66 ] ]).
+ 
+lac_i(2,[ [ 'Consultorioid','Consultafecha' ] ]).
+ 
+ 
+lits_i('Work With Gestion Consultas',5,10).
+lits_i('Id',5,10).
+lits_i('consulta fecha',5,10).
+lits_i(' ',5,10).
+ 
+cls_i([ 0,0 ],[ 5,106 ]).
+ 
+pos_i('Consultorioid',[ 0,0,0 ]).
+pos_i('Consultafecha',[ 0,0,0 ]).
+pos_i('Update',[ 1,2,0 ]).
+pos_i('Display',[ 1,2,5 ]).
+pos_i(43,[ 1,2,10 ]).
+pos_i(12,[ 1,2,19 ]).
+pos_i(13,[ 1,2,26 ]).
+pos_i(14,[ 1,2,47 ]).
+pos_i(60,[ 1,2,68 ]).
+pos_i(61,[ 1,2,71 ]).
+pos_i(57,[ 1,2,92 ]).
+pos_i(66,[ 1,2,96 ]).
+pos_i(65,[ 1,2,99 ]).
+pos_i(67,[ 1,2,102 ]).
+pos_i(70,[ 1,2,105 ]).
+ 
+repeat_i(2,[ 1,2,[ 'Update','Display',43,12,13,14,60,61,57,66,65,67,70 ],[] ]).
+ 
+default_i(e('Pgmname',2,2,'"WWGestionConsulta"')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('TAG_LANGUAGE','HTML')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'AppMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('ObjDesc','Work With Gestion Consulta')).
+rule_i(0,prop('ObjName','WWGestionConsulta')).
+rule_i(0,maingen(15)).
+ 
+a_i(1,1,f,'Pgmname',[],[ [],[ t('"WWGestionConsulta"',3) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(3,2,t,5,[],[ [],'ICONSULTA1',[] ]).
+a_i(4,2,r,1,[],[ [ [ 5,12,12 ] ],'IMEDICO',[] ]).
+a_i(5,2,r,7,[],[ [ [ 5,60,60 ] ],'ITURNO',[] ]).
+a_i(6,2,r,2000,[],[ [ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ],'ICONSULTA',[] ]).
+a_i(7,2,r,2002,[],[ [ [ 5,43,43 ],[ 5,12,12 ],[ 5,60,60 ] ],'ICONSULTA',[] ]).
+a_i(8,2,r,2001,[],[ [ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ],'ICONSULTA',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Pgmname').
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+v_i(t,i,3,[]).
+v_i(t,o,3,67).
+v_i(t,o,3,57).
+v_i(t,o,3,60).
+v_i(t,o,3,12).
+v_i(t,o,3,43).
+v_i(r,i,4,12).
+v_i(r,o,4,14).
+v_i(r,o,4,13).
+v_i(r,i,5,60).
+v_i(r,o,5,61).
+v_i(r,i,6,43).
+v_i(r,i,6,12).
+v_i(r,i,6,60).
+v_i(r,o,6,70).
+v_i(r,i,7,43).
+v_i(r,i,7,12).
+v_i(r,i,7,60).
+v_i(r,o,7,65).
+v_i(r,i,8,43).
+v_i(r,i,8,12).
+v_i(r,i,8,60).
+v_i(r,o,8,66).
+ 
+ 
+ 
+ 
+ 
+attri_i(9,[ 'EspecialidadId',int,6,0,'ZZZZZ9',0,'Especialidad Id','',0 ]).
+attri_i(11,[ 'EspecialidadMaxPacientes',int,3,0,'ZZ9',0,'Especialidad Max Pacientes','',0 ]).
+attri_i(63,[ 'ConsultaNro',int,2,0,'Z9',0,'Consulta Nro','',0 ]).
+attri_i(34,[ 'PacienteId',int,6,0,'ZZZZZ9',0,'Paciente Id','',0 ]).
+attri_i(75,[ 'Confirmado',boolean,4,0,'',0,'Confirmado','',0 ]).
+attri_i(70,[ 'CantPacConf',int,2,0,'Z9',0,'Cant Pac Conf','',0 ]).
+attri_i(67,[ 'UltimoNroAsig',int,2,0,'Z9',0,'Ultimo Nro Asig','',0 ]).
+attri_i(65,[ 'NrosDisponibles',int,2,0,'Z9',0,'Nros Disponibles','',0 ]).
+attri_i(66,[ 'CantNrosAsig',int,2,0,'Z9',0,'Cantidad Nros Asignados','',0 ]).
+attri_i(57,[ 'ConsultorioId',int,3,0,'ZZ9',0,'Consultorio Id','',0 ]).
+attri_i(61,[ 'TurnoNombre',char,20,0,'',0,'Turno Nombre','',0 ]).
+attri_i(60,[ 'TurnoId',int,2,0,'Z9',0,'Turno Id','',0 ]).
+attri_i(14,[ 'MedicoApellido',char,20,0,'',0,'Medico Apellido','',0 ]).
+attri_i(13,[ 'MedicoNombre',char,20,0,'',0,'Medico Nombre','',0 ]).
+attri_i(12,[ 'MedicoId',int,6,0,'ZZZZZ9',0,'Medico Id','',0 ]).
+attri_i(43,[ 'ConsultaFecha',date,8,0,'99/99/99',0,'Consulta Fecha','',0 ]).
+attri_i('Pgmname',[ 'Pgmname',char,129,0,'',1,'Program name','',19 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',18 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',17 ]).
+attri_i('Display',[ 'Display',bits,4,0,'',0,'Display','',16 ]).
+attri_i('Update',[ 'Update',bits,4,0,'',0,'Update','',15 ]).
+attri_i('Consultafecha',[ 'ConsultaFecha',date,8,0,'99/99/99',0,'Consulta Fecha','',14 ]).
+attri_i('Consultorioid',[ 'ConsultorioId',int,3,0,'ZZ9',0,'Consultorio Id','',13 ]).
+attri_i('Trncontextatt',[ 'TrnContextAtt',o('TransactionContext.Attribute'),0,0,'',0,'Trn Context Att','',12 ]).
+attri_i('Trncontext',[ 'TrnContext',o('TransactionContext'),0,0,'',0,'Trn Context','',11 ]).
+attri_i('Gridstatefiltervalue',[ 'GridStateFilterValue',o('GridState.FilterValue'),0,0,'',0,'Grid State Filter Value','',10 ]).
+attri_i('Gridstate',[ 'GridState',o('GridState'),0,0,'',0,'Grid State','',9 ]).
+attri_i('Httprequest',[ 'HTTPRequest',o(httprequest),4,0,'',0,'HTTPRequest','',8 ]).
+attri_i('Session',[ 'Session',o(websession),4,0,'',0,'Session','',7 ]).
+attri_i('Context',[ 'Context',o('Context'),0,0,'',0,'Context','',6 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',5 ]).
+ 
+table_i(2,[ 'Especialidad',[ 9,11 ],'Especialidad','Especialidad' ]).
+table_i(8,[ 'ConsultaPaciente',[ 43,34,12,60,63,75 ],'Consulta Paciente','ConsultaPaciente' ]).
+table_i(2001,[ 'Consulta',[ 43,12,60,66 ],'Consulta','Consulta' ]).
+table_i(2002,[ 'Consulta',[ 43,12,60,65 ],'Consulta','Consulta' ]).
+table_i(2000,[ 'Consulta',[ 43,12,60,70 ],'Consulta','Consulta' ]).
+table_i(1,[ 'Medico',[ 12,13,14,9 ],'Médico','Medico' ]).
+table_i(7,[ 'Turno',[ 60,61 ],'Turno','Turno' ]).
+table_i(5,[ 'Consulta',[ 43,12,60,57,67 ],'Consulta','Consulta' ]).
+ 
+index_i(8,[ 'ICONSULTAPACIENTE',u,[ 43,34,12,60 ],'IConsultaPaciente' ]).
+index_i(5,[ 'ICONSULTA',u,[ 43,12,60 ],'IConsulta' ]).
+index_i(1,[ 'IMEDICO',u,[ 12 ],'IMedico' ]).
+index_i(2,[ 'IESPECIALIDAD',u,[ 9 ],'IEspecialidad' ]).
+index_i(2001,[ 'ICONSULTA',u,[ 43,12,60 ],'IConsulta' ]).
+index_i(5,[ 'ICONSULTA1',d,[ 57 ],'IConsulta1' ]).
+index_i(7,[ 'ITURNO',u,[ 60 ],'ITurno' ]).
+index_i(2000,[ 'ICONSULTA',u,[ 43,12,60 ],'IConsulta' ]).
+index_i(2002,[ 'ICONSULTA',u,[ 43,12,60 ],'IConsulta' ]).
+ 
+lv_i(2,2000,5).
+lv_i(2,2001,5).
+lv_i(2,2002,5).
+ 
+ 
+ 
+nav_view_i(2000,[ 70 ],[ 43,12,60 ],[ 43,12,60 ],[ [ 2000,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ] ],[ [ [ 8,[ 'count(',75 ] ],[ 8,43 ],[ 8,12 ],[ 8,60 ] ],n,[ [ 8,many ] ],[],[ c([ t(75,2),t(=,10),t('TRUE',40) ],[ 75 ]) ],[ none ],[],[ 43,12,60 ],[] ]).
+nav_view_i(2001,[ 66 ],[ 43,12,60 ],[ 43,12,60 ],[ [ 2001,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ] ],[ [ [ 8,[ 'count(',63 ] ],[ 8,43 ],[ 8,12 ],[ 8,60 ] ],n,[ [ 8,many ] ],[],[],[ none ],[],[ 43,12,60 ],[] ]).
+nav_view_i(2002,[ 65 ],[ 43,12,60 ],[ 43,12,60 ],[ [ 2002,[ [ 5,43,43 ],[ 5,12,12 ],[ 5,60,60 ] ] ] ],[ [ [ 5,se(65,[ [ 2,11 ],[ 2001,se(66,[ [ 2001,66 ] ],[ t('coalesce(',1),t(66,2),t(',',7),t('0',3),t(')',4) ]) ] ],[ t(11,2),t(-,5),t(66,2) ]) ],[ 5,43 ],[ 5,12 ],[ 5,60 ] ],n,[ [ 5,one ],[ 1,one ],[ 2,one ],[ 2001,one ] ],[ [ 1,[ [ 5,12,12 ] ] ],[ 2,[ [ 1,9,9 ] ] ],[ 2001,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ] ],[],[ none ],[],[],[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(2,17,15).
+ 
+enum_value_i(2,7,'10','Rows','"Rows"').
+enum_value_i(2,9,'"INS"','Insert','"Insert"').
+enum_value_i(2,9,'"UPD"','Update','"Update"').
+enum_value_i(2,9,'"DLT"','Delete','"Delete"').
+enum_value_i(2,9,'"DSP"','Display','"Display"').
+enum_value_i(2,6,'"GET"','Get','"Get"').
+enum_value_i(2,6,'"POST"','Post','"Post"').
+enum_value_i(2,15,'"S"','Soltero','"Soltero"').
+enum_value_i(2,15,'"C"','Casado','"Casado"').
+enum_value_i(2,15,'"V"','Viudo','"Viudo"').
+enum_value_i(2,15,'"D"','Divorciado','"Divorciado"').
+ 
+enum_value_info_i(2,7,'Page').
+enum_value_info_i(2,9,'TrnMode').
+enum_value_info_i(2,6,'HttpMethod').
+enum_value_info_i(2,15,'EstadoCivil').
+ 
+enum_type_i(2,7,int,4,0).
+enum_type_i(2,9,char,3,0).
+enum_type_i(2,6,char,4,0).
+enum_type_i(2,15,char,1,0).
+ 
+ 
+break_i(2,nvg,1,[ 57 ],[ [ 43,12,13,14,60,61,57,66,65,67,70 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,18).
+b_group_i(2,3,lit,0,19,22).
+b_group_i(2,4,lit,0,23,30).
+b_group_i(2,5,lit,0,31,46).
+b_group_i(2,6,lit,0,47,62).
+b_group_i(2,7,lit,0,63,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',104,1,0),t(o(1,'IsAuthorized'),28,1,3),t('Pgmname',23,1,22),t(',',7,1,30),t('Isauthorized',23,1,32) ]).
+b_line_i(3,2,2,cmd,1,[ t('',109,1,0),t('(',0,1,5),t('.NOT.',8,1,6),t('Isauthorized',23,1,12),t(')',4,1,25) ]).
+b_line_i(4,2,2,cmd,1,[ t('',104,1,0),t(o(13,'NotAuthorized'),28,1,3),t('Pgmname',23,1,23) ]).
+b_line_i(5,2,2,cmd,1,[ t('',111,1,0) ]).
+b_line_i(7,2,2,cmd,1,[ t('',107,1,0),t([ t('Grid',3,1,0),t('Rows',3,1,0) ],29,1,0),t(=,10,1,0),t([ 7,'Rows' ],44,1,0) ]).
+b_line_i(8,2,2,cmd,1,[ t('',107,1,0),t([ t('Update',23,8,2),t('fromimage(',1,8,10) ],31,8,2),t(i(98,'7c63c2b9-483e-4035-b512-febf9186a274'),69,1,21),t(')',4,1,33) ]).
+b_line_i(9,2,2,cmd,1,[ t('',107,1,0),t([ t('Update',23,1,0),t('Tooltiptext',3,1,0) ],29,1,0),t(=,10,1,0),t('"Modifica"',3,1,0) ]).
+b_line_i(10,2,2,cmd,1,[ t('',107,1,0),t([ t('Display',23,10,2),t('fromimage(',1,10,11) ],31,10,2),t(i(98,'f11923b6-6acd-4a79-bfc0-0cfc6f3bced5'),69,1,22),t(')',4,1,35) ]).
+b_line_i(11,2,2,cmd,1,[ t('',107,1,0),t([ t('Display',23,1,0),t('Tooltiptext',3,1,0) ],29,1,0),t(=,10,1,0),t('"Visualizar"',3,1,0) ]).
+b_line_i(12,2,2,cmd,1,[ t('',107,1,0),t([ t('Form',3,1,0),t('Caption',3,1,0) ],29,1,0),t(=,10,1,0),t('''Work With Gestion Consultas''',3,1,0) ]).
+b_line_i(14,2,2,cmd,1,[ t('',145,1,0),t('''PREPARETRANSACTION''',3,14,5) ]).
+b_line_i(15,2,2,cmd,1,[ t('',145,1,0),t('''LOADGRIDSTATE''',3,15,5) ]).
+b_line_i(16,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(18,2,2,cmd,1,[ t('',146,1,0),t('Refresh',3,18,7) ]).
+b_line_i(19,2,3,cmd,1,[ t('',145,1,0),t('''SAVEGRIDSTATE''',3,19,5) ]).
+b_line_i(20,2,3,cmd,1,[ t('',147,1,0) ]).
+b_line_i(22,2,3,cmd,1,[ t('',146,1,0),t([ t('Grid',3,22,7),t('Load',3,22,12) ],29,22,12) ]).
+b_line_i(23,2,4,cmd,1,[ t('',107,1,0),t([ t('Update',23,1,0),t('Link',3,1,0) ],29,1,0),t(=,10,1,0),t('link(',1,1,0),t(o(0,'GestionConsulta'),28,1,0),t(',',7,1,0),t([ 9,'Update' ],44,1,0),t(',',7,1,0),t(43,2,1,0),t(',',7,1,0),t(12,2,1,0),t(',',7,1,0),t(60,2,1,0),t(')',4,1,0) ]).
+b_line_i(24,2,4,cmd,1,[ t('',107,1,0),t([ t('Display',23,1,0),t('Link',3,1,0) ],29,1,0),t(=,10,1,0),t('link(',1,1,0),t(o(0,'GestionConsulta'),28,1,0),t(',',7,1,0),t([ 9,'Display' ],44,1,0),t(',',7,1,0),t(43,2,1,0),t(',',7,1,0),t(12,2,1,0),t(',',7,1,0),t(60,2,1,0),t(')',4,1,0) ]).
+b_line_i(25,2,4,cmd,1,[ t('',107,1,0),t([ t(57,2,1,0),t('Link',3,1,0) ],29,1,0),t(=,10,1,0),t('link(',1,1,0),t(o(13,'ViewGestionConsulta'),28,1,0),t(',',7,1,0),t(43,2,1,0),t(',',7,1,0),t(12,2,1,0),t(',',7,1,0),t(60,2,1,0),t(',',7,1,0),t('""',3,1,0),t(')',4,1,0) ]).
+b_line_i(26,2,4,cmd,1,[ t('',107,0,0),t([ t('Grid',3,0,0),t('load(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(26,2,4,cmd,1,[ t('',147,1,0) ]).
+b_line_i(30,2,4,cmd,1,[ t('',143,1,0),t('''LOADGRIDSTATE''',3,30,5) ]).
+b_line_i(31,2,5,cmd,1,[ t('',109,1,0),t('(',0,1,5),t([ t('Httprequest',23,31,6),t('Method',3,31,19) ],29,31,19),t(=,10,1,26),t([ 6,'Get' ],44,31,28),t(')',4,1,42) ]).
+b_line_i(33,2,5,cmd,1,[ t('',107,1,0),t([ t('Gridstate',23,33,3),t('fromxml(',1,33,14) ],31,33,3),t([ t('Session',23,33,23),t('get(',1,33,32) ],31,33,32),t('Pgmname',23,1,37),t(+,5,1,46),t('"GridState"',3,33,48),t(')',4,2,60),t(')',4,2,61) ]).
+b_line_i(35,2,5,cmd,1,[ t('',109,1,0),t([ t('Gridstate',23,35,6),t('Filtervalues',3,35,17),t('Count',3,35,30) ],29,35,30),t(>=,10,1,36),t('2',3,1,39) ]).
+b_line_i(36,2,5,cmd,1,[ t('',107,1,0),t('Consultorioid',23,36,4),t(=,10,36,4),t('val(',1,36,4),t([ t('Gridstate',23,36,31),t('Filtervalues',3,36,42),[ t('item(',1,36,55),t('1',3,36,61),t(')',4,36,62) ],t('Value',3,36,64) ],29,36,64),t(')',4,1,69) ]).
+b_line_i(37,2,5,cmd,1,[ t('',107,1,0),t('Consultafecha',23,37,4),t(=,10,37,4),t('ctod(',1,37,4),t([ t('Gridstate',23,37,31),t('Filtervalues',3,37,42),[ t('item(',1,37,55),t('2',3,37,61),t(')',4,37,62) ],t('Value',3,37,64) ],29,37,64),t(')',4,1,69) ]).
+b_line_i(38,2,5,cmd,1,[ t('',111,1,0) ]).
+b_line_i(40,2,5,cmd,1,[ t('',109,1,0),t([ t('Gridstate',23,40,6),t('Currentpage',3,40,17) ],29,40,17),t(>,10,1,29),t('0',3,1,31) ]).
+b_line_i(41,2,5,cmd,1,[ t('',107,1,0),t([ t('Grid',3,1,0),t('Currentpage',3,1,0) ],29,1,0),t(=,10,1,0),t([ t('Gridstate',23,1,0),t('Currentpage',3,1,0) ],29,1,0) ]).
+b_line_i(42,2,5,cmd,1,[ t('',111,1,0) ]).
+b_line_i(43,2,5,cmd,1,[ t('',111,1,0) ]).
+b_line_i(44,2,5,cmd,1,[ t('',144,1,0) ]).
+b_line_i(46,2,5,cmd,1,[ t('',143,1,0),t('''SAVEGRIDSTATE''',3,46,5) ]).
+b_line_i(47,2,6,cmd,1,[ t('',107,1,0),t([ t('Gridstate',23,47,2),t('fromxml(',1,47,13) ],31,47,2),t([ t('Session',23,47,22),t('get(',1,47,31) ],31,47,31),t('Pgmname',23,1,36),t(+,5,1,45),t('"GridState"',3,47,47),t(')',4,2,59),t(')',4,2,60) ]).
+b_line_i(50,2,6,cmd,1,[ t('',107,1,0),t([ t('Gridstate',23,1,0),t('Currentpage',3,1,0) ],29,1,0),t(=,10,1,0),t([ t('Grid',3,1,0),t('Currentpage',3,1,0) ],29,1,0) ]).
+b_line_i(51,2,6,cmd,1,[ t('',107,1,0),t([ t('Gridstate',23,51,12),t('Filtervalues',3,51,23),t('clear(',1,51,36) ],31,51,12),t(')',4,1,43) ]).
+b_line_i(52,2,6,cmd,1,[ t('',107,1,0),t('Gridstatefiltervalue',23,1,0),t(=,10,1,0),t([ 'GridState.FilterValue',[ t('(',0,52,29),t(')',4,52,30) ],n ],46,1,0) ]).
+b_line_i(53,2,6,cmd,1,[ t('',107,1,0),t([ t('Gridstatefiltervalue',23,1,0),t('Value',3,1,0) ],29,1,0),t(=,10,1,0),t('str(',1,1,0),t('Consultorioid',23,1,0),t(',',7,1,0),t(3,3,1,0),t(',',7,1,0),t(0,3,1,0),t(')',4,1,0) ]).
+b_line_i(54,2,6,cmd,1,[ t('',107,1,0),t([ t('Gridstate',23,54,12),t('Filtervalues',3,54,23),t('add(',1,54,36) ],31,54,12),t('Gridstatefiltervalue',23,1,41),t(')',4,1,62) ]).
+b_line_i(55,2,6,cmd,1,[ t('',107,1,0),t('Gridstatefiltervalue',23,1,0),t(=,10,1,0),t([ 'GridState.FilterValue',[ t('(',0,55,29),t(')',4,55,30) ],n ],46,1,0) ]).
+b_line_i(56,2,6,cmd,1,[ t('',107,1,0),t([ t('Gridstatefiltervalue',23,1,0),t('Value',3,1,0) ],29,1,0),t(=,10,1,0),t('dtoc(',1,1,0),t('Consultafecha',23,1,0),t(')',4,1,0) ]).
+b_line_i(57,2,6,cmd,1,[ t('',107,1,0),t([ t('Gridstate',23,57,12),t('Filtervalues',3,57,23),t('add(',1,57,36) ],31,57,12),t('Gridstatefiltervalue',23,1,41),t(')',4,1,62) ]).
+b_line_i(59,2,6,cmd,1,[ t('',107,1,0),t([ t('Session',23,59,2),t('set(',1,59,11) ],31,59,2),t('Pgmname',23,1,16),t(+,5,1,25),t('"GridState"',3,59,27),t(',',7,2,39),t([ t('Gridstate',23,59,41),t('toxml(',1,59,52) ],31,59,52),t(')',4,2,59),t(')',4,2,60) ]).
+b_line_i(60,2,6,cmd,1,[ t('',144,1,0) ]).
+b_line_i(62,2,6,cmd,1,[ t('',143,1,0),t('''PREPARETRANSACTION''',3,62,5) ]).
+b_line_i(63,2,7,cmd,1,[ t('',107,1,0),t('Trncontext',23,1,0),t(=,10,1,0),t([ 'TransactionContext',[ t('(',0,63,19),t(')',4,63,20) ],n ],46,1,0) ]).
+b_line_i(64,2,7,cmd,1,[ t('',107,1,0),t([ t('Trncontext',23,1,0),t('Callerobject',3,1,0) ],29,1,0),t(=,10,1,0),t('Pgmname',23,1,0) ]).
+b_line_i(65,2,7,cmd,1,[ t('',107,1,0),t([ t('Trncontext',23,1,0),t('Callerondelete',3,1,0) ],29,1,0),t(=,10,1,0),t('TRUE',40,1,0) ]).
+b_line_i(66,2,7,cmd,1,[ t('',107,1,0),t([ t('Trncontext',23,1,0),t('Callerurl',3,1,0) ],29,1,0),t(=,10,1,0),t([ t('Httprequest',23,1,0),t('Scriptname',3,1,0) ],29,1,0),t(+,5,1,0),t('"?"',3,1,0),t(+,5,1,0),t([ t('Httprequest',23,1,0),t('Querystring',3,1,0) ],29,1,0) ]).
+b_line_i(67,2,7,cmd,1,[ t('',107,1,0),t([ t('Trncontext',23,1,0),t('Transactionname',3,1,0) ],29,1,0),t(=,10,1,0),t('"GestionConsulta"',3,1,0) ]).
+b_line_i(69,2,7,cmd,1,[ t('',107,1,0),t([ t('Session',23,69,2),t('set(',1,69,11) ],31,69,2),t('"TrnContext"',3,69,16),t(',',7,2,29),t([ t('Trncontext',23,69,31),t('toxml(',1,69,43) ],31,69,43),t(')',4,2,50),t(')',4,2,51) ]).
+b_line_i(70,2,7,cmd,1,[ t('',144,1,0) ]).
+ 
+sf_break_i(24,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<tbody>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,t('Work With Gestion Consultas',3))).
+html_sub_i(2,6,html_i(2,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,8,html_i(0,table(8))).
+html_sub_i(8,0,html_i(0,html('<tbody>'))).
+html_sub_i(8,9,html_i(1,row(9))).
+html_sub_i(9,10,html_i(0,cell(10))).
+html_sub_i(10,11,html_i(0,t('Id',3))).
+html_sub_i(9,12,html_i(1,cell(12))).
+html_sub_i(12,13,html_i(0,t('Consultorioid',23))).
+html_sub_i(8,14,html_i(2,row(14))).
+html_sub_i(14,15,html_i(0,cell(15))).
+html_sub_i(15,16,html_i(0,t('consulta fecha',3))).
+html_sub_i(14,17,html_i(1,cell(17))).
+html_sub_i(17,18,html_i(0,t('Consultafecha',23))).
+html_sub_i(8,19,html_i(3,row(19))).
+html_sub_i(19,20,html_i(0,cell(20))).
+html_sub_i(20,21,html_i(0,t(' ',3))).
+html_sub_i(8,0,html_i(4,html('</tbody>'))).
+html_sub_i(2,22,html_i(3,row(22))).
+html_sub_i(22,23,html_i(0,cell(23))).
+html_sub_i(23,24,html_i(0,s(24))).
+html_sub_i(2,38,html_i(4,row(38))).
+html_sub_i(38,39,html_i(0,cell(39))).
+html_sub_i(2,0,html_i(5,html('</tbody>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(2,'Id','Table',v,[ str ]).
+html_comp_i(2,'Class','ViewTable',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(2,'Border','1',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(192,192,192),d,[ color ]).
+html_comp_i(2,'Cellpadding','0',v,[ str ]).
+html_comp_i(2,'Cellspacing','0',v,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Class','SubTitle',v,[ str ]).
+html_comp_i(5,'Caption','Work With Gestion Consultas',d,[ str ]).
+html_comp_i(5,'Id','Titletext',v,[ str ]).
+html_comp_i(5,'Event','',d,[ str ]).
+html_comp_i(5,'Returnonclick',0,d,[ bool ]).
+html_comp_i(5,'Gxformat',0,d,[ num ]).
+html_comp_i(5,'Title','',d,[ str ]).
+html_comp_i(5,'Fill',-1,d,[ bool ]).
+html_comp_i(5,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(5,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Font','',d,[ str ]).
+html_comp_i(8,'Id','Tablesearch',v,[ str ]).
+html_comp_i(8,'Title','',d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(8,'Border','0',d,[ str ]).
+html_comp_i(8,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(8,'Cellpadding','1',d,[ str ]).
+html_comp_i(8,'Cellspacing','2',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Rules',none,d,[ str ]).
+html_comp_i(11,'Caption','Id',d,[ str ]).
+html_comp_i(11,'Id','Filtertextconsultorioid',v,[ str ]).
+html_comp_i(11,'Class','TextBlock',v,[ str ]).
+html_comp_i(11,'Event','',d,[ str ]).
+html_comp_i(11,'Returnonclick',0,d,[ bool ]).
+html_comp_i(11,'Gxformat',0,d,[ num ]).
+html_comp_i(11,'Title','',d,[ str ]).
+html_comp_i(11,'Fill',-1,d,[ bool ]).
+html_comp_i(11,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(11,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(11,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(13,'Attid',-13,v,[ num ]).
+html_comp_i(13,'Class','Attribute',d,[ str ]).
+html_comp_i(13,'Controlname','&Consultorioid',d,[ str ]).
+html_comp_i(13,'Returnonclick',0,d,[ bool ]).
+html_comp_i(13,'Controltype',2,d,[ num ]).
+html_comp_i(13,'Inputtype',0,d,[ num ]).
+html_comp_i(13,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(13,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(13,'Readonly',0,d,[ bool ]).
+html_comp_i(13,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(13,'Ispassword',0,d,[ bool ]).
+html_comp_i(13,'Autoresize',-1,d,[ bool ]).
+html_comp_i(13,'Gxwidth',measure(3,chr),d,[ measure ]).
+html_comp_i(13,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(13,'Ismultiline',0,d,[ bool ]).
+html_comp_i(13,'Fill',-1,d,[ bool ]).
+html_comp_i(13,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(13,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(13,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(13,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(13,'Gxformat',0,d,[ num ]).
+html_comp_i(13,'Title','',d,[ str ]).
+html_comp_i(16,'Caption','consulta fecha',d,[ str ]).
+html_comp_i(16,'Id','Filtertextconsultafecha',v,[ str ]).
+html_comp_i(16,'Class','TextBlock',v,[ str ]).
+html_comp_i(16,'Event','',d,[ str ]).
+html_comp_i(16,'Returnonclick',0,d,[ bool ]).
+html_comp_i(16,'Gxformat',0,d,[ num ]).
+html_comp_i(16,'Title','',d,[ str ]).
+html_comp_i(16,'Fill',-1,d,[ bool ]).
+html_comp_i(16,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(16,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(16,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(18,'Attid',-14,v,[ num ]).
+html_comp_i(18,'Class','Attribute',d,[ str ]).
+html_comp_i(18,'Controlname','&Consultafecha',d,[ str ]).
+html_comp_i(18,'Returnonclick',0,d,[ bool ]).
+html_comp_i(18,'Controltype',2,d,[ num ]).
+html_comp_i(18,'Inputtype',0,d,[ num ]).
+html_comp_i(18,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(18,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(18,'Readonly',0,d,[ bool ]).
+html_comp_i(18,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(18,'Ispassword',0,d,[ bool ]).
+html_comp_i(18,'Autoresize',-1,d,[ bool ]).
+html_comp_i(18,'Gxwidth',measure(8,chr),d,[ measure ]).
+html_comp_i(18,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(18,'Ismultiline',0,d,[ bool ]).
+html_comp_i(18,'Fill',-1,d,[ bool ]).
+html_comp_i(18,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(18,'Forecolor',rgb(51,51,51),d,[ color ]).
+html_comp_i(18,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(18,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(18,'Gxformat',0,d,[ num ]).
+html_comp_i(18,'Title','',d,[ str ]).
+html_comp_i(18,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(18,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(21,'Caption',' ',d,[ str ]).
+html_comp_i(21,'Id','Tableseparator',v,[ str ]).
+html_comp_i(21,'Class','Separator',v,[ str ]).
+html_comp_i(21,'Event','',d,[ str ]).
+html_comp_i(21,'Returnonclick',0,d,[ bool ]).
+html_comp_i(21,'Gxformat',0,d,[ num ]).
+html_comp_i(21,'Title','',d,[ str ]).
+html_comp_i(21,'Fill',-1,d,[ bool ]).
+html_comp_i(21,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(21,'Forecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(21,'Font',font('Arial',9,[]),d,[ font ]).
+html_comp_i(24,'Controlname','Grid',v,[ str ]).
+html_comp_i(24,'Controlorder','''.''(''.''(t($ORDER$,39),''.''(t(57,2),$[]$)),$[]$)',v,[ str ]).
+html_comp_i(24,'Rules',none,d,[ str ]).
+html_comp_i(24,'Sflrender','',d,[ str ]).
+html_comp_i(24,'Class','WorkWith',v,[ str ]).
+html_comp_i(24,'Autoresize',-1,d,[ bool ]).
+html_comp_i(24,'Gxwidth',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Gxheight',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Border','0',d,[ str ]).
+html_comp_i(24,'Backcolorstyle',3,v,[ num ]).
+html_comp_i(24,'Bordercolor',rgb(219,236,252),d,[ color ]).
+html_comp_i(24,'Maxrows',0,d,[ num ]).
+html_comp_i(24,'Title','',d,[ str ]).
+html_comp_i(24,'Linescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(24,'Linesbackcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(24,'Linesbackcolor2',rgb(229,229,229),d,[ color ]).
+html_comp_i(24,'Linesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(24,'Titlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(24,'Titlebackcolor',rgb(157,31,31),d,[ color ]).
+html_comp_i(24,'Titlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(24,'Align',left,d,[ str ]).
+html_comp_i(24,'Cellpadding','4',v,[ str ]).
+html_comp_i(24,'Cellspacing','2',v,[ str ]).
+html_comp_i(24,'Sortable',-1,d,[ bool ]).
+html_comp_i(24,'Allowdrop',0,d,[ bool ]).
+html_comp_i(24,'Allowdrag',0,d,[ bool ]).
+html_comp_i(24,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(24,'Allowcollapsing',0,d,[ bool ]).
+html_comp_i(24,'Allowselection',0,d,[ bool ]).
+html_comp_i(25,'Colattid',-15,v,[ num ]).
+html_comp_i(25,'Controlname','&Update',d,[ str ]).
+html_comp_i(25,'Class','Image',d,[ str ]).
+html_comp_i(25,'Returnonclick',0,d,[ bool ]).
+html_comp_i(25,'Eventgx','',d,[ str ]).
+html_comp_i(25,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(25,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(25,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(25,'Coltitle','',d,[ str ]).
+html_comp_i(25,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(25,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(25,'Colvisible',-1,d,[ bool ]).
+html_comp_i(25,'Border','0',d,[ str ]).
+html_comp_i(25,'Alt','',d,[ str ]).
+html_comp_i(25,'Title','Modifica',d,[ str ]).
+html_comp_i(25,'Hspace',0,d,[ num ]).
+html_comp_i(25,'Vspace',0,d,[ num ]).
+html_comp_i(26,'Colattid',-16,v,[ num ]).
+html_comp_i(26,'Controlname','&Display',d,[ str ]).
+html_comp_i(26,'Class','Image',d,[ str ]).
+html_comp_i(26,'Returnonclick',0,d,[ bool ]).
+html_comp_i(26,'Eventgx','',d,[ str ]).
+html_comp_i(26,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(26,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(26,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(26,'Coltitle','',d,[ str ]).
+html_comp_i(26,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(26,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(26,'Colvisible',-1,d,[ bool ]).
+html_comp_i(26,'Border','0',d,[ str ]).
+html_comp_i(26,'Alt','',d,[ str ]).
+html_comp_i(26,'Title','Visualizar',d,[ str ]).
+html_comp_i(26,'Hspace',0,d,[ num ]).
+html_comp_i(26,'Vspace',0,d,[ num ]).
+html_comp_i(27,'Colattid',43,v,[ num ]).
+html_comp_i(27,'Controlname','Consultafecha',d,[ str ]).
+html_comp_i(27,'Class','Attribute',d,[ str ]).
+html_comp_i(27,'Returnonclick',0,d,[ bool ]).
+html_comp_i(27,'Eventgx','',d,[ str ]).
+html_comp_i(27,'Controltype',2,d,[ num ]).
+html_comp_i(27,'Inputtype',0,d,[ num ]).
+html_comp_i(27,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(27,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(27,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(27,'Ispassword',0,d,[ bool ]).
+html_comp_i(27,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(27,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(27,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(27,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(27,'Coltitle','Fecha',d,[ str ]).
+html_comp_i(27,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(27,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(27,'Gxformat',0,d,[ num ]).
+html_comp_i(27,'Colvisible',-1,v,[ bool ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(27,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(28,'Colattid',12,v,[ num ]).
+html_comp_i(28,'Controlname','Medicoid',d,[ str ]).
+html_comp_i(28,'Class','Attribute',d,[ str ]).
+html_comp_i(28,'Returnonclick',0,d,[ bool ]).
+html_comp_i(28,'Eventgx','',d,[ str ]).
+html_comp_i(28,'Controltype',2,d,[ num ]).
+html_comp_i(28,'Inputtype',0,d,[ num ]).
+html_comp_i(28,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(28,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(28,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(28,'Ispassword',0,d,[ bool ]).
+html_comp_i(28,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(28,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(28,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(28,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(28,'Coltitle','Medico Id',d,[ str ]).
+html_comp_i(28,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(28,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(28,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(28,'Gxformat',0,d,[ num ]).
+html_comp_i(28,'Colvisible',0,v,[ bool ]).
+html_comp_i(28,'Title','',d,[ str ]).
+html_comp_i(29,'Colattid',13,v,[ num ]).
+html_comp_i(29,'Controlname','Mediconombre',d,[ str ]).
+html_comp_i(29,'Class','Attribute',d,[ str ]).
+html_comp_i(29,'Returnonclick',0,d,[ bool ]).
+html_comp_i(29,'Eventgx','',d,[ str ]).
+html_comp_i(29,'Controltype',2,d,[ num ]).
+html_comp_i(29,'Inputtype',0,d,[ num ]).
+html_comp_i(29,'Editautocomplete',0,d,[ num ]).
+html_comp_i(29,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(29,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(29,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(29,'Ispassword',0,d,[ bool ]).
+html_comp_i(29,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(29,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(29,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(29,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(29,'Coltitle','Nombre',d,[ str ]).
+html_comp_i(29,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(29,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(29,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(29,'Gxformat',0,d,[ num ]).
+html_comp_i(29,'Colvisible',-1,v,[ bool ]).
+html_comp_i(29,'Title','',d,[ str ]).
+html_comp_i(30,'Colattid',14,v,[ num ]).
+html_comp_i(30,'Controlname','Medicoapellido',d,[ str ]).
+html_comp_i(30,'Class','Attribute',d,[ str ]).
+html_comp_i(30,'Returnonclick',0,d,[ bool ]).
+html_comp_i(30,'Eventgx','',d,[ str ]).
+html_comp_i(30,'Controltype',2,d,[ num ]).
+html_comp_i(30,'Inputtype',0,d,[ num ]).
+html_comp_i(30,'Editautocomplete',0,d,[ num ]).
+html_comp_i(30,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(30,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(30,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(30,'Ispassword',0,d,[ bool ]).
+html_comp_i(30,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(30,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(30,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(30,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(30,'Coltitle','Apellido',d,[ str ]).
+html_comp_i(30,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(30,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(30,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(30,'Gxformat',0,d,[ num ]).
+html_comp_i(30,'Colvisible',-1,v,[ bool ]).
+html_comp_i(30,'Title','',d,[ str ]).
+html_comp_i(31,'Colattid',60,v,[ num ]).
+html_comp_i(31,'Controlname','Turnoid',d,[ str ]).
+html_comp_i(31,'Class','Attribute',d,[ str ]).
+html_comp_i(31,'Returnonclick',0,d,[ bool ]).
+html_comp_i(31,'Eventgx','',d,[ str ]).
+html_comp_i(31,'Controltype',2,v,[ num ]).
+html_comp_i(31,'Inputtype',0,v,[ num ]).
+html_comp_i(31,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(31,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(31,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(31,'Ispassword',0,d,[ bool ]).
+html_comp_i(31,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(31,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(31,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(31,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(31,'Coltitle','Turno Id',d,[ str ]).
+html_comp_i(31,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(31,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(31,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(31,'Gxformat',0,d,[ num ]).
+html_comp_i(31,'Colvisible',0,v,[ bool ]).
+html_comp_i(31,'Title','',d,[ str ]).
+html_comp_i(32,'Colattid',61,v,[ num ]).
+html_comp_i(32,'Controlname','Turnonombre',d,[ str ]).
+html_comp_i(32,'Class','Attribute',d,[ str ]).
+html_comp_i(32,'Returnonclick',0,d,[ bool ]).
+html_comp_i(32,'Eventgx','',d,[ str ]).
+html_comp_i(32,'Controltype',2,d,[ num ]).
+html_comp_i(32,'Inputtype',0,d,[ num ]).
+html_comp_i(32,'Editautocomplete',0,d,[ num ]).
+html_comp_i(32,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(32,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(32,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(32,'Ispassword',0,d,[ bool ]).
+html_comp_i(32,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(32,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(32,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(32,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(32,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(32,'Coltitle','Turno Nombre',d,[ str ]).
+html_comp_i(32,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(32,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(32,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(32,'Gxformat',0,d,[ num ]).
+html_comp_i(32,'Colvisible',-1,v,[ bool ]).
+html_comp_i(32,'Title','',d,[ str ]).
+html_comp_i(33,'Colattid',57,v,[ num ]).
+html_comp_i(33,'Controlname','Consultorioid',d,[ str ]).
+html_comp_i(33,'Class','Attribute',d,[ str ]).
+html_comp_i(33,'Returnonclick',0,d,[ bool ]).
+html_comp_i(33,'Eventgx','',d,[ str ]).
+html_comp_i(33,'Controltype',2,d,[ num ]).
+html_comp_i(33,'Inputtype',0,d,[ num ]).
+html_comp_i(33,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(33,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(33,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(33,'Ispassword',0,d,[ bool ]).
+html_comp_i(33,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(33,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(33,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(33,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(33,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(33,'Coltitle','Consultorio Id',d,[ str ]).
+html_comp_i(33,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(33,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(33,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(33,'Gxformat',0,d,[ num ]).
+html_comp_i(33,'Colvisible',-1,v,[ bool ]).
+html_comp_i(33,'Title','',d,[ str ]).
+html_comp_i(34,'Colattid',66,v,[ num ]).
+html_comp_i(34,'Controlname','Cantnrosasig',d,[ str ]).
+html_comp_i(34,'Class','Attribute',d,[ str ]).
+html_comp_i(34,'Returnonclick',0,d,[ bool ]).
+html_comp_i(34,'Eventgx','',d,[ str ]).
+html_comp_i(34,'Controltype',2,d,[ num ]).
+html_comp_i(34,'Inputtype',0,d,[ num ]).
+html_comp_i(34,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(34,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(34,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(34,'Ispassword',0,d,[ bool ]).
+html_comp_i(34,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(34,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(34,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(34,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(34,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(34,'Coltitle','Nros.Asig.',d,[ str ]).
+html_comp_i(34,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(34,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(34,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(34,'Gxformat',0,d,[ num ]).
+html_comp_i(34,'Colvisible',-1,v,[ bool ]).
+html_comp_i(34,'Title','',d,[ str ]).
+html_comp_i(35,'Colattid',65,v,[ num ]).
+html_comp_i(35,'Controlname','Nrosdisponibles',d,[ str ]).
+html_comp_i(35,'Class','Attribute',d,[ str ]).
+html_comp_i(35,'Returnonclick',0,d,[ bool ]).
+html_comp_i(35,'Eventgx','',d,[ str ]).
+html_comp_i(35,'Controltype',2,d,[ num ]).
+html_comp_i(35,'Inputtype',0,d,[ num ]).
+html_comp_i(35,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(35,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(35,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(35,'Ispassword',0,d,[ bool ]).
+html_comp_i(35,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(35,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(35,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(35,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(35,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(35,'Coltitle','Nros.Disp.',d,[ str ]).
+html_comp_i(35,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(35,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(35,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(35,'Gxformat',0,d,[ num ]).
+html_comp_i(35,'Colvisible',-1,v,[ bool ]).
+html_comp_i(35,'Title','',d,[ str ]).
+html_comp_i(36,'Colattid',67,v,[ num ]).
+html_comp_i(36,'Controlname','Ultimonroasig',d,[ str ]).
+html_comp_i(36,'Class','Attribute',d,[ str ]).
+html_comp_i(36,'Returnonclick',0,d,[ bool ]).
+html_comp_i(36,'Eventgx','',d,[ str ]).
+html_comp_i(36,'Controltype',2,d,[ num ]).
+html_comp_i(36,'Inputtype',0,d,[ num ]).
+html_comp_i(36,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(36,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(36,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(36,'Ispassword',0,d,[ bool ]).
+html_comp_i(36,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(36,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(36,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(36,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(36,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(36,'Coltitle','Ult.Nro.Asig.',d,[ str ]).
+html_comp_i(36,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(36,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(36,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(36,'Gxformat',0,d,[ num ]).
+html_comp_i(36,'Colvisible',-1,v,[ bool ]).
+html_comp_i(36,'Title','',d,[ str ]).
+html_comp_i(37,'Colattid',70,v,[ num ]).
+html_comp_i(37,'Controlname','Cantpacconf',d,[ str ]).
+html_comp_i(37,'Class','Attribute',d,[ str ]).
+html_comp_i(37,'Returnonclick',0,d,[ bool ]).
+html_comp_i(37,'Eventgx','',d,[ str ]).
+html_comp_i(37,'Controltype',2,d,[ num ]).
+html_comp_i(37,'Inputtype',0,d,[ num ]).
+html_comp_i(37,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(37,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(37,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(37,'Ispassword',0,d,[ bool ]).
+html_comp_i(37,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(37,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(37,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(37,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(37,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(37,'Coltitle','Pac Conf',d,[ str ]).
+html_comp_i(37,'Coltitlefont',font('Arial',10,[ bold ]),d,[ font ]).
+html_comp_i(37,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(37,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(37,'Gxformat',0,d,[ num ]).
+html_comp_i(37,'Colvisible',-1,v,[ bool ]).
+html_comp_i(37,'Title','',d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,1,t('Work With Gestion Consultas',3),[ ctlname('Titletext') ]).
+lit_i(11,1,t('Id',3),[ ctlname('Filtertextconsultorioid') ]).
+lit_i(13,1,t('Consultorioid',23),[ ctlname('&Consultorioid'),ctrltype(edit,13),pos(13),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(16,1,t('consulta fecha',3),[ ctlname('Filtertextconsultafecha') ]).
+lit_i(18,1,t('Consultafecha',23),[ ctlname('&Consultafecha'),ctrltype(edit,18),pos(18),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(21,1,t(' ',3),[ ctlname('Tableseparator') ]).
+lit_i(8,1,table(8),[ ctlname('Tablesearch') ]).
+lit_i(25,1,s(t('Update',23),24),[ ctlname('&Update'),ctrltype(edit,25),pos(25),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(26,1,s(t('Display',23),24),[ ctlname('&Display'),ctrltype(edit,26),pos(26),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(27,1,s(t(43,2),24),[ ctlname(43),ctrltype(edit,27),pos(27),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(28,1,s(t(12,2),24),[ ctlname(12),ctrltype(edit,28),pos(28),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(29,1,s(t(13,2),24),[ ctlname(13),ctrltype(edit,29),pos(29),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(30,1,s(t(14,2),24),[ ctlname(14),ctrltype(edit,30),pos(30),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(31,1,s(t(60,2),24),[ ctlname(60),ctrltype(edit,31),pos(31),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(32,1,s(t(61,2),24),[ ctlname(61),ctrltype(edit,32),pos(32),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(33,1,s(t(57,2),24),[ ctlname(57),ctrltype(edit,33),pos(33),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(34,1,s(t(66,2),24),[ ctlname(66),ctrltype(edit,34),pos(34),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(35,1,s(t(65,2),24),[ ctlname(65),ctrltype(edit,35),pos(35),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(36,1,s(t(67,2),24),[ ctlname(67),ctrltype(edit,36),pos(36),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(37,1,s(t(70,2),24),[ ctlname(70),ctrltype(edit,37),pos(37),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(24,1,s(24),[ ctlname('Grid'),el([ t('Update',23),t('Display',23),t(43,2),t(12,2),t(13,2),t(14,2),t(60,2),t(61,2),t(57,2),t(66,2),t(65,2),t(67,2),t(70,2) ]),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(2,1,table(2),[ ctlname('Table') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ctrl_info_i(1,25,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,26,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+ 
+att_prop_i(2,43,'ExternalName','ConsultaFecha',d).
+att_prop_i(2,43,'ExternalNamespace',taller041,d).
+att_prop_i(2,43,'EmptyAsNull','Yes',d).
+att_prop_i(2,43,'AttRegEx','',d).
+att_prop_i(2,43,'AttValidationFailedMsg','',d).
+att_prop_i(2,43,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,43,'FullName','ConsultaFecha',v).
+att_prop_i(2,12,'ExternalName','MedicoId',d).
+att_prop_i(2,12,'ExternalNamespace',taller041,d).
+att_prop_i(2,12,'EmptyAsNull','Yes',d).
+att_prop_i(2,12,'AUTONUMBER','-1',v).
+att_prop_i(2,12,'AUTONUMBER_START','1',d).
+att_prop_i(2,12,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,12,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,12,'AttRegEx','',d).
+att_prop_i(2,12,'AttValidationFailedMsg','',d).
+att_prop_i(2,12,'FullName','MedicoId',v).
+att_prop_i(2,13,'ExternalName','MedicoNombre',d).
+att_prop_i(2,13,'ExternalNamespace',taller041,d).
+att_prop_i(2,13,'EmptyAsNull','Yes',d).
+att_prop_i(2,13,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,13,'AttRegEx','',d).
+att_prop_i(2,13,'AttValidationFailedMsg','',d).
+att_prop_i(2,13,'FullName','MedicoNombre',v).
+att_prop_i(2,14,'ExternalName','MedicoApellido',d).
+att_prop_i(2,14,'ExternalNamespace',taller041,d).
+att_prop_i(2,14,'EmptyAsNull','Yes',d).
+att_prop_i(2,14,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,14,'AttRegEx','',d).
+att_prop_i(2,14,'AttValidationFailedMsg','',d).
+att_prop_i(2,14,'FullName','MedicoApellido',v).
+att_prop_i(2,60,'ExternalName','TurnoId',d).
+att_prop_i(2,60,'ExternalNamespace',taller041,d).
+att_prop_i(2,60,'EmptyAsNull','Yes',d).
+att_prop_i(2,60,'AUTONUMBER','0',d).
+att_prop_i(2,60,'AttRegEx','',d).
+att_prop_i(2,60,'AttValidationFailedMsg','',d).
+att_prop_i(2,60,'FullName','TurnoId',v).
+att_prop_i(2,61,'ExternalName','TurnoNombre',d).
+att_prop_i(2,61,'ExternalNamespace',taller041,d).
+att_prop_i(2,61,'EmptyAsNull','Yes',d).
+att_prop_i(2,61,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,61,'AttRegEx','',d).
+att_prop_i(2,61,'AttValidationFailedMsg','',d).
+att_prop_i(2,61,'FullName','TurnoNombre',v).
+att_prop_i(2,57,'ExternalName','ConsultorioId',d).
+att_prop_i(2,57,'ExternalNamespace',taller041,d).
+att_prop_i(2,57,'EmptyAsNull','Yes',d).
+att_prop_i(2,57,'AUTONUMBER','0',d).
+att_prop_i(2,57,'AttRegEx','',d).
+att_prop_i(2,57,'AttValidationFailedMsg','',d).
+att_prop_i(2,57,'FullName','ConsultorioId',v).
+att_prop_i(2,66,'ExternalName','CantNrosAsig',d).
+att_prop_i(2,66,'ExternalNamespace',taller041,d).
+att_prop_i(2,66,'EmptyAsNull','Yes',d).
+att_prop_i(2,66,'AUTONUMBER','0',d).
+att_prop_i(2,66,'ATT_INITIAL_VALUE',[ t('0',3) ],v).
+att_prop_i(2,66,'AttRegEx','',d).
+att_prop_i(2,66,'AttValidationFailedMsg','',d).
+att_prop_i(2,66,'FullName','CantNrosAsig',v).
+att_prop_i(2,65,'ExternalName','NrosDisponibles',d).
+att_prop_i(2,65,'ExternalNamespace',taller041,d).
+att_prop_i(2,65,'EmptyAsNull','Yes',d).
+att_prop_i(2,65,'AUTONUMBER','0',d).
+att_prop_i(2,65,'AttRegEx','',d).
+att_prop_i(2,65,'AttValidationFailedMsg','',d).
+att_prop_i(2,65,'FullName','NrosDisponibles',v).
+att_prop_i(2,67,'ExternalName','UltimoNroAsig',d).
+att_prop_i(2,67,'ExternalNamespace',taller041,d).
+att_prop_i(2,67,'EmptyAsNull','Yes',d).
+att_prop_i(2,67,'AUTONUMBER','0',d).
+att_prop_i(2,67,'ATT_INITIAL_VALUE',[ t('0',3) ],v).
+att_prop_i(2,67,'AttRegEx','',d).
+att_prop_i(2,67,'AttValidationFailedMsg','',d).
+att_prop_i(2,67,'FullName','UltimoNroAsig',v).
+att_prop_i(2,70,'ExternalName','CantPacConf',d).
+att_prop_i(2,70,'ExternalNamespace',taller041,d).
+att_prop_i(2,70,'EmptyAsNull','Yes',d).
+att_prop_i(2,70,'AUTONUMBER','0',d).
+att_prop_i(2,70,'AttRegEx','',d).
+att_prop_i(2,70,'AttValidationFailedMsg','',d).
+att_prop_i(2,70,'FullName','CantPacConf',v).
+att_prop_i(2,75,'ExternalName','Confirmado',d).
+att_prop_i(2,75,'ExternalNamespace',taller041,d).
+att_prop_i(2,75,'EmptyAsNull','Yes',d).
+att_prop_i(2,75,'AttRegEx','',d).
+att_prop_i(2,75,'AttValidationFailedMsg','',d).
+att_prop_i(2,75,'FullName','Confirmado',v).
+att_prop_i(2,34,'ExternalName','PacienteId',d).
+att_prop_i(2,34,'ExternalNamespace',taller041,d).
+att_prop_i(2,34,'EmptyAsNull','Yes',d).
+att_prop_i(2,34,'AUTONUMBER','-1',v).
+att_prop_i(2,34,'AUTONUMBER_START','1',d).
+att_prop_i(2,34,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,34,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,34,'AttRegEx','',d).
+att_prop_i(2,34,'AttValidationFailedMsg','',d).
+att_prop_i(2,34,'FullName','PacienteId',v).
+att_prop_i(2,63,'ExternalName','ConsultaNro',d).
+att_prop_i(2,63,'ExternalNamespace',taller041,d).
+att_prop_i(2,63,'EmptyAsNull','Yes',d).
+att_prop_i(2,63,'AUTONUMBER','0',v).
+att_prop_i(2,63,'AttRegEx','',d).
+att_prop_i(2,63,'AttValidationFailedMsg','',d).
+att_prop_i(2,63,'FullName','ConsultaNro',v).
+att_prop_i(2,11,'ExternalName','EspecialidadMaxPacientes',d).
+att_prop_i(2,11,'ExternalNamespace',taller041,d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,'AUTONUMBER','0',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'FullName','EspecialidadMaxPacientes',v).
+att_prop_i(2,9,'ExternalName','EspecialidadId',d).
+att_prop_i(2,9,'ExternalNamespace',taller041,d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,'AUTONUMBER','-1',v).
+att_prop_i(2,9,'AUTONUMBER_START','1',d).
+att_prop_i(2,9,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,9,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'FullName','EspecialidadId',v).
+ 
+tbl_prop_i(2,2002,'AllDirSuper',[ [ 7,[ 60 ] ],[ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,2000,'AllDirSuper',[ [ 7,[ 60 ] ],[ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,2001,'AllDirSuper',[ [ 7,[ 60 ] ],[ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,1,'AllDirSuper',[ [ 2,[ 9 ] ] ],v).
+tbl_prop_i(2,8,'AllDirSuper',[ [ 5,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,5,'AllDirSuper',[ [ 7,[ 60 ] ],[ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,2002,'DirSubor',[ [ 8,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,2000,'DirSubor',[ [ 8,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,7,'DirSubor',[ [ 5,[ 60 ] ] ],v).
+tbl_prop_i(2,2001,'DirSubor',[ [ 8,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,2,'DirSubor',[ [ 1,[ 9 ] ] ],v).
+tbl_prop_i(2,1,'DirSubor',[ [ 5,[ 12 ] ] ],v).
+tbl_prop_i(2,5,'DirSubor',[ [ 8,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,2002,'DirSuper',[ [ 7,[ 60 ] ],[ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,2000,'DirSuper',[ [ 7,[ 60 ] ],[ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,2001,'DirSuper',[ [ 7,[ 60 ] ],[ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,1,'DirSuper',[ [ 2,[ 9 ] ] ],v).
+tbl_prop_i(2,8,'DirSuper',[ [ 5,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,5,'DirSuper',[ [ 7,[ 60 ] ],[ 1,[ 12 ] ] ],v).
+ 
+tbl_att_prop_i(2,8,43,'AllowNulls',n).
+tbl_att_prop_i(2,8,34,'AllowNulls',n).
+tbl_att_prop_i(2,8,12,'AllowNulls',n).
+tbl_att_prop_i(2,8,60,'AllowNulls',n).
+tbl_att_prop_i(2,8,75,'AllowNulls',n).
+tbl_att_prop_i(2,2,11,'AllowNulls',n).
+tbl_att_prop_i(2,1,9,'AllowNulls',n).
+tbl_att_prop_i(2,5,12,'AllowNulls',n).
+tbl_att_prop_i(2,5,43,'AllowNulls',n).
+tbl_att_prop_i(2,5,60,'AllowNulls',n).
+tbl_att_prop_i(2,5,57,'AllowNulls',n).
+tbl_att_prop_i(2,1,12,'AllowNulls',n).
+tbl_att_prop_i(2,1,12,'AUTONUMBER',y).
+tbl_att_prop_i(2,1,13,'AllowNulls',n).
+tbl_att_prop_i(2,1,14,'AllowNulls',n).
+tbl_att_prop_i(2,2,9,'AllowNulls',n).
+tbl_att_prop_i(2,2,9,'AUTONUMBER',y).
+tbl_att_prop_i(2,2001,43,'AllowNulls',n).
+tbl_att_prop_i(2,2001,12,'AllowNulls',n).
+tbl_att_prop_i(2,2001,60,'AllowNulls',n).
+tbl_att_prop_i(2,7,60,'AllowNulls',n).
+tbl_att_prop_i(2,7,61,'AllowNulls',n).
+tbl_att_prop_i(2,2000,43,'AllowNulls',n).
+tbl_att_prop_i(2,2000,12,'AllowNulls',n).
+tbl_att_prop_i(2,2000,60,'AllowNulls',n).
+tbl_att_prop_i(2,2002,43,'AllowNulls',n).
+tbl_att_prop_i(2,2002,12,'AllowNulls',n).
+tbl_att_prop_i(2,2002,60,'AllowNulls',n).
+ 
+var_prop_i(2,'Context','ATT_INITIAL_VALUE',[ t('udp(',1),t(o(1,'LoadContext'),28),t(')',4) ],v).
+ 
+ 
+ 
+a_alias_i([ 'count(',75 ],'CantPacConf').
+a_alias_i(se(70,[ [ 2000,70 ] ],[ t('coalesce(',1),t(70,2),t(',',7),t('0',3),t(')',4) ]),'CantPacConf').
+a_alias_i([ 'count(',63 ],'CantNrosAsig').
+a_alias_i(se(66,[ [ 2001,66 ] ],[ t('coalesce(',1),t(66,2),t(',',7),t('0',3),t(')',4) ]),'CantNrosAsig').
+a_alias_i(se(65,[ [ 2,11 ],[ 2001,se(66,[ [ 2001,66 ] ],[ t('coalesce(',1),t(66,2),t(',',7),t('0',3),t(')',4) ]) ] ],[ t(11,2),t(-,5),t(66,2) ]),'NrosDisponibles').
+a_alias_i(se(65,[ [ 2002,65 ] ],[ t('coalesce(',1),t(65,2),t(',',7),t('0',3),t(')',4) ]),'NrosDisponibles').
+ 
+ 
+struct_dt_i([ 26,3,0 ],name,'Context').
+struct_dt_i([ 26,3,0 ],namespace,taller041).
+struct_dt_i([ 26,3,0 ],'ObjName','Context').
+struct_dt_i([ 26,3,0 ],'ObjDesc','Context').
+struct_dt_i([ 26,3,0 ],'ExternalName','Context').
+struct_dt_i([ 26,3,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,4,0 ],name,'GridState').
+struct_dt_i([ 26,4,0 ],namespace,taller041).
+struct_dt_i([ 26,4,0 ],'ObjName','GridState').
+struct_dt_i([ 26,4,0 ],'ObjDesc','Grid State').
+struct_dt_i([ 26,4,0 ],'ExternalName','GridState').
+struct_dt_i([ 26,4,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,4,5 ],name,'FilterValue').
+struct_dt_i([ 26,4,5 ],namespace,'taller041.GridState').
+struct_dt_i([ 26,7,0 ],name,'TransactionContext').
+struct_dt_i([ 26,7,0 ],namespace,taller041).
+struct_dt_i([ 26,7,0 ],'ObjName','TransactionContext').
+struct_dt_i([ 26,7,0 ],'ObjDesc','Transaction Context').
+struct_dt_i([ 26,7,0 ],'ExternalName','TransactionContext').
+struct_dt_i([ 26,7,0 ],'ExternalNamespace',taller041).
+struct_dt_i([ 26,7,9 ],name,'Attribute').
+struct_dt_i([ 26,7,9 ],namespace,'taller041.TransactionContext').
+struct_dt_i([ 26,3,0 ],fullname,'Context').
+struct_dt_i([ 26,4,0 ],fullname,'GridState').
+struct_dt_i([ 26,4,5 ],fullname,'GridState.FilterValue').
+struct_dt_i([ 26,7,0 ],fullname,'TransactionContext').
+struct_dt_i([ 26,7,9 ],fullname,'TransactionContext.Attribute').
+ 
+struct_dt_elem_i([ 26,3,0 ],1,name,'User').
+struct_dt_elem_i([ 26,3,0 ],1,camelname,'User').
+struct_dt_elem_i([ 26,3,0 ],1,length,20).
+struct_dt_elem_i([ 26,3,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],1,pic,'').
+struct_dt_elem_i([ 26,3,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],2,name,'Companycode').
+struct_dt_elem_i([ 26,3,0 ],2,camelname,'CompanyCode').
+struct_dt_elem_i([ 26,3,0 ],2,length,4).
+struct_dt_elem_i([ 26,3,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],2,sign,0).
+struct_dt_elem_i([ 26,3,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],3,name,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,camelname,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,length,20).
+struct_dt_elem_i([ 26,3,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],3,pic,'').
+struct_dt_elem_i([ 26,3,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,4,0 ],1,name,'Currentpage').
+struct_dt_elem_i([ 26,4,0 ],1,camelname,'CurrentPage').
+struct_dt_elem_i([ 26,4,0 ],1,length,4).
+struct_dt_elem_i([ 26,4,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,4,0 ],1,sign,0).
+struct_dt_elem_i([ 26,4,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,4,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,4,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,4,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,4,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,4,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,4,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,4,0 ],2,name,'Orderedby').
+struct_dt_elem_i([ 26,4,0 ],2,camelname,'OrderedBy').
+struct_dt_elem_i([ 26,4,0 ],2,length,4).
+struct_dt_elem_i([ 26,4,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,4,0 ],2,sign,0).
+struct_dt_elem_i([ 26,4,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,4,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,4,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,4,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,4,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,4,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,4,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,4,0 ],3,name,'Hidingsearch').
+struct_dt_elem_i([ 26,4,0 ],3,camelname,'HidingSearch').
+struct_dt_elem_i([ 26,4,0 ],3,length,1).
+struct_dt_elem_i([ 26,4,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,4,0 ],3,sign,0).
+struct_dt_elem_i([ 26,4,0 ],3,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,4,0 ],3,pic,'9').
+struct_dt_elem_i([ 26,4,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,4,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,4,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,4,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,4,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,4,0 ],4,name,'Filtervalues').
+struct_dt_elem_i([ 26,4,0 ],4,camelname,'FilterValues').
+struct_dt_elem_i([ 26,4,0 ],4,type,[ [ 26,4,5 ],0,0 ]).
+struct_dt_elem_i([ 26,4,0 ],4,pic,'').
+struct_dt_elem_i([ 26,4,0 ],4,collection,'True').
+struct_dt_elem_i([ 26,4,0 ],4,'ObjName','FilterValues').
+struct_dt_elem_i([ 26,4,0 ],4,'ObjDesc','Filter Values').
+struct_dt_elem_i([ 26,4,0 ],4,'CollectionItemName','FilterValue').
+struct_dt_elem_i([ 26,4,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,4,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,4,0 ],4,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,4,5 ],1,name,'Value').
+struct_dt_elem_i([ 26,4,5 ],1,camelname,'Value').
+struct_dt_elem_i([ 26,4,5 ],1,length,100).
+struct_dt_elem_i([ 26,4,5 ],1,decimals,0).
+struct_dt_elem_i([ 26,4,5 ],1,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,4,5 ],1,pic,'').
+struct_dt_elem_i([ 26,4,5 ],1,collection,'False').
+struct_dt_elem_i([ 26,4,5 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,4,5 ],1,'XmlName','').
+struct_dt_elem_i([ 26,4,5 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,4,5 ],1,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],1,name,'Callerobject').
+struct_dt_elem_i([ 26,7,0 ],1,camelname,'CallerObject').
+struct_dt_elem_i([ 26,7,0 ],1,basedon,4).
+struct_dt_elem_i([ 26,7,0 ],1,length,256).
+struct_dt_elem_i([ 26,7,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,7,0 ],1,pic,'').
+struct_dt_elem_i([ 26,7,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],2,name,'Callerondelete').
+struct_dt_elem_i([ 26,7,0 ],2,camelname,'CallerOnDelete').
+struct_dt_elem_i([ 26,7,0 ],2,length,4).
+struct_dt_elem_i([ 26,7,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,7,0 ],2,pic,'').
+struct_dt_elem_i([ 26,7,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],3,name,'Callerurl').
+struct_dt_elem_i([ 26,7,0 ],3,camelname,'CallerURL').
+struct_dt_elem_i([ 26,7,0 ],3,basedon,5).
+struct_dt_elem_i([ 26,7,0 ],3,length,1000).
+struct_dt_elem_i([ 26,7,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,7,0 ],3,pic,'').
+struct_dt_elem_i([ 26,7,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],4,name,'Transactionname').
+struct_dt_elem_i([ 26,7,0 ],4,camelname,'TransactionName').
+struct_dt_elem_i([ 26,7,0 ],4,basedon,4).
+struct_dt_elem_i([ 26,7,0 ],4,length,256).
+struct_dt_elem_i([ 26,7,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,7,0 ],4,pic,'').
+struct_dt_elem_i([ 26,7,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],5,name,'Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,camelname,'Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,type,[ [ 26,7,9 ],0,0 ]).
+struct_dt_elem_i([ 26,7,0 ],5,pic,'').
+struct_dt_elem_i([ 26,7,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,7,0 ],5,'ObjName','Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,'ObjDesc','Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,'CollectionItemName','Attribute').
+struct_dt_elem_i([ 26,7,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,7,9 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,7,9 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,7,9 ],1,length,128).
+struct_dt_elem_i([ 26,7,9 ],1,decimals,0).
+struct_dt_elem_i([ 26,7,9 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,7,9 ],1,pic,'').
+struct_dt_elem_i([ 26,7,9 ],1,collection,'False').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlName','').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,9 ],1,soaptype,'').
+struct_dt_elem_i([ 26,7,9 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,7,9 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,7,9 ],2,length,1000).
+struct_dt_elem_i([ 26,7,9 ],2,decimals,0).
+struct_dt_elem_i([ 26,7,9 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,7,9 ],2,pic,'').
+struct_dt_elem_i([ 26,7,9 ],2,collection,'False').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlName','').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,9 ],2,soaptype,'').
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,4,'LOADCONTEXT',[ [ o('Context'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(web,4,'NOTAUTHORIZED',[ [ svchar,256,0,0 ] ],[ [ 'GxObject',in,[] ] ]).
+pgm_parm_i(proc,2,'ISAUTHORIZED',[ [ svchar,256,0,0 ],[ boolean,4,0,0 ] ],[ [ 'GxObject',in,[] ],[ 'Authorized',out,[] ] ]).
+pgm_parm_i(web,19,'VIEWGESTIONCONSULTA',[ [ date,8,0,0 ],[ int,6,0,0 ],[ int,2,0,0 ],[ char,50,0,0 ] ],[ [ 'ConsultaFecha',in,[] ],[ 'MedicoId',in,[] ],[ 'TurnoId',in,[] ],[ 'TabCode',in,[] ] ]).
+pgm_parm_i(trn,9,'GESTIONCONSULTA',[ [ char,3,0,0 ],[ date,8,0,0 ],[ int,6,0,0 ],[ int,2,0,0 ] ],[ [ 'Mode',in,[] ],[ 'ConsultaFecha',in,[] ],[ 'MedicoId',in,[] ],[ 'TurnoId',in,[] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

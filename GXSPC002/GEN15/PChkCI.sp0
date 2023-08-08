@@ -1,0 +1,247 @@
+spec_i([ proc,6,'Check digit Uruguay - C.I.','PChkCI',78,spa,'10_1_3-34981' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Folder',o(8,'Persona'))).
+rule_i(0,prop('ObjDesc','Check digit Uruguay - C.I.')).
+rule_i(0,prop('ObjName','PChkCI')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Vdocnro','Cdok' ],[])).
+rule_i(0,parmio([ [ 'Vdocnro',inout ],[ 'Cdok',inout ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',18 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',17 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',16 ]).
+attri_i('Nro',[ 'Nro',int,8,0,'ZZZZZZZ9',0,'Nro','',15 ]).
+attri_i('Resto',[ 'Resto',int,3,0,'ZZ9',0,'Resto','',14 ]).
+attri_i('Cociente',[ 'Cociente',int,3,0,'ZZ9',0,'Cociente','',13 ]).
+attri_i('Suma',[ 'Suma',int,3,0,'ZZ9',0,'Suma','',12 ]).
+attri_i('Xdig',[ 'Xdig',int,1,0,'9',0,'Xdig','',11 ]).
+attri_i('Strdocnro',[ 'StrDocNro',char,8,0,'@!',0,'StrDocNro','',10 ]).
+attri_i('Cdok',[ 'CDOK',char,1,0,'@!',0,'CDOK','',9 ]).
+attri_i('Vdocnro',[ 'VDocNro',char,8,0,'',0,'Numero de documento','',8 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[ t('',109,0,0),t('val(',1,0,6),t('Vdocnro',23,0,12),t(')',4,0,20),t(>,10,0,22),t('99999999',3,0,24) ]).
+b_line_i(4,1,1,cmd,0,[ t('',107,0,0),t('Cdok',23,0,0),t(=,10,0,0),t('''N''',3,0,0) ]).
+b_line_i(5,1,1,cmd,0,[ t('',118,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(7,1,1,cmd,0,[]).
+b_line_i(8,1,1,cmd,0,[ t('',107,0,0),t('Strdocnro',23,0,0),t(=,10,0,0),t('substr(',1,0,0),t('Vdocnro',23,0,0),t(',',7,0,0),t('1',3,0,0),t(',',7,0,0),t('8',3,0,0),t(')',4,0,0) ]).
+b_line_i(9,1,1,cmd,0,[ t('',107,0,0),t('Nro',23,0,0),t(=,10,0,0),t('val(',1,0,0),t('Strdocnro',23,0,0),t(')',4,0,0) ]).
+b_line_i(10,1,1,cmd,0,[ t('',109,0,0),t('Nro',23,0,6),t(<=,10,0,11),t('9999999',3,0,14) ]).
+b_line_i(11,1,1,cmd,0,[ t('',107,0,0),t('Strdocnro',23,0,0),t(=,10,0,0),t('concat(',1,0,0),t('''0''',3,0,0),t(',',7,0,0),t('Strdocnro',23,0,0),t(')',4,0,0) ]).
+b_line_i(12,1,1,cmd,0,[ t('',110,0,0) ]).
+b_line_i(13,1,1,cmd,0,[ t('',109,0,0),t('Nro',23,0,11),t(<=,10,0,16),t('999999',3,0,19) ]).
+b_line_i(14,1,1,cmd,0,[ t('',107,0,0),t('Strdocnro',23,0,0),t(=,10,0,0),t('concat(',1,0,0),t('''00''',3,0,0),t(',',7,0,0),t('Strdocnro',23,0,0),t(')',4,0,0) ]).
+b_line_i(15,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(16,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(17,1,1,cmd,0,[]).
+b_line_i(18,1,1,cmd,0,[ t('',107,0,0),t('Suma',23,0,0),t(=,10,0,0),t('val(',1,0,0),t('substr(',1,0,0),t('Strdocnro',23,0,0),t(',',7,0,0),t('1',3,0,0),t(',',7,0,0),t('1',3,0,0),t(')',4,0,0),t(')',4,0,0),t(*,6,0,0),t('2',3,0,0) ]).
+b_line_i(19,1,1,cmd,0,[ t('',107,0,0),t('Suma',23,0,0),t(=,10,0,0),t('Suma',23,0,0),t(+,5,0,0),t('val(',1,0,0),t('substr(',1,0,0),t('Strdocnro',23,0,0),t(',',7,0,0),t('2',3,0,0),t(',',7,0,0),t('1',3,0,0),t(')',4,0,0),t(')',4,0,0),t(*,6,0,0),t('9',3,0,0) ]).
+b_line_i(20,1,1,cmd,0,[ t('',107,0,0),t('Suma',23,0,0),t(=,10,0,0),t('Suma',23,0,0),t(+,5,0,0),t('val(',1,0,0),t('substr(',1,0,0),t('Strdocnro',23,0,0),t(',',7,0,0),t('3',3,0,0),t(',',7,0,0),t('1',3,0,0),t(')',4,0,0),t(')',4,0,0),t(*,6,0,0),t('8',3,0,0) ]).
+b_line_i(21,1,1,cmd,0,[ t('',107,0,0),t('Suma',23,0,0),t(=,10,0,0),t('Suma',23,0,0),t(+,5,0,0),t('val(',1,0,0),t('substr(',1,0,0),t('Strdocnro',23,0,0),t(',',7,0,0),t('4',3,0,0),t(',',7,0,0),t('1',3,0,0),t(')',4,0,0),t(')',4,0,0),t(*,6,0,0),t('7',3,0,0) ]).
+b_line_i(22,1,1,cmd,0,[ t('',107,0,0),t('Suma',23,0,0),t(=,10,0,0),t('Suma',23,0,0),t(+,5,0,0),t('val(',1,0,0),t('substr(',1,0,0),t('Strdocnro',23,0,0),t(',',7,0,0),t('5',3,0,0),t(',',7,0,0),t('1',3,0,0),t(')',4,0,0),t(')',4,0,0),t(*,6,0,0),t('6',3,0,0) ]).
+b_line_i(23,1,1,cmd,0,[ t('',107,0,0),t('Suma',23,0,0),t(=,10,0,0),t('Suma',23,0,0),t(+,5,0,0),t('val(',1,0,0),t('substr(',1,0,0),t('Strdocnro',23,0,0),t(',',7,0,0),t('6',3,0,0),t(',',7,0,0),t('1',3,0,0),t(')',4,0,0),t(')',4,0,0),t(*,6,0,0),t('3',3,0,0) ]).
+b_line_i(24,1,1,cmd,0,[ t('',107,0,0),t('Suma',23,0,0),t(=,10,0,0),t('Suma',23,0,0),t(+,5,0,0),t('val(',1,0,0),t('substr(',1,0,0),t('Strdocnro',23,0,0),t(',',7,0,0),t('7',3,0,0),t(',',7,0,0),t('1',3,0,0),t(')',4,0,0),t(')',4,0,0),t(*,6,0,0),t('4',3,0,0) ]).
+b_line_i(25,1,1,cmd,0,[]).
+b_line_i(26,1,1,cmd,0,[ t('',107,0,0),t('Cociente',23,0,0),t(=,10,0,0),t('int(',1,0,0),t('Suma',23,0,0),t(/,6,0,0),t('10',3,0,0),t(')',4,0,0) ]).
+b_line_i(27,1,1,cmd,0,[]).
+b_line_i(28,1,1,cmd,0,[ t('',107,0,0),t('Resto',23,0,0),t(=,10,0,0),t('Suma',23,0,0),t(-,5,0,0),t('(',0,0,0),t('Cociente',23,0,0),t(*,6,0,0),t('10',3,0,0),t(')',4,0,0) ]).
+b_line_i(29,1,1,cmd,0,[ t('',109,0,0),t('(',0,0,4),t('Resto',23,0,6),t(<>,10,0,13),t('0',3,0,16),t(')',4,0,18) ]).
+b_line_i(30,1,1,cmd,0,[ t('',107,0,0),t('Xdig',23,0,0),t(=,10,0,0),t('10',3,0,0),t(-,5,0,0),t('Resto',23,0,0) ]).
+b_line_i(31,1,1,cmd,0,[ t('',110,0,0) ]).
+b_line_i(32,1,1,cmd,0,[ t('',107,0,0),t('Xdig',23,0,0),t(=,10,0,0),t('Resto',23,0,0) ]).
+b_line_i(33,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(34,1,1,cmd,0,[]).
+b_line_i(35,1,1,cmd,0,[ t('',107,0,0),t('Cdok',23,0,0),t(=,10,0,0),t('''N''',3,0,0) ]).
+b_line_i(36,1,1,cmd,0,[ t('',109,0,0),t('Xdig',23,0,5),t(=,10,0,10),t('val(',1,0,11),t('substr(',1,0,16),t('Strdocnro',23,0,24),t(',',7,0,34),t('8',3,0,35),t(',',7,0,36),t('1',3,0,37),t(')',4,0,38),t(')',4,0,39),t('.AND.',9,0,41),t('val(',1,0,47),t('substr(',1,0,52),t('Vdocnro',23,0,60),t(',',7,0,68),t('1',3,0,69),t(',',7,0,70),t('8',3,0,71),t(')',4,0,72),t(')',4,0,73),t(<>,10,0,74),t('11111111',3,0,76),t('.AND.',9,0,85),t('val(',1,0,91),t('substr(',1,0,96),t('Vdocnro',23,0,104),t(',',7,0,112),t('1',3,0,113),t(',',7,0,114),t('8',3,0,115),t(')',4,0,116),t(')',4,0,117),t(<>,10,0,118),t('22222222',3,0,120),t('.AND.',9,0,129),t('val(',1,0,135),t('substr(',1,0,140),t('Vdocnro',23,0,148),t(',',7,0,156),t('1',3,0,157),t(',',7,0,158),t('8',3,0,159),t(')',4,0,160),t(')',4,0,161),t(<>,10,0,162),t('33333333',3,0,164),t('.AND.',9,0,173),t('val(',1,0,179),t('substr(',1,0,184),t('Vdocnro',23,0,192),t(',',7,0,200),t('1',3,0,201),t(',',7,0,202),t('8',3,0,203),t(')',4,0,204),t(')',4,0,205),t(<>,10,0,206),t('44444444',3,0,208) ]).
+b_line_i(37,1,1,cmd,0,[ t('',109,0,0),t('val(',1,0,9),t('substr(',1,0,14),t('Vdocnro',23,0,22),t(',',7,0,30),t('1',3,0,31),t(',',7,0,32),t('8',3,0,33),t(')',4,0,34),t(')',4,0,35),t(<,10,0,36),t('50000000',3,0,37),t('.AND.',9,0,46),t('val(',1,0,52),t('substr(',1,0,57),t('Vdocnro',23,0,65),t(',',7,0,73),t('1',3,0,74),t(',',7,0,75),t('8',3,0,76),t(')',4,0,77),t(')',4,0,78),t(<>,10,0,79),t('0',3,0,81) ]).
+b_line_i(38,1,1,cmd,0,[ t('',107,0,0),t('Cdok',23,0,0),t(=,10,0,0),t('''S''',3,0,0) ]).
+b_line_i(39,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(40,1,1,cmd,0,[ t('',111,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,9,'',11909,16834,0,0,11894,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

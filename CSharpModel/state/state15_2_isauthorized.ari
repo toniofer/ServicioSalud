@@ -1,0 +1,15 @@
+current_obj_i(2,proc,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(isauthorized,[],[],[],2).
+ 
+ 
+obj_parms_i([ 'String aP0_GxObject','bool aP1_Authorized' ],[ [ 'Gxobject',in ],[ 'Authorized',out ] ]).
+ 
+ 
+ 

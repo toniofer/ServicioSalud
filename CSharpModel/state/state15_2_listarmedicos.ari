@@ -1,0 +1,15 @@
+current_obj_i(2,proc,0).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(listarmedicos,[],[],[],0).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_desde','DateTime aP1_hasta' ],[ [ desde,in ],[ hasta,in ] ]).
+ 
+ 
+ 

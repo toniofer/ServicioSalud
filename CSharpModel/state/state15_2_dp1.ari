@@ -1,0 +1,15 @@
+current_obj_i(2,mnproc,1).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(dp1,[],[],[],1).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_desde','DateTime aP1_hasta','IGxCollection aP2_Gxm1rootcol' ],[ [ 'Desde',in ],[ 'Hasta',in ],[ 'Gxm1rootcol',out ] ]).
+ 
+ 
+ 

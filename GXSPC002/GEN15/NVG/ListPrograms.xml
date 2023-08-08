@@ -1,0 +1,26 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_3-34981</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>ListPrograms</ObjName>
+<ObjDesc>List Programs</ObjDesc>
+<ObjPgmName>ListPrograms</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>nogenreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Programnames</VarId>
+<VarName>&amp;ProgramNames</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

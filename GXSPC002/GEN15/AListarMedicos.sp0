@@ -1,0 +1,538 @@
+spec_i([ proc,14,'Listar Medicos','ListarMedicos',78,spa,'10_1_3-34981' ]).
+ 
+struct_i(2,1,[],[]).
+struct_i(3,2,[ 9 ],[]).
+struct_i(4,3,[ 9,12 ],[]).
+ 
+level_i(2,[ 5,[ [ 5,many ],[ 1,one ],[ 2,one ],[ 2000,one ],[ 2001,one ] ],[],[],[ [ [ 5,1,2,2000,2001 ],[ 43,13,14,9,12,10,70,66,60 ] ] ],[ [ [ 5,1,2,2000,2001 ],[] ] ],[ 9,12 ],'',[],[] ]).
+level_i(3,[ 5,[ [ 5,many ],[ 1,one ],[ 2000,one ] ],[],[],[ [ [ 5,1,2000 ],[ 9,43,13,14,12,70,60 ] ] ],[ [ [ 5,1,2000 ],[] ] ],[ 9,12 ],'',[ 5,[ [ [],9,9 ] ] ],[ 9 ] ]).
+level_i(4,[ 5,[ [ 5,many ],[ 1,one ],[ 2000,one ] ],[],[],[ [ [ 5,1,2000 ],[ 9,12,43,13,14,70,60 ] ] ],[ [ [ 5,1,2000 ],[] ] ],[ 9,12 ],'',[ 5,[ [ [],9,9 ],[ [],12,12 ] ] ],[] ]).
+ 
+tw_i(2,[ [ 1,[ [ 5,12,12 ] ] ],[ 2,[ [ 1,9,9 ] ] ],[ 2000,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ],[ 2001,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ] ]).
+tw_i(3,[ [ 1,[ [ 5,12,12 ] ] ],[ 2000,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ] ]).
+tw_i(4,[ [ 1,[ [ 5,12,12 ] ] ],[ 2000,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ] ]).
+ 
+lwi_i(3,[ [] ]).
+lwi_i(4,[ [] ]).
+lwi_i(2,[ [ c([ t(43,2),t(>=,10),t('Desde',23) ],[ 43 ]),c([ t(43,2),t(<=,10),t('Hasta',23) ],[ 43 ]) ] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+ 
+ta_i(2,[ [ [ 5,60 ],[ 5,43 ],[ 1,13 ],[ 1,14 ],[ 1,9 ],[ 5,12 ],[ 2,10 ],[ 2000,se(70,[ [ 2000,70 ] ],[ t('coalesce(',1),t(70,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2001,se(66,[ [ 2001,66 ] ],[ t('coalesce(',1),t(66,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ta_i(3,[ [ [ 5,60 ],[ 1,9 ],[ 5,43 ],[ 1,13 ],[ 1,14 ],[ 5,12 ],[ 2000,se(70,[ [ 2000,70 ] ],[ t('coalesce(',1),t(70,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ta_i(4,[ [ [ 5,60 ],[ 1,9 ],[ 5,12 ],[ 5,43 ],[ 1,13 ],[ 1,14 ],[ 2000,se(70,[ [ 2000,70 ] ],[ t('coalesce(',1),t(70,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ 
+las_i(2,[ [ 43,13,14,9,12,10,70,66,60 ] ]).
+las_i(3,[ [ 9,43,13,14,12,70,60 ] ]).
+las_i(4,[ [ 9,12,43,13,14,70,60 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+lac_i(4,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','D930\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME',taller041)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('Theme',o(25,'GeneXusX'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Listar Medicos')).
+rule_i(0,prop('ObjName','ListarMedicos')).
+rule_i(0,maingen(15)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,parm([ 'Desde','Hasta' ],[])).
+rule_i(0,parmio([ [ 'Desde',in ],[ 'Hasta',in ] ])).
+rule_i(0,output_file(t('listarmedicos.pdf',3),t('PDF',3))).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(3,4,t,5,[],[ [ [ [],9,9 ],[ [],12,12 ] ],'',[] ]).
+a_i(4,4,r,1,[],[ [ [ 5,12,12 ] ],'IMEDICO',[] ]).
+a_i(5,4,r,2000,[],[ [ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ],'ICONSULTA',[] ]).
+a_i(6,3,t,5,[],[ [ [ [],9,9 ] ],'',[] ]).
+a_i(7,3,r,1,[],[ [ [ 5,12,12 ] ],'IMEDICO',[] ]).
+a_i(8,3,r,2000,[],[ [ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ],'ICONSULTA',[] ]).
+a_i(9,2,t,5,[],[ [],'',[] ]).
+a_i(10,2,r,1,[],[ [ [ 5,12,12 ] ],'IMEDICO',[] ]).
+a_i(11,2,r,2,[],[ [ [ 1,9,9 ] ],'IESPECIALIDAD',[] ]).
+a_i(12,2,r,2000,[],[ [ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ],'ICONSULTA',[] ]).
+a_i(13,2,r,2001,[],[ [ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ],'ICONSULTA',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Line').
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+v_i(t,i,3,9).
+v_i(t,i,3,12).
+v_i(t,o,3,60).
+v_i(t,o,3,43).
+v_i(r,i,4,12).
+v_i(r,o,4,9).
+v_i(r,o,4,13).
+v_i(r,o,4,14).
+v_i(r,i,5,43).
+v_i(r,i,5,12).
+v_i(r,i,5,60).
+v_i(r,o,5,70).
+v_i(t,i,6,9).
+v_i(t,o,6,60).
+v_i(t,o,6,43).
+v_i(t,o,6,12).
+v_i(r,i,7,12).
+v_i(r,o,7,9).
+v_i(r,o,7,13).
+v_i(r,o,7,14).
+v_i(r,i,8,43).
+v_i(r,i,8,12).
+v_i(r,i,8,60).
+v_i(r,o,8,70).
+v_i(t,i,9,[]).
+v_i(t,o,9,60).
+v_i(t,o,9,43).
+v_i(t,o,9,12).
+v_i(r,i,10,12).
+v_i(r,o,10,13).
+v_i(r,o,10,14).
+v_i(r,o,10,9).
+v_i(r,i,11,9).
+v_i(r,o,11,10).
+v_i(r,i,12,43).
+v_i(r,i,12,12).
+v_i(r,i,12,60).
+v_i(r,o,12,70).
+v_i(r,i,13,43).
+v_i(r,i,13,12).
+v_i(r,i,13,60).
+v_i(r,o,13,66).
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',19 ]).
+attri_i(63,[ 'ConsultaNro',int,2,0,'Z9',0,'Consulta Nro','',0 ]).
+attri_i(34,[ 'PacienteId',int,6,0,'ZZZZZ9',0,'Paciente Id','',0 ]).
+attri_i(75,[ 'Confirmado',boolean,4,0,'',0,'Confirmado','',0 ]).
+attri_i(60,[ 'TurnoId',int,2,0,'Z9',0,'Turno Id','',0 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,'Page number','',18 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,'Line number','',17 ]).
+attri_i(66,[ 'CantNrosAsig',int,2,0,'Z9',0,'Cantidad Nros Asignados','',0 ]).
+attri_i(10,[ 'EspecialidadDescripcion',char,20,0,'',0,'Especialidad Descripcion','',0 ]).
+attri_i(9,[ 'EspecialidadId',int,6,0,'ZZZZZ9',0,'Especialidad Id','',0 ]).
+attri_i(43,[ 'ConsultaFecha',date,8,0,'99/99/99',0,'Consulta Fecha','',0 ]).
+attri_i(13,[ 'MedicoNombre',char,20,0,'',0,'Medico Nombre','',0 ]).
+attri_i(14,[ 'MedicoApellido',char,20,0,'',0,'Medico Apellido','',0 ]).
+attri_i(12,[ 'MedicoId',int,6,0,'ZZZZZ9',0,'Medico Id','',0 ]).
+attri_i(70,[ 'CantPacConf',int,2,0,'Z9',0,'Cant Pac Conf','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',13 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',12 ]).
+attri_i('Cantpac',[ 'CantPac',int,4,0,'ZZZ9',0,'Cant Pac','',11 ]).
+attri_i('Cantconsult',[ 'CantConsult',int,4,0,'ZZZ9',0,'Cant Consult','',10 ]).
+attri_i('Hasta',[ hasta,date,8,0,'99/99/99',0,hasta,'',9 ]).
+attri_i('Desde',[ desde,date,8,0,'99/99/99',0,desde,'',8 ]).
+ 
+table_i(8,[ 'ConsultaPaciente',[ 43,34,12,60,63,75 ],'Consulta Paciente','ConsultaPaciente' ]).
+table_i(2001,[ 'Consulta',[ 43,12,60,66 ],'Consulta','Consulta' ]).
+table_i(2000,[ 'Consulta',[ 43,12,60,70 ],'Consulta','Consulta' ]).
+table_i(2,[ 'Especialidad',[ 9,10 ],'Especialidad','Especialidad' ]).
+table_i(1,[ 'Medico',[ 12,13,14,9 ],'Médico','Medico' ]).
+table_i(5,[ 'Consulta',[ 43,12,60 ],'Consulta','Consulta' ]).
+ 
+index_i(5,[ '',a,[ 9,12 ],'' ]).
+index_i(8,[ 'ICONSULTAPACIENTE',u,[ 43,34,12,60 ],'IConsultaPaciente' ]).
+index_i(5,[ 'ICONSULTA',u,[ 43,12,60 ],'IConsulta' ]).
+index_i(1,[ 'IMEDICO',u,[ 12 ],'IMedico' ]).
+index_i(2000,[ 'ICONSULTA',u,[ 43,12,60 ],'IConsulta' ]).
+index_i(2,[ 'IESPECIALIDAD',u,[ 9 ],'IEspecialidad' ]).
+index_i(2001,[ 'ICONSULTA',u,[ 43,12,60 ],'IConsulta' ]).
+ 
+lv_i(2,2000,5).
+lv_i(2,2001,5).
+ 
+ 
+ 
+nav_view_i(2000,[ 70 ],[ 43,12,60 ],[ 43,12,60 ],[ [ 2000,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ] ],[ [ [ 8,[ 'count(',75 ] ],[ 8,43 ],[ 8,12 ],[ 8,60 ] ],n,[ [ 8,many ] ],[],[ c([ t(75,2),t(=,10),t('TRUE',40) ],[ 75 ]) ],[ none ],[],[ 43,12,60 ],[] ]).
+nav_view_i(2001,[ 66 ],[ 43,12,60 ],[ 43,12,60 ],[ [ 2001,[ [ 5,oe([ t(43,2) ]),43 ],[ 5,oe([ t(12,2) ]),12 ],[ 5,oe([ t(60,2) ]),60 ] ] ] ],[ [ [ 8,[ 'count(',63 ] ],[ 8,43 ],[ 8,12 ],[ 8,60 ] ],n,[ [ 8,many ] ],[],[],[ none ],[],[ 43,12,60 ],[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(2,17,15).
+ 
+enum_value_i(2,15,'"S"','Soltero','"Soltero"').
+enum_value_i(2,15,'"C"','Casado','"Casado"').
+enum_value_i(2,15,'"V"','Viudo','"Viudo"').
+enum_value_i(2,15,'"D"','Divorciado','"Divorciado"').
+ 
+enum_value_info_i(2,15,'EstadoCivil').
+ 
+enum_type_i(2,15,char,1,0).
+ 
+ 
+break_i(4,nvg,3,[],[ [ 70,12,14,13,43 ],[],[] ]).
+break_i(3,nvg,2,[ 12 ],[ [ 12 ],[],[] ]).
+break_i(2,nvg,1,[ 9 ],[ [ 9,10,66 ],[ 43 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,4).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,7,11).
+b_group_i(2,2,nvg,3,13,13).
+b_group_i(3,1,lit,0,20,20).
+b_group_i(3,2,nvg,4,16,16).
+b_group_i(4,1,lit,0,23,26).
+b_group_i(3,3,lit,0,30,31).
+b_group_i(2,3,lit,0,34,26).
+b_group_i(1,3,lit,0,37,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,pb,0,[ t('Pbcabezal',29,0,7) ]).
+b_line_i([ 1,0 ],1,1,line,0,[ t(' ',3,0,0) ]).
+b_line_i([ 1,1 ],1,1,line,1,[ t('MEDICOS CON CONSULTAS DESDE:',3,1,2),t('Desde',23,1,34),t('HASTA:',3,1,50),t('Hasta',23,1,63) ]).
+b_line_i([ 1,3 ],1,1,line,3,[ t(' ',3,3,0) ]).
+b_line_i(2,1,1,cmd,4,[]).
+b_line_i(3,2,1,cmd,7,[ t('',121,3,0),t('ORDER',39,3,10),t(9,2,3,16) ]).
+b_line_i(4,2,1,cmd,7,[]).
+b_line_i(7,2,1,cmd,7,[ t('',112,7,0),t(66,2,7,14) ]).
+b_line_i(8,2,1,cmd,7,[]).
+b_line_i(9,2,1,pb,7,[ t('Pbespecialidad',29,7,9) ]).
+b_line_i([ 9,0 ],2,1,line,7,[ t(' ',3,0,0) ]).
+b_line_i([ 9,1 ],2,1,line,8,[ t('ESPECIALIDAD:',3,1,7),t(10,2,1,21) ]).
+b_line_i([ 9,3 ],2,1,line,10,[ t(' ',3,3,0) ]).
+b_line_i(10,2,1,cmd,11,[]).
+b_line_i(11,2,1,cmd,11,[]).
+b_line_i(12,2,1,cmd,11,[]).
+b_line_i(13,3,1,cmd,20,[ t('',121,13,0),t('ORDER',39,13,11),t(12,2,13,17) ]).
+b_line_i(14,3,1,cmd,20,[ t('',107,20,0),t('Cantconsult',23,20,0),t(=,10,20,0),t('0',3,20,0) ]).
+b_line_i(15,3,1,cmd,20,[ t('',107,20,0),t('Cantpac',23,20,0),t(=,10,20,0),t('0',3,20,0) ]).
+b_line_i(16,4,1,cmd,23,[ t('',121,16,0) ]).
+b_line_i(17,4,1,pb,23,[ t('Pbmedicos',29,23,10) ]).
+b_line_i([ 17,0 ],4,1,line,23,[ t(' ',3,0,0) ]).
+b_line_i([ 17,1 ],4,1,line,24,[ t('MÉDICO:',3,1,6),t(12,2,1,15),t(14,2,1,23),t(13,2,1,38),t(43,2,1,56) ]).
+b_line_i([ 17,2 ],4,1,line,25,[ t(' ',3,2,0) ]).
+b_line_i(18,4,1,cmd,26,[ t('',107,26,0),t('Cantconsult',23,26,0),t(=,10,26,0),t('Cantconsult',23,26,0),t(+,5,26,0),t('1',3,26,0) ]).
+b_line_i(19,4,1,cmd,26,[ t('',107,26,0),t('Cantpac',23,26,0),t(=,10,26,0),t('Cantpac',23,26,0),t(+,5,26,0),t(70,2,26,0) ]).
+b_line_i(20,4,1,cmd,26,[]).
+b_line_i(21,4,1,cmd,26,[ t('',128,26,0) ]).
+b_line_i(22,3,3,pb,28,[ t('Pbcant',29,28,9) ]).
+b_line_i([ 22,0 ],3,3,line,28,[ t(' ',3,0,0) ]).
+b_line_i([ 22,1 ],3,3,line,29,[ t('CANTIDAD DE CONSULTAS:',3,1,1),t('Cantconsult',23,1,26),t('CANTIDAD DE PACIENTES CONFIRMADOS:',3,1,35),t('Cantpac',23,1,73) ]).
+b_line_i([ 22,2 ],3,3,line,30,[ t(' ',3,2,0) ]).
+b_line_i(23,3,3,cmd,31,[ t('',128,31,0) ]).
+b_line_i(24,2,3,cmd,26,[]).
+b_line_i(25,2,3,cmd,26,[]).
+b_line_i(26,2,3,cmd,26,[ t('',128,26,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(2,9),', ',att(2,12) ],'; poor performance may be noticed',[ ' in group starting at line ','16','' ],'.' ])).
+ 
+lit_i(20,1,t('MEDICOS CON CONSULTAS DESDE:',3),[ font('Microsoft Sans Serif',8,[]),rect(17,17,217,31),outstyle(none),align(left),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel5'),gxcolor([]) ]).
+lit_i(21,1,t('Desde',23),[ font('Microsoft Sans Serif',8,[]),rect(242,17,291,32),outstyle(none),align(right),noclip,fore(rgb(0,0,0)),border(1),ctlname('&desde'),ctrltype(edit,21),ispwd(0),gxcolor([]) ]).
+lit_i(22,1,t('Hasta',23),[ font('Microsoft Sans Serif',8,[]),rect(442,17,491,32),outstyle(none),align(right),noclip,fore(rgb(0,0,0)),border(1),ctlname('&hasta'),ctrltype(edit,22),ispwd(0),gxcolor([]) ]).
+lit_i(23,1,t('HASTA:',3),[ font('Microsoft Sans Serif',8,[]),rect(350,17,392,31),outstyle(none),align(left),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel6'),gxcolor([]) ]).
+lit_i(24,1,rect(24),[ rect(17,50,742,50),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline4'),gxcolor([]) ]).
+lit_i(19,1,window,[ title('Text'),rect(0,0,827,60),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Pbcabezal'),align(left),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(7,9,t(10,2),[ font('Microsoft Sans Serif',8,[]),rect(150,17,255,32),outstyle(none),align(left),noclip,fore(rgb(0,0,0)),border(1),ctlname('10'),ctrltype(edit,7),ispwd(0),gxcolor([]) ]).
+lit_i(8,9,t('ESPECIALIDAD:',3),[ font('Microsoft Sans Serif',8,[]),rect(50,17,134,31),outstyle(none),align(left),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(17,9,rect(17),[ rect(17,0,742,0),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline2'),gxcolor([]) ]).
+lit_i(18,9,rect(18),[ rect(17,50,750,50),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline3'),gxcolor([]) ]).
+lit_i(5,9,window,[ title('Text'),rect(0,0,827,71),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Pbespecialidad'),align(left),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(2,17,t(12,2),[ font('Microsoft Sans Serif',8,[]),rect(108,17,147,32),outstyle(none),align(right),noclip,fore(rgb(0,0,0)),border(1),ctlname('12'),ctrltype(edit,2),ispwd(0),gxcolor([]) ]).
+lit_i(3,17,t(14,2),[ font('Microsoft Sans Serif',8,[]),rect(167,17,259,34),outstyle(none),align(left),fore(rgb(0,0,0)),border(1),ctlname('14'),ctrltype(edit,3),ispwd(0),gxcolor([]) ]).
+lit_i(4,17,t(13,2),[ font('Microsoft Sans Serif',8,[]),rect(267,17,372,32),outstyle(none),align(left),noclip,fore(rgb(0,0,0)),border(1),ctlname('13'),ctrltype(edit,4),ispwd(0),gxcolor([]) ]).
+lit_i(9,17,t('MÉDICO:',3),[ font('Microsoft Sans Serif',8,[]),rect(42,17,90,31),outstyle(none),align(left),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel2'),gxcolor([]) ]).
+lit_i(10,17,t(43,2),[ font('Microsoft Sans Serif',8,[]),rect(392,17,450,32),outstyle(none),align(right),fore(rgb(0,0,0)),border(1),ctlname('43'),ctrltype(edit,10),ispwd(0),gxcolor([]) ]).
+lit_i(1,17,window,[ title('Text'),rect(0,0,827,50),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Pbmedicos'),align(left),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(12,22,t('Cantconsult',23),[ font('Microsoft Sans Serif',8,[]),rect(183,17,209,32),outstyle(none),align(right),noclip,fore(rgb(0,0,0)),border(1),ctlname('&cantconsult'),ctrltype(edit,12),ispwd(0),gxcolor([]) ]).
+lit_i(13,22,t('CANTIDAD DE CONSULTAS:',3),[ font('Microsoft Sans Serif',8,[]),rect(8,17,159,31),outstyle(none),align(left),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel3'),gxcolor([]) ]).
+lit_i(14,22,t('CANTIDAD DE PACIENTES CONFIRMADOS:',3),[ font('Microsoft Sans Serif',8,[]),rect(250,17,481,31),outstyle(none),align(left),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel4'),gxcolor([]) ]).
+lit_i(15,22,t('Cantpac',23),[ font('Microsoft Sans Serif',8,[]),rect(517,17,543,32),outstyle(none),align(right),noclip,fore(rgb(0,0,0)),border(1),ctlname('&cantpac'),ctrltype(edit,15),ispwd(0),gxcolor([]) ]).
+lit_i(16,22,rect(16),[ rect(17,50,742,50),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline1'),gxcolor([]) ]).
+lit_i(11,22,window,[ title('Text'),rect(0,0,827,51),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Pbcant'),align(left),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ctrl_info_i(1,21,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,22,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(22,12,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(22,15,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+ 
+att_prop_i(2,70,'ExternalName','CantPacConf',d).
+att_prop_i(2,70,'ExternalNamespace',taller041,d).
+att_prop_i(2,70,'EmptyAsNull','Yes',d).
+att_prop_i(2,70,'AUTONUMBER','0',d).
+att_prop_i(2,70,'AttRegEx','',d).
+att_prop_i(2,70,'AttValidationFailedMsg','',d).
+att_prop_i(2,70,'FullName','CantPacConf',v).
+att_prop_i(2,12,'ExternalName','MedicoId',d).
+att_prop_i(2,12,'ExternalNamespace',taller041,d).
+att_prop_i(2,12,'EmptyAsNull','Yes',d).
+att_prop_i(2,12,'AUTONUMBER','-1',v).
+att_prop_i(2,12,'AUTONUMBER_START','1',d).
+att_prop_i(2,12,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,12,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,12,'AttRegEx','',d).
+att_prop_i(2,12,'AttValidationFailedMsg','',d).
+att_prop_i(2,12,'FullName','MedicoId',v).
+att_prop_i(2,14,'ExternalName','MedicoApellido',d).
+att_prop_i(2,14,'ExternalNamespace',taller041,d).
+att_prop_i(2,14,'EmptyAsNull','Yes',d).
+att_prop_i(2,14,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,14,'AttRegEx','',d).
+att_prop_i(2,14,'AttValidationFailedMsg','',d).
+att_prop_i(2,14,'FullName','MedicoApellido',v).
+att_prop_i(2,13,'ExternalName','MedicoNombre',d).
+att_prop_i(2,13,'ExternalNamespace',taller041,d).
+att_prop_i(2,13,'EmptyAsNull','Yes',d).
+att_prop_i(2,13,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,13,'AttRegEx','',d).
+att_prop_i(2,13,'AttValidationFailedMsg','',d).
+att_prop_i(2,13,'FullName','MedicoNombre',v).
+att_prop_i(2,43,'ExternalName','ConsultaFecha',d).
+att_prop_i(2,43,'ExternalNamespace',taller041,d).
+att_prop_i(2,43,'EmptyAsNull','Yes',d).
+att_prop_i(2,43,'AttRegEx','',d).
+att_prop_i(2,43,'AttValidationFailedMsg','',d).
+att_prop_i(2,43,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,43,'FullName','ConsultaFecha',v).
+att_prop_i(2,9,'ExternalName','EspecialidadId',d).
+att_prop_i(2,9,'ExternalNamespace',taller041,d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,'AUTONUMBER','-1',v).
+att_prop_i(2,9,'AUTONUMBER_START','1',d).
+att_prop_i(2,9,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,9,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'FullName','EspecialidadId',v).
+att_prop_i(2,10,'ExternalName','EspecialidadDescripcion',d).
+att_prop_i(2,10,'ExternalNamespace',taller041,d).
+att_prop_i(2,10,'EmptyAsNull','Yes',d).
+att_prop_i(2,10,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,10,'AttRegEx','',d).
+att_prop_i(2,10,'AttValidationFailedMsg','',d).
+att_prop_i(2,10,'FullName','EspecialidadDescripcion',v).
+att_prop_i(2,66,'ExternalName','CantNrosAsig',d).
+att_prop_i(2,66,'ExternalNamespace',taller041,d).
+att_prop_i(2,66,'EmptyAsNull','Yes',d).
+att_prop_i(2,66,'AUTONUMBER','0',d).
+att_prop_i(2,66,'ATT_INITIAL_VALUE',[ t('0',3) ],v).
+att_prop_i(2,66,'AttRegEx','',d).
+att_prop_i(2,66,'AttValidationFailedMsg','',d).
+att_prop_i(2,66,'FullName','CantNrosAsig',v).
+att_prop_i(2,60,'ExternalName','TurnoId',d).
+att_prop_i(2,60,'ExternalNamespace',taller041,d).
+att_prop_i(2,60,'EmptyAsNull','Yes',d).
+att_prop_i(2,60,'AUTONUMBER','0',d).
+att_prop_i(2,60,'AttRegEx','',d).
+att_prop_i(2,60,'AttValidationFailedMsg','',d).
+att_prop_i(2,60,'FullName','TurnoId',v).
+att_prop_i(2,75,'ExternalName','Confirmado',d).
+att_prop_i(2,75,'ExternalNamespace',taller041,d).
+att_prop_i(2,75,'EmptyAsNull','Yes',d).
+att_prop_i(2,75,'AttRegEx','',d).
+att_prop_i(2,75,'AttValidationFailedMsg','',d).
+att_prop_i(2,75,'FullName','Confirmado',v).
+att_prop_i(2,34,'ExternalName','PacienteId',d).
+att_prop_i(2,34,'ExternalNamespace',taller041,d).
+att_prop_i(2,34,'EmptyAsNull','Yes',d).
+att_prop_i(2,34,'AUTONUMBER','-1',v).
+att_prop_i(2,34,'AUTONUMBER_START','1',d).
+att_prop_i(2,34,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,34,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,34,'AttRegEx','',d).
+att_prop_i(2,34,'AttValidationFailedMsg','',d).
+att_prop_i(2,34,'FullName','PacienteId',v).
+att_prop_i(2,63,'ExternalName','ConsultaNro',d).
+att_prop_i(2,63,'ExternalNamespace',taller041,d).
+att_prop_i(2,63,'EmptyAsNull','Yes',d).
+att_prop_i(2,63,'AUTONUMBER','0',v).
+att_prop_i(2,63,'AttRegEx','',d).
+att_prop_i(2,63,'AttValidationFailedMsg','',d).
+att_prop_i(2,63,'FullName','ConsultaNro',v).
+ 
+tbl_prop_i(2,2001,'AllDirSuper',[ [ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,2000,'AllDirSuper',[ [ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,1,'AllDirSuper',[ [ 2,[ 9 ] ] ],v).
+tbl_prop_i(2,8,'AllDirSuper',[ [ 5,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,5,'AllDirSuper',[ [ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,2001,'DirSubor',[ [ 8,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,2,'DirSubor',[ [ 1,[ 9 ] ] ],v).
+tbl_prop_i(2,2000,'DirSubor',[ [ 8,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,1,'DirSubor',[ [ 5,[ 12 ] ] ],v).
+tbl_prop_i(2,5,'DirSubor',[ [ 8,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,2001,'DirSuper',[ [ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,2000,'DirSuper',[ [ 1,[ 12 ] ] ],v).
+tbl_prop_i(2,1,'DirSuper',[ [ 2,[ 9 ] ] ],v).
+tbl_prop_i(2,8,'DirSuper',[ [ 5,[ 43,12,60 ] ] ],v).
+tbl_prop_i(2,5,'DirSuper',[ [ 1,[ 12 ] ] ],v).
+ 
+tbl_att_prop_i(2,8,43,'AllowNulls',n).
+tbl_att_prop_i(2,8,34,'AllowNulls',n).
+tbl_att_prop_i(2,8,12,'AllowNulls',n).
+tbl_att_prop_i(2,8,60,'AllowNulls',n).
+tbl_att_prop_i(2,8,75,'AllowNulls',n).
+tbl_att_prop_i(2,5,43,'AllowNulls',n).
+tbl_att_prop_i(2,5,12,'AllowNulls',n).
+tbl_att_prop_i(2,5,60,'AllowNulls',n).
+tbl_att_prop_i(2,1,12,'AllowNulls',n).
+tbl_att_prop_i(2,1,12,'AUTONUMBER',y).
+tbl_att_prop_i(2,1,13,'AllowNulls',n).
+tbl_att_prop_i(2,1,14,'AllowNulls',n).
+tbl_att_prop_i(2,1,9,'AllowNulls',n).
+tbl_att_prop_i(2,2000,43,'AllowNulls',n).
+tbl_att_prop_i(2,2000,12,'AllowNulls',n).
+tbl_att_prop_i(2,2000,60,'AllowNulls',n).
+tbl_att_prop_i(2,2,9,'AllowNulls',n).
+tbl_att_prop_i(2,2,9,'AUTONUMBER',y).
+tbl_att_prop_i(2,2,10,'AllowNulls',n).
+tbl_att_prop_i(2,2001,43,'AllowNulls',n).
+tbl_att_prop_i(2,2001,12,'AllowNulls',n).
+tbl_att_prop_i(2,2001,60,'AllowNulls',n).
+ 
+ 
+ 
+ 
+a_alias_i([ 'count(',75 ],'CantPacConf').
+a_alias_i(se(70,[ [ 2000,70 ] ],[ t('coalesce(',1),t(70,2),t(',',7),t('0',3),t(')',4) ]),'CantPacConf').
+a_alias_i([ 'count(',63 ],'CantNrosAsig').
+a_alias_i(se(66,[ [ 2001,66 ] ],[ t('coalesce(',1),t(66,2),t(',',7),t('0',3),t(')',4) ]),'CantNrosAsig').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_main_info_i(proc,14,'LISTARMEDICOS',[ 15,'ALISTARMEDICOS','Listar Medicos','','','','HTTP' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
