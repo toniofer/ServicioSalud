@@ -1,5 +1,5 @@
 # ServicioSalud
-[!NOTE]
+.[!NOTE]
 Sistema para gestionar las consultas médicas de los pacientes de un centro de salud y sus historias clínicas. Desarrollado en Genexus X
 
 Se solicita una aplicación para ser instalada en un servicio de salud, que permita
